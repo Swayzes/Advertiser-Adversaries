@@ -13,4 +13,7 @@ Steps (Divide Between ourselves):
   - Check if the resulted detections are accurate compared to manual input
 5. Evaluate on New Videos
   - Test it out on new videos without using sponsor
+
+Extra Stuff
   - See if we can submit to sponsor block (DO NOT DO THIS IF IT SUCKS)
+  - Make it an actual extension (Use firefox cos chrome sucks)
