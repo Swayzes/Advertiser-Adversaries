@@ -1,6 +1,5 @@
-# Advetiser-Adversaries
+# Advertiser-Adversaries
 Automatic sponsor detection for Youtube
-
 
 Steps (Divide Between ourselves):
 1. Get sponsor segments using sponsorblock API, and download data using youtube dlp
