@@ -9,10 +9,12 @@ ytdlOptions = {
         'windowsfilenames': True,
         'writedescription': True, #downloads the description
         'writesubtitles': True, #downloads the subtitles
-        'subtitleslangs': ['en'], #specifies english subtitles to download
-        'keepvideo': False, #dont download video
-        'skip_download': True #skips downloading video
+        'subtitleslangs': ['en'], #specifies  to download english subtitles
+        'keepvideo': False,
+        'skip_download': True 
 }
+
+#gets the video data using youtibe downloader and downloads the subtitles and description
 
 def getVideoData(url):
     ytDownloader = yt_dlp.YoutubeDL(ytdlOptions)
@@ -26,6 +28,8 @@ def getVideoData(url):
     }
     return videoDataDict
 
+#gets sponsorblock data from the video using sponsorblock api
+
 def getSponsorBlockData(url):
     sponsorBlockClient = sponsorblock.Client()
     segments = sponsorBlockClient.get_skip_segments(url)
@@ -35,18 +39,20 @@ def getSponsorBlockData(url):
             sponsorSegments += (str(segment.start) + "-" + str(segment.end) + ",")
     return sponsorSegments
 
+#adds the data to the database
+
 def addToDatabase(url, videoDataDict, sponsorSegments):
     con = sqlite3.connect(database)
     cur = con.cursor()
     SQL = "INSERT INTO Dataset(Video_Title,URL,VideoID,Video_Length,Channel,Sponsor_Segments,Description_File_Path,Captions_File_Path) VALUES(?,?,?,?,?,?,?,?)"
-    data = (videoDataDict["videoTitle"],url,videoDataDict["videoID"],videoDataDict["videoLength"],videoDataDict["videoChannel"],sponsorSegments[:-1],"Data/"+videoDataDict["videoID"]+".description","Data/"+videoDataDict["videoID"]+".en.vtt")
+    data = (videoDataDict["videoTitle"],"https://www.youtube.com/watch?v="+videoDataDict["videoID"],videoDataDict["videoID"],videoDataDict["videoLength"],videoDataDict["videoChannel"],sponsorSegments[:-1],"dataset/"+videoDataDict["videoID"]+".description","dataset/"+videoDataDict["videoID"]+".en.vtt")
     cur.execute(SQL, data)
     con.commit()
+
+#function that will download the data from url provided, if provided a URL formatted like this: https://www.youtube.com/@MrBeast/videos it will download all video data from the channel
 
 def getData(url):
     videoDataDict = getVideoData(url)
     sponsorSegments = getSponsorBlockData(url)
     addToDatabase(url, videoDataDict, sponsorSegments)
-    print("Done")
-
-getData("https://www.youtube.com/watch?v=tWYsfOSY9vY")
+    print(videoDataDict["videoTitle"]," (" + url + ") Done")
