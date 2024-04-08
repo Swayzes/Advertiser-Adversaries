@@ -1,0 +1,963 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.440 --> 00:00:02.460
+You've seen a portable projector,
+
+00:00:02.460 --> 00:00:04.260
+you've seen a CRT,
+
+00:00:04.260 --> 00:00:08.280
+but have you seen a portable CRT projector?
+
+00:00:08.280 --> 00:00:12.720
+Okay, portable might be a little generous,
+
+00:00:12.720 --> 00:00:16.560
+but the Vitamagic FP60 from Sony
+
+00:00:16.560 --> 00:00:18.920
+came with its own carrying bag,
+
+00:00:18.920 --> 00:00:22.320
+has a microphone input for projecting your voice,
+
+00:00:22.320 --> 00:00:26.720
+and did I mention there's a built-in Betamax player?
+
+00:00:26.720 --> 00:00:27.600
+No?
+
+00:00:27.616 --> 00:00:36.516
+How about the fact that it uses a single tube to produce a color image, rather
+than three tubes, like most other CRT projectors?
+
+00:00:36.516 --> 00:00:42.516
+In this episode of Linus Overpays for Ancient Hardware That You've Probably
+Never Heard Of,
+
+00:00:42.516 --> 00:00:46.516
+we'll be cosplaying as a traveling salesman from the 1980s.
+
+00:00:46.516 --> 00:00:51.516
+I can't wait to play with this thing, just like I can't wait to tell you about
+our sponsor.
+
+00:00:51.516 --> 00:00:56.516
+Build Redux. Sometimes computers are hard, but all the time, Build Redux is
+easy.
+
+00:00:56.912 --> 00:01:01.672
+They'll get a custom PC built and delivered directly to your doorstep. Just
+check them out
+
+00:01:01.672 --> 00:01:07.512
+at the link down below. According to radiomuseum.org, the introductory price for
+the Vidimagic
+
+00:01:07.512 --> 00:01:12.992
+FP60 was $3,000 US dollars. That's not that bad for a portable projector,
+
+00:01:13.392 --> 00:01:20.612
+except that was in 1984, meaning it would be closer to $9,000 today. That's high
+enough that
+
+00:01:20.612 --> 00:01:25.772
+just about nobody was going to be buying these for home theater use, but
+businesses, 
+
+00:01:26.352 --> 00:01:28.012
+well, that's another story.
+
+00:01:28.012 --> 00:01:30.672
+And cosmetics giant Avon even went as far
+
+00:01:30.672 --> 00:01:34.032
+as to co-brand the FP60 and deploy it
+
+00:01:34.032 --> 00:01:36.972
+to company representatives across the United States.
+
+00:01:36.972 --> 00:01:40.612
+Hence my world's largest makeup bag here.
+
+00:01:41.552 --> 00:01:45.932
+At 35 pounds, she's more luggable than really portable.
+
+00:01:45.932 --> 00:01:49.352
+But when you compare it to other mid eighties options
+
+00:01:49.352 --> 00:01:52.932
+for boardroom presentations, for example, like what?
+
+00:01:52.932 --> 00:01:56.372
+A CRT on an AV cart or a reel-to-reel projector?
+
+00:01:56.416 --> 00:02:00.656
+The FP60 had major advantages in terms of screen size
+
+00:02:00.656 --> 00:02:03.336
+and in terms of durability and convenience.
+
+00:02:03.336 --> 00:02:05.476
+So we're gonna get to that whole presentation use case,
+
+00:02:05.476 --> 00:02:07.996
+but first, I have a burning question.
+
+00:02:07.996 --> 00:02:09.256
+Can it game?
+
+00:02:09.256 --> 00:02:10.096
+Oh yeah.
+
+00:02:11.296 --> 00:02:12.276
+Fun fact, by the way,
+
+00:02:12.276 --> 00:02:15.816
+the NES wouldn't come out in America for another year.
+
+00:02:15.816 --> 00:02:17.796
+We just felt like being gamers,
+
+00:02:17.796 --> 00:02:20.916
+it would be a great choice for us to evaluate the latency.
+
+00:02:20.916 --> 00:02:22.136
+Not gonna lie, brother.
+
+00:02:22.136 --> 00:02:23.736
+I can see it's on, but...
+
+00:02:24.656 --> 00:02:27.496
+Wow, barely.
+
+00:02:27.496 --> 00:02:29.556
+I mean, is that supposed to be curtains at the top
+
+00:02:29.556 --> 00:02:31.416
+or is that just...
+
+00:02:31.416 --> 00:02:32.896
+There's a reason everyone had blacked out
+
+00:02:32.896 --> 00:02:34.776
+media rooms, right?
+
+00:02:34.776 --> 00:02:36.396
+Okay, we're gonna have to lose some lights.
+
+00:02:36.396 --> 00:02:37.656
+Yeah.
+
+00:02:37.656 --> 00:02:39.036
+Get the lamp.
+
+00:02:39.036 --> 00:02:40.416
+There we go.
+
+00:02:40.416 --> 00:02:41.676
+Yeah, the lamp doesn't do much.
+
+00:02:41.676 --> 00:02:43.156
+No, we need that one.
+
+00:02:43.156 --> 00:02:44.916
+Hold on, I gotcha, I gotcha.
+
+00:02:44.916 --> 00:02:45.756
+It's still
+
+00:02:46.304 --> 00:02:47.904
+horrible!
+
+00:02:47.904 --> 00:02:48.744
+Okay, hold on,
+
+00:02:48.744 --> 00:02:49.584
+I got this one, I got this one.
+
+00:02:49.584 --> 00:02:50.624
+Get the soft box.
+
+00:02:50.624 --> 00:02:51.984
+What?
+
+00:02:51.984 --> 00:02:55.584
+That's the only light we have left and that's all we got?
+
+00:02:55.584 --> 00:02:56.424
+Turn it off.
+
+00:02:56.424 --> 00:02:57.784
+Dude, this is terrible!
+
+00:02:57.784 --> 00:02:59.664
+Well, you know, it's a CRT.
+
+00:02:59.664 --> 00:03:00.504
+Yeah, but--
+
+00:03:00.504 --> 00:03:01.824
+It didn't get very bright to begin with.
+
+00:03:01.824 --> 00:03:03.224
+Okay, hold on, hold on.
+
+00:03:04.032 --> 00:03:06.472
+That's markedly better.
+
+00:03:06.472 --> 00:03:07.312
+We're getting somewhere.
+
+00:03:07.312 --> 00:03:08.812
+I mean, that's about as far as we're gonna get,
+
+00:03:08.812 --> 00:03:11.492
+but that's not bad.
+
+00:03:11.492 --> 00:03:13.072
+Okay, that lamp's gotta go.
+
+00:03:13.072 --> 00:03:15.692
+That lamp was throwing so much more light
+
+00:03:16.552 --> 00:03:19.692
+than the CRT projector.
+
+00:03:19.692 --> 00:03:22.992
+With that said, looking into this thing,
+
+00:03:22.992 --> 00:03:25.752
+that's about the brightest CRT I've ever seen.
+
+00:03:25.752 --> 00:03:27.332
+Right, that Index Tron.
+
+00:03:27.332 --> 00:03:28.792
+Wow, there's like hairs in there.
+
+00:03:28.792 --> 00:03:29.632
+Oh yeah.
+
+00:03:30.144 --> 00:03:32.764
+It'd probably be fun to try to play with the focus
+
+00:03:32.764 --> 00:03:33.964
+if you want to.
+
+00:03:33.964 --> 00:03:35.384
+Basically, that's the cross.
+
+00:03:35.384 --> 00:03:37.384
+Oh, it's probably slightly out of focus.
+
+00:03:37.384 --> 00:03:40.924
+There's also a manual focus on the very front
+
+00:03:40.924 --> 00:03:42.224
+that you can use.
+
+00:03:42.224 --> 00:03:44.224
+But you shouldn't, don't touch them together
+
+00:03:44.224 --> 00:03:46.564
+or you can break the whole focus system.
+
+00:03:46.564 --> 00:03:49.384
+Yeah, it's definitely still got some blurry spots.
+
+00:03:49.384 --> 00:03:50.504
+Do we have any idea what that is?
+
+00:03:50.504 --> 00:03:52.804
+No, Elijah tried cleaning the lens.
+
+00:03:52.804 --> 00:03:54.164
+So like it's been wiped down.
+
+00:03:54.164 --> 00:03:55.464
+So basically Elijah touched it.
+
+00:03:55.464 --> 00:03:56.944
+Yeah, Elijah touched it.
+
+00:03:56.944 --> 00:03:58.364
+It was bad before he touched it.
+
+00:03:58.364 --> 00:04:00.033
+I'm not blaming him in this scenario.
+
+00:04:00.033 --> 00:04:00.873
+Mm.
+
+00:04:00.873 --> 00:04:03.153
+Maybe some of the phosphors are worn out or something.
+
+00:04:03.153 --> 00:04:03.993
+Or like some of the,
+
+00:04:03.993 --> 00:04:05.813
+'cause you can see it looks like burn in
+
+00:04:05.813 --> 00:04:10.193
+when you've got it on a single like color here.
+
+00:04:10.193 --> 00:04:11.893
+Oh my God.
+
+00:04:11.893 --> 00:04:12.733
+What?
+
+00:04:12.733 --> 00:04:14.133
+This is perfect.
+
+00:04:14.133 --> 00:04:14.973
+Right?
+
+00:04:14.973 --> 00:04:15.813
+There's no latency.
+
+00:04:15.813 --> 00:04:16.633
+There's none.
+
+00:04:16.633 --> 00:04:17.473
+'Cause it's a CRT.
+
+00:04:17.473 --> 00:04:18.313
+It's a projector.
+
+00:04:18.313 --> 00:04:19.153
+Yeah.
+
+00:04:19.153 --> 00:04:19.993
+But it's-
+
+00:04:19.993 --> 00:04:20.833
+A CRT.
+
+00:04:20.833 --> 00:04:21.653
+A CRT.
+
+00:04:21.653 --> 00:04:22.493
+Wow!
+
+00:04:22.493 --> 00:04:23.333
+It's like so easy.
+
+00:04:23.333 --> 00:04:25.853
+This is like freaking easy street.
+
+00:04:25.853 --> 00:04:27.013
+ And it looks pretty good, eh?
+
+00:04:27.013 --> 00:04:28.928
+Like those blacks actually look pretty black.
+
+00:04:28.928 --> 00:04:32.128
+It's pretty colorful too. Like this is not bad. 
+
+00:04:32.128 --> 00:04:37.328
+No, it's not bad at all. I mean, it's not good. 
+
+00:04:37.328 --> 00:04:40.368
+But in a dark environment though, this is like totally fine.
+
+00:04:40.368 --> 00:04:47.888
+Pow pow! Pow pow pow pow pow pow! Pow pow pow pow pow pow!
+Oh no! 
+
+00:04:48.272 --> 00:04:49.272
+Wow, you did so well.
+
+00:04:49.272 --> 00:04:50.272
+Let's see you do better.
+
+00:04:50.272 --> 00:04:51.272
+I probably won't.
+
+00:04:51.272 --> 00:04:55.272
+Another thing that's not included with ours is a working speaker, unfortunately.
+
+00:04:55.272 --> 00:04:57.272
+Yeah, it's just not working.
+
+00:04:57.272 --> 00:05:03.272
+And theoretically, we could use our technical manual, service manual to repair
+it.
+
+00:05:03.272 --> 00:05:05.272
+Or we could just not do that.
+
+00:05:05.272 --> 00:05:07.272
+Oh my god.
+
+00:05:07.272 --> 00:05:08.272
+You're wasting the pow!
+
+00:05:08.272 --> 00:05:10.272
+There's no pow!
+
+00:05:10.272 --> 00:05:11.272
+We don't need it.
+
+00:05:11.272 --> 00:05:13.310
+I thought you were too good. You don't need the pow.
+
+00:05:13.310 --> 00:05:14.270
+Did you die?
+
+00:05:14.270 --> 00:05:15.016
+Yeah.
+
+00:05:15.016 --> 00:05:15.516
+Again?
+
+00:05:15.516 --> 00:05:18.110
+I hit a blue shell while it was flipped over.
+
+00:05:18.110 --> 00:05:23.876
+We've already realized that when it comes to old games, you'll usually win. New games, I don't know.
+
+00:05:25.876 --> 00:05:27.456
+Okay, well that was you dying on purpose. 
+
+00:05:27.456 --> 00:05:28.456
+I actually did not.
+
+00:05:29.456 --> 00:05:33.456
+Okay, alright, this is it. For all the marbles. Here we go.
+
+00:05:35.056 --> 00:05:36.156
+Um, it killed me.
+
+00:05:36.352 --> 00:05:42.852
+Yeah. Yeah, they kill you if they're, um, moving. Yeah. This feels too
+good.
+
+00:05:42.852 --> 00:05:44.852
+I know, right? Like, it feels like you're playing on a CRT.
+
+00:05:44.852 --> 00:05:52.352
+Yeah, because the only additional latency compared to looking directly into a
+CRT is the speed of light to the screen. That's it.
+
+00:05:52.352 --> 00:05:59.852
+So just the slightly increased, like, distance the light has to travel. Like,
+this is awesome.
+
+00:05:59.984 --> 00:06:02.284
+The blue, we're getting about 2.2 nits.
+
+00:06:02.304 --> 00:06:03.564
+2.2 nits!
+
+00:06:04.324 --> 00:06:05.944
+The .2 matters!
+
+00:06:07.164 --> 00:06:09.924
+Let's stop it for now, because I want to talk about brightness.
+
+00:06:10.424 --> 00:06:15.584
+In fairness, most projectors don't get that bright compared to direct-view
+displays.
+
+00:06:16.144 --> 00:06:23.004
+But this is clearly way behind the experience that Sony showed off in this, by
+the way,
+
+00:06:23.404 --> 00:06:29.004
+amazing promotional video that was recently re-uploaded by Retro TV Film &amp;
+Video.
+
+00:06:29.408 --> 00:06:34.408
+And if we look closely, yep, composited, got 'em.
+
+00:06:36.268 --> 00:06:38.588
+Now, it was probably brighter when it was new.
+
+00:06:38.588 --> 00:06:40.788
+CRTs do decay over time,
+
+00:06:40.788 --> 00:06:42.528
+but they show this thing being usable
+
+00:06:42.528 --> 00:06:45.648
+in a literally sunlit room when realistically,
+
+00:06:45.648 --> 00:06:48.688
+it would have needed pitch darkness even then.
+
+00:06:48.688 --> 00:06:53.168
+With that said, how cool would a LAN party have been
+
+00:06:53.168 --> 00:06:55.168
+if someone showed up with one of these bad boys?
+
+00:06:55.168 --> 00:06:56.368
+Oh, it'd be sick with like a giant,
+
+00:06:56.368 --> 00:06:58.080
+even, not even a hundred, 80.
+
+00:06:58.080 --> 00:07:00.560
+50, 60 inches, that'd be unheard of as a kid.
+
+00:07:00.560 --> 00:07:01.580
+Unheard of.
+
+00:07:01.580 --> 00:07:05.800
+A regular CRT tube TV works by coating the front glass
+
+00:07:05.800 --> 00:07:08.000
+with a phosphor material that lights up
+
+00:07:08.000 --> 00:07:11.060
+when it gets zapped by one of three electron guns.
+
+00:07:11.060 --> 00:07:13.560
+One for red, one for green, and one for blue.
+
+00:07:13.560 --> 00:07:15.840
+With our CRT projector,
+
+00:07:15.840 --> 00:07:18.780
+we're not looking at a lit up phosphor screen.
+
+00:07:18.780 --> 00:07:22.752
+So, what is going on here?
+
+00:07:22.752 --> 00:07:28.592
+it turns out it's surprisingly simple. They're still using a cathode ray tube to
+generate the
+
+00:07:28.592 --> 00:07:34.912
+image, and we can see that if we look directly down the barrel but it's upside
+down and backwards
+
+00:07:34.912 --> 00:07:40.352
+so that once it goes through the lens which is basically functioning as a giant
+magnifying glass
+
+00:07:40.352 --> 00:07:45.312
+it'll be the right way around now i alluded to this before but one of the big
+innovations for
+
+00:07:45.312 --> 00:07:52.432
+the vidimagic was that most CRT projectors in those days were using three
+separate tubes and lenses
+
+00:07:52.432 --> 00:07:59.712
+for R, G and B. Kind of like this. They were reliable but they were extremely heavy
+and
+
+00:07:59.712 --> 00:08:05.552
+inconvenient to set up supposedly it took quite some time to get them all lined
+up correctly
+
+00:08:05.552 --> 00:08:10.272
+and something as small as a swift kick to the table it was resting on could put
+the whole thing
+
+00:08:10.272 --> 00:08:15.152
+out of whack again. Another major hurdle they faced was well you could probably
+guess from
+
+00:08:15.152 --> 00:08:21.552
+what we've seen so far brightness. CRTs by modern standards are pretty dim to
+begin with
+
+00:08:21.808 --> 00:08:29.008
+and projecting that light across a much larger area exacerbates the issue. How do
+you fix all that?
+
+00:08:29.888 --> 00:08:38.928
+Okay, the fp60 is no regular CRT, it uses a single electron gun with a beam index
+tube so to get the
+
+00:08:38.928 --> 00:08:44.368
+right colors from a single gun they would modulate the beam strength then there
+was a
+
+00:08:44.368 --> 00:08:49.888
+fourth phosphor stripe and when that lit up the result was captured by a photo
+multiplier tube,
+
+00:08:50.128 --> 00:08:53.708
+and that signal was then amplified and sent to a decoder circuit
+
+00:08:53.708 --> 00:08:59.808
+which would basically check if the colors were correct and then adjust the
+modulation of the beam on the fly.
+
+00:09:00.248 --> 00:09:06.428
+If you open this thing up the number of boards involved to properly index and to
+decode the signals is
+
+00:09:06.728 --> 00:09:10.628
+pretty wild. By the way shoutout to 12 volt vids for this
+
+00:09:10.868 --> 00:09:16.628
+amazing footage from his repair video a few years ago that gives us a great look
+by the way at the water cooling
+
+00:09:16.788 --> 00:09:18.788
+that was built into this projector.
+
+00:09:19.056 --> 00:09:25.236
+Now this design did have drawbacks like inferior contrast, but the benefits were
+brighter images,
+
+00:09:25.236 --> 00:09:32.336
+no convergence problems and lower sensitivity to magnetic interference, which is
+why they saw some military use.
+
+00:09:33.056 --> 00:09:37.996
+Sony commercialized a couple of versions of this technology including the index
+Tron tube
+
+00:09:38.036 --> 00:09:42.116
+Which was used in our fp60 as well as in the highly sought-after
+
+00:09:42.676 --> 00:09:45.896
+KVX 370 watch cube. A super cute
+
+00:09:46.144 --> 00:09:49.604
+four inch bedside TV that came out in 1989.
+
+00:09:50.544 --> 00:09:53.704
+Realistically, nobody was buying this thing for gaming.
+
+00:09:53.704 --> 00:09:56.024
+So why don't we try a movie?
+
+00:09:56.024 --> 00:09:59.024
+This definitely makes these 1980s special effects
+
+00:09:59.024 --> 00:10:00.564
+not look out of place.
+
+00:10:00.564 --> 00:10:01.404
+Yeah.
+
+00:10:01.404 --> 00:10:04.844
+I mean, they look pretty good at this resolution.
+
+00:10:04.844 --> 00:10:06.064
+Yeah.
+
+00:10:06.064 --> 00:10:06.904
+At this brightness.
+
+00:10:06.904 --> 00:10:10.424
+Gotta love those four textures, not 4K, just four.
+
+00:10:12.284 --> 00:10:15.364
+This looks about how I remember watching TV.
+
+00:10:15.392 --> 00:10:16.432
+In the '90s.
+
+00:10:16.432 --> 00:10:17.272
+No.
+
+00:10:17.272 --> 00:10:19.352
+We had more color than that.
+
+00:10:19.352 --> 00:10:20.192
+Ah.
+
+00:10:20.192 --> 00:10:23.192
+The contrast is terrible.
+
+00:10:23.192 --> 00:10:24.492
+Fine, yeah.
+
+00:10:24.492 --> 00:10:25.772
+Terrible. 
+
+00:10:25.772 --> 00:10:27.952
+So I guess what we wanna know
+
+00:10:27.952 --> 00:10:29.752
+is how much of what we're looking at
+
+00:10:29.752 --> 00:10:32.892
+is limitations of the Betamax format
+
+00:10:32.892 --> 00:10:35.172
+and/or degradation of the tape,
+
+00:10:35.172 --> 00:10:37.132
+versus how much of it is limitations
+
+00:10:37.132 --> 00:10:39.052
+of the performance of our projector.
+
+00:10:39.052 --> 00:10:40.512
+So do we wanna throw our DVD on?
+
+00:10:40.512 --> 00:10:41.712
+Yeah, let's put our DVD in.
+
+00:10:41.712 --> 00:10:42.912
+I think it's already in the player.
+
+00:10:42.912 --> 00:10:43.520
+Okay.
+
+00:10:43.520 --> 00:10:46.360
+I love how delightfully easy to operate this thing is.
+
+00:10:46.360 --> 00:10:47.480
+Yeah, it's pretty simple.
+
+00:10:47.480 --> 00:10:49.340
+Switches for different modes.
+
+00:10:49.340 --> 00:10:50.180
+Yep.
+
+00:10:50.180 --> 00:10:51.480
+This looks better.
+
+00:10:51.480 --> 00:10:55.000
+I think that other than getting 16 by 9.
+
+00:10:56.760 --> 00:10:59.520
+Which we can actually kind of take advantage of
+
+00:10:59.520 --> 00:11:00.700
+with this projector.
+
+00:11:00.700 --> 00:11:01.540
+That's true.
+
+00:11:01.540 --> 00:11:03.880
+Because the image isn't so small
+
+00:11:03.880 --> 00:11:05.480
+that you are basically just like,
+
+00:11:05.480 --> 00:11:10.480
+"Well, I gave up 30% of my whole screen."
+
+00:11:11.936 --> 00:11:15.456
+I don't think this is a whole ton better though,
+
+00:11:15.456 --> 00:11:16.296
+like a little bit.
+
+00:11:16.296 --> 00:11:17.136
+I think it's a little better.
+
+00:11:17.136 --> 00:11:18.176
+A little bit.
+
+00:11:18.176 --> 00:11:19.276
+Looking into the lens,
+
+00:11:19.276 --> 00:11:22.896
+this is as bright a CRT as I have ever seen.
+
+00:11:22.896 --> 00:11:25.976
+How small does it get to be CRT bright
+
+00:11:25.976 --> 00:11:28.176
+off the projection screen?
+
+00:11:28.176 --> 00:11:29.016
+I'm gonna move it.
+
+00:11:29.016 --> 00:11:30.076
+Okay, move it forward.
+
+00:11:30.076 --> 00:11:33.376
+Careful, this is like 60, 80 pounds worth of stuff.
+
+00:11:33.376 --> 00:11:34.276
+I got you, I got you.
+
+00:11:34.276 --> 00:11:35.116
+Oh yeah, I got it.
+
+00:11:35.116 --> 00:11:35.956
+You're good, you nailed it.
+
+00:11:35.956 --> 00:11:36.796
+Hang on, yeah.
+
+00:11:36.848 --> 00:11:40.028
+Wow, that's still really dim.
+
+00:11:40.028 --> 00:11:43.088
+Okay, more.
+
+00:11:43.088 --> 00:11:46.508
+I think that's as much as it goes.
+
+00:11:46.508 --> 00:11:47.348
+Oh boy.
+
+00:11:47.348 --> 00:11:49.268
+So we can't go any smaller than this.
+
+00:11:49.268 --> 00:11:52.948
+All right, so it's not great for watching movies either,
+
+00:11:52.948 --> 00:11:56.348
+but there were advantages to using a CRT projector,
+
+00:11:56.348 --> 00:12:00.968
+even when LCD and DLP options started hitting the market.
+
+00:12:00.968 --> 00:12:03.936
+Better black levels and better flesh tones.
+
+00:12:03.936 --> 00:12:07.436
+No pixelation, and exceptionally long tube life. 
+
+00:12:07.436 --> 00:12:17.436
+Most CRT projectors were rated
+for around 10,000 hours, while the bulbs in LCD and DLP projectors were only
+good for one or two thousand.
+
+00:12:17.436 --> 00:12:20.112
+They'd also gotten pretty cheap on the used market by then, 
+
+00:12:20.112 --> 00:12:27.112
+so you could go with the used CRT projector and still have money left over to spend on the new Noctua
+screwdriver from lttstore.com 
+
+00:12:27.112 --> 00:12:30.112
+to take it apart when you need to change the tube.
+
+00:12:30.112 --> 00:12:37.552
+By the way guys, we've got a full service manual for this thing and a second
+projector, let us know in the comments if you want to see Dan try to fix it.
+
+00:12:37.552 --> 00:12:42.352
+With all of that said, these benefits were not enough to keep CRT projectors in
+fashion.
+
+00:12:42.352 --> 00:12:46.432
+Like their TV set brethren, they were replaced by lighter, brighter models, 
+
+00:12:46.432 --> 00:12:52.432
+even if it meant sacrificing a little bit of image quality for, actually, years to
+come.
+
+00:12:52.432 --> 00:12:58.472
+And the last CRT projector came out in 2001, the Pro 1200X from Zenith.
+
+00:12:58.480 --> 00:13:03.480
+It retailed for about $30,000 and weighed around 155 pounds.
+
+00:13:04.060 --> 00:13:08.000
+By contrast, the high-end Christie Mirage 2000 DLP projector
+
+00:13:08.000 --> 00:13:11.040
+launched in the same year for 55 grand,
+
+00:13:11.040 --> 00:13:13.520
+but weighed almost half of what the Zenith did
+
+00:13:13.520 --> 00:13:16.580
+and was roughly seven times brighter.
+
+00:13:16.580 --> 00:13:19.120
+Modern projectors have obviously gotten a lot better
+
+00:13:19.120 --> 00:13:20.780
+by the way, and we'll have some decent options
+
+00:13:20.780 --> 00:13:21.980
+linked down below.
+
+00:13:21.980 --> 00:13:23.700
+Back to our FP60 though.
+
+00:13:23.700 --> 00:13:27.232
+The only thing we haven't done yet is give a presentation.
+
+00:13:27.232 --> 00:13:29.352
+About our sponsor.
+
+00:13:29.352 --> 00:13:30.432
+Squarespace.
+
+00:13:30.432 --> 00:13:32.472
+Need a website, but don't have the know-how?
+
+00:13:32.472 --> 00:13:35.172
+Squarespace's all-in-one platform makes it easy
+
+00:13:35.172 --> 00:13:36.952
+to design your dream website
+
+00:13:36.952 --> 00:13:38.792
+and get it up and running quickly.
+
+00:13:38.792 --> 00:13:40.472
+You can choose from a wide selection
+
+00:13:40.472 --> 00:13:42.192
+of award-winning templates that are optimized
+
+00:13:42.192 --> 00:13:44.212
+for both desktop and mobile devices,
+
+00:13:44.212 --> 00:13:46.072
+and you can grow your business online
+
+00:13:46.072 --> 00:13:47.592
+through their marketing features,
+
+00:13:47.592 --> 00:13:49.732
+like support for search engine optimization,
+
+00:13:49.732 --> 00:13:52.012
+email campaigns, and social tools.
+
+00:13:52.012 --> 00:13:53.712
+Once you've sold customers on your brand,
+
+00:13:53.712 --> 00:13:56.288
+Squarespace can also help you sell your product.
+
+00:13:56.288 --> 00:14:00.448
+Their commerce platform comes with everything you need from merchandising to
+checkout.
+
+00:14:00.448 --> 00:14:06.568
+You'll even get analytic insights on your site so that you can see what's
+working well and what needs a tweak or two.
+
+00:14:06.568 --> 00:14:10.888
+If you need help, Squarespace offers help guides and a 24/7 support team.
+
+00:14:10.888 --> 00:14:17.328
+So don't wait, head to squarespace.com/ltt and get 10% off today.
+
+00:14:17.328 --> 00:14:18.168
+Thanks for watching.
+
+00:14:18.168 --> 00:14:21.888
+If you guys liked this video, make sure to check out our Laserdisc exploration.
+
+00:14:21.888 --> 00:14:23.808
+That was a ton of fun.
+
+00:14:23.808 --> 00:14:26.168
+They really do look like records, except...
+
+00:14:26.208 --> 00:14:28.208
+shiny like a CD.
+
+00:14:28.208 --> 00:14:30.208
+Oh no. We're gonna do VideoDisc next?
+
+00:14:30.208 --> 00:14:32.208
+Okay, I don't know. We'll see.
+
