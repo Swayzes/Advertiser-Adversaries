@@ -1,0 +1,70 @@
+Thanks again to Supermicro for sponsoring this video and helping us bring this project to life! Check out their AI Storage solutions and more, using the links below:
+
+AI Storage Solutions: https://lmg.gg/W10
+Broad Range A+ Servers for Data Center. Cloud. AI: https://lmg.gg/W10.1
+GrandTwin® Front Access 2U Twin Architecture: https://lmg.gg/W10.2
+Supermicro WEKA Distributed Storage Solution: https://lmg.gg/W10.3
+
+We’ve gone through many evolutions of our main video editing server Whonnock, but they’ve all shared a similar problem - there is only one of them. Today, we change that by deploying a high availability storage cluster powered by Supermicro’s GrandTwin multi node servers and Weka, a distributed NVMe-first clustered file system. It’s fast… very, very fast.
+
+Discuss on the forum: https://linustechtips.com/topic/1563658-this-server-cannot-lose-data%E2%80%A6/
+
+Check out Weka, the ultra fast NVMe native file system we’re using: https://lmg.gg/weka
+
+Check out axle.ai’s AI powered media asset management software! https://lmg.gg/axle-ai
+
+Buy an AMD EPYC Genoa 9534 CPU: https://geni.us/vBDeNCo
+Buy Samsung 4800MT/S 32GB DDR5 ECC RAM: https://geni.us/1PdFK
+Buy a Sabrent Rocket 512GB Gen3 M.2 NVMe SSD (Used): https://geni.us/IXiO
+Check out Kioxia CD6 PCIe Gen4 U.3 NVMe SSDs: https://lmg.gg/r6rRz
+
+Purchases made through some store links may provide some compensation to Linus Media Group.
+
+► GET MERCH: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+► EQUIPMENT WE USE TO FILM LTT: https://lmg.gg/LTTEquipment
+► OUR WAN PODCAST GEAR: https://lmg.gg/wanset
+
+FOLLOW US 
+---------------------------------------------------  
+Twitter: https://twitter.com/linustech
+Facebook: http://www.facebook.com/LinusTech
+Instagram: https://www.instagram.com/linustech
+TikTok: https://www.tiktok.com/@linustech
+Twitch: https://www.twitch.tv/linustech
+
+MUSIC CREDIT
+---------------------------------------------------
+Intro: Laszlo - Supernova
+Video Link: https://www.youtube.com/watch?v=PKfxmFU3lWY
+iTunes Download Link: https://itunes.apple.com/us/album/supernova/id936805712
+Artist Link: https://soundcloud.com/laszlomusic
+
+Outro: Approaching Nirvana - Sugar High
+Video Link: https://www.youtube.com/watch?v=ngsGBSCDwcI
+Listen on Spotify: http://spoti.fi/UxWkUw
+Artist Link: http://www.youtube.com/approachingnirvana
+
+Intro animation by MBarek Abdelwassaa https://www.instagram.com/mbarek_abdel/
+Monitor And Keyboard by vadimmihalkevich / CC BY 4.0  https://geni.us/PgGWp
+Mechanical RGB Keyboard by BigBrotherECE / CC BY 4.0 https://geni.us/mj6pHk4
+Mouse Gamer free Model By Oscar Creativo / CC BY 4.0 https://geni.us/Ps3XfE
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+1:48 Meet the rack
+6:53 We're gonna build it ourselves
+7:29 CPU
+9:38 RAM
+10:05 Boot Drives
+11:00 Cooling
+11:28 Storage
+12:12 The Switch
+12:42 The Software
+17:35 Why the overkill
+20:14 AI?
+24:29 Deployment
+25:25 Final Results
+27:35 Outro
