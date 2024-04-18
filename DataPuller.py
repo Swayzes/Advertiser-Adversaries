@@ -44,6 +44,7 @@ def getSponsorBlockData(url):
     while dataCollected == False:
         try:
             segments = sponsorBlockClient.get_skip_segments(url)
+            print(segments)
             for segment in segments:
                 if segment.category == "sponsor":
                     sponsorSegments += (str(segment.start) + "-" + str(segment.end) + ",")
@@ -59,15 +60,14 @@ def addToDatabase(url, videoDataDict, sponsorSegments):
     cur = con.cursor()
     if sponsorSegments != "":
         SQL = "INSERT INTO DatasetAds(Video_Title,URL,VideoID,Video_Length,Channel,Sponsor_Segments,Description_File_Path,Captions_File_Path) VALUES(?,?,?,?,?,?,?,?)"
-        data = (videoDataDict["videoTitle"],"https://www.youtube.com/watch?v="+videoDataDict["videoID"],videoDataDict["videoID"],videoDataDict["videoLength"],videoDataDict["videoChannel"],sponsorSegments[:-1],"dataset/subtitles/"+videoDataDict["videoID"]+".description","dataset/"+videoDataDict["videoID"]+".en.vtt")
+        data = (videoDataDict["videoTitle"],"https://www.youtube.com/watch?v="+videoDataDict["videoID"],videoDataDict["videoID"],videoDataDict["videoLength"],videoDataDict["videoChannel"],sponsorSegments[:-1],"dataset/descriptions/"+videoDataDict["videoID"]+".description","dataset/subtitles/"+videoDataDict["videoID"]+".en.vtt")
         cur.execute(SQL, data)
         con.commit()
     else:
         SQL = "INSERT INTO DatasetNoAds(Video_Title,URL,VideoID,Video_Length,Channel,Description_File_Path,Captions_File_Path) VALUES(?,?,?,?,?,?,?)"
-        data = (videoDataDict["videoTitle"],"https://www.youtube.com/watch?v="+videoDataDict["videoID"],videoDataDict["videoID"],videoDataDict["videoLength"],videoDataDict["videoChannel"],"dataset/"+videoDataDict["videoID"]+".description","dataset/descriptions/"+videoDataDict["videoID"]+".en.vtt")
+        data = (videoDataDict["videoTitle"],"https://www.youtube.com/watch?v="+videoDataDict["videoID"],videoDataDict["videoID"],videoDataDict["videoLength"],videoDataDict["videoChannel"],"dataset/descriptions/"+videoDataDict["videoID"]+".description","dataset/subtitles/"+videoDataDict["videoID"]+".en.vtt")
         cur.execute(SQL, data)
         con.commit()
-    
 #functions to use to pull data
 
 #function that will download the data from a video url provided. Example usage: getData('https://www.youtube.com/watch?v=tWYsfOSY9vY')
@@ -93,6 +93,6 @@ def getDataFromChannel(url, start, end):
         getData('https://www.youtube.com/watch?v=' + item['id'])
     print("Channel Done")
 
-getDataFromChannel('https://www.youtube.com/@MrBeast/videos', 0, 20)
-getDataFromChannel('https://www.youtube.com/@LinusTechTips/videos', 0, 20)
-getDataFromChannel('https://www.youtube.com/@mkbhd/videos', 0, 20)
+#getDataFromChannel('https://www.youtube.com/@MrBeast/videos', 0, 20)
+#getDataFromChannel('https://www.youtube.com/@LinusTechTips/videos', 0, 20)
+#getDataFromChannel('https://www.youtube.com/@mkbhd/videos', 0, 20)
