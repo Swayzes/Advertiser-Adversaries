@@ -2,10 +2,10 @@
 Subtitle anlysis
 author: Sean Johnson
 """
-
-from textblob import TextBlob
-# pip install -U textblob
-# python -m textblob.download_corpora
+import nltk
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+nltk.download('vader_lexicon')
+#pip install vaderSentiment
 import pysubs2
 #pip install pysubs2
 from bisect import bisect_right
@@ -69,3 +69,45 @@ class subttiles():
             rangeSubs[subEnds(i)] = subs[subEnds(i)]
 
         return rangeSubs
+
+
+    """
+    Retrun a sentiment score for single subtitle event
+    Args:
+        subEvent: the subtitle event to be analysised
+    Return:
+        float, compond sentiment score
+    """    
+    def get_sentiment(subEvent: pysubs2.SSAEvent):
+        
+        analyzer = SentimentIntensityAnalyzer()
+        score = analyzer.polarity_scores(subEvent.plaintext)
+
+        return score["compound"]
+    
+    """
+    Return a dict of each subtitle event 
+    Args:
+        subs: subtitle dict
+    return:
+        dict: in format {endTime: sentimentScore}
+    """
+    def get_sub_sentiments(subs: dict) -> dict:
+
+        sentiments = dict()
+
+        for key in subs.keys():
+            sentiments[key] = subttiles.get_sentiment(subs[key])
+
+        return sentiments
+    
+
+
+
+subs = subttiles.subreader("7dYTw-jAYkY")
+sentiments = subttiles.get_sub_sentiments(subs)
+for key in subs.keys():
+    event = subs[key]
+    print(event.plaintext)
+    print(sentiments[key])
+
