@@ -9,6 +9,9 @@ import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 from transformers import BertTokenizer, BertModel
 
+#pip install NLTK
+import NLTK
+
 def BoW_Processing(text):
     # create the vocabulary
     vectorizer = CountVectorizer()
@@ -79,3 +82,14 @@ print(descList)
 # Hashing is a thing?
 # Sentiment Analysis:
 # 
+
+"""
+Author: Sean
+Extract potential aspects from a description
+Params:
+    desc: Description text
+Return:
+    array of potential features
+"""
+def aspect_extration(desc):
+    return None

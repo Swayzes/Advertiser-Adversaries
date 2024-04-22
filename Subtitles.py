@@ -19,7 +19,7 @@ class Subttiles():
 
     """
     Read subtitle file into dictonary
-    Args: 
+    Params: 
         vID: video ID, 
         path: relative directory of subtitles folder
         ft: file type
@@ -40,7 +40,7 @@ class Subttiles():
 
     """
     get the end timecode of the subtitle which coveres a given timecode
-    Args:
+    Params:
         subEnds: list of all subtitle end timecodes
         time: search timecode
         minTime: earliest possible timecode used to narrow search
@@ -55,7 +55,7 @@ class Subttiles():
     
     """
     gets all subtitles between 2 timecodes
-    Args:
+    Params:
         subs: dict of all subtitles
         startTime: start timecode
         endTIme: end timecode
@@ -76,7 +76,7 @@ class Subttiles():
 
     """
     Retrun a sentiment score for single subtitle event
-    Args:
+    Params:
         subEvent: the subtitle event to be analysised
         polarity: the types of sentiment polarity to be returned
             ("neg", "neu", "pos", "compound")
@@ -98,7 +98,7 @@ class Sentiments():
     
     """
     Return a dict of each subtitle event 
-    Args:
+    Params:
         subs: subtitle dict
     return:
         dict: in format {endTime: sentimentScore}

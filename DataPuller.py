@@ -73,7 +73,7 @@ def addToDatabase(url, videoDataDict, sponsorSegments):
 """
 Author: Sean
 Return sponsor segments stored in the datbase for a video of given videoID 
-Args:
+Params:
     vID: video ID for lookup
 Return:
     list of nested float array of format ( (Spon1 Start, Spon1 End), (Spon2 Start, Spon2 End), ... )
