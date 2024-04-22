@@ -70,6 +70,31 @@ def addToDatabase(url, videoDataDict, sponsorSegments):
         con.commit()
 #functions to use to pull data
 
+"""
+Author: Sean
+Return sponsor segments stored in the datbase for a video of given videoID 
+Args:
+    vID: video ID for lookup
+Return:
+    list of nested float array of format ( (Spon1 Start, Spon1 End), (Spon2 Start, Spon2 End), ... )
+        Start and end times are video timecodes in ms
+"""
+def getSponsorSegments(vID):
+    con = sqlite3.connect(database)
+    cur = con.cursor()
+    SQL = "SELECT Sponsor_Segments FROM DatasetAds WHERE VideoID = ?"
+    params = (vID,)
+    res = cur.execute(SQL, params).fetchone()
+    segments = list()
+    if res != None:
+        for segemnt in res[0].split(","):
+            segSplit = segemnt.split("-")
+            segments.append((float(segSplit[0]) * 1000, float(segSplit[1]) * 1000))
+        
+        return segments
+    else:
+        return None
+
 #function that will download the data from a video url provided. Example usage: getData('https://www.youtube.com/watch?v=tWYsfOSY9vY')
 
 def getData(url):

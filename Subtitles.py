@@ -12,7 +12,7 @@ import pysubs2
 from bisect import bisect_right
 import matplotlib.pyplot as plt
 import numpy as np
-from DataPuller import getSponsorBlockData
+from DataPuller import getSponsorSegments
 import sqlite3
 
 class Subttiles():
@@ -66,7 +66,7 @@ class Subttiles():
         
         subEnds = list(subs.keys())
 
-        startSubI = subttiles.get_subEnd_from_time(subEnds, startTime)
+        startSubI = Subttiles.get_subEnd_from_time(subEnds, startTime)
         rangeSubs = dict()
         for i in range(startSubI, len(subEnds)):
             rangeSubs[subEnds(i)] = subs[subEnds(i)]
@@ -108,11 +108,11 @@ class Sentiments():
         sentiments = dict()
 
         for key in subs.keys():
-            sentiments[key] = Subttiles.get_sentiment(subs[key], polarity)
+            sentiments[key] = Sentiments.get_sentiment(subs[key], polarity)
 
         return sentiments
     
-    def plot_sentiments(sentiments: dict, title, sponStarts = None, sponEnds = None) -> plt:
+    def plot_sentiments(sentiments: dict, title, segments = None) -> plt:
 
         xPoints = np.array(list(sentiments.keys()))
         yPoints = np.array(list(sentiments.values()))
@@ -121,20 +121,26 @@ class Sentiments():
         plt.title(f"{title} Sentiments")
         plt.ylabel("Sentiment Score")
         plt.xlabel("Video Duration")
+
+        if segments != None:
+            for segment in segments:
+                plt.axvspan(segment[0], segment[1], color = 'green', alpha = 0.5)
+
         plt.show()
 
 
 def test(vID ="7dYTw-jAYkY"):
     subs = Subttiles.subreader(vID)
+    sponsors = getSponsorSegments(vID)
 
     posSentiments = Sentiments.get_sub_sentiments(subs, polarity = "pos")
     neuSentiments = Sentiments.get_sub_sentiments(subs, polarity = "neu")
     negSentiments = Sentiments.get_sub_sentiments(subs, polarity = "neg")
     compSentiments = Sentiments.get_sub_sentiments(subs, polarity = "compound")
-    Sentiments.plot_sentiments(posSentiments, "Positive")
-    Sentiments.plot_sentiments(neuSentiments, "Neutral")
-    Sentiments.plot_sentiments(negSentiments, "Negative")
-    Sentiments.plot_sentiments(compSentiments, "Compound")
+    Sentiments.plot_sentiments(posSentiments, "Positive", sponsors)
+    Sentiments.plot_sentiments(neuSentiments, "Neutral", sponsors)
+    Sentiments.plot_sentiments(negSentiments, "Negative", sponsors)
+    Sentiments.plot_sentiments(compSentiments, "Compound", sponsors)
 
-test()
+test("qcH2wgRLiV8")
 # %%
