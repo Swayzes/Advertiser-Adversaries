@@ -1,146 +1,99 @@
-"""
-Subtitle anlysis
-author: Sean Johnson
-"""
+""" Subtitle anlysis """
 #%%
-import nltk
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-nltk.download('vader_lexicon')
+
 #pip install nltk
 import pysubs2
 #pip install pysubs2
 from bisect import bisect_right
-import matplotlib.pyplot as plt
-import numpy as np
+
 from DataPuller import getSponsorSegments
-import sqlite3
+from Sentiment import get_sub_sentiments, plot_sentiments
+from Description import getDescriptionFromFile, aspect_extration
 
-class Subttiles():
 
-    """
-    Read subtitle file into dictonary
+ 
+def subreader(vID, path = "dataset/subtitles", lang = "en", ft = "vtt") -> dict:
+    """Read subtitle file into dictonary
+    
     Params: 
         vID: video ID, 
         path: relative directory of subtitles folder
+        lang: subtitle language ID
         ft: file type
-    Return:
-        dict {endTimecode : Event}
+    
+    Returns:
+        dict of all subtitle events {endTimecode : Event}
+
+    Author: Sean
     """
-    def subreader(vID, 
-            path = "dataset/subtitles", 
-            lang = "en", 
-            ft = "vtt") -> dict:
         
-        subs = pysubs2.load(f"{path}/{vID}.{lang}.{ft}")
-        subDict = dict()
-        for event in subs.events:
-            subDict[event.end] = event
+    subs = pysubs2.load(f"{path}/{vID}.{lang}.{ft}")
+    subDict = dict()
+    for event in subs.events:
+        subDict[event.end] = event
 
-        return subDict
+    return subDict
 
-    """
-    get the end timecode of the subtitle which coveres a given timecode
+    
+def get_subEnd_from_time(subEnds: list, time, minTime = 0):
+    """get the end timecode of the subtitle which coveres a given timecode
+    
     Params:
         subEnds: list of all subtitle end timecodes
         time: search timecode
         minTime: earliest possible timecode used to narrow search
-    return:
-        index of matching subtitle
-    """
-    def get_subEnd_from_time(subEnds: list, time, minTime = 0):
-        
-        subI = bisect_right(a=subEnds, x=time, lo = minTime)
-        print(subI)
-        return subI
     
+    Returns:
+        index of matching subtitle
+
+    Author: Sean
     """
-    gets all subtitles between 2 timecodes
+        
+    subI = bisect_right(a=subEnds, x=time, lo = minTime)
+    print(subI)
+    return subI
+    
+    
+def get_subs_from_time_range(subs: dict, startTime, EndTime) -> dict:
+    """gets all subtitles between 2 timecodes
+    
     Params:
         subs: dict of all subtitles
         startTime: start timecode
         endTIme: end timecode
-    return:
-        dict of all identified subtitles {endTimecode : Event}
+    
+    Returns:
+        dict of all identified subtitles {endTime : Event}
+
+    Author: Sean
     """
-    def get_subs_from_time_range(subs: dict, startTime, EndTime) -> dict:
         
-        subEnds = list(subs.keys())
+    subEnds = list(subs.keys())
 
-        startSubI = Subttiles.get_subEnd_from_time(subEnds, startTime)
-        rangeSubs = dict()
-        for i in range(startSubI, len(subEnds)):
-            rangeSubs[subEnds(i)] = subs[subEnds(i)]
+    startSubI = get_subEnd_from_time(subEnds, startTime)
+    rangeSubs = dict()
+    for i in range(startSubI, len(subEnds)):
+        rangeSubs[subEnds(i)] = subs[subEnds(i)]
 
-        return rangeSubs
-
-
-    """
-    Retrun a sentiment score for single subtitle event
-    Params:
-        subEvent: the subtitle event to be analysised
-        polarity: the types of sentiment polarity to be returned
-            ("neg", "neu", "pos", "compound")
-    Return:
-        float, compond sentiment score
-    """    
-
-class Sentiments():
+    return rangeSubs
+ 
     
-    def get_sentiment(subEvent: pysubs2.SSAEvent, polarity = None):
-        
-        analyzer = SentimentIntensityAnalyzer()
-        score = analyzer.polarity_scores(subEvent.plaintext)
-
-        if polarity == None:
-            return score["compound"]
-        else:
-            return score[polarity]
-    
-    """
-    Return a dict of each subtitle event 
-    Params:
-        subs: subtitle dict
-    return:
-        dict: in format {endTime: sentimentScore}
-    """
-    def get_sub_sentiments(subs: dict, polarity = None) -> dict:
-
-        sentiments = dict()
-
-        for key in subs.keys():
-            sentiments[key] = Sentiments.get_sentiment(subs[key], polarity)
-
-        return sentiments
-    
-    def plot_sentiments(sentiments: dict, title, segments = None) -> plt:
-
-        xPoints = np.array(list(sentiments.keys()))
-        yPoints = np.array(list(sentiments.values()))
-
-        plt.plot(xPoints, yPoints)
-        plt.title(f"{title} Sentiments")
-        plt.ylabel("Sentiment Score")
-        plt.xlabel("Video Duration")
-
-        if segments != None:
-            for segment in segments:
-                plt.axvspan(segment[0], segment[1], color = 'green', alpha = 0.5)
-
-        plt.show()
 
 
 def test(vID ="7dYTw-jAYkY"):
-    subs = Subttiles.subreader(vID)
+    subs = subreader(vID)
     sponsors = getSponsorSegments(vID)
 
-    posSentiments = Sentiments.get_sub_sentiments(subs, polarity = "pos")
-    neuSentiments = Sentiments.get_sub_sentiments(subs, polarity = "neu")
-    negSentiments = Sentiments.get_sub_sentiments(subs, polarity = "neg")
-    compSentiments = Sentiments.get_sub_sentiments(subs, polarity = "compound")
-    Sentiments.plot_sentiments(posSentiments, "Positive", sponsors)
-    Sentiments.plot_sentiments(neuSentiments, "Neutral", sponsors)
-    Sentiments.plot_sentiments(negSentiments, "Negative", sponsors)
-    Sentiments.plot_sentiments(compSentiments, "Compound", sponsors)
+    posSentiments = get_sub_sentiments(subs, polarity = "pos")
+    neuSentiments = get_sub_sentiments(subs, polarity = "neu")
+    negSentiments = get_sub_sentiments(subs, polarity = "neg")
+    compSentiments = get_sub_sentiments(subs, polarity = "compound")
+    plot_sentiments(posSentiments, "Positive", sponsors)
+    plot_sentiments(neuSentiments, "Neutral", sponsors)
+    plot_sentiments(negSentiments, "Negative", sponsors)
+    plot_sentiments(compSentiments, "Compound", sponsors)
 
-test("qcH2wgRLiV8")
+#test("qcH2wgRLiV8")
+desc = getDescriptionFromFile("qcH2wgRLiV8")
+aspect_extration(desc)
 # %%

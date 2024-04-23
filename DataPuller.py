@@ -68,18 +68,20 @@ def addToDatabase(url, videoDataDict, sponsorSegments):
         data = (videoDataDict["videoTitle"],"https://www.youtube.com/watch?v="+videoDataDict["videoID"],videoDataDict["videoID"],videoDataDict["videoLength"],videoDataDict["videoChannel"],"dataset/descriptions/"+videoDataDict["videoID"]+".description","dataset/subtitles/"+videoDataDict["videoID"]+".en.vtt")
         cur.execute(SQL, data)
         con.commit()
+
 #functions to use to pull data
 
-"""
-Author: Sean
-Return sponsor segments stored in the datbase for a video of given videoID 
-Params:
-    vID: video ID for lookup
-Return:
-    list of nested float array of format ( (Spon1 Start, Spon1 End), (Spon2 Start, Spon2 End), ... )
-        Start and end times are video timecodes in ms
-"""
+
 def getSponsorSegments(vID):
+    """ Return sponsor segments stored in the datbase for a video of given videoID 
+    Params:
+        vID: video ID for lookup
+    Return:
+        list of nested float array of format ( (Spon1 Start, Spon1 End), (Spon2 Start, Spon2 End), ... )
+        Start and end times are video timecodes in ms
+    Author: Sean
+    """
+
     con = sqlite3.connect(database)
     cur = con.cursor()
     SQL = "SELECT Sponsor_Segments FROM DatasetAds WHERE VideoID = ?"
