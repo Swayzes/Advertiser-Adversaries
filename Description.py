@@ -1,6 +1,8 @@
+#%%
 import sqlite3
 import io
 from pathlib import Path
+from regex import search
 import os
 # https://scikit-learn.org/stable/modules/feature_extraction.html
 
@@ -11,8 +13,13 @@ from sklearn.feature_extraction.text import CountVectorizer
 #pip install transformers
 from transformers import BertTokenizer, BertModel
 
+#pip install tldextract
+import tldextract
+
 #pip install nltk
-from nltk import word_tokenize, pos_tag
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 
 def BoW_Processing(text):
@@ -100,9 +107,9 @@ def getDescriptionFromFile(vID, path = "dataset/descriptions", ft = "description
 
     Author: Sean
     """
-    file = open(f"{path}/{vID}.{ft}", "r")
+    file = open(f"{path}/{vID}.{ft}", "r", encoding='utf-8')
 
-    print(file.read())
+    return str(file.read())
     
 
 def splitDesc(desc: str):
@@ -126,8 +133,8 @@ def splitDesc(desc: str):
 
     return outputDesc
 
-
-def aspect_extration(desc):
+#https://www.nltk.org/book/ch05.html
+def aspect_extration(desc: str):
     """Extract potential aspects from a description
 
     Params:
@@ -140,10 +147,43 @@ def aspect_extration(desc):
     """
     descLines = splitDesc(desc)
 
+    potential = list()
+    
     for line in descLines:
-        text = word_tokenize(line)
+        text = nltk.word_tokenize(line)
+        domain = url_search(line)
+        if domain != "":
+            for word in text:
+                if word in domain:
+                    potential.append(word)
+                
+            # tagged = nltk.pos_tag(text)
+            # for tag in tagged:
+            #     if tag[1] == "NN" or tag[1] == "NNP":
+            #         print(tag)
 
+    return potential
 
-    return None
+def url_search(line: str):
+    """Detect and return domain names in a line of the description
+    
+    Params:
+        line: a line of the description
+        
+    Returns:
+        A domain name or empty string
+        
+    Author: Sean
+    """
+    domain = ""
+    if "www." in line or "http" in line or ".co" in line:
+        url =  search("(?P<url>https?://[^\s]+)", line).group("url")
+        domain = tldextract.extract(url).domain
+        print(domain)
 
-    #https://www.nltk.org/book/ch05.html
+    return domain
+
+desc = getDescriptionFromFile("sB1XQYDbzOE")
+aspect_extration(desc)
+    
+# %%
