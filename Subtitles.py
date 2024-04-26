@@ -6,13 +6,10 @@ import pysubs2
 #pip install pysubs2
 from bisect import bisect_right
 
-from DataPuller import getSponsorSegments
-from Sentiment import get_sub_sentiments, plot_sentiments
-from Description import getDescriptionFromFile, aspect_extration
 
 
  
-def subreader(vID, path = "dataset/subtitles", lang = "en", ft = "vtt") -> dict:
+def sub_reader(vID, path = "dataset/subtitles", lang = "en", ft = "vtt") -> dict:
     """Read subtitle file into dictonary
     
     Params: 
@@ -77,23 +74,19 @@ def get_subs_from_time_range(subs: dict, startTime, EndTime) -> dict:
 
     return rangeSubs
  
-    
 
+def sponsor_match(subs: dict, aspects: list):
+    """returns the timecodes at which potential sponsor related words appear in the subtitles
 
-def test(vID ="7dYTw-jAYkY"):
-    subs = subreader(vID)
-    sponsors = getSponsorSegments(vID)
+    Params:
+        subs: dict of all subtitles
+        aspects: list of all potential sponsor words
 
-    posSentiments = get_sub_sentiments(subs, polarity = "pos")
-    neuSentiments = get_sub_sentiments(subs, polarity = "neu")
-    negSentiments = get_sub_sentiments(subs, polarity = "neg")
-    compSentiments = get_sub_sentiments(subs, polarity = "compound")
-    plot_sentiments(posSentiments, "Positive", sponsors)
-    plot_sentiments(neuSentiments, "Neutral", sponsors)
-    plot_sentiments(negSentiments, "Negative", sponsors)
-    plot_sentiments(compSentiments, "Compound", sponsors)
+    Returns:
+        nested dict of all identified sponsor words {matchWord : {endTime : instances} }
 
-#test("qcH2wgRLiV8")
-desc = getDescriptionFromFile("qcH2wgRLiV8")
-aspect_extration(desc)
+    Author: Sean
+    """
+    pass
+
 # %%

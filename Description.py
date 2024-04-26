@@ -94,7 +94,8 @@ def desc_processing(desc, label):
 # 
 
 
-def getDescriptionFromFile(vID, path = "dataset/descriptions", ft = "description"):
+
+def get_description_from_file(vID, path = "dataset/descriptions", ft = "description"):
     """Return the description of a given video
 
     Params: 
@@ -112,7 +113,7 @@ def getDescriptionFromFile(vID, path = "dataset/descriptions", ft = "description
     return str(file.read())
     
 
-def splitDesc(desc: str):
+def split_desc(desc: str):
     """Split a description string into a list of lines, removing empty lines
 
     Params:
@@ -133,6 +134,7 @@ def splitDesc(desc: str):
 
     return outputDesc
 
+
 #https://www.nltk.org/book/ch05.html
 def aspect_extration(desc: str):
     """Extract potential aspects from a description
@@ -145,27 +147,34 @@ def aspect_extration(desc: str):
 
     Author: Sean
     """
-    descLines = splitDesc(desc)
 
-    potential = list()
+    descLines = split_desc(desc)
+
+    domainMatch = list()
     
     for line in descLines:
         text = nltk.word_tokenize(line)
         domain = url_search(line)
-        if domain != "":
-            for word in text:
-                if word in domain:
-                    potential.append(word)
-                
-            # tagged = nltk.pos_tag(text)
-            # for tag in tagged:
-            #     if tag[1] == "NN" or tag[1] == "NNP":
-            #         print(tag)
 
-    return potential
+        if domain != "":
+
+            for word in text:
+
+                if word in domain:
+
+                    if word not in domainMatch:
+                        domainMatch.append(word)
+                
+    # tagged = nltk.pos_tag(text)
+    # for tag in tagged:
+    #     if tag[1] == "NN" or tag[1] == "NNP":
+    #         print(tag)
+
+    return domainMatch
+
 
 def url_search(line: str):
-    """Detect and return domain names in a line of the description
+    """Detect and return domain names from a line of the description
     
     Params:
         line: a line of the description
@@ -175,6 +184,7 @@ def url_search(line: str):
         
     Author: Sean
     """
+
     domain = ""
     if "www." in line or "http" in line or ".co" in line:
         url =  search("(?P<url>https?://[^\s]+)", line).group("url")
@@ -183,7 +193,7 @@ def url_search(line: str):
 
     return domain
 
-desc = getDescriptionFromFile("sB1XQYDbzOE")
-aspect_extration(desc)
+desc = get_description_from_file("sB1XQYDbzOE")
+potential = aspect_extration(desc)
     
 # %%

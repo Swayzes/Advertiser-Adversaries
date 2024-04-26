@@ -72,7 +72,7 @@ def addToDatabase(url, videoDataDict, sponsorSegments):
 #functions to use to pull data
 
 
-def getSponsorSegments(vID):
+def get_sponsor_segments(vID):
     """ Return sponsor segments stored in the datbase for a video of given videoID 
     Params:
         vID: video ID for lookup
