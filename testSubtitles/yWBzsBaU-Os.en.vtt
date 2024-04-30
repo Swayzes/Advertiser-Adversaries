@@ -1,0 +1,1728 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:03.360
+Many people claim to be gaming on a potato,
+
+00:00:03.360 --> 00:00:07.840
+but very few have the spuds to actually do it.
+
+00:00:07.856 --> 00:00:09.576
+And I know what you guys are thinking.
+
+00:00:09.576 --> 00:00:11.316
+Linus, it's easy.
+
+00:00:11.316 --> 00:00:14.156
+You just mash a little bitty Raspberry Pi
+
+00:00:14.156 --> 00:00:15.676
+into a
+
+00:00:15.676 --> 00:00:18.656
+there, and boom, it's done.
+
+00:00:18.656 --> 00:00:20.116
+But come on.
+
+00:00:20.116 --> 00:00:21.416
+That's small fries.
+
+00:00:21.416 --> 00:00:23.676
+We want the full starch experience.
+
+00:00:23.676 --> 00:00:27.036
+Friends, I am talking a full Windows PC in one of these.
+
+00:00:27.036 --> 00:00:28.616
+And since it's a plant,
+
+00:00:28.616 --> 00:00:31.496
+well, it's gonna need to be watered.
+
+00:00:31.496 --> 00:00:34.576
+Which, oh God, we're liquid cooling it?
+
+00:00:34.576 --> 00:00:35.956
+That's just the beginning.
+
+00:00:35.956 --> 00:00:36.916
+When we're done,
+
+00:00:36.916 --> 00:00:38.916
+this potato is gonna play Baldur's Gate 3,
+
+00:00:38.916 --> 00:00:43.036
+Cyberpunk, Halo Infinite, and Sponsor Segue Simulator 2000.
+
+00:00:43.036 --> 00:00:44.836
+Oh, I love that game!
+
+00:00:44.836 --> 00:00:46.436
+Almost as much as I love
+
+00:00:46.436 --> 00:00:47.276
+Thorum.
+
+00:00:47.276 --> 00:00:49.796
+Their rings and watches are made from unique materials
+
+00:00:49.796 --> 00:00:53.376
+like Gibeon meteorite and ethical, naturally shed antlers.
+
+00:00:53.376 --> 00:00:54.336
+Check them out at the link below
+
+00:00:54.336 --> 00:00:56.960
+and use code LTT for 20% off.
+
+00:00:56.960 --> 00:01:00.200
+Our biggest problem for this project, ironically,
+
+00:01:00.200 --> 00:01:03.120
+is that potatoes are very small.
+
+00:01:03.120 --> 00:01:07.200
+So initially, we set out to find bigger potatoes,
+
+00:01:07.200 --> 00:01:09.680
+but in spite of some promising leads,
+
+00:01:09.680 --> 00:01:12.580
+finding one big enough to fit a full-fat gaming system
+
+00:01:12.580 --> 00:01:15.300
+was a fruitless endeavor.
+
+00:01:15.300 --> 00:01:16.240
+Get it?
+
+00:01:16.240 --> 00:01:19.400
+Even our hand-selected Super Spuds are much smaller
+
+00:01:19.400 --> 00:01:21.240
+than a standard Mini-ITX motherboard,
+
+00:01:21.240 --> 00:01:25.360
+so we turned our attention to finding a smaller computer.
+
+00:01:25.360 --> 00:01:27.920
+And that we did.
+
+00:01:27.920 --> 00:01:31.420
+Meet the Minisforum EM680.
+
+00:01:31.420 --> 00:01:34.340
+It's got eight Zen 3 Plus cores
+
+00:01:34.340 --> 00:01:36.620
+that turbo up to 4.7 gigahertz
+
+00:01:36.620 --> 00:01:40.260
+and Radeon 680M RDNA3 graphics.
+
+00:01:40.260 --> 00:01:43.640
+It's shockingly powerful for such a small package.
+
+00:01:43.640 --> 00:01:46.680
+The whole package is just 10 Pringles tall.
+
+00:01:46.680 --> 00:01:47.520
+We're gonna have a link below
+
+00:01:47.520 --> 00:01:48.840
+if you wanna pick up one of your own.
+
+00:01:48.840 --> 00:01:51.960
+Of course, even at that size, it's not small enough for us.
+
+00:01:51.960 --> 00:01:54.080
+So we'll be taking it apart with this
+
+00:01:54.080 --> 00:01:56.980
+prototype LTT precision screwdriver,
+
+00:01:56.980 --> 00:02:00.680
+complete with bit storage and hybrid ceramic bearing top.
+
+00:02:00.680 --> 00:02:02.660
+Yes. Yes, you will.
+
+00:02:02.660 --> 00:02:05.500
+Sign up for a notification at lttstore.com.
+
+00:02:05.500 --> 00:02:06.800
+Gotta love that.
+
+00:02:06.800 --> 00:02:08.960
+Nice, strong magnet.
+
+00:02:08.960 --> 00:02:10.700
+I couldn't believe how small this computer was.
+
+00:02:10.700 --> 00:02:12.420
+Originally, we had another Minisforum
+
+00:02:12.420 --> 00:02:15.360
+that is about 14 centimeters, both directions.
+
+00:02:15.360 --> 00:02:17.000
+And that was small to me.
+
+00:02:17.000 --> 00:02:19.980
+But when we got this one in, I was blown away.
+
+00:02:19.980 --> 00:02:21.940
+I didn't know computers came this small.
+
+00:02:21.940 --> 00:02:22.780
+This is tiny.
+
+00:02:22.780 --> 00:02:24.120
+So small.
+
+00:02:24.224 --> 00:02:26.864
+This is actually the power of a gaming PC
+
+00:02:26.864 --> 00:02:28.404
+in the palm of my hand.
+
+00:02:28.404 --> 00:02:30.584
+Now I've got the power of this cooling solution
+
+00:02:30.584 --> 00:02:31.784
+in the palm of my hand here.
+
+00:02:31.784 --> 00:02:33.084
+Okay, pop that out.
+
+00:02:33.084 --> 00:02:37.464
+Oh, liquid metal on the stock cooling solution.
+
+00:02:37.464 --> 00:02:40.684
+After the issues we had with it on custom builds,
+
+00:02:40.684 --> 00:02:42.964
+I just never thought this stuff would go mainstream.
+
+00:02:42.964 --> 00:02:45.244
+But with the right protective measures,
+
+00:02:45.244 --> 00:02:47.284
+like these covers for the surface mount components
+
+00:02:47.284 --> 00:02:48.504
+and these gaskets,
+
+00:02:48.504 --> 00:02:50.324
+it seems like manufacturers can make it work,
+
+00:02:50.324 --> 00:02:52.496
+even big ones like Asus and Sony.
+
+00:02:52.496 --> 00:02:55.296
+It really does help you get the most out of a small cooling
+solution.
+
+00:02:55.296 --> 00:03:00.416
+Of course, we apparently will not be using this one because we like
+playing on hard mode.
+
+00:03:04.416 --> 00:03:08.416
+Hey, there we go. Oh, cool.
+
+00:03:08.656 --> 00:03:10.396
+They've got a main board up here
+
+00:03:10.396 --> 00:03:11.976
+and then they've got a daughterboard down here
+
+00:03:11.976 --> 00:03:13.336
+that's handling all of the IO,
+
+00:03:13.336 --> 00:03:15.436
+including the micro SD slot.
+
+00:03:15.436 --> 00:03:18.536
+IO is gonna be a challenge, huh?
+
+00:03:18.536 --> 00:03:20.156
+USB4 is truly incredible.
+
+00:03:20.156 --> 00:03:23.016
+We actually only really need two USB4s to go in,
+
+00:03:23.016 --> 00:03:25.276
+one for power and one that's gonna go to a dongle
+
+00:03:25.276 --> 00:03:26.176
+for everything else.
+
+00:03:26.176 --> 00:03:27.836
+Now that we've got the whole thing apart,
+
+00:03:27.836 --> 00:03:30.416
+I can show you how the two boards go back together.
+
+00:03:30.416 --> 00:03:31.696
+There we go.
+
+00:03:31.696 --> 00:03:33.336
+And that's it.
+
+00:03:33.336 --> 00:03:36.768
+CPU, 32 gigs, LPDDR5 memory.
+
+00:03:36.768 --> 00:03:40.668
+A terabyte of PCIe gen four storage and even USB four.
+
+00:03:40.668 --> 00:03:43.308
+So we could hook up an external GPU to this thing
+
+00:03:43.308 --> 00:03:45.208
+if we really wanted to.
+
+00:03:45.208 --> 00:03:46.048
+We don't want to though,
+
+00:03:46.048 --> 00:03:47.888
+because we want it all to fit in here.
+
+00:03:47.888 --> 00:03:50.228
+So without further ado,
+
+00:03:50.228 --> 00:03:53.208
+let's throw this little guy into the frying pan.
+
+00:03:53.208 --> 00:03:56.568
+Figuratively of course, unless?
+
+00:03:57.928 --> 00:03:59.528
+Now that we found a computer small enough,
+
+00:03:59.528 --> 00:04:01.268
+we need to select our potato.
+
+00:04:01.268 --> 00:04:02.568
+Oh, any one of these is fine?
+
+00:04:02.568 --> 00:04:03.688
+Any of these should do.
+
+00:04:03.688 --> 00:04:06.088
+I think there's some that are better candidates.
+
+00:04:06.088 --> 00:04:06.640
+Let's try this one.
+
+00:04:06.640 --> 00:04:12.480
+She's soft though. How long have we had these potatoes? About a
+month. They're a little old.
+
+00:04:12.592 --> 00:04:14.772
+How about this guy?
+
+00:04:14.772 --> 00:04:15.932
+That's pretty, that's a pretty good size.
+
+00:04:15.932 --> 00:04:17.432
+He's got a nice regal shape to him.
+
+00:04:17.432 --> 00:04:19.132
+The, it kind of looks like you.
+
+00:04:20.392 --> 00:04:21.592
+Never thought I'd be asking this,
+
+00:04:21.592 --> 00:04:23.992
+but what's our plan for potato carving?
+
+00:04:23.992 --> 00:04:26.772
+My original plan was to slice the potato in half
+
+00:04:26.772 --> 00:04:28.932
+and then just scoop it out with an ice cream scoop.
+
+00:04:28.932 --> 00:04:29.772
+Oh yeah, pumpkin style.
+
+00:04:29.772 --> 00:04:32.052
+That's what I did in all, exactly, all my testing.
+
+00:04:32.052 --> 00:04:32.892
+Okay.
+
+00:04:35.272 --> 00:04:36.692
+David's getting a cutting board right now,
+
+00:04:36.692 --> 00:04:39.092
+but the way I see it, it's not necessary.
+
+00:04:39.092 --> 00:04:40.452
+Not for a fruit ninja like me.
+
+00:04:40.452 --> 00:04:42.552
+Damn, I actually kind of nailed that.
+
+00:04:42.552 --> 00:04:45.792
+This cutting board is much fancier than I expected.
+
+00:04:45.792 --> 00:04:46.632
+Oh, wow.
+
+00:04:46.632 --> 00:04:48.392
+Full swag, Corsair.
+
+00:04:48.392 --> 00:04:51.672
+Anyway, which way do you find it's best?
+
+00:04:51.672 --> 00:04:52.812
+There's no method to this madness.
+
+00:04:52.812 --> 00:04:53.892
+It's just madness.
+
+00:04:53.892 --> 00:04:55.452
+You'll want to be careful when you get close to the edges.
+
+00:04:55.452 --> 00:04:57.172
+Sometimes it can kind of just jump
+
+00:04:57.172 --> 00:04:58.672
+and then rip some skin off, but.
+
+00:04:58.672 --> 00:04:59.572
+I see.
+
+00:04:59.572 --> 00:05:01.852
+Of the potato or of my hand?
+
+00:05:01.852 --> 00:05:02.752
+Yes.
+
+00:05:02.752 --> 00:05:05.892
+Who'd have thought a potato has this much juice?
+
+00:05:05.892 --> 00:05:08.452
+Speaking of, now that we've worked out size,
+
+00:05:08.452 --> 00:05:10.572
+our next problem is that potatoes are,
+
+00:05:11.592 --> 00:05:12.412
+well,
+
+00:05:12.412 --> 00:05:13.252
+food.
+
+00:05:13.252 --> 00:05:15.732
+You know, boil 'em, mash 'em, stick 'em in a stew.
+
+00:05:15.732 --> 00:05:17.012
+However you skin them,
+
+00:05:17.012 --> 00:05:19.612
+they're not an ideal environment for a computer
+
+00:05:19.612 --> 00:05:21.852
+or any electronics for that matter.
+
+00:05:21.852 --> 00:05:23.292
+How are we looking horizontally?
+
+00:05:23.292 --> 00:05:24.112
+Uh.
+
+00:05:25.232 --> 00:05:28.692
+Pretty good.
+
+00:05:28.692 --> 00:05:30.152
+Good news.
+
+00:05:30.152 --> 00:05:32.532
+Reaching the IO is not gonna be an issue.
+
+00:05:32.532 --> 00:05:34.112
+I'm up.
+
+00:05:34.112 --> 00:05:36.592
+Yeah, like the IO is going like right to the edge.
+
+00:05:36.592 --> 00:05:38.172
+Oh, wow.
+
+00:05:38.172 --> 00:05:40.032
+We chose kind of the perfect potato.
+
+00:05:40.032 --> 00:05:40.932
+I couldn't help noticing then
+
+00:05:40.932 --> 00:05:43.772
+that I'm hollowing this out too much, maybe.
+
+00:05:43.772 --> 00:05:45.652
+Airflow, baby.
+
+00:05:45.652 --> 00:05:46.492
+Sure.
+
+00:05:46.492 --> 00:05:47.612
+For a water-cooled system.
+
+00:05:47.612 --> 00:05:48.832
+Sure.
+
+00:05:48.832 --> 00:05:50.452
+Do we have a fan?
+
+00:05:50.452 --> 00:05:51.572
+Why would you need a fan?
+
+00:05:51.572 --> 00:05:52.472
+You're water cooling.
+
+00:05:52.472 --> 00:05:54.512
+I keep getting potato juice in my eye.
+
+00:05:54.512 --> 00:05:55.952
+It's good for the skin.
+
+00:05:55.952 --> 00:05:57.972
+Sure, but is it good for your eyes?
+
+00:05:57.972 --> 00:05:59.072
+There's an eye of the potato.
+
+00:05:59.072 --> 00:06:00.212
+It's the
+
+00:06:00.257 --> 00:06:02.777
+eye of the potato.
+
+00:06:02.777 --> 00:06:04.397
+The keen-eyed among you might have noticed
+
+00:06:04.397 --> 00:06:07.297
+that we were just kinda willy-nilly
+
+00:06:07.297 --> 00:06:09.117
+putting this thing in here
+
+00:06:10.137 --> 00:06:12.797
+to mitigate some of the risk of the juice
+
+00:06:12.797 --> 00:06:14.917
+shorting out any of the components on our board.
+
+00:06:14.917 --> 00:06:19.517
+We gave it a battering, like not this, like French fries,
+
+00:06:19.517 --> 00:06:22.277
+a battering of conformal coating to protect it
+
+00:06:22.277 --> 00:06:23.957
+from dangerous potato juices,
+
+00:06:23.957 --> 00:06:26.768
+all while being careful to leave access to any ports.
+
+00:06:26.768 --> 00:06:30.048
+Or any contact pins that we need for the system to function.
+
+00:06:30.048 --> 00:06:33.148
+Of course, that wasn't the original plan, was it?
+
+00:06:34.256 --> 00:06:36.956
+No, the original plan was to preserve
+
+00:06:36.956 --> 00:06:38.656
+the perfect potato before the shoot.
+
+00:06:38.656 --> 00:06:41.596
+I tried dehydrating, baking, freezing,
+
+00:06:41.596 --> 00:06:45.076
+a vacuum chamber, resin, a resin vacuum chamber,
+
+00:06:45.076 --> 00:06:46.376
+but nothing really worked.
+
+00:06:46.376 --> 00:06:48.256
+No matter what I did, it would rot, collapse,
+
+00:06:48.256 --> 00:06:50.336
+or just look disgusting.
+
+00:06:50.336 --> 00:06:51.296
+I see that.
+
+00:06:51.296 --> 00:06:53.416
+So instead, we decided we're just gonna YOLO it,
+
+00:06:53.416 --> 00:06:55.796
+do it all on set, for better or for worse.
+
+00:06:55.796 --> 00:06:56.636
+You're welcome?
+
+00:06:56.636 --> 00:06:58.496
+Yeah, I'd say that's for better.
+
+00:06:58.496 --> 00:07:01.416
+Is this even safe, let alone food safe?
+
+00:07:01.416 --> 00:07:02.616
+I wouldn't take a bite.
+
+00:07:06.656 --> 00:07:09.576
+Anywho, another part of the original plan
+
+00:07:09.576 --> 00:07:12.176
+was to transplant the entire cooling system
+
+00:07:12.176 --> 00:07:14.336
+from the Minisforum just to make our jobs
+
+00:07:14.336 --> 00:07:18.056
+a little bit easier, but that's dead too, huh?
+
+00:07:18.056 --> 00:07:20.076
+Yeah, it turns out problem number three,
+
+00:07:20.076 --> 00:07:22.156
+potatoes aren't very good for cooling.
+
+00:07:22.156 --> 00:07:24.416
+In fact, they're kind of good at insulating.
+
+00:07:24.416 --> 00:07:26.496
+So we had Justin, our resident mad scientist,
+
+00:07:26.496 --> 00:07:29.536
+fabricate this absolutely gorgeous water block.
+
+00:07:29.536 --> 00:07:30.536
+He did an amazing job.
+
+00:07:30.536 --> 00:07:31.376
+It looks so good.
+
+00:07:31.376 --> 00:07:32.396
+Even like the design on the top,
+
+00:07:32.396 --> 00:07:33.876
+I don't know if that was intentional,
+
+00:07:33.876 --> 00:07:36.036
+but it looks really good. It looks so cool.
+
+00:07:36.036 --> 00:07:38.416
+The cold plate is machined from billet copper,
+
+00:07:38.416 --> 00:07:40.876
+and then the rest is resin 3D printed.
+
+00:07:40.876 --> 00:07:41.568
+Now,
+
+00:07:41.568 --> 00:07:44.128
+I'm told I'm not allowed to take it apart for you guys
+
+00:07:44.128 --> 00:07:46.508
+since the O-ring is kind of fragile,
+
+00:07:46.508 --> 00:07:48.888
+but we've got a render and you guys can actually find
+
+00:07:48.888 --> 00:07:50.488
+the plans for this in the video description
+
+00:07:50.488 --> 00:07:52.328
+if you ever need to...
+
+00:07:52.328 --> 00:07:53.848
+This.
+
+00:07:53.848 --> 00:07:54.688
+For some reason.
+
+00:07:56.028 --> 00:07:57.748
+We ended up having to reinforce the seal
+
+00:07:57.748 --> 00:07:59.388
+with some CLA to prevent leakage,
+
+00:07:59.388 --> 00:08:01.068
+but the rest of the parts are recycled
+
+00:08:01.068 --> 00:08:03.648
+from our laptop water cooling adventure.
+
+00:08:03.648 --> 00:08:04.888
+Don't watch that video right now
+
+00:08:04.888 --> 00:08:06.668
+if you have a weak stomach though.
+
+00:08:06.668 --> 00:08:08.988
+Or if you want to witness history,
+
+00:08:08.988 --> 00:08:09.968
+because if you want that,
+
+00:08:09.968 --> 00:08:12.248
+you're going to have to watch this video.
+
+00:08:12.248 --> 00:08:14.208
+Okay, moment of truth, the block's on.
+
+00:08:18.248 --> 00:08:19.788
+It fits perfect.
+
+00:08:19.788 --> 00:08:22.128
+It actually does fit really, really well.
+
+00:08:22.128 --> 00:08:24.528
+All we've got to do is carve out some IO.
+
+00:08:24.528 --> 00:08:26.068
+You'll have to let us know in the comments.
+
+00:08:26.068 --> 00:08:28.508
+Is it game-tato or put game-o?
+
+00:08:28.508 --> 00:08:30.668
+Now, David, question for you.
+
+00:08:30.668 --> 00:08:32.928
+Do we need to get at any of the other IO
+
+00:08:32.928 --> 00:08:34.128
+or is this side enough?
+
+00:08:34.288 --> 00:08:35.488
+That's all we need.
+
+00:08:35.488 --> 00:08:37.208
+We can power it through this dongle.
+
+00:08:37.208 --> 00:08:38.588
+We can do up to 90 Watts.
+
+00:08:38.588 --> 00:08:39.428
+Okay.
+
+00:08:39.428 --> 00:08:40.268
+Through this.
+
+00:08:40.268 --> 00:08:41.088
+Let's give it a shot.
+
+00:08:41.088 --> 00:08:41.928
+First boot.
+
+00:08:41.928 --> 00:08:44.048
+That's my computer.
+
+00:08:44.048 --> 00:08:45.428
+Hey, don't mock my computer.
+
+00:08:45.428 --> 00:08:46.468
+No, I love it.
+
+00:08:46.468 --> 00:08:47.568
+From my research,
+
+00:08:47.568 --> 00:08:50.968
+I don't think anyone has actually built a gaming potato.
+
+00:08:50.968 --> 00:08:52.868
+No, I didn't manage to find one either.
+
+00:08:52.868 --> 00:08:53.868
+So.
+
+00:08:53.868 --> 00:08:55.108
+World's first baby.
+
+00:08:55.108 --> 00:08:56.688
+Which is kind of shocking.
+
+00:08:56.688 --> 00:08:58.256
+With how many times it's been memed.
+
+00:08:58.256 --> 00:09:00.056
+Yeah, I was expecting to find like a hundred
+
+00:09:00.056 --> 00:09:01.256
+different YouTube videos about it.
+
+00:09:01.256 --> 00:09:02.496
+And then there's basically Homeless,
+
+00:09:02.496 --> 00:09:05.256
+who's gonna just do it way better than us.
+
+00:09:05.256 --> 00:09:07.176
+You can't do better than this.
+
+00:09:07.176 --> 00:09:08.196
+Don't challenge him.
+
+00:09:08.196 --> 00:09:10.856
+No, no, no, you can plug it right into the dongle.
+
+00:09:10.856 --> 00:09:13.576
+Or I can plug it right into the potato.
+
+00:09:14.536 --> 00:09:15.736
+I have proper peripherals,
+
+00:09:15.736 --> 00:09:17.376
+but for this part, we'll use these.
+
+00:09:17.376 --> 00:09:19.156
+Proper peripherals?
+
+00:09:19.156 --> 00:09:20.636
+Oh God.
+
+00:09:20.636 --> 00:09:21.896
+How do we power it on?
+
+00:09:21.896 --> 00:09:22.736
+I guess, is there just a switch?
+
+00:09:22.736 --> 00:09:24.736
+So there's a light, there is a power switch
+
+00:09:24.736 --> 00:09:27.056
+and there should be a light or there wasn't a case.
+
+00:09:27.056 --> 00:09:28.236
+Okay, there's a light.
+
+00:09:28.236 --> 00:09:30.336
+We know we don't have the water cooling hooked up yet,
+
+00:09:30.336 --> 00:09:33.896
+but hopefully we can at least just get a post out of it.
+
+00:09:33.896 --> 00:09:35.136
+How long does this thing take to post?
+
+00:09:35.136 --> 00:09:36.596
+It doesn't take that long.
+
+00:09:36.596 --> 00:09:37.836
+You need to come on, turn up.
+
+00:09:37.836 --> 00:09:38.676
+Okay, it's off.
+
+00:09:38.676 --> 00:09:39.496
+That's good.
+
+00:09:39.496 --> 00:09:40.336
+Ooh, it's really hot, it's really hot.
+
+00:09:40.336 --> 00:09:41.176
+That's a good sign though, right?
+
+00:09:41.176 --> 00:09:43.716
+I mean, yeah, but also we didn't get an output.
+
+00:09:43.716 --> 00:09:45.276
+Let's get the water cooling hooked up
+
+00:09:45.276 --> 00:09:46.676
+outside of the potato then.
+
+00:09:46.676 --> 00:09:47.496
+Yes.
+
+00:09:47.496 --> 00:09:48.336
+Real quick, real quick.
+
+00:09:48.336 --> 00:09:50.336
+We've gone with a dual 40 millimeter radiator,
+
+00:09:50.336 --> 00:09:52.336
+which for this kind of thermal load
+
+00:09:52.336 --> 00:09:54.716
+should be enough to run completely passively.
+
+00:09:54.716 --> 00:09:56.996
+And then this adorable little pump
+
+00:09:56.996 --> 00:09:58.236
+from the water cooled laptop
+
+00:09:58.236 --> 00:09:59.076
+set up.
+
+00:10:00.017 --> 00:10:01.397
+There's water all over the board.
+
+00:10:01.397 --> 00:10:02.297
+What happened?
+
+00:10:02.297 --> 00:10:03.137
+It leaked.
+
+00:10:03.137 --> 00:10:04.557
+Fudge.
+
+00:10:04.557 --> 00:10:05.397
+Glass half full.
+
+00:10:05.397 --> 00:10:08.157
+You guys get to see the inside of the block now.
+
+00:10:08.157 --> 00:10:10.957
+I mean, theoretically, this board's conformal coated, so.
+
+00:10:10.957 --> 00:10:11.797
+That's a good point.
+
+00:10:11.797 --> 00:10:13.357
+My bigger concern is just that we didn't get
+
+00:10:13.357 --> 00:10:14.777
+an HDMI output from this thing.
+
+00:10:14.777 --> 00:10:15.617
+That's fair.
+
+00:10:15.617 --> 00:10:18.717
+Our contact with the dye is actually not great.
+
+00:10:18.717 --> 00:10:20.397
+It's probably fine.
+
+00:10:20.397 --> 00:10:22.857
+Just need to put some more thermal compound on here.
+
+00:10:22.857 --> 00:10:25.337
+Let's just test it without it being installed
+
+00:10:25.337 --> 00:10:26.557
+and see what happens.
+
+00:10:29.104 --> 00:10:30.424
+Oh my God.
+
+00:10:30.424 --> 00:10:31.344
+Did it work?
+
+00:10:31.344 --> 00:10:34.284
+Okay, that's a sensible picture.
+
+00:10:34.284 --> 00:10:37.024
+By the way, we're kind of bringing it back,
+
+00:10:37.024 --> 00:10:41.124
+but in a more everyday wearable form.
+
+00:10:41.124 --> 00:10:43.724
+Ah, coming soon to LTT store.
+
+00:10:43.724 --> 00:10:45.424
+I'm gonna find the leak.
+
+00:10:45.424 --> 00:10:46.604
+I'm gonna stamp it out.
+
+00:10:47.764 --> 00:10:48.644
+That's how you stop a leak.
+
+00:10:48.644 --> 00:10:51.144
+You just do, stop leaking.
+
+00:10:52.064 --> 00:10:53.864
+Oh, snap.
+
+00:10:55.216 --> 00:10:56.496
+Literal.
+
+00:10:56.496 --> 00:10:57.976
+Oh no.
+
+00:10:57.976 --> 00:10:59.556
+Yeah.
+
+00:10:59.556 --> 00:11:02.136
+How long does it take to resin print a new top?
+
+00:11:02.136 --> 00:11:03.816
+I guess we're about to find out.
+
+00:11:04.816 --> 00:11:06.756
+While we're waiting for our new block to print,
+
+00:11:06.756 --> 00:11:09.656
+let's talk about the advantages of resin printing.
+
+00:11:09.656 --> 00:11:12.076
+You can do more complex shapes with higher detail.
+
+00:11:12.076 --> 00:11:15.676
+It's low cost as well as much faster
+
+00:11:15.676 --> 00:11:17.236
+than machining from acrylic.
+
+00:11:17.236 --> 00:11:18.916
+And it's just watertight,
+
+00:11:18.916 --> 00:11:21.196
+which is kind of important when we're making a water block.
+
+00:11:21.196 --> 00:11:23.696
+So it's a much better choice than FDM printing.
+
+00:11:23.696 --> 00:11:25.116
+This is gonna take about 40 minutes.
+
+00:11:25.116 --> 00:11:26.136
+It's pretty fast.
+
+00:11:26.136 --> 00:11:26.976
+Once we're through that,
+
+00:11:26.976 --> 00:11:28.916
+we're going to wash it and cure it.
+
+00:11:28.916 --> 00:11:29.936
+And we're gonna get back to it
+
+00:11:29.936 --> 00:11:31.716
+and hopefully finish this today.
+
+00:11:31.716 --> 00:11:34.016
+The downside to resin printing as we experienced,
+
+00:11:34.016 --> 00:11:36.636
+it can be brittle depending on the resin you use.
+
+00:11:36.636 --> 00:11:38.556
+We're now using tough resin,
+
+00:11:38.556 --> 00:11:41.264
+which should give us a little more Linus-
+
+00:11:41.264 --> 00:11:47.584
+proofness and the other big downside is just it's a mess and
+there's fumes. It can be kind of annoying when you're done a print
+
+00:11:47.584 --> 00:11:50.904
+just dealing with the leftover resin getting it back and you know
+
+00:11:52.784 --> 00:11:59.164
+Watertight, could you 3d print some water cooling tubes? Are we
+making a video on that right now?
+
+00:12:04.250 --> 00:12:08.830
+The top is not the same as the previous one
+
+00:12:08.830 --> 00:12:09.670
+that was printed.
+
+00:12:09.670 --> 00:12:10.510
+Oh, I see.
+
+00:12:10.510 --> 00:12:11.630
+It doesn't have the divider in the middle,
+
+00:12:11.630 --> 00:12:15.290
+which quite honestly is not going to make a difference.
+
+00:12:15.290 --> 00:12:16.130
+Fantastic.
+
+00:12:16.130 --> 00:12:17.210
+And what could go wrong?
+
+00:12:17.210 --> 00:12:18.210
+Y'all ready for this?
+
+00:12:21.530 --> 00:12:23.070
+These holes are really small.
+
+00:12:23.070 --> 00:12:24.830
+Are you guys aware of that?
+
+00:12:24.830 --> 00:12:25.670
+Yeah.
+
+00:12:25.670 --> 00:12:27.270
+It's, look, the blocks-
+
+00:12:27.270 --> 00:12:28.770
+Well, that's why it cracked.
+
+00:12:28.770 --> 00:12:29.728
+Are you aware of that?
+
+00:12:29.728 --> 00:12:30.848
+I wasn't aware of that.
+
+00:12:30.848 --> 00:12:32.008
+Oh, here, look.
+
+00:12:32.008 --> 00:12:33.928
+Justin flew pretty close to the sun
+
+00:12:33.928 --> 00:12:36.188
+on the size of these holes,
+
+00:12:36.188 --> 00:12:38.308
+and you can see that's actually
+
+00:12:38.308 --> 00:12:39.808
+probably what caused the cracking.
+
+00:12:39.808 --> 00:12:41.388
+We did a rush cure job,
+
+00:12:41.388 --> 00:12:43.588
+so the resin's still a little malleable.
+
+00:12:43.588 --> 00:12:44.848
+Oh, well, that's good.
+
+00:12:44.848 --> 00:12:45.688
+It's good.
+
+00:12:45.688 --> 00:12:46.628
+This is gonna go.
+
+00:12:46.628 --> 00:12:48.068
+It's gonna go, it's a goer.
+
+00:12:48.068 --> 00:12:49.068
+Not a shower.
+
+00:12:49.068 --> 00:12:52.328
+Without it being cracked, which is a plus,
+
+00:12:52.328 --> 00:12:54.548
+time to mount this bad boy.
+
+00:12:54.548 --> 00:12:57.028
+Now, just a gosh darn second here.
+
+00:12:59.834 --> 00:13:02.594
+It's not as thick as the old one
+
+00:13:02.594 --> 00:13:04.294
+and the screws are too tall.
+
+00:13:04.294 --> 00:13:05.814
+We can fix that.
+
+00:13:05.814 --> 00:13:08.594
+We will never be able to unscrew and re-screw them though.
+
+00:13:09.454 --> 00:13:11.294
+'Cause this will mangle the threads.
+
+00:13:12.954 --> 00:13:13.794
+Oh.
+
+00:13:14.336 --> 00:13:16.256
+Hey, and we've got much better contact
+
+00:13:16.256 --> 00:13:17.296
+with the dye this time.
+
+00:13:18.156 --> 00:13:19.476
+I wonder if those previous screws
+
+00:13:19.476 --> 00:13:20.876
+were sticking through a little bit as well.
+
+00:13:20.876 --> 00:13:22.416
+Oh, maybe.
+
+00:13:22.416 --> 00:13:24.636
+There it is.
+
+00:13:24.636 --> 00:13:26.536
+That's what I'm talking about.
+
+00:13:26.536 --> 00:13:27.656
+Oh, it looks like cheese.
+
+00:13:27.656 --> 00:13:28.496
+I wanna eat it.
+
+00:13:28.496 --> 00:13:31.056
+It's an appropriate topping for a potato, certainly.
+
+00:13:31.056 --> 00:13:32.556
+Oh man, I wish I had the foresight.
+
+00:13:32.556 --> 00:13:34.396
+What, to make a block out of cheese?
+
+00:13:36.136 --> 00:13:37.836
+Is conformal coating cool or what?
+
+00:13:37.836 --> 00:13:40.556
+The fact that we just spilled water all over this board
+
+00:13:40.556 --> 00:13:43.568
+and here we are like half an hour later just using it.
+
+00:13:43.568 --> 00:13:46.048
+Why doesn't everything have conformal coating on it?
+
+00:13:46.048 --> 00:13:50.208
+Because it's expensive. It adds another step and it's more
+difficult to repair after the fact.
+
+00:13:50.208 --> 00:13:51.248
+Oh, that makes sense.
+
+00:13:51.248 --> 00:13:52.448
+So there are reasons.
+
+00:13:52.448 --> 00:13:54.768
+I'm gonna just start covering everything I own in conformal
+coating.
+
+00:13:54.768 --> 00:13:56.048
+Do you have like a spittle problem?
+
+00:13:57.408 --> 00:13:58.288
+Is there a reason?
+
+00:13:58.288 --> 00:13:59.488
+Really excited when I game.
+
+00:13:59.488 --> 00:14:01.248
+Is there a reason your electronics get wet?
+
+00:14:05.488 --> 00:14:07.388
+I think we're good.
+
+00:14:07.388 --> 00:14:09.528
+Tough resin, sure.
+
+00:14:09.528 --> 00:14:11.328
+Well, it's working.
+
+00:14:11.328 --> 00:14:13.368
+Oh, we need to make a little cutout for the tubes.
+
+00:14:13.368 --> 00:14:15.448
+Oh yeah, we need quite the cutout for the tubes.
+
+00:14:15.448 --> 00:14:16.308
+Oh, balls.
+
+00:14:16.308 --> 00:14:18.488
+So David, do you wanna eyeball this?
+
+00:14:18.488 --> 00:14:19.328
+Sure.
+
+00:14:19.328 --> 00:14:20.888
+So right about, yeah, sure.
+
+00:14:20.888 --> 00:14:21.728
+Okay.
+
+00:14:24.408 --> 00:14:26.348
+He looks like he's got braces.
+
+00:14:26.348 --> 00:14:28.528
+Who knew a potato case could be so modular?
+
+00:14:28.528 --> 00:14:30.948
+Man, I'm water cooling my pumpkin next Halloween.
+
+00:14:30.948 --> 00:14:33.868
+Did we have any thoughts for how to like seal up our case?
+
+00:14:33.868 --> 00:14:34.808
+Like what about hot glue?
+
+00:14:34.808 --> 00:14:35.648
+Would hot glue?
+
+00:14:35.648 --> 00:14:36.468
+Hot glue's worse.
+
+00:14:36.468 --> 00:14:37.308
+Hot glue's worse, all right.
+
+00:14:37.308 --> 00:14:40.228
+Oh, so you've actually put measurable R and D into this.
+
+00:14:40.228 --> 00:14:43.728
+I've tried everything to try and make potatoes happen.
+
+00:14:43.728 --> 00:14:46.088
+If you can pull on the tubes a little bit,
+
+00:14:46.088 --> 00:14:47.128
+just to, yep.
+
+00:14:47.128 --> 00:14:47.968
+Oh boy.
+
+00:14:47.968 --> 00:14:48.808
+Oh yeah, there we go.
+
+00:14:48.808 --> 00:14:50.248
+Oh yeah, oh, there we go.
+
+00:14:50.248 --> 00:14:51.368
+Okay, a little more.
+
+00:14:52.592 --> 00:14:55.776
+Oh yeah, oh yeah.
+
+00:14:55.776 --> 00:14:59.536
+Oh buddy, I mean, oh spuddy.
+
+00:14:59.536 --> 00:15:04.076
+Oh spuddy, that's a filthy joke.
+
+00:15:04.076 --> 00:15:04.916
+What do you expect?
+
+00:15:04.916 --> 00:15:06.536
+It came out of the ground.
+
+00:15:06.536 --> 00:15:08.196
+Oh, we need power button.
+
+00:15:08.196 --> 00:15:09.556
+Oh right, no, no, that's okay.
+
+00:15:09.556 --> 00:15:11.456
+I got a solution for that.
+
+00:15:11.456 --> 00:15:12.656
+Okay.
+
+00:15:12.656 --> 00:15:15.336
+Now you're speaking my language, my power button.
+
+00:15:15.336 --> 00:15:16.636
+Okay. My jankwich.
+
+00:15:16.636 --> 00:15:19.416
+So this, maybe I could cut a little spot for it.
+
+00:15:19.416 --> 00:15:21.476
+After, after, first let's make sure this thing works.
+
+00:15:21.476 --> 00:15:23.776
+Oh, a pump.
+
+00:15:23.776 --> 00:15:27.770
+Whoa.
+
+00:15:28.770 --> 00:15:32.430
+All that's left then is to seal up our potato.
+
+00:15:32.430 --> 00:15:33.270
+Oh, uh-oh.
+
+00:15:33.270 --> 00:15:34.170
+Probably fine. Oh, 'cause we just, yeah.
+
+00:15:34.170 --> 00:15:36.270
+Yeah, yeah, hold on, hold on.
+
+00:15:36.270 --> 00:15:37.710
+See advanced repair.
+
+00:15:37.710 --> 00:15:39.110
+No, we got to Windows before.
+
+00:15:39.110 --> 00:15:40.070
+I bet this just boots.
+
+00:15:40.070 --> 00:15:41.310
+This probably just boots.
+
+00:15:41.310 --> 00:15:42.950
+Time to seal the deal.
+
+00:15:42.950 --> 00:15:44.930
+The only thing we're missing is some peripherals.
+
+00:15:44.930 --> 00:15:45.810
+Oh, wow.
+
+00:15:45.810 --> 00:15:46.650
+That worked really well.
+
+00:15:46.650 --> 00:15:48.070
+That immediately was like,
+
+00:15:48.070 --> 00:15:49.810
+"Yo, you're not taking this apart anymore."
+
+00:15:49.810 --> 00:15:50.770
+Okay.
+
+00:15:50.770 --> 00:15:51.610
+Potato PC.
+
+00:15:51.610 --> 00:15:52.450
+Okay.
+
+00:15:52.450 --> 00:15:53.290
+Okay, does it need,
+
+00:15:53.290 --> 00:15:56.290
+I think we need a little stand so it doesn't roll around.
+
+00:15:56.290 --> 00:15:57.310
+What's it, potato wedges?
+
+00:15:57.310 --> 00:15:59.290
+Potato wedges, I get it.
+
+00:15:59.290 --> 00:16:00.017
+What about?
+
+00:16:00.017 --> 00:16:00.857
+Okay.
+
+00:16:00.857 --> 00:16:03.377
+Our potato fry monitor bezel.
+
+00:16:03.377 --> 00:16:04.517
+Oh my goodness.
+
+00:16:04.517 --> 00:16:07.717
+Wow, David, you made that.
+
+00:16:08.737 --> 00:16:11.777
+Hash brown desk mat, baby.
+
+00:16:11.777 --> 00:16:12.977
+Oh, what?
+
+00:16:12.977 --> 00:16:14.337
+Oh, what, why?
+
+00:16:14.337 --> 00:16:15.177
+Oh.
+
+00:16:23.458 --> 00:16:26.678
+And what better mouse to use than a potato mouse?
+
+00:16:26.678 --> 00:16:28.738
+Did you guys get a Makey Makey or something?
+
+00:16:28.738 --> 00:16:30.858
+No, it's just a mouse.
+
+00:16:30.858 --> 00:16:31.918
+They took the insides out.
+
+00:16:31.918 --> 00:16:34.558
+I conformal coated it and it works.
+
+00:16:35.958 --> 00:16:37.718
+I think I can even hear the clicks.
+
+00:16:37.718 --> 00:16:38.558
+Yep.
+
+00:16:39.578 --> 00:16:40.418
+Yeah, there it is.
+
+00:16:41.920 --> 00:16:46.780
+Surprisingly, this does appear to be tracking serviceably.
+
+00:16:46.780 --> 00:16:48.620
+Hold on, I'm gonna launch a game.
+
+00:16:48.620 --> 00:16:50.800
+Let's play some, hold on,
+
+00:16:50.800 --> 00:16:52.900
+the click is a little bit of a challenge.
+
+00:16:54.192 --> 00:16:55.732
+I'm launching Halo Infinite.
+
+00:16:55.732 --> 00:16:56.912
+Okay, here we go.
+
+00:16:56.912 --> 00:16:57.812
+This works.
+
+00:16:57.812 --> 00:16:59.972
+Oh my God, it actually kind of works.
+
+00:17:02.052 --> 00:17:04.212
+Ah, ah.
+
+00:17:04.212 --> 00:17:05.872
+And no self-respecting gamer
+
+00:17:05.872 --> 00:17:09.772
+can possibly complete their setup without RGB.
+
+00:17:09.772 --> 00:17:10.772
+Potato powered RGB.
+
+00:17:12.112 --> 00:17:13.992
+You've got one LED lit.
+
+00:17:13.992 --> 00:17:15.132
+Yeah.
+
+00:17:15.132 --> 00:17:15.972
+R, G, B.
+
+00:17:19.092 --> 00:17:22.252
+Was there not enough current to light more than one LED?
+
+00:17:22.252 --> 00:17:24.312
+So I actually have a battery powering it currently.
+
+00:17:24.312 --> 00:17:25.152
+Oh.
+
+00:17:25.152 --> 00:17:26.512
+It's cheating.
+
+00:17:26.512 --> 00:17:28.932
+It was really cool when it first was put together.
+
+00:17:28.932 --> 00:17:31.232
+You're lucky I didn't have time to make the potato keyboard.
+
+00:17:33.352 --> 00:17:36.792
+The mouse is surprisingly somewhat usable.
+
+00:17:36.792 --> 00:17:38.612
+What do you think of the hash brown desk pad?
+
+00:17:38.612 --> 00:17:41.372
+It's really, it's kind of unpleasant and greasy, but.
+
+00:17:41.372 --> 00:17:42.752
+LTT store when?
+
+00:17:42.752 --> 00:17:44.952
+Okay, well, how's our CPU doing?
+
+00:17:44.952 --> 00:17:47.372
+We're at 50 degrees right now.
+
+00:17:47.372 --> 00:17:48.772
+That's definitely warmer than we got
+
+00:17:48.772 --> 00:17:50.672
+when we first tested the system.
+
+00:17:50.672 --> 00:17:51.512
+Okay.
+
+00:17:51.512 --> 00:17:53.612
+But it wasn't in a potato, so.
+
+00:17:53.612 --> 00:17:54.652
+Change of plans.
+
+00:17:54.652 --> 00:17:56.152
+We're going with Doom Eternal.
+
+00:17:56.152 --> 00:17:58.532
+The goal, one kill.
+
+00:17:58.532 --> 00:18:00.017
+I was pretty impressed with the performance.
+
+00:18:00.017 --> 00:18:01.397
+I was getting out of this thing.
+
+00:18:01.397 --> 00:18:02.617
+I was a little bit weird and doomed
+
+00:18:02.617 --> 00:18:04.017
+'cause I was only getting 25 frames
+
+00:18:04.017 --> 00:18:05.517
+and I realized ray tracing was on.
+
+00:18:05.517 --> 00:18:07.037
+Oh.
+
+00:18:07.037 --> 00:18:09.777
+You know what, 25 frames with ray tracing, pretty good.
+
+00:18:09.777 --> 00:18:11.717
+Oh man, my arm muscles
+
+00:18:11.717 --> 00:18:14.117
+from how hard it is to push on the click.
+
+00:18:14.117 --> 00:18:19.117
+I am getting 45, 55 frames per second.
+
+00:18:20.417 --> 00:18:21.257
+Right click.
+
+00:18:22.177 --> 00:18:23.017
+Get up! Come on!
+
+00:18:23.017 --> 00:18:23.917
+Oh, did I get him?
+
+00:18:23.917 --> 00:18:24.817
+I think you did.
+
+00:18:24.817 --> 00:18:25.657
+Oh no, you didn't.
+
+00:18:25.657 --> 00:18:26.497
+No, I didn't.
+
+00:18:26.497 --> 00:18:27.104
+Hold on, right click.
+
+00:18:27.104 --> 00:18:29.724
+Am I, oh, I'm not, am I not on the right?
+
+00:18:29.724 --> 00:18:31.364
+Oh, yeah, yeah, yeah, yeah, yeah, yeah!
+
+00:18:31.364 --> 00:18:32.404
+Glory kill, glory kill!
+
+00:18:32.404 --> 00:18:33.864
+Here we go, here we go!
+
+00:18:33.864 --> 00:18:34.704
+Yes!
+
+00:18:34.912 --> 00:18:37.312
+Potato gaming boys!
+
+00:18:37.312 --> 00:18:39.052
+Med pack, med pack!
+
+00:18:39.052 --> 00:18:39.892
+Oh, my mouse-
+
+00:18:39.892 --> 00:18:42.032
+No, it's coming apart! My mouse fell apart!
+
+00:18:42.032 --> 00:18:43.552
+Hold on, I got this!
+
+00:18:43.552 --> 00:18:45.352
+I can't click.
+
+00:18:45.352 --> 00:18:47.192
+It's coming apart, no!
+
+00:18:47.192 --> 00:18:48.152
+I can't click.
+
+00:18:48.152 --> 00:18:50.372
+This has got to be top 10 stupidest things
+
+00:18:50.372 --> 00:18:51.272
+we've ever done.
+
+00:18:51.272 --> 00:18:52.532
+No. No?
+
+00:18:52.532 --> 00:18:53.532
+Top three.
+
+00:18:55.912 --> 00:18:57.692
+I'm so happy I got to be here for this.
+
+00:18:57.692 --> 00:18:58.912
+The desk mat's coming apart.
+
+00:18:58.912 --> 00:18:59.752
+Oh, no!
+
+00:19:01.932 --> 00:19:03.152
+Oh, wow, the everything.
+
+00:19:04.656 --> 00:19:08.976
+Okay, but like, can we appreciate for a moment
+
+00:19:08.976 --> 00:19:11.276
+how amazing this is?
+
+00:19:11.276 --> 00:19:13.676
+With root access,
+
+00:19:13.676 --> 00:19:18.076
+we're managing some seriously impressive hash power.
+
+00:19:18.076 --> 00:19:19.716
+Which of us is responsible for that line?
+
+00:19:19.716 --> 00:19:21.996
+I think it was a team thing.
+
+00:19:21.996 --> 00:19:23.556
+Sorry, it was Big Potato
+
+00:19:23.556 --> 00:19:25.156
+that forced us to put that in there.
+
+00:19:25.156 --> 00:19:27.516
+As much of a meme as this project was,
+
+00:19:27.516 --> 00:19:29.536
+it is amazing, guys,
+
+00:19:29.536 --> 00:19:33.756
+what you can do with a tiny APU-powered PC these days.
+
+00:19:33.756 --> 00:19:37.376
+And I really hope that even if this
+
+00:19:37.376 --> 00:19:40.196
+wasn't the most practical application of this,
+
+00:19:40.196 --> 00:19:41.656
+this gets your tractor rolling,
+
+00:19:41.656 --> 00:19:44.556
+coming up with cool ideas for fitting powerful computers
+
+00:19:44.556 --> 00:19:48.556
+in places that they have no right to be,
+
+00:19:48.556 --> 00:19:52.356
+like in this, the world's first peelable case.
+
+00:19:52.356 --> 00:19:54.996
+And in this segue to our sponsor.
+
+00:19:54.996 --> 00:19:56.196
+If you guys enjoyed this,
+
+00:19:56.196 --> 00:19:58.756
+if you like janky, dumb, but spectacular builds,
+
+00:19:58.756 --> 00:20:00.016
+you might like our video where we built
+
+00:20:00.017 --> 00:20:04.857
+Compensator 4 with the most expensive consumer parts we could get
+our hands on.
+

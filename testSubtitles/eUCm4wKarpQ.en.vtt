@@ -1,0 +1,931 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.170
+The all-new Framework 16 is here, and I am super excited about it.
+
+00:00:04.170 --> 00:00:08.575
+Not only because I invested my own money in this company, and I want them to succeed,
+
+00:00:08.575 --> 00:00:13.680
+but because it has several tricks up its sleeve that are genuinely nutty.
+
+00:00:13.680 --> 00:00:19.586
+That's right, for years, companies have struggled to make an upgradable laptop at all,
+
+00:00:19.586 --> 00:00:22.088
+let alone one meant for gaming.
+
+00:00:22.088 --> 00:00:23.690
+But it's finally here.
+
+00:00:23.690 --> 00:00:29.295
+And did I mention that every single part of this machine can be purchased individually on their store,
+
+00:00:29.496 --> 00:00:31.498
+and replaced by the end user?
+
+00:00:31.498 --> 00:00:33.299
+What world is this?
+
+00:00:33.299 --> 00:00:40.373
+Unfortunately, a world where trying to be objective doesn't change the fact that I have a vested interest in Framework's success,
+
+00:00:40.373 --> 00:00:42.776
+which makes reviewing their products a bit tricky.
+
+00:00:42.776 --> 00:00:45.178
+So, I don't want you to take my word for it.
+
+00:00:45.178 --> 00:00:47.881
+The rest of the script, I haven't even read it.
+
+00:00:47.881 --> 00:00:52.285
+To recuse myself from our review, Alex, our resident laptop connoisseur,
+
+00:00:52.285 --> 00:00:55.488
+Jake, who actually holds an active Framework 16 pre-order,
+
+00:00:55.488 --> 00:00:58.892
+and John from The Lab are gonna be telling you guys all about it,
+
+00:00:58.892 --> 00:01:02.095
+both the good and the bad.
+
+00:01:02.095 --> 00:01:05.598
+Fingers crossed that they didn't bite off more than they can chew with this thing,
+
+00:01:05.598 --> 00:01:08.601
+unlike this easily digestible segue to our sponsor.
+
+00:01:08.601 --> 00:01:09.602
+Seasonic.
+
+00:01:09.602 --> 00:01:14.374
+Their Prime TX 1000-watt power supply features an 80-plus titanium rating,
+
+00:01:14.374 --> 00:01:16.776
+hybrid fan control, and a 12-year warranty,
+
+00:01:16.776 --> 00:01:19.379
+which is why I love them more than my own son.
+
+00:01:19.379 --> 00:01:21.081
+I mean, I go back and forth.
+
+00:01:21.081 --> 00:01:22.582
+He's only three, he's not gonna see this.
+
+00:01:22.682 --> 00:01:25.885
+Learn more at Seasonic.com or at the link below.
+
+00:01:25.885 --> 00:01:28.988
+Let's start with the Framework 16's key party trick.
+
+00:01:28.988 --> 00:01:33.593
+Unlike every other laptop I've used, everything on this surface is modular,
+
+00:01:33.593 --> 00:01:36.696
+save the power button up here that has a fingerprint sensor in it.
+
+00:01:36.696 --> 00:01:39.999
+You can adjust the keyboard and trackpad positioning.
+
+00:01:39.999 --> 00:01:45.271
+You can add a numpad or a macro pad on the right here, or the left if you want.
+
+00:01:45.271 --> 00:01:47.373
+Or if that macro pad isn't flashy enough for you,
+
+00:01:47.373 --> 00:01:49.976
+they even have these LED matrix displays.
+
+00:01:49.976 --> 00:01:52.779
+Do these do anything besides reducing battery life?
+
+00:01:52.779 --> 00:01:55.482
+No. Do I really like them?
+
+00:01:55.482 --> 00:02:00.787
+Yes. Now, all of this modularity I would classify as neat.
+
+00:02:00.787 --> 00:02:04.390
+However, the other new party trick, the bespoke upgradable,
+
+00:02:04.390 --> 00:02:08.995
+removable, discrete AMD graphics card is so sick.
+
+00:02:08.995 --> 00:02:13.500
+Many companies have attempted to put upgradable graphics in a laptop in the past,
+
+00:02:13.500 --> 00:02:17.170
+but the upgrade operation has never been something that I'd recommend
+
+00:02:17.170 --> 00:02:19.572
+the average tech enthusiast to undertake.
+
+00:02:19.572 --> 00:02:23.276
+Framework, however, says the GPU swap can be done in a couple minutes.
+
+00:02:23.276 --> 00:02:26.779
+So let's test that theory. First, power down the system,
+
+00:02:26.779 --> 00:02:30.383
+then unlock the tabs and take off the touchpad and the keyboard.
+
+00:02:30.383 --> 00:02:34.087
+Open the little plastic flap here covering the custom interposer
+
+00:02:34.087 --> 00:02:37.590
+and unscrew these four T5 screws and remove it from the system.
+
+00:02:37.590 --> 00:02:40.093
+Framework includes a screwdriver with this laptop,
+
+00:02:40.093 --> 00:02:44.797
+but the Noctua screwdriver from lttstore.com is a little bit nicer.
+
+00:02:44.797 --> 00:02:46.499
+Thankfully, these screws are captive.
+
+00:02:46.499 --> 00:02:48.101
+So you'll be hard pressed to lose them.
+
+00:02:48.101 --> 00:02:51.171
+Just make sure you don't lose the interposer itself.
+
+00:02:51.171 --> 00:02:54.574
+I'd recommend screwing it back into the GPU once you have that out.
+
+00:02:54.574 --> 00:02:56.876
+Speaking of which, just remove two more screws
+
+00:02:56.876 --> 00:03:04.083
+and the entire GPU should slide out. Dang! Look at that!
+
+00:03:04.083 --> 00:03:07.187
+Now, this isn't quite as easy as they made it look on the website.
+
+00:03:07.187 --> 00:03:09.389
+It isn't like a Game Boy cartridge,
+
+00:03:09.389 --> 00:03:13.493
+but at the same time, compared to every other GPU swap on a laptop I've done,
+
+00:03:13.493 --> 00:03:17.497
+holy heck, this was seamless. And if you don't want a GPU,
+
+00:03:17.497 --> 00:03:21.201
+you can just save over half a pound of weight and an inch of length
+
+00:03:21.201 --> 00:03:23.970
+by just not having a GPU anymore.
+
+00:03:23.970 --> 00:03:28.975
+But all of this modularity comes at a steep price, possibly for my boss,
+
+00:03:28.975 --> 00:03:34.180
+because the keyboard on the Framework 16 is frankly unacceptable for a laptop of this price.
+
+00:03:34.180 --> 00:03:37.283
+The closest comparison I have is the Acer Nitro 5,
+
+00:03:37.283 --> 00:03:43.690
+which starts at $750 and it is just okay at $750.
+
+00:03:43.690 --> 00:03:44.991
+While testing the Framework 16,
+
+00:03:44.991 --> 00:03:47.694
+I wasn't able to get up to my full typing speed,
+
+00:03:47.694 --> 00:03:52.098
+in particular while doing really quick double presses due to the chassis flex.
+
+00:03:52.098 --> 00:03:56.302
+A huge disappointment compared to the excellent keyboard on the Framework 13,
+
+00:03:56.302 --> 00:03:58.671
+but it isn't all bad news.
+
+00:03:58.671 --> 00:04:01.074
+See, the problem here is the mid plate,
+
+00:04:01.074 --> 00:04:05.178
+particularly in this area. And with the keyboard off,
+
+00:04:05.178 --> 00:04:12.185
+you can really just see how not supportive this super thin piece of metal is.
+
+00:04:12.185 --> 00:04:16.389
+Fortunately, this being a Framework, disassembling only takes about a minute
+
+00:04:16.389 --> 00:04:20.193
+and we were able to chuck some thermal pads in the areas where it was squishiest.
+
+00:04:20.193 --> 00:04:24.197
+And holy crap, that is so much better.
+
+00:04:24.197 --> 00:04:29.602
+The amount that the chassis flex influences the feel of your keyboard is huge.
+
+00:04:29.602 --> 00:04:32.972
+And the difference that this mod has made is just night and day.
+
+00:04:32.972 --> 00:04:34.774
+With the thermal pads in there,
+
+00:04:34.774 --> 00:04:38.678
+this keyboard isn't quite on the level of Asus or Alienware,
+
+00:04:38.778 --> 00:04:40.880
+but it comfortably beats MSI and Razer
+
+00:04:40.880 --> 00:04:43.483
+and brings it much more in line with the price.
+
+00:04:43.483 --> 00:04:46.786
+While you're modifying things, you might want to use a couple pieces of electrical tape
+
+00:04:46.786 --> 00:04:50.690
+to remedy some of the small but visible gaps between the modules,
+
+00:04:50.690 --> 00:04:54.294
+but at least the trackpad down here is excellent.
+
+00:04:54.294 --> 00:04:57.397
+It's glass topped with accurate and responsive tracking.
+
+00:04:57.397 --> 00:05:03.002
+I just wish it was a little bit bigger. Another sacrifice for the modularity.
+
+00:05:03.002 --> 00:05:05.972
+One decision I really don't understand though,
+
+00:05:05.972 --> 00:05:11.177
+are the speakers, which fire out from the sides instead of like up at you
+
+00:05:11.177 --> 00:05:13.680
+or bouncing off of the table like everything else.
+
+00:05:13.680 --> 00:05:15.682
+That sounds good. For comparison,
+
+00:05:15.682 --> 00:05:21.788
+here's a similarly priced Lenovo Legion Slim 7i.
+
+00:05:21.788 --> 00:05:25.591
+Okay, the Lenovo. The Lenovo is not too bad. Little bit quiet,
+
+00:05:25.591 --> 00:05:32.699
+but I would say perfectly acceptable and the Framework is uh...
+
+00:05:32.799 --> 00:05:34.701
+It's not the worst I've ever heard,
+
+00:05:34.701 --> 00:05:41.274
+but it lacks some treble and bass and staging.
+
+00:05:41.274 --> 00:05:43.276
+Get yourself a Bluetooth speak.
+
+00:05:43.276 --> 00:05:47.280
+What is really good though is the dedicated GPU output on the back.
+
+00:05:47.280 --> 00:05:49.682
+This is wired directly to the GPU.
+
+00:05:49.682 --> 00:05:54.087
+Now Jake wrote here that he wants me to complain about this not being a full-size DisplayPort,
+
+00:05:54.087 --> 00:05:56.289
+but personally, I think this Type-C is fine.
+
+00:05:56.389 --> 00:05:58.291
+So, uh, one second.
+
+00:05:58.291 --> 00:06:02.895
+Stupid BMW drivers. Great car.
+
+00:06:02.895 --> 00:06:04.997
+We asked and they said that they tried.
+
+00:06:04.997 --> 00:06:08.601
+It just wouldn't fit with the giant heat pipes they're using to cool it.
+
+00:06:08.601 --> 00:06:12.472
+But for f**ks sakes guys, you founded your company on a laptop
+
+00:06:12.472 --> 00:06:15.775
+with modular IO meant to solve the dongle crisis
+
+00:06:15.775 --> 00:06:19.178
+and you're telling me I need to carry one again?
+
+00:06:19.178 --> 00:06:24.684
+Wait a second. Modular IO?
+
+00:06:24.684 --> 00:06:29.789
+No way. I don't know why I didn't think about that.
+
+00:06:29.789 --> 00:06:33.192
+We gotta see if this works. No way.
+
+00:06:33.192 --> 00:06:37.997
+Look at that. John didn't believe it. 4K 120, baby.
+
+00:06:37.997 --> 00:06:41.901
+Nice. Which is how I describe the IO situation in general.
+
+00:06:41.901 --> 00:06:44.070
+With two more IO slots than the 13,
+
+00:06:44.070 --> 00:06:47.874
+it has the capacity to connect virtually any device you can think of.
+
+00:06:47.874 --> 00:06:52.078
+They have modules for USB-C capable of 240 watt charging,
+
+00:06:52.078 --> 00:06:56.382
+USB-A, DisplayPort, HDMI 2.0, microSD, 2.5 gig Ethernet,
+
+00:06:56.382 --> 00:06:58.384
+audio, and expanded storage,
+
+00:06:58.384 --> 00:07:00.386
+but they also released the design.
+
+00:07:00.386 --> 00:07:02.989
+So literally anyone with the right skills can design
+
+00:07:02.989 --> 00:07:06.292
+and sell their own modules, including for the GPU slot.
+
+00:07:06.292 --> 00:07:08.494
+Now, even when there isn't a GPU installed,
+
+00:07:08.494 --> 00:07:11.798
+some of that space is occupied by the CPU's cooling fans,
+
+00:07:11.798 --> 00:07:15.401
+but they've already released a reference dual SSD design as an example.
+
+00:07:15.401 --> 00:07:19.071
+I'm just excited to have a place to put my Mountain Dew without sacrificing IO.
+
+00:07:19.071 --> 00:07:24.577
+Coming from an Intel-based MacBook Pro with a grand total of four USB Type-C ports,
+
+00:07:24.577 --> 00:07:28.381
+this was the biggest breath of fresh air across my entire experience.
+
+00:07:28.381 --> 00:07:32.185
+Sure, Apple just including decent IO would fix most of that,
+
+00:07:32.185 --> 00:07:34.987
+but if your needs change or you want to do something silly,
+
+00:07:34.987 --> 00:07:37.290
+like running four displays off your laptop,
+
+00:07:37.290 --> 00:07:40.193
+you don't need a dongle, at least not an external one.
+
+00:07:40.193 --> 00:07:44.897
+Now, speaking of external, the PowerBrick is this cute little 180-watt gallium nitride unit,
+
+00:07:44.897 --> 00:07:48.201
+and it's the highest wattage Type-C charger I've ever heard of,
+
+00:07:48.201 --> 00:07:52.371
+and a far cry, at least in terms of size, for most gaming laptop power bricks.
+
+00:07:52.371 --> 00:07:53.573
+Good job there, Framework.
+
+00:07:53.573 --> 00:07:56.876
+Also improved from their first laptop is the disassembly experience,
+
+00:07:56.876 --> 00:08:00.079
+since all of the screws are accessible from the top of the laptop.
+
+00:08:00.079 --> 00:08:03.683
+So replacing any part of this laptop is an absolute joy.
+
+00:08:03.683 --> 00:08:05.585
+Now, if you're not an experienced tinkerer,
+
+00:08:05.585 --> 00:08:09.188
+Framework has guides for replacing literally every part of the laptop.
+
+00:08:09.188 --> 00:08:14.694
+That's because, if you're a nerd, you can buy this laptop IKEA-style and put it together yourself.
+
+00:08:14.694 --> 00:08:18.898
+And I take assembling a Framework laptop over doing IKEA furniture any day of the week.
+
+00:08:18.898 --> 00:08:20.600
+If you missed our Framework factory tour,
+
+00:08:20.600 --> 00:08:26.072
+a little tidbit is that they actually pre-assemble the DIY edition laptops for QC and stress testing,
+
+00:08:26.072 --> 00:08:29.075
+and then they get taken apart before shipping so you can build it yourself.
+
+00:08:29.075 --> 00:08:30.176
+Don't believe it's that easy?
+
+00:08:30.176 --> 00:08:33.679
+Well, it took about this long to get the entire laptop to pieces.
+
+00:08:33.679 --> 00:08:37.083
+We've got the 85-watt-hour battery, Wi-Fi 6E module,
+
+00:08:37.083 --> 00:08:40.987
+a Radeon RX 7700S inside the GPU module,
+
+00:08:40.987 --> 00:08:45.391
+a Ryzen 78 or 7940HS-powered mainboard,
+
+00:08:45.391 --> 00:08:47.193
+two DDR5 SODIMM slots,
+
+00:08:47.193 --> 00:08:48.794
+two Gen 4 M.2 slots,
+
+00:08:48.794 --> 00:08:51.898
+and if you're not happy with the configurations you can see on screen here,
+
+00:08:51.898 --> 00:08:55.301
+the DIY edition can be ordered in pretty much any config you want.
+
+00:08:55.301 --> 00:08:58.371
+Or, bare bones, and you can supply your own storage and RAM.
+
+00:08:58.371 --> 00:09:02.375
+Which made picking laptops to benchmark against a little tricky.
+
+00:09:02.375 --> 00:09:06.178
+To see what you can get in a similarly-priced and classed big-name laptop,
+
+00:09:06.178 --> 00:09:10.182
+we opted for an Intel NVIDIA-specced Lenovo Legion Slim 7i.
+
+00:09:10.182 --> 00:09:12.685
+And to make sure our framework is performing as it should,
+
+00:09:12.685 --> 00:09:14.587
+an ASUS TUF A16.
+
+00:09:14.587 --> 00:09:18.791
+It's cheaper, and it was supposed to be the same specs as the Framework 16.
+
+00:09:18.791 --> 00:09:22.795
+That was until they shipped the lower-end model for the press unit.
+
+00:09:22.795 --> 00:09:24.497
+The differences between the CPUs are minor,
+
+00:09:24.497 --> 00:09:27.500
+so it should still tell us if the framework is performing up to snuff.
+
+00:09:27.500 --> 00:09:31.470
+Despite those differences, every game is actually a pretty tight race.
+
+00:09:31.470 --> 00:09:34.073
+In Cyberpunk, nearly maxed out at 1080p,
+
+00:09:34.073 --> 00:09:37.076
+the Intel-based Lenovo is slightly ahead in average FPS,
+
+00:09:37.076 --> 00:09:42.782
+with both itself and the AMD-based ASUS model beating the Framework by one frame and 1% lows.
+
+00:09:42.782 --> 00:09:45.284
+In F1-23, Intel's gap widens a bit,
+
+00:09:45.284 --> 00:09:47.987
+while the Framework makes a modest showing in second place,
+
+00:09:47.987 --> 00:09:51.591
+surprisingly beating out the, on paper, faster ASUS.
+
+00:09:51.591 --> 00:09:55.895
+To no one's surprise, in Total War Warhammer 3, the 4070 wins again.
+
+00:09:55.895 --> 00:09:59.098
+But our framework squeaks past the ASUS again, too?
+
+00:09:59.098 --> 00:10:02.301
+It's hard to say what exactly is giving it the advantage in these games,
+
+00:10:02.301 --> 00:10:06.372
+but the faster memory and better cooling on the Framework likely has something to do with it.
+
+00:10:06.372 --> 00:10:09.675
+As for productivity, the Framework 16 loses handily in Cinebench,
+
+00:10:09.675 --> 00:10:12.678
+both single and multi-core, but no surprises there,
+
+00:10:12.678 --> 00:10:17.483
+as the ASUS has a lot more thermal headroom when it doesn't have to cool a GPU at the same time.
+
+00:10:17.483 --> 00:10:20.586
+In Blender, our ASUS laptop crushes the Framework across the board,
+
+00:10:20.586 --> 00:10:24.690
+despite the only real difference being a slightly higher base and boost clock,
+
+00:10:24.690 --> 00:10:27.193
+and the same can be said for video encoding with Handbrake,
+
+00:10:27.193 --> 00:10:29.595
+and in media editing with Premiere and Photoshop.
+
+00:10:29.595 --> 00:10:31.597
+Overall, not a lot of surprises here.
+
+00:10:31.597 --> 00:10:34.200
+The faster CPU in the ASUS shines in productivity,
+
+00:10:34.200 --> 00:10:37.003
+but we expect the higher-end Framework would yield the same result.
+
+00:10:37.003 --> 00:10:41.073
+As for gaming, yeah, it's not a great price-to-performance option,
+
+00:10:41.073 --> 00:10:42.575
+but it's not terrible either.
+
+00:10:42.575 --> 00:10:46.278
+It's just that if you want the most frames for your money, this isn't the laptop to buy.
+
+00:10:46.278 --> 00:10:48.280
+Also, you should probably just buy a desktop.
+
+00:10:48.280 --> 00:10:51.884
+But if you do buy one, or really any electronic you care about,
+
+00:10:51.884 --> 00:10:53.285
+you should protect it with a skin,
+
+00:10:53.285 --> 00:10:56.789
+and dbrand sponsored this portion of the video so Linus could show you how.
+
+00:10:56.789 --> 00:11:03.095
+Being a relatively new company, not many third parties are making accessories for Framework machines,
+
+00:11:03.095 --> 00:11:07.199
+but dbrand sure is, and they're going to be ready for launch day.
+
+00:11:07.199 --> 00:11:12.972
+They sent over two, so I guess I get to pick whichever one would be easier for Casetify to rip off?
+
+00:11:12.972 --> 00:11:14.774
+Ha ha ha ha ha ha ha ha!
+
+00:11:14.774 --> 00:11:15.574
+Allegedly.
+
+00:11:15.574 --> 00:11:16.676
+Oh, they're both the same.
+
+00:11:16.676 --> 00:11:20.079
+My notes say, look how accurate these internals are.
+
+00:11:20.079 --> 00:11:22.281
+No wonder they got so pissed they got ripped off,
+
+00:11:22.281 --> 00:11:27.586
+but I actually haven't had this thing open yet, so maybe?
+
+00:11:27.586 --> 00:11:28.788
+Probably.
+
+00:11:28.788 --> 00:11:35.795
+While I completely ignore dbrand's explicit instructions for how to do this and make up my own method,
+
+00:11:35.795 --> 00:11:38.998
+always check their site and make sure that you do it the right way.
+
+00:11:38.998 --> 00:11:40.800
+What am I supposed to be saying though?
+
+00:11:40.800 --> 00:11:43.302
+I know they're paying me to put a skin on a laptop right now,
+
+00:11:43.302 --> 00:11:45.371
+but this is my favorite kind of integration.
+
+00:11:45.371 --> 00:11:47.573
+We're all working together to promote something we believe in.
+
+00:11:47.573 --> 00:11:49.875
+Yeah! Yeah!
+
+00:11:49.875 --> 00:11:54.580
+As both an investor and hobbyist, hey, thanks dbrand, shout out.
+
+00:11:54.580 --> 00:11:59.585
+So I think I've got it pretty decently lined up right now.
+
+00:11:59.585 --> 00:12:01.387
+There's no way this battery is made in Canada.
+
+00:12:01.387 --> 00:12:04.090
+That's got to be an Easter egg. Framework's Canadian.
+
+00:12:04.090 --> 00:12:09.595
+They are Canadian bros. Did I say framework? dbrand. Framework's not Canadian.
+
+00:12:09.595 --> 00:12:12.298
+Oh, it's not quite straight.
+
+00:12:12.298 --> 00:12:15.000
+Oh, okay. Okay.
+
+00:12:15.000 --> 00:12:17.103
+I'm ready to submit for inspection.
+
+00:12:17.103 --> 00:12:19.472
+How'd I do? Just don't look right there.
+
+00:12:19.472 --> 00:12:21.774
+Just don't look right where? Don't worry about it.
+
+00:12:21.774 --> 00:12:25.878
+Right where? Where? It's not bad. Pretty flat.
+
+00:12:25.878 --> 00:12:29.782
+Yeah. Yeah. Oh, hey, five foot one line.
+
+00:12:29.782 --> 00:12:34.687
+Oh, I know when I'm insulted. Check out dbrand at the link down below.
+
+00:12:34.687 --> 00:12:38.491
+Over to you, Jon. Framework did great in our battery endurance test,
+
+00:12:38.491 --> 00:12:44.196
+both with and without the GPU, beating ASUS and Lenovo by a few hours.
+
+00:12:44.196 --> 00:12:46.999
+The combustor stress test was a lot closer,
+
+00:12:46.999 --> 00:12:50.102
+but it still won. And if you rip out the GPU,
+
+00:12:50.102 --> 00:12:51.971
+you'll get even more battery life.
+
+00:12:51.971 --> 00:12:56.275
+However, none of these laptops are industry-leading for battery life.
+
+00:12:56.275 --> 00:12:59.478
+But if the battery in the framework starts to struggle after a few years,
+
+00:12:59.478 --> 00:13:02.982
+at least you can easily replace it. As for cooling,
+
+00:13:02.982 --> 00:13:06.886
+they partnered with Cooler Master to design this gigantic heat pipe array,
+
+00:13:06.886 --> 00:13:10.289
+which paired with the liquid metal resulted in combustor temps
+
+00:13:10.289 --> 00:13:13.292
+that absolutely crushed the A16 from ASUS,
+
+00:13:13.292 --> 00:13:17.696
+which is running the exact same RX 7700S.
+
+00:13:17.696 --> 00:13:22.001
+The framework did peak higher than the Lenovo's RTX 4070,
+
+00:13:22.001 --> 00:13:24.670
+but once the fans ramped up, it held its own.
+
+00:13:24.670 --> 00:13:28.274
+It's important to mention that the Lenovo unit was repasted
+
+00:13:28.274 --> 00:13:31.377
+with Noctua NTH1 in a previous project.
+
+00:13:31.377 --> 00:13:36.182
+So it could be possible that the framework would look even better here to a factory Lenovo.
+
+00:13:36.182 --> 00:13:39.985
+Remember the F1 stress test? The framework performs exceptionally well,
+
+00:13:39.985 --> 00:13:41.987
+staying under 65 degrees on the CPU,
+
+00:13:41.987 --> 00:13:48.594
+while the ASUS and the Lenovo are both hitting over 70 or even 80 degrees.
+
+00:13:48.594 --> 00:13:54.300
+And that's while maintaining a very solid 4.1 GHz on the average clock speed,
+
+00:13:54.300 --> 00:13:58.771
+while the A16 averaged closer to 2.7. Yikes.
+
+00:13:58.771 --> 00:14:03.175
+To be fair, we ran all these laptops in their default power configurations,
+
+00:14:03.175 --> 00:14:08.981
+but the tough A16's Radeon 7700S is reporting 80 degrees average on the core
+
+00:14:08.981 --> 00:14:16.589
+and 93 on the hotspot. The framework kept to a much more reasonable 68 and 80 degrees respectively.
+
+00:14:16.589 --> 00:14:20.593
+The webcam and microphone, which use the same module as the Framework 13,
+
+00:14:20.593 --> 00:14:25.698
+very cool, look and sound like this, at least with a big studio light in front of me.
+
+00:14:25.698 --> 00:14:30.703
+And if you shut it off, like this in a pretty dim, crappy environment.
+
+00:14:30.703 --> 00:14:32.471
+Not great, not terrible.
+
+00:14:32.471 --> 00:14:37.576
+And I did anecdotally hear that the microphone sounded better than my AirPods Pro 2.
+
+00:14:37.576 --> 00:14:41.780
+So cool. And they do at least have physical shutoff switches, which is a nice touch.
+
+00:14:41.780 --> 00:14:44.083
+And we haven't even talked about the display.
+
+00:14:44.083 --> 00:14:47.086
+The Framework 16 holds its own when it comes to color accuracy,
+
+00:14:47.086 --> 00:14:51.390
+reaching an average SDR Delta E of 1.5 and a max of 2.8,
+
+00:14:51.390 --> 00:14:54.293
+in part thanks to Windows Auto Color Management System,
+
+00:14:54.293 --> 00:14:56.996
+which only seems to support a few selected displays.
+
+00:14:56.996 --> 00:14:59.899
+It shifts with it turned off, making the numbers much worse.
+
+00:14:59.899 --> 00:15:04.670
+So we'd recommend using it. The display is bright enough for outdoors at over 500 nits.
+
+00:15:04.670 --> 00:15:08.574
+Motion clarity is decent enough at 165 Hertz, which is great for gaming.
+
+00:15:08.574 --> 00:15:13.479
+But there are a couple of issues that are a bit hard to ignore,
+
+00:15:13.479 --> 00:15:20.486
+like the honestly kind of mid-uniformity that results in visible vignetting on web pages and solid backgrounds.
+
+00:15:20.486 --> 00:15:25.391
+And somehow our unit's panel was pinched under the removable plastic bezel for some reason.
+
+00:15:25.391 --> 00:15:31.096
+It kind of looks like you could move it around, but this leads me to the price.
+
+00:15:31.096 --> 00:15:35.000
+As configured, ignoring extra accessories like the expansion shell,
+
+00:15:35.000 --> 00:15:39.772
+which isn't included if you spec a GPU and cost $100 on its own,
+
+00:15:39.772 --> 00:15:43.676
+this is a $2,200 laptop. They're not gouging.
+
+00:15:43.676 --> 00:15:48.180
+Remember, it's a small company building an entirely bespoke laptop
+
+00:15:48.180 --> 00:15:54.687
+that genuinely could and seems to already be changing an entire industry.
+
+00:15:54.687 --> 00:15:58.991
+But it's not cheap either. The keyboard stability and display uniformity
+
+00:15:58.991 --> 00:16:01.593
+are things that would normally be a deal-breaker for me,
+
+00:16:01.593 --> 00:16:05.397
+especially at this price point, and I wouldn't blame you for feeling the same.
+
+00:16:05.397 --> 00:16:09.902
+But here's the thing. Fixing the keyboard is probably something you can DIY,
+
+00:16:09.902 --> 00:16:13.472
+as Alex showed earlier, and assuming Framework either fixes the issues
+
+00:16:13.472 --> 00:16:16.375
+or comes up with a panel upgrade down the road,
+
+00:16:16.375 --> 00:16:20.879
+I can probably live with that display for a while. For the utter flexibility,
+
+00:16:20.879 --> 00:16:25.584
+repairability, and the simple fact that this could be, theoretically,
+
+00:16:25.584 --> 00:16:30.689
+the last gaming laptop I'd ever need to buy. That's pretty freaking cool.
+
+00:16:30.689 --> 00:16:34.093
+So as long as Framework stays in business and follows through with their promises,
+
+00:16:34.093 --> 00:16:39.098
+I mean, they already have a history of doing so, when the CPU is too outdated
+
+00:16:39.098 --> 00:16:41.700
+or the GPU isn't strong enough for new games,
+
+00:16:41.700 --> 00:16:44.670
+or the keyboard gets gunked up and the battery dies,
+
+00:16:44.670 --> 00:16:48.674
+it's an easy swap. Instead of chucking away an entire machine,
+
+00:16:48.674 --> 00:16:51.176
+you can have your very own laptop of Theseus,
+
+00:16:51.176 --> 00:16:54.079
+and I can't wait to see what the future holds. All that's left is to decide
+
+00:16:54.079 --> 00:16:55.781
+if I want to keep my pre-order.
+
+00:16:55.781 --> 00:16:57.683
+But think of a modules, Jake.
+
+00:16:57.683 --> 00:17:02.888
+Right. And maybe they can make a module that would help me segue to our sponsor.
+
+00:17:02.888 --> 00:17:07.092
+Jawa. We've all been there, trying to sell stuff the usual way.
+
+00:17:07.092 --> 00:17:11.597
+Uploading pictures, negotiating with buyers thing, can be a real pain in the butt.
+
+00:17:11.597 --> 00:17:17.202
+Well, Jawa makes getting rid of your old graphics card easy by just buying it off you themselves.
+
+00:17:17.202 --> 00:17:21.774
+Simply go through the steps on their site to get an instant quote and a free shipping label.
+
+00:17:21.774 --> 00:17:25.878
+Most sellers will get paid within one business day after Jawa receives the part.
+
+00:17:25.878 --> 00:17:29.581
+And if you're looking to purchase a card, you'll find a wide array available at Jawa
+
+00:17:29.581 --> 00:17:33.385
+for fantastic prices, all provided by users like you
+
+00:17:33.385 --> 00:17:36.989
+and inspected for quality assurance by Jawa's experienced team.
+
+00:17:36.989 --> 00:17:39.792
+For example, look at this 3070 Ti we found.
+
+00:17:39.792 --> 00:17:45.097
+Now imagine getting this for even cheaper by selling your old graphics card all through Jawa.
+
+00:17:45.097 --> 00:17:47.800
+And it's not just limited to GPUs. With Jawa,
+
+00:17:47.800 --> 00:17:53.472
+you can easily list and sell your old rig or buy one carefully assembled by an experienced builder.
+
+00:17:53.472 --> 00:17:57.876
+Also, Jawa has an active and involved community of over 8,000 members on their Discord
+
+00:17:57.876 --> 00:18:00.879
+offering advice on buying, selling, and troubleshooting.
+
+00:18:00.879 --> 00:18:05.584
+Jawa is designed with the user in mind because buying PC components shouldn't be difficult.
+
+00:18:05.584 --> 00:18:07.786
+So go check them out at the link down below.
+
+00:18:07.786 --> 00:18:11.190
+Easily sell your old graphics card and then save on a new one.
+
+00:18:11.190 --> 00:18:14.793
+Thanks for watching. I hope it's good.
+
+00:18:14.793 --> 00:18:18.597
+This is my first hands-on with a retail one just sitting down here right now.
+
+00:18:18.597 --> 00:18:23.102
+If you guys liked this video, make sure to check out our Framework Laptop Factory Tour.
+
+00:18:23.102 --> 00:18:24.770
+We'll have that linked down below.
+

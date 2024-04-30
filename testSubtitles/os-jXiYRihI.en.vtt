@@ -1,0 +1,1420 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.372
+If you went to the grocery store, gave them your money, and left with 10% less Vegemite than you paid for,
+
+00:00:05.372 --> 00:00:07.040
+you'd probably be pretty ticked off.
+
+00:00:07.040 --> 00:00:13.680
+But what if I told you that happens every day, except with $350 CPUs?
+
+00:00:13.680 --> 00:00:14.547
+Well, it's true.
+
+00:00:14.547 --> 00:00:22.589
+These 12 chips were obtained over a span of a month from 8 different sources spread across 3 separate countries.
+
+00:00:22.589 --> 00:00:32.866
+And the real-world difference between the best and the worst of them is 8% in Factorio and as much as 12% in CSGO.
+
+00:00:32.866 --> 00:00:37.070
+This has caused a lot of problems for us over the last 6 months.
+
+00:00:37.070 --> 00:00:41.674
+You see, in April, I gave the labs team the goal of increasing our testing throughput
+
+00:00:41.674 --> 00:00:45.912
+so that we could give you guys more juicy benchmarks in our reviews.
+
+00:00:45.912 --> 00:00:50.083
+Unfortunately, the math was not in our favor.
+
+00:00:50.083 --> 00:00:56.256
+You see, the typical turnaround to troubleshoot, benchmark, write, film, edit, and QC our coverage of a new product
+
+00:00:56.256 --> 00:00:58.691
+is 5 to 8 business days.
+
+00:00:58.691 --> 00:01:03.163
+At about 5 minutes per test, times 3 runs for consistency checks,
+
+00:01:03.163 --> 00:01:08.268
+times however many products we want to compare, times however many games or applications you guys want to see,
+
+00:01:08.268 --> 00:01:10.637
+it is easy to run out of time.
+
+00:01:10.637 --> 00:01:16.910
+Now, we could shorten each test, but we've found that longer tests are more consistent from run to run
+
+00:01:16.976 --> 00:01:20.880
+and end up being more reflective of the real-world experience of using the product.
+
+00:01:20.880 --> 00:01:22.882
+So, that's out.
+
+00:01:22.882 --> 00:01:26.653
+And I guess we could work through the nights like a bunch of Adderalled out master students,
+
+00:01:26.653 --> 00:01:30.356
+but come on guys, we're not that young anymore.
+
+00:01:30.356 --> 00:01:35.261
+Automation with Markbench does help a lot, but if our system hangs in the middle of the night,
+
+00:01:35.261 --> 00:01:39.032
+which it happens sometimes, we're right back where we started,
+
+00:01:39.032 --> 00:01:41.534
+which leaves us with one real option,
+
+00:01:41.534 --> 00:01:46.639
+building up more of our test benches and running our tests in parallel,
+
+00:01:46.639 --> 00:01:48.942
+except as I already told you,
+
+00:01:48.942 --> 00:01:54.414
+8% difference in Factorio, 12% in CSGO.
+
+00:01:54.414 --> 00:01:59.552
+Now, when I signed the procurement authorization for 11 CPUs,
+
+00:01:59.552 --> 00:02:03.256
+I knew that we were likely to find an outlier or two,
+
+00:02:03.256 --> 00:02:09.195
+but then it turned out that this rabbit hole went way deeper than I could possibly have known.
+
+00:02:09.195 --> 00:02:13.299
+Like this deep segway to our sponsor, Nexigo.
+
+00:02:13.299 --> 00:02:16.202
+Whether you're in need of webcams or VR accessories,
+
+00:02:16.202 --> 00:02:19.939
+Nexigo has products that'll make you Nexigo.
+
+00:02:19.939 --> 00:02:23.076
+Wow, those are cool.
+
+00:02:23.076 --> 00:02:24.878
+Learn more about them at the link below.
+
+00:02:24.878 --> 00:02:26.980
+Now, before you start sharpening your pitchforks
+
+00:02:26.980 --> 00:02:31.618
+and demanding that AMD's executives be turned into thermal paste or something,
+
+00:02:31.618 --> 00:02:36.022
+it's worth noting that most of our chips were within a few percentage points of each other,
+
+00:02:36.022 --> 00:02:41.427
+even in CSGO at 1440p, which was the test that saw the greatest overall spread.
+
+00:02:41.427 --> 00:02:45.899
+Also, when we expand our comparison to include our full suite of games,
+
+00:02:45.899 --> 00:02:50.570
+that maximum difference falls to around 2.5%.
+
+00:02:50.570 --> 00:02:55.308
+Far less outrageous, so you don't really have to worry about Buddy in front of you in line
+
+00:02:55.308 --> 00:02:58.211
+getting a way better gaming experience for the same price,
+
+00:02:58.211 --> 00:03:03.983
+but still too big for us to buy any two random 7800X 3Ds,
+
+00:03:03.983 --> 00:03:07.220
+use them to test two different GPUs in parallel,
+
+00:03:07.220 --> 00:03:10.690
+and then say, well, these results should be comparable.
+
+00:03:10.690 --> 00:03:13.760
+Now, the obvious conclusion at this point then is,
+
+00:03:13.760 --> 00:03:16.896
+guys, there's something wrong with your CSGO test.
+
+00:03:16.896 --> 00:03:18.798
+I think it's time to get good,
+
+00:03:18.798 --> 00:03:22.101
+but the thing is, there aren't a lot of variables here,
+
+00:03:22.101 --> 00:03:23.703
+and that's by design.
+
+00:03:23.703 --> 00:03:28.975
+We used the same motherboard, same memory, same Windows drive and install.
+
+00:03:28.975 --> 00:03:31.711
+We even tested using phase change thermal pads
+
+00:03:31.711 --> 00:03:34.547
+to ensure that our paste application wasn't an issue,
+
+00:03:34.547 --> 00:03:38.785
+and we chucked our bench in the thermal chamber just for good measure.
+
+00:03:38.785 --> 00:03:41.187
+We are very confident that our numbers are valid,
+
+00:03:41.187 --> 00:03:43.723
+and we're gonna have the process doc linked in the video description
+
+00:03:43.723 --> 00:03:45.425
+if you wanna have a look,
+
+00:03:45.425 --> 00:03:46.759
+which is all fine and good,
+
+00:03:46.759 --> 00:03:50.296
+but doesn't answer the much bigger question of
+
+00:03:50.296 --> 00:03:54.267
+why do these CPUs vary so much in the first place?
+
+00:03:54.267 --> 00:03:57.971
+AMD gave them the same model number and specifications,
+
+00:03:57.971 --> 00:03:59.973
+AMD charges the same price,
+
+00:03:59.973 --> 00:04:02.775
+so they should have the same performance, right?
+
+00:04:02.775 --> 00:04:06.212
+Well, back in the day that was true,
+
+00:04:06.212 --> 00:04:08.348
+CPUs would run at their rated speed,
+
+00:04:08.348 --> 00:04:11.017
+and if they didn't, it meant they were either broken
+
+00:04:11.017 --> 00:04:13.019
+or they were about to be,
+
+00:04:13.019 --> 00:04:15.255
+but thanks to a relatively recent innovation
+
+00:04:15.255 --> 00:04:17.657
+called dynamic frequency scaling,
+
+00:04:17.657 --> 00:04:19.492
+that's no longer the case.
+
+00:04:19.492 --> 00:04:22.428
+You see, no two pieces of silicon are the same,
+
+00:04:22.428 --> 00:04:25.732
+and whether it's through rolling improvements to manufacturing
+
+00:04:25.732 --> 00:04:27.734
+or just sheer blind luck,
+
+00:04:27.734 --> 00:04:30.036
+you can end up with a processor that is capable of
+
+00:04:30.036 --> 00:04:32.839
+better than the advertised clock speed.
+
+00:04:32.839 --> 00:04:33.940
+Now, in the old days,
+
+00:04:33.940 --> 00:04:38.311
+you could unlock this extra performance manually through overclocking,
+
+00:04:38.311 --> 00:04:42.615
+but nowadays processors just adjust their own speeds,
+
+00:04:42.615 --> 00:04:45.985
+and they do it on the fly based on a whole host of factors,
+
+00:04:45.985 --> 00:04:50.256
+including user configurable power profiles and thermal limits.
+
+00:04:50.256 --> 00:04:53.159
+AMD's approach is to allow the CPU to clock
+
+00:04:53.159 --> 00:04:56.362
+as high as it's able until the CPU die average
+
+00:04:56.362 --> 00:04:58.698
+reaches about 90 degrees Celsius,
+
+00:04:58.698 --> 00:05:00.833
+at which point the clocks will be dialed back
+
+00:05:00.833 --> 00:05:02.602
+until it reaches equilibrium.
+
+00:05:02.602 --> 00:05:03.836
+Sounds good, right?
+
+00:05:03.836 --> 00:05:07.307
+I mean, why be bound by some artificial performance limiter
+
+00:05:07.307 --> 00:05:10.910
+when I got a golden chip that can go higher?
+
+00:05:10.910 --> 00:05:13.079
+And I actually agree,
+
+00:05:13.079 --> 00:05:15.748
+but for the folks who end up with a lesser chip,
+
+00:05:15.748 --> 00:05:17.717
+can feel a little bit like missing out,
+
+00:05:17.717 --> 00:05:21.154
+even if AMD is careful to only guarantee clock speeds
+
+00:05:21.154 --> 00:05:24.257
+that 100% of the chips can hit.
+
+00:05:24.257 --> 00:05:25.958
+And as I mentioned before,
+
+00:05:25.958 --> 00:05:30.463
+it's also very inconvenient for our parallel testing endeavors.
+
+00:05:30.463 --> 00:05:31.998
+So what do we do?
+
+00:05:31.998 --> 00:05:33.032
+Testing.
+
+00:05:33.032 --> 00:05:34.500
+Lots of it.
+
+00:05:34.500 --> 00:05:37.236
+After throwing Cinebench at our very first CPU,
+
+00:05:38.071 --> 00:05:39.872
+we ran into our very first roadblock.
+
+00:05:39.872 --> 00:05:42.575
+The numbers from run to run can be vastly different.
+
+00:05:42.575 --> 00:05:45.111
+I am talking 300 point spreads
+
+00:05:45.111 --> 00:05:48.348
+on a single CPU run back to back.
+
+00:05:48.348 --> 00:05:49.949
+What the heck, right?
+
+00:05:49.949 --> 00:05:52.585
+How on earth are we supposed to narrow down
+
+00:05:52.585 --> 00:05:55.755
+which two CPUs are within 1% of each other
+
+00:05:55.755 --> 00:06:00.460
+if one CPU isn't within 1% of itself?
+
+00:06:00.460 --> 00:06:03.196
+As it turns out, software was the culprit
+
+00:06:03.196 --> 00:06:06.699
+and software is notoriously hard to account for.
+
+00:06:06.699 --> 00:06:08.534
+Have you ever opened up task manager
+
+00:06:08.534 --> 00:06:10.236
+right when you boot up your system?
+
+00:06:10.236 --> 00:06:11.704
+There's no programs running,
+
+00:06:11.704 --> 00:06:14.874
+nothing should be happening except wrong.
+
+00:06:14.874 --> 00:06:16.275
+What was that?
+
+00:06:16.275 --> 00:06:17.410
+Here's the thing.
+
+00:06:17.410 --> 00:06:18.911
+Even when you're doing nothing,
+
+00:06:18.911 --> 00:06:21.080
+your operating system is busy managing
+
+00:06:21.080 --> 00:06:22.715
+all the behind the scenes work
+
+00:06:22.715 --> 00:06:23.750
+that keeps your system running,
+
+00:06:23.750 --> 00:06:25.385
+like updating the weather widget,
+
+00:06:25.385 --> 00:06:27.787
+synchronizing the clock with a trusted time server,
+
+00:06:27.787 --> 00:06:29.789
+prepping the next thing it thinks you might need,
+
+00:06:29.789 --> 00:06:33.760
+installing updates and so much more.
+
+00:06:33.760 --> 00:06:36.496
+And we don't really get to decide
+
+00:06:37.263 --> 00:06:38.097
+when that stuff happens,
+
+00:06:38.097 --> 00:06:40.066
+which means that no one result
+
+00:06:40.066 --> 00:06:43.102
+can ever be taken as gospel truth.
+
+00:06:43.102 --> 00:06:45.471
+We do have custom Windows images
+
+00:06:45.471 --> 00:06:47.673
+that are intentionally debloated
+
+00:06:47.673 --> 00:06:50.810
+to remove some startup processes to help with this,
+
+00:06:50.810 --> 00:06:53.346
+but it only partially mitigates the issue
+
+00:06:53.346 --> 00:06:55.181
+and it introduces new ones,
+
+00:06:55.181 --> 00:06:58.151
+like making our results slightly less representative
+
+00:06:58.151 --> 00:06:59.585
+of the typical user.
+
+00:06:59.585 --> 00:07:01.354
+We feel this trade-off is worthwhile
+
+00:07:01.354 --> 00:07:03.256
+because it helps us to better isolate
+
+00:07:03.256 --> 00:07:04.690
+our variables in testing,
+
+00:07:04.690 --> 00:07:06.492
+but it's not even enough.
+
+00:07:06.492 --> 00:07:08.628
+To further mitigate the amount of work
+
+00:07:08.628 --> 00:07:10.430
+that Windows is doing in the background,
+
+00:07:10.430 --> 00:07:13.933
+we can also increase a process's priority.
+
+00:07:13.933 --> 00:07:16.402
+In Cinebench, we went from seeing points
+
+00:07:16.402 --> 00:07:20.339
+varying in the hundreds down to the tens on the same CPU.
+
+00:07:20.339 --> 00:07:21.674
+That's a big improvement
+
+00:07:21.674 --> 00:07:24.544
+and enough to use Cinebench for our binning process,
+
+00:07:24.544 --> 00:07:27.313
+but we're not out of the woods yet.
+
+00:07:27.313 --> 00:07:29.115
+You see, with some tests,
+
+00:07:29.115 --> 00:07:31.250
+it's not enough to use the same hardware
+
+00:07:31.250 --> 00:07:32.952
+at the same process priority
+
+00:07:32.952 --> 00:07:35.221
+because the benchmarks themselves
+
+00:07:35.221 --> 00:07:37.790
+have built-in inconsistencies.
+
+00:07:37.790 --> 00:07:39.892
+Red Dead Redemption 2, for example,
+
+00:07:39.892 --> 00:07:44.497
+simulates physics and AI behavior during a bench run.
+
+00:07:44.497 --> 00:07:45.898
+That's a really good thing
+
+00:07:45.898 --> 00:07:47.633
+because if that stuff was canned,
+
+00:07:47.633 --> 00:07:49.602
+our results would not be comparable
+
+00:07:49.602 --> 00:07:51.838
+to actually playing the game.
+
+00:07:51.838 --> 00:07:53.573
+But the bad news is it means
+
+00:07:53.573 --> 00:07:55.775
+that sometimes Arthur loses his hat,
+
+00:07:55.775 --> 00:07:56.876
+sometimes he doesn't,
+
+00:07:56.876 --> 00:07:58.611
+sometimes the horse gets shot,
+
+00:07:58.611 --> 00:07:59.912
+sometimes it doesn't,
+
+00:07:59.979 --> 00:08:03.583
+which can impact our run-to-run consistency.
+
+00:08:03.583 --> 00:08:05.685
+Can we ever fully account for this?
+
+00:08:05.685 --> 00:08:07.053
+Unfortunately not,
+
+00:08:07.053 --> 00:08:09.655
+but by running each test multiple times
+
+00:08:09.655 --> 00:08:11.057
+and then taking an average,
+
+00:08:11.057 --> 00:08:13.159
+we can get a pretty good picture
+
+00:08:13.159 --> 00:08:16.162
+and we can bake that expectation of noise
+
+00:08:16.162 --> 00:08:18.431
+into our data analysis,
+
+00:08:18.431 --> 00:08:20.500
+which finally happens now.
+
+00:08:20.500 --> 00:08:22.235
+Sorry for all the preamble.
+
+00:08:22.235 --> 00:08:23.736
+First up, gaming.
+
+00:08:23.736 --> 00:08:25.004
+For the sake of legibility,
+
+00:08:25.004 --> 00:08:27.440
+we named each of our samples after a Pokemon.
+
+00:08:27.440 --> 00:08:29.141
+Why Pokemon?
+
+00:08:29.141 --> 00:08:29.976
+I don't know,
+
+00:08:29.976 --> 00:08:32.078
+because it seemed better than deadly diseases.
+
+00:08:32.078 --> 00:08:34.614
+Anywho, looking at the geometric mean
+
+00:08:34.614 --> 00:08:35.615
+of our gaming results,
+
+00:08:35.615 --> 00:08:40.353
+we found a 2.07% spread in average frames per second
+
+00:08:40.353 --> 00:08:42.088
+between the best performing
+
+00:08:42.088 --> 00:08:44.257
+and the worst performing CPUs
+
+00:08:44.257 --> 00:08:48.394
+and a 2.46% spread in our 1% lows.
+
+00:08:48.394 --> 00:08:51.764
+This puts all but one of our CPU samples
+
+00:08:51.764 --> 00:08:54.800
+within three frames per second of each other,
+
+00:08:54.800 --> 00:08:56.435
+which gives us confidence
+
+00:08:56.435 --> 00:08:59.338
+that we'll be able to find some close enough CPUs,
+
+00:08:59.338 --> 00:09:04.243
+but given that 2.46% isn't 1%,
+
+00:09:04.243 --> 00:09:05.077
+it also tells us
+
+00:09:05.077 --> 00:09:08.481
+that we can't just pull any three chips at random,
+
+00:09:08.481 --> 00:09:11.751
+nor can we simply look at the average.
+
+00:09:11.751 --> 00:09:13.219
+Returnal, for instance,
+
+00:09:13.219 --> 00:09:15.021
+is a benchmarker's dream
+
+00:09:15.021 --> 00:09:17.590
+because A, it's actually a good game
+
+00:09:17.590 --> 00:09:18.891
+that people might want to play,
+
+00:09:18.891 --> 00:09:22.695
+and B, it is a stunningly consistent benchmark,
+
+00:09:22.695 --> 00:09:24.530
+which is great for producing results
+
+00:09:24.530 --> 00:09:28.000
+that we can trust when we're comparing GPUs.
+
+00:09:28.000 --> 00:09:31.837
+But the real world is a lot messier than Returnal,
+
+00:09:31.837 --> 00:09:34.106
+and while most of our other games,
+
+00:09:34.106 --> 00:09:36.709
+both at 1440p and 1080p,
+
+00:09:36.709 --> 00:09:39.579
+showed a similar small level of variance
+
+00:09:39.579 --> 00:09:41.113
+in CPU performance,
+
+00:09:41.113 --> 00:09:42.515
+in a couple of games,
+
+00:09:42.515 --> 00:09:45.551
+notably Total War, Warhammer III, and Cyberpunk,
+
+00:09:45.551 --> 00:09:49.088
+we found larger variance in the 1% lows.
+
+00:09:49.088 --> 00:09:51.157
+This indicates that, as run,
+
+00:09:51.157 --> 00:09:53.893
+these games are more CPU bottlenecked,
+
+00:09:53.893 --> 00:09:57.530
+which better reveals the deficiencies of our worst chips,
+
+00:09:57.530 --> 00:09:59.031
+but as you're about to see,
+
+00:09:59.031 --> 00:10:04.036
+not all CPU-bound games are bound in the same ways.
+
+00:10:04.303 --> 00:10:06.339
+We went into this process thinking,
+
+00:10:06.339 --> 00:10:11.210
+ah, CSGO, what a classic CPU gaming benchmark.
+
+00:10:11.210 --> 00:10:14.280
+It's a shame that it's been replaced by CS2,
+
+00:10:14.280 --> 00:10:15.881
+and we came out of it thinking,
+
+00:10:15.881 --> 00:10:19.251
+ah, CS good riddance.
+
+00:10:19.251 --> 00:10:20.319
+I mean, on the one hand,
+
+00:10:20.319 --> 00:10:23.255
+it does certainly separate the CPUs from each other
+
+00:10:23.255 --> 00:10:25.791
+and our slowest chip, Corsola,
+
+00:10:25.791 --> 00:10:29.295
+was the slowest-est in CSGO.
+
+00:10:29.295 --> 00:10:30.363
+But on the other hand,
+
+00:10:30.363 --> 00:10:33.399
+the overall variance is so high
+
+00:10:33.399 --> 00:10:37.336
+and so different from the entire rest of our test suite
+
+00:10:37.336 --> 00:10:40.239
+that it becomes almost an outlier data point,
+
+00:10:40.239 --> 00:10:43.376
+having an outsized impact on our results.
+
+00:10:43.376 --> 00:10:45.778
+And this could be for a number of reasons.
+
+00:10:45.778 --> 00:10:49.982
+First, CSGO uses a game engine that is older than YouTube,
+
+00:10:49.982 --> 00:10:52.218
+which has been useful over the years
+
+00:10:52.218 --> 00:10:56.088
+since it was originally built just for single-core CPUs,
+
+00:10:56.088 --> 00:10:58.124
+and it can make use of just about
+
+00:10:58.124 --> 00:11:01.160
+all the single-threaded performance that you can give it.
+
+00:11:01.160 --> 00:11:04.296
+But it also means that its performance requirements
+
+00:11:04.296 --> 00:11:07.099
+just aren't very similar to more modern games
+
+00:11:07.099 --> 00:11:09.902
+that are gonna wanna see a number of fast cores
+
+00:11:09.902 --> 00:11:12.338
+rather than just one or two.
+
+00:11:12.338 --> 00:11:16.175
+Second, CSGO itself is also old,
+
+00:11:16.175 --> 00:11:19.979
+old enough that any modern gaming CPU can run it so fast
+
+00:11:19.979 --> 00:11:22.248
+that no professional esports gamer even
+
+00:11:22.248 --> 00:11:24.283
+could tell the difference anyway,
+
+00:11:24.283 --> 00:11:28.354
+and so fast that limitations in the software itself
+
+00:11:28.354 --> 00:11:30.022
+can start to rear their ugly heads,
+
+00:11:30.022 --> 00:11:32.324
+which adds potential variables.
+
+00:11:32.324 --> 00:11:35.795
+Basically, CSGO is having its Quake III arena moment.
+
+00:11:35.795 --> 00:11:39.031
+After a long run, it's time to drop it.
+
+00:11:39.031 --> 00:11:42.034
+And when we reviewed the overall variance numbers
+
+00:11:42.034 --> 00:11:44.770
+without CSGO, it shows just how much
+
+00:11:44.770 --> 00:11:47.940
+of an outsized influence that it had on our results.
+
+00:11:47.940 --> 00:11:50.042
+The new results show far less variance,
+
+00:11:50.042 --> 00:11:53.913
+closing the spread to just 0.46% and 1.43%
+
+00:11:53.913 --> 00:11:56.682
+for the average and 1% lows respectively,
+
+00:11:56.682 --> 00:12:00.152
+which is somewhat reassuring for you, the consumer,
+
+00:12:00.152 --> 00:12:03.222
+but still doesn't change that our runaway loser,
+
+00:12:03.222 --> 00:12:06.192
+Corsola, is still a dud.
+
+00:12:06.192 --> 00:12:09.495
+Corsola consistently underperformed the rest of the chips
+
+00:12:09.495 --> 00:12:13.032
+by so much that when we remove it from our results,
+
+00:12:13.032 --> 00:12:16.736
+our overall spread and performance goes from 1.43%
+
+00:12:16.736 --> 00:12:20.039
+in our lows to 0.86%.
+
+00:12:20.039 --> 00:12:22.475
+That is a massive decrease.
+
+00:12:22.475 --> 00:12:25.644
+So what the heck is wrong with this thing?
+
+00:12:25.644 --> 00:12:27.980
+We don't know for sure, but one guess
+
+00:12:27.980 --> 00:12:30.082
+is that the 3D vCache on this chip
+
+00:12:30.082 --> 00:12:31.517
+could be struggling some way
+
+00:12:31.517 --> 00:12:34.820
+because it fumbles pretty hard in our Factorio test
+
+00:12:34.820 --> 00:12:37.289
+where most of the benchmark can actually fit
+
+00:12:37.289 --> 00:12:39.325
+on that 3D vCache.
+
+00:12:39.325 --> 00:12:42.495
+Another possibility is that it could be the PCIe controller,
+
+00:12:42.495 --> 00:12:45.698
+the part of the CPU that communicates with our PCIe lanes
+
+00:12:45.698 --> 00:12:48.200
+and consequently our GPU.
+
+00:12:48.200 --> 00:12:49.702
+This idea comes from the fact
+
+00:12:49.702 --> 00:12:52.171
+that when it comes to productivity performance,
+
+00:12:52.171 --> 00:12:54.740
+sure, it still ain't top of the class,
+
+00:12:54.740 --> 00:12:57.143
+but it isn't flunking like it used to.
+
+00:12:57.143 --> 00:13:00.112
+Speaking of, we actually found greater variance
+
+00:13:00.112 --> 00:13:02.782
+between our chips in our productivity tests,
+
+00:13:02.782 --> 00:13:07.019
+which kind of makes sense since we no longer have the GPU
+
+00:13:07.019 --> 00:13:10.089
+getting in the way of raw CPU performance.
+
+00:13:10.089 --> 00:13:13.259
+7-Zip brought us a spread of around 3-4%
+
+00:13:13.259 --> 00:13:14.927
+for compression and decompression
+
+00:13:14.927 --> 00:13:17.496
+and Blender hovers in the same realm
+
+00:13:17.496 --> 00:13:20.833
+along with our video and audio encoding suites.
+
+00:13:20.833 --> 00:13:22.935
+The biggest contributor to the size of the spread
+
+00:13:22.935 --> 00:13:24.937
+of our sample though is Lugia,
+
+00:13:24.937 --> 00:13:26.472
+who takes up the bottom spot
+
+00:13:26.472 --> 00:13:29.642
+in pretty much every productivity benchmark.
+
+00:13:29.642 --> 00:13:31.443
+Since it wasn't so bad in gaming,
+
+00:13:31.443 --> 00:13:34.013
+this leads us to believe that perhaps there's a problem
+
+00:13:34.013 --> 00:13:35.981
+with the integrated heat spreader,
+
+00:13:35.981 --> 00:13:39.652
+but AMD has made that much more difficult to evaluate
+
+00:13:39.652 --> 00:13:41.053
+now that all of their CPUs
+
+00:13:41.053 --> 00:13:43.856
+just kind of run at the same temperature
+
+00:13:43.856 --> 00:13:45.524
+and then adjust their clock speeds
+
+00:13:45.524 --> 00:13:47.359
+to reach their thermal limit.
+
+00:13:47.359 --> 00:13:49.762
+So across our small sample,
+
+00:13:49.762 --> 00:13:53.499
+variance and performance is present, but not egregious.
+
+00:13:53.499 --> 00:13:56.035
+Of course, we aren't trying to quantify variance.
+
+00:13:56.035 --> 00:13:58.871
+What we're trying to find is equivalence.
+
+00:13:58.871 --> 00:14:00.639
+So how do we do that?
+
+00:14:00.639 --> 00:14:02.274
+It turned out to be a bit tricky.
+
+00:14:02.274 --> 00:14:04.176
+We ended up using Euclidean distance
+
+00:14:04.176 --> 00:14:07.213
+to determine which CPUs were the most similar,
+
+00:14:07.213 --> 00:14:09.481
+unconventional, but also kind of cool.
+
+00:14:09.481 --> 00:14:10.716
+Here's how it works.
+
+00:14:10.716 --> 00:14:12.351
+First, we scaled our data
+
+00:14:12.351 --> 00:14:14.653
+so that our five digit Cinebench scores
+
+00:14:14.653 --> 00:14:17.823
+don't overshadow those low flacking code numbers.
+
+00:14:17.823 --> 00:14:19.758
+Then we took those scaled numbers
+
+00:14:19.758 --> 00:14:21.760
+and treated each as a coordinate
+
+00:14:21.760 --> 00:14:24.396
+for a point in multidimensional space.
+
+00:14:24.396 --> 00:14:25.831
+Think about it kind of like this.
+
+00:14:25.831 --> 00:14:28.000
+If we took a plane and chose two points,
+
+00:14:28.000 --> 00:14:30.302
+those would each have an X and a Y coordinate.
+
+00:14:30.302 --> 00:14:32.137
+Well, the Euclidean distance
+
+00:14:32.137 --> 00:14:34.607
+is the distance between those two points.
+
+00:14:34.607 --> 00:14:36.208
+The closer together the points are,
+
+00:14:36.208 --> 00:14:37.443
+the more similar they are.
+
+00:14:37.443 --> 00:14:38.844
+And this can be applied for points
+
+00:14:38.844 --> 00:14:40.679
+that exist in any dimension.
+
+00:14:40.679 --> 00:14:43.682
+In our case, a 12 dimensional space for productivity
+
+00:14:43.682 --> 00:14:46.151
+and the 19th dimension for gaming.
+
+00:14:46.151 --> 00:14:48.721
+Since we're weighing all of our tests as equal,
+
+00:14:48.721 --> 00:14:50.222
+we can then do a bunch of comparisons
+
+00:14:50.222 --> 00:14:54.293
+to determine which CPUs are the most similar to one another.
+
+00:14:54.293 --> 00:14:57.763
+From that, four emerge as extremely comparable.
+
+00:14:57.763 --> 00:15:00.499
+EV, Mewtwo, Raiku, and Zapdos,
+
+00:15:00.499 --> 00:15:02.301
+with Zapdos being the least equivalent.
+
+00:15:02.301 --> 00:15:05.704
+So, sorry bro, just the other three.
+
+00:15:05.704 --> 00:15:09.508
+They are outside of our tolerance in CSGO.
+
+00:15:09.508 --> 00:15:11.210
+But the issue is that the CPUs
+
+00:15:11.210 --> 00:15:14.880
+that did perform identically in that one game
+
+00:15:14.880 --> 00:15:17.449
+were not the tightest across the rest of the suite,
+
+00:15:17.449 --> 00:15:20.085
+meaning that they can't really be trusted on games
+
+00:15:20.085 --> 00:15:23.656
+that, you know, you might actually be able to play.
+
+00:15:23.656 --> 00:15:25.858
+In conclusion, productivity saw these CPUs
+
+00:15:25.858 --> 00:15:29.261
+perform within roughly 0.24% of one another.
+
+00:15:29.261 --> 00:15:33.899
+And in gaming, we see a spread of 0.86% in the 1% lows
+
+00:15:33.899 --> 00:15:37.202
+and just 0.1% in average frame rates.
+
+00:15:37.202 --> 00:15:39.138
+Now that's tight.
+
+00:15:39.138 --> 00:15:40.773
+Tight enough, we figure that it will allow us
+
+00:15:40.773 --> 00:15:45.577
+to directly compare GPU results across our test benches.
+
+00:15:45.577 --> 00:15:48.080
+Wait, benches?
+
+00:15:48.080 --> 00:15:51.183
+Oh yeah, you see where I'm going with this.
+
+00:15:51.183 --> 00:15:53.819
+We found near identical CPUs,
+
+00:15:53.819 --> 00:15:55.988
+but what about the other components?
+
+00:15:55.988 --> 00:15:57.856
+Do they vary?
+
+00:15:57.856 --> 00:16:00.025
+Time for another round of testing.
+
+00:16:00.025 --> 00:16:02.861
+The main secondary performance contributors
+
+00:16:02.861 --> 00:16:04.263
+in your GPU test bench
+
+00:16:04.263 --> 00:16:06.532
+are going to be your motherboard and your RAM.
+
+00:16:06.532 --> 00:16:09.735
+But since those still run at fixed clock speeds,
+
+00:16:09.735 --> 00:16:12.471
+we're not expecting nearly as much variance.
+
+00:16:12.471 --> 00:16:15.841
+With RAM, for example, you set the speeds in your BIOS
+
+00:16:15.841 --> 00:16:19.511
+and then it's either capable or it's not,
+
+00:16:19.511 --> 00:16:22.982
+and your system is unstable and probably crashes.
+
+00:16:22.982 --> 00:16:25.551
+All of our testing is done at the recommended RAM speed
+
+00:16:25.551 --> 00:16:28.320
+from AMD, 6,000 megatransfers per second.
+
+00:16:28.320 --> 00:16:29.621
+And if you want to learn even more
+
+00:16:29.621 --> 00:16:31.123
+about how we test our hardware,
+
+00:16:31.123 --> 00:16:33.792
+we've got a recent exclusive over on floatplane.com
+
+00:16:33.792 --> 00:16:36.061
+where we have a feature length deep dive
+
+00:16:36.061 --> 00:16:37.463
+looking at the improvements we've made
+
+00:16:37.463 --> 00:16:39.031
+to our testing processes.
+
+00:16:39.031 --> 00:16:41.200
+Anyway, to validate our hypothesis,
+
+00:16:41.200 --> 00:16:44.503
+we took one of our future test CPUs, EV,
+
+00:16:44.503 --> 00:16:48.907
+and threw it into both of our new parallel benches.
+
+00:16:48.907 --> 00:16:53.579
+In gaming, we landed on 0.45% variance in the 1% lows
+
+00:16:53.579 --> 00:16:56.949
+and less than a 10th of a percent in average FPS.
+
+00:16:56.949 --> 00:16:59.184
+That is more than acceptable.
+
+00:16:59.184 --> 00:17:00.352
+And in productivity,
+
+00:17:00.352 --> 00:17:03.522
+we ended up in the 0.13% neighborhood.
+
+00:17:03.522 --> 00:17:06.558
+That means in our upcoming GPU reviews
+
+00:17:06.558 --> 00:17:08.994
+performed on these three parallel benches,
+
+00:17:08.994 --> 00:17:11.196
+we're gonna consider our results to be accurate
+
+00:17:11.196 --> 00:17:15.734
+within plus or minus about 0.25%.
+
+00:17:15.734 --> 00:17:18.570
+Of course, that doesn't mean that our results
+
+00:17:18.570 --> 00:17:22.307
+will be identical to your CPU or to other media.
+
+00:17:22.307 --> 00:17:23.942
+And this is one of the big reasons
+
+00:17:23.942 --> 00:17:25.878
+that we have always encouraged our viewers
+
+00:17:25.878 --> 00:17:28.147
+to look at reviews from multiple outlets
+
+00:17:28.147 --> 00:17:30.349
+whenever making a purchase decision.
+
+00:17:30.349 --> 00:17:32.051
+Oh, before you ask, by the way,
+
+00:17:32.051 --> 00:17:35.454
+there does not appear to be any foul play from AMD
+
+00:17:35.454 --> 00:17:37.990
+with respect to review sample selection.
+
+00:17:37.990 --> 00:17:41.193
+So you don't have to pick a reviewer, for example,
+
+00:17:41.193 --> 00:17:44.563
+that buys their own CPUs versus one that gets seeded.
+
+00:17:44.563 --> 00:17:46.331
+At least we don't think so.
+
+00:17:46.331 --> 00:17:49.034
+We'd have to buy hundreds of CPUs to know for sure,
+
+00:17:49.034 --> 00:17:52.671
+but it appears that the unit that was sent to us for review,
+
+00:17:52.671 --> 00:17:56.008
+which is Raiku, falls somewhere in the good
+
+00:17:56.008 --> 00:17:57.609
+but not exceptional range.
+
+00:17:57.609 --> 00:18:01.180
+So I think we can put that conspiracy theory to rest.
+
+00:18:02.114 --> 00:18:06.518
+Another before you ask is, yes, driver updates,
+
+00:18:06.518 --> 00:18:09.121
+operating system updates, and new software
+
+00:18:09.121 --> 00:18:10.689
+that we add to our test suite
+
+00:18:10.689 --> 00:18:13.959
+could change our CPU performance spread in the future.
+
+00:18:13.959 --> 00:18:16.562
+And we're gonna do our best to maintain our data integrity
+
+00:18:16.562 --> 00:18:18.097
+by performing periodic,
+
+00:18:18.097 --> 00:18:20.099
+what we're gonna call equivalence checks,
+
+00:18:20.099 --> 00:18:22.935
+because you guys have asked for reliable,
+
+00:18:22.935 --> 00:18:25.671
+trustworthy information, and you deserve it,
+
+00:18:25.671 --> 00:18:28.040
+which brings us to a big issue.
+
+00:18:28.073 --> 00:18:31.443
+Why is this task falling to random YouTubers?
+
+00:18:31.443 --> 00:18:33.612
+I mean, the automotive industry, for instance,
+
+00:18:33.612 --> 00:18:36.115
+has government bodies that are dedicated
+
+00:18:36.115 --> 00:18:38.350
+to verifying the performance of vehicles
+
+00:18:38.350 --> 00:18:41.653
+and ensuring that companies aren't cheating on their testing.
+
+00:18:41.653 --> 00:18:43.956
+Then they dole out big fines
+
+00:18:43.956 --> 00:18:46.992
+when they inevitably do cheat on their testing.
+
+00:18:46.992 --> 00:18:50.662
+With computer hardware, there's no such oversight.
+
+00:18:50.662 --> 00:18:55.634
+We and our peers are this thin, open-mouthed thumbnail
+
+00:18:56.101 --> 00:18:59.238
+line between you and getting ripped off.
+
+00:18:59.238 --> 00:19:00.939
+And that's a big problem.
+
+00:19:00.939 --> 00:19:03.175
+I mean, for one thing, we don't have access
+
+00:19:03.175 --> 00:19:06.512
+to the types of testing that large tech companies have,
+
+00:19:06.512 --> 00:19:08.780
+and we don't operate at the kind of scale
+
+00:19:08.780 --> 00:19:12.017
+where we can say for sure if an observation is a fluke
+
+00:19:12.017 --> 00:19:14.553
+or if it's the result of conniving suits
+
+00:19:14.553 --> 00:19:16.755
+that are trying to save a quick buck.
+
+00:19:16.755 --> 00:19:19.525
+Even buying 11 chips for this investigation,
+
+00:19:19.525 --> 00:19:21.927
+that was a huge investment from our side
+
+00:19:21.927 --> 00:19:23.462
+and not the sort of thing that we can do
+
+00:19:23.495 --> 00:19:26.131
+with every single review.
+
+00:19:26.131 --> 00:19:29.401
+Unfortunately, all I'm doing is ranting right now.
+
+00:19:29.401 --> 00:19:31.670
+I don't have a solution to this other than,
+
+00:19:31.670 --> 00:19:34.573
+well, we're gonna keep trying, gosh darn it.
+
+00:19:34.573 --> 00:19:37.576
+But it just struck us as we worked on this project
+
+00:19:37.576 --> 00:19:39.211
+that the fact that these companies
+
+00:19:39.211 --> 00:19:42.214
+don't have to report things like estimated performance
+
+00:19:42.214 --> 00:19:46.218
+in a regulated and standardized fashion is kind of crazy,
+
+00:19:46.218 --> 00:19:48.587
+especially if you consider the kind of money
+
+00:19:48.587 --> 00:19:52.524
+that they're asking for their most expensive CPUs.
+
+00:19:52.524 --> 00:19:55.260
+So what's next?
+
+00:19:55.260 --> 00:19:56.995
+Well, first is gonna be going through
+
+00:19:56.995 --> 00:20:00.732
+the exact same rigmarole with however many 4090s it takes
+
+00:20:00.732 --> 00:20:04.836
+to parallelize our CPU test platforms and then slowly,
+
+00:20:04.836 --> 00:20:07.639
+but surely we're gonna be improving our automations
+
+00:20:07.639 --> 00:20:09.508
+and increasing our test volume,
+
+00:20:09.508 --> 00:20:12.511
+especially once we get the lab's website up and running.
+
+00:20:12.511 --> 00:20:14.613
+But good things take time
+
+00:20:14.613 --> 00:20:18.350
+and we aren't going to rush a good thing.
+
+00:20:18.350 --> 00:20:22.621
+Especially, I'm not going to rush this segue
+
+00:20:22.621 --> 00:20:25.791
+to our sponsor.
+
+00:20:25.791 --> 00:20:28.060
+Delete.me, your personal information
+
+00:20:28.060 --> 00:20:30.362
+sounds like it should stay personal, right?
+
+00:20:30.362 --> 00:20:31.797
+I mean, it's right there in the name.
+
+00:20:31.797 --> 00:20:34.633
+Well, data brokers and other sketchy companies disagree.
+
+00:20:34.633 --> 00:20:36.401
+So they're sharing your data online
+
+00:20:36.401 --> 00:20:38.170
+like it's a family style dinner.
+
+00:20:38.170 --> 00:20:40.472
+Eat, eat your skin and bones
+
+00:20:40.472 --> 00:20:42.608
+is what they're saying to each other.
+
+00:20:42.608 --> 00:20:45.277
+Thankfully, Delete.me is here to crash the party.
+
+00:20:45.277 --> 00:20:47.079
+They'll find out who's spilling your info
+
+00:20:47.079 --> 00:20:49.848
+and get it removed so that scammers can't use it
+
+00:20:49.848 --> 00:20:52.618
+to batter you with robocalls and spam emails.
+
+00:20:52.618 --> 00:20:55.654
+Nevermind that it can also lead to fraud or identity theft
+
+00:20:55.654 --> 00:20:58.223
+because Delete.me can mind that for you.
+
+00:20:58.223 --> 00:21:02.094
+Now, wiping out data held by hundreds of sites by yourself
+
+00:21:02.094 --> 00:21:03.895
+sounds borderline impossible,
+
+00:21:03.895 --> 00:21:06.131
+which is why this whole time I've been trying to tell you
+
+00:21:06.131 --> 00:21:07.399
+that Delete.me can do it.
+
+00:21:07.399 --> 00:21:08.700
+You don't have to.
+
+00:21:08.700 --> 00:21:10.736
+Their nifty software and expert squad
+
+00:21:10.736 --> 00:21:13.005
+can sweep it away in minutes, not hours.
+
+00:21:13.005 --> 00:21:16.008
+Delete.me averages over 2000 pieces of personal data
+
+00:21:16.008 --> 00:21:18.377
+gone for a customer in their first two years.
+
+00:21:18.377 --> 00:21:20.712
+Yeah, go on Delete.me, get them.
+
+00:21:20.712 --> 00:21:23.048
+And you should get on over to the link below
+
+00:21:23.048 --> 00:21:26.151
+and use code LTT for a sweet 20% off.
+
+00:21:26.151 --> 00:21:27.352
+If you guys enjoyed this video,
+
+00:21:27.352 --> 00:21:30.656
+why not check out our motherboard turbo nerd edition video
+
+00:21:30.656 --> 00:21:33.058
+where we went into what exactly are all those little things
+
+00:21:33.058 --> 00:21:36.495
+that look like cities and towns on the PCB?
+

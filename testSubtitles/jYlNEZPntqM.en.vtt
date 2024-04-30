@@ -1,0 +1,1846 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.000
+Apple's latest Mac Pro is an embarrassment.
+
+00:00:03.000 --> 00:00:05.840
+It doesn't even have their latest gen M3 Silicon.
+
+00:00:05.840 --> 00:00:10.480
+It costs $3,400 more than a Mac Studio
+
+00:00:10.480 --> 00:00:12.440
+that has the exact same specs.
+
+00:00:12.440 --> 00:00:15.560
+And their prices on storage and RAM upgrades
+
+00:00:15.560 --> 00:00:17.920
+would seem to suggest that they're made out of gold
+
+00:00:17.920 --> 00:00:19.440
+rather than Silicon.
+
+00:00:19.440 --> 00:00:22.300
+The worst part though, it's not even that good.
+
+00:00:22.300 --> 00:00:23.220
+Yeah, here we go.
+
+00:00:23.220 --> 00:00:27.680
+Final scores, 3000 and change, 1900 and change.
+
+00:00:27.680 --> 00:00:30.960
+Wow, wow, 50% faster on CPU.
+
+00:00:30.960 --> 00:00:33.040
+But showing you all the results right away
+
+00:00:33.040 --> 00:00:35.300
+is no fun and not very helpful.
+
+00:00:35.300 --> 00:00:37.180
+So let's talk about our choices
+
+00:00:37.180 --> 00:00:41.120
+while we work together to build the PC Pro 2.
+
+00:00:41.120 --> 00:00:42.040
+Yeah, if you remember,
+
+00:00:42.040 --> 00:00:44.160
+this isn't the first time we've done this.
+
+00:00:44.160 --> 00:00:48.600
+And last time, the PC wasn't a clear winner,
+
+00:00:48.600 --> 00:00:51.080
+unlike our sponsor, MSI.
+
+00:00:51.080 --> 00:00:53.040
+If you don't have time to go through the process
+
+00:00:53.040 --> 00:00:55.640
+of picking out parts and building your own PC,
+
+00:00:55.640 --> 00:00:58.000
+MSI's Aegis RS Gaming Desktop
+
+00:00:58.000 --> 00:01:00.440
+comes pre-built with powerful components
+
+00:01:00.440 --> 00:01:02.440
+like a Wi-Fi 7 enabled motherboard,
+
+00:01:02.440 --> 00:01:05.880
+and it has the benefit of being easily upgradable.
+
+00:01:05.880 --> 00:01:07.860
+Check it out at the link down below.
+
+00:01:07.860 --> 00:01:08.700
+Right out of the gate,
+
+00:01:08.700 --> 00:01:11.800
+this PC Pro build is gonna be a bit more of a challenge.
+
+00:01:11.800 --> 00:01:16.800
+While our Mac Pro comes in at a whopping $11,800,
+
+00:01:17.480 --> 00:01:20.160
+the old one was like $30,000.
+
+00:01:20.160 --> 00:01:22.520
+So, bargain?
+
+00:01:22.520 --> 00:01:24.760
+Well, it all depends on what you're getting, right?
+
+00:01:24.800 --> 00:01:27.560
+There are two different M2 Ultras,
+
+00:01:27.560 --> 00:01:31.560
+one with 60 GPU cores and the other with 76.
+
+00:01:31.560 --> 00:01:32.440
+We've gone with the latter,
+
+00:01:32.440 --> 00:01:36.440
+meaning that that machine is as fast as it can be.
+
+00:01:36.440 --> 00:01:39.560
+Meanwhile, the PC Pro is getting something a little,
+
+00:01:39.560 --> 00:01:42.840
+I don't know, newer, faster, wider?
+
+00:01:42.840 --> 00:01:44.220
+How about all of the above?
+
+00:01:44.220 --> 00:01:46.800
+The AMD Threadripper 7970X
+
+00:01:46.800 --> 00:01:49.060
+features AMD's latest Zen 4 architecture
+
+00:01:49.060 --> 00:01:51.120
+with a monstrous 32 cores
+
+00:01:51.120 --> 00:01:53.200
+and a boost clock of 5.3 gigahertz,
+
+00:01:53.200 --> 00:01:56.640
+all while drawing 350 watts.
+
+00:01:56.640 --> 00:01:58.920
+And that's before you turn on PBO
+
+00:01:58.920 --> 00:02:00.880
+or precision boost overdrive.
+
+00:02:00.880 --> 00:02:01.720
+More on that later,
+
+00:02:01.720 --> 00:02:05.520
+but there's a potential drawback of our machine
+
+00:02:05.520 --> 00:02:06.520
+compared to that one.
+
+00:02:06.520 --> 00:02:08.840
+This isn't a top of the line Threadripper or anything.
+
+00:02:08.840 --> 00:02:09.920
+That would have cost us
+
+00:02:09.920 --> 00:02:12.440
+more than half of our budget by itself.
+
+00:02:12.440 --> 00:02:14.720
+But I'm still confident that this CPU
+
+00:02:14.720 --> 00:02:17.180
+is gonna have no issue.
+
+00:02:17.180 --> 00:02:19.040
+I'm still confident that this bad boy
+
+00:02:19.040 --> 00:02:21.800
+is gonna run circles around that thing.
+
+00:02:22.800 --> 00:02:26.080
+Now, unlike the Mac Pro with its soldered CPU,
+
+00:02:26.080 --> 00:02:28.800
+our chip needs a motherboard with a socket to go in,
+
+00:02:28.800 --> 00:02:32.000
+specifically the Gigabyte TRX50 Aero D.
+
+00:02:32.000 --> 00:02:34.160
+There's only a handful of TRX50 motherboards
+
+00:02:34.160 --> 00:02:35.080
+out there right now,
+
+00:02:35.080 --> 00:02:36.480
+and we settled on this one
+
+00:02:36.480 --> 00:02:39.800
+primarily due to the spacing of its PCI Express slots,
+
+00:02:39.800 --> 00:02:41.600
+which is gonna make a bit more sense later.
+
+00:02:41.600 --> 00:02:42.800
+It also, conveniently,
+
+00:02:42.800 --> 00:02:45.180
+is the least expensive TRX50 board
+
+00:02:45.180 --> 00:02:46.760
+while still including great features
+
+00:02:46.760 --> 00:02:49.640
+like dual high-speed LAN ports, Wi-Fi 7,
+
+00:02:49.640 --> 00:02:53.120
+and a whopping four quad-lane M.2 slots,
+
+00:02:53.120 --> 00:02:55.200
+three of which are PCIe Gen 5.
+
+00:02:55.200 --> 00:02:56.520
+Now, hold on a minute, Linus.
+
+00:02:56.520 --> 00:02:58.640
+This is regular Threadripper.
+
+00:02:58.640 --> 00:03:01.220
+How is this machine pro?
+
+00:03:01.220 --> 00:03:02.640
+That is a fair point.
+
+00:03:02.640 --> 00:03:04.840
+Compared to Threadripper Pro,
+
+00:03:04.840 --> 00:03:06.900
+we've got fewer PCIe lanes,
+
+00:03:06.900 --> 00:03:09.160
+so you can't connect as much stuff to it,
+
+00:03:09.160 --> 00:03:11.120
+and limited RAM capacity
+
+00:03:11.120 --> 00:03:13.800
+across half as many memory channels.
+
+00:03:13.800 --> 00:03:15.960
+But then I ask you this,
+
+00:03:15.960 --> 00:03:18.200
+how do we stack up to the competition?
+
+00:03:18.200 --> 00:03:21.440
+Compared even to this non-pro system,
+
+00:03:21.440 --> 00:03:25.400
+the Mac Pro has fewer PCIe lanes still,
+
+00:03:25.400 --> 00:03:27.380
+supports less RAM,
+
+00:03:27.380 --> 00:03:30.180
+has limited support for professional applications
+
+00:03:30.180 --> 00:03:32.560
+outside of video and photo,
+
+00:03:32.560 --> 00:03:35.340
+and doesn't support ECC memory at all.
+
+00:03:35.340 --> 00:03:37.180
+It does have faster memory,
+
+00:03:37.180 --> 00:03:40.220
+but we'll have to see how much of an advantage
+
+00:03:40.220 --> 00:03:41.540
+that's going to give it.
+
+00:03:41.540 --> 00:03:43.080
+Let's talk about memory.
+
+00:03:43.080 --> 00:03:46.040
+The base model Mac Pro comes with 64 gigabytes
+
+00:03:46.040 --> 00:03:47.800
+of unified memory,
+
+00:03:47.800 --> 00:03:50.720
+and unified memory is legitimately super cool.
+
+00:03:50.720 --> 00:03:53.560
+Apple RAM is directly on the SoC package,
+
+00:03:53.560 --> 00:03:56.440
+which increases bandwidth to both the CPU
+
+00:03:56.440 --> 00:03:58.400
+and the onboard GPU.
+
+00:03:58.400 --> 00:04:00.340
+Not only is it fast,
+
+00:04:00.340 --> 00:04:02.680
+but if the CPU completes a task
+
+00:04:02.680 --> 00:04:04.720
+and needs to hand it off to the GPU,
+
+00:04:04.720 --> 00:04:07.980
+that GPU has immediate access to it,
+
+00:04:07.980 --> 00:04:10.600
+rather than having to wait for it to be transferred
+
+00:04:10.600 --> 00:04:14.240
+between system memory and traditional GPU memory.
+
+00:04:14.240 --> 00:04:16.880
+Apple's RAM also supports dynamic caching,
+
+00:04:16.880 --> 00:04:20.480
+meaning that the CPU and GPU can partition
+
+00:04:20.480 --> 00:04:22.480
+the system memory dynamically
+
+00:04:22.480 --> 00:04:25.540
+to best complete their respective work.
+
+00:04:25.540 --> 00:04:28.040
+Or at least the M3 can.
+
+00:04:28.040 --> 00:04:31.940
+It sucks that this Mac Pro is still stuck with the M2.
+
+00:04:31.940 --> 00:04:35.600
+And what also sucks even more is the price.
+
+00:04:35.600 --> 00:04:39.420
+We added another 128 gigs to our config,
+
+00:04:39.420 --> 00:04:43.280
+which cost us 1600 US dollars.
+
+00:04:43.280 --> 00:04:46.840
+On the PC side, okay, sure, it's not unified,
+
+00:04:47.680 --> 00:04:50.760
+but boy, do we ever get a whole lot more for our money.
+
+00:04:50.760 --> 00:04:55.760
+I am talking double the capacity at 384 gigabytes.
+
+00:04:56.040 --> 00:04:59.160
+These are Micron's 96 gig,
+
+00:04:59.160 --> 00:05:01.760
+5600 megatransfer per second DIMMs.
+
+00:05:01.760 --> 00:05:03.160
+They're registered ECC,
+
+00:05:03.160 --> 00:05:06.600
+meaning they should be beautifully stable.
+
+00:05:06.600 --> 00:05:08.560
+And we're gonna fill all four slots here,
+
+00:05:08.560 --> 00:05:10.040
+maxing out our motherboard.
+
+00:05:10.040 --> 00:05:12.800
+It's kind of funny we ended up with exactly double the RAM
+
+00:05:12.800 --> 00:05:14.800
+because there was that clip that circulated
+
+00:05:14.840 --> 00:05:17.200
+of an Apple employee erroneously stating
+
+00:05:17.200 --> 00:05:18.720
+during an interview that-
+
+00:05:18.720 --> 00:05:22.880
+Eight gigabytes on an M3 MacBook Pro
+
+00:05:22.880 --> 00:05:26.680
+is probably analogous to 16 gigabytes on other systems.
+
+00:05:26.680 --> 00:05:29.640
+I guess that's why it costs twice as much.
+
+00:05:29.640 --> 00:05:32.000
+Another sore spot that Apple users have been complaining
+
+00:05:32.000 --> 00:05:35.580
+about more and more lately is storage pricing.
+
+00:05:35.580 --> 00:05:38.880
+To go from the stock one terabyte in that machine
+
+00:05:38.880 --> 00:05:42.400
+to eight terabytes will add $2,200 to your bill.
+
+00:05:42.520 --> 00:05:45.920
+$2,200.
+
+00:05:45.920 --> 00:05:49.280
+For that price, you could buy a whole other computer.
+
+00:05:49.280 --> 00:05:52.920
+You could buy one of every screwdriver on lttstore.com.
+
+00:05:52.920 --> 00:05:54.160
+Twice.
+
+00:05:54.160 --> 00:05:57.520
+Or you could do what we did and pick up two of these.
+
+00:05:57.520 --> 00:06:00.920
+The Cybert Rocket 4 Plus eight terabyte.
+
+00:06:00.920 --> 00:06:02.320
+Yeah, yeah, that's right.
+
+00:06:02.320 --> 00:06:03.640
+Twice as much storage.
+
+00:06:03.640 --> 00:06:06.720
+Hey, Apple, is your eight terabytes equivalent
+
+00:06:06.720 --> 00:06:08.600
+to our 16 terabytes?
+
+00:06:08.600 --> 00:06:10.960
+Is that a thing?
+
+00:06:10.960 --> 00:06:11.840
+We're gonna find out.
+
+00:06:11.840 --> 00:06:12.800
+Yeah, we sure will.
+
+00:06:12.800 --> 00:06:15.160
+Now, our board doesn't support M.2 RAID,
+
+00:06:15.160 --> 00:06:16.880
+so we weren't able to use these drives
+
+00:06:16.880 --> 00:06:18.360
+for redundancy or extra speed,
+
+00:06:18.360 --> 00:06:22.680
+but what we can do is just have double the capacity,
+
+00:06:22.680 --> 00:06:24.600
+whether it's for projects, videos, games,
+
+00:06:24.600 --> 00:06:25.940
+or whatever we want.
+
+00:06:25.940 --> 00:06:27.920
+One advantage for Apple, though, has been,
+
+00:06:27.920 --> 00:06:30.800
+and maybe always will be, sex appeal.
+
+00:06:30.800 --> 00:06:33.760
+I mean, look at this fine ass cheese grater.
+
+00:06:33.760 --> 00:06:35.880
+That's why people keep buying this thing.
+
+00:06:35.880 --> 00:06:39.800
+For us, we've gone with, well, it's fine.
+
+00:06:39.800 --> 00:06:42.000
+This is the Define 7 XL.
+
+00:06:42.000 --> 00:06:43.520
+It's not a new case by any means,
+
+00:06:43.520 --> 00:06:45.600
+but it's compatible with high-end hardware,
+
+00:06:45.600 --> 00:06:46.920
+fits lots of storage drives,
+
+00:06:46.920 --> 00:06:49.640
+and hopefully won't be too constricted
+
+00:06:49.640 --> 00:06:50.960
+when it comes to air flow.
+
+00:06:50.960 --> 00:06:53.480
+Worst case scenario, we'll drill some holes in the front,
+
+00:06:53.480 --> 00:06:55.440
+bring back that cheese grater aesthetic.
+
+00:07:04.000 --> 00:07:07.480
+For cooling, we've gone with an NZXT Kraken 360,
+
+00:07:07.480 --> 00:07:10.320
+because, well, we had mounting hardware,
+
+00:07:10.320 --> 00:07:12.240
+and with this triple radiator,
+
+00:07:12.240 --> 00:07:17.020
+it was able to handle our 32 CPU cores under full load,
+
+00:07:17.020 --> 00:07:19.200
+at least at their default speeds.
+
+00:07:19.200 --> 00:07:21.560
+The system does support overclocking,
+
+00:07:21.560 --> 00:07:24.160
+but it's really not something that we would recommend
+
+00:07:24.160 --> 00:07:28.760
+for a pro machine in a production environment, anyway.
+
+00:07:28.760 --> 00:07:30.980
+Now, while you watch this delightful little montage
+
+00:07:30.980 --> 00:07:32.000
+of our cooler being installed,
+
+00:07:32.000 --> 00:07:33.600
+I'd like you to think back to when I said
+
+00:07:33.600 --> 00:07:37.520
+this motherboard has the PCIe slot spacing we needed.
+
+00:07:37.520 --> 00:07:39.800
+That is because for our build,
+
+00:07:39.800 --> 00:07:41.720
+we're using not one, but two
+
+00:07:41.720 --> 00:07:45.940
+of MSI's RTX 4090 Supreme cards.
+
+00:07:45.940 --> 00:07:48.880
+Yes, my friends, Apple is what it took
+
+00:07:48.880 --> 00:07:51.520
+for NVIDIA's pricing to finally seem so reasonable
+
+00:07:51.520 --> 00:07:53.000
+that you can just put in two.
+
+00:07:53.880 --> 00:07:56.160
+However, there's a twist.
+
+00:07:56.160 --> 00:07:57.680
+The keen eye among you might've noticed
+
+00:07:57.680 --> 00:07:59.800
+that one of my cards is air-cooled,
+
+00:07:59.800 --> 00:08:02.320
+and one of them has water cooling.
+
+00:08:02.320 --> 00:08:04.680
+That, my friends, is because we couldn't find
+
+00:08:04.680 --> 00:08:07.560
+any combination of motherboard and case
+
+00:08:07.560 --> 00:08:11.400
+that could fit two air-cooled 4090s.
+
+00:08:11.400 --> 00:08:13.480
+And then, well, when we wanted two
+
+00:08:13.480 --> 00:08:15.280
+of the liquid-cooled ones, we found out,
+
+00:08:15.280 --> 00:08:18.640
+gosh, darn it, AI rushed in China.
+
+00:08:18.640 --> 00:08:20.960
+There's now a 4090 shortage.
+
+00:08:20.960 --> 00:08:24.300
+So we asked our trustworthy bro, Ryan,
+
+00:08:24.300 --> 00:08:25.900
+from the LTT Store support team
+
+00:08:25.900 --> 00:08:27.800
+if we could borrow his air-cooled variant,
+
+00:08:27.800 --> 00:08:31.360
+and we used our one remaining liquid-cooled variant.
+
+00:08:31.360 --> 00:08:33.480
+That way, we've got two of the same cards,
+
+00:08:33.480 --> 00:08:35.680
+but with slightly different hats.
+
+00:08:36.840 --> 00:08:39.080
+Now, since the shortage, prices for these
+
+00:08:39.080 --> 00:08:42.200
+have gone up a fair bit, but I still think
+
+00:08:42.200 --> 00:08:46.280
+we're gonna end up looking pretty good by comparison.
+
+00:08:48.360 --> 00:08:49.500
+Let me deal with that.
+
+00:08:52.780 --> 00:08:54.320
+Anyhoo, to power this mess,
+
+00:08:54.320 --> 00:08:57.920
+we went with the Silverstone Hela 2050R Platinum,
+
+00:08:57.920 --> 00:09:02.560
+or SST-HA2050R-PM for short.
+
+00:09:02.560 --> 00:09:06.880
+It costs a whopping $670,
+
+00:09:06.880 --> 00:09:09.120
+which only sounds like a bad deal
+
+00:09:09.120 --> 00:09:11.880
+until you compare it to the Mac Pro.
+
+00:09:11.880 --> 00:09:12.720
+Ah.
+
+00:09:14.440 --> 00:09:15.280
+Reasonable.
+
+00:09:16.240 --> 00:09:17.880
+Now that the build's done, all we gotta do
+
+00:09:17.880 --> 00:09:22.640
+is fire it up and run some benchmarks.
+
+00:09:22.640 --> 00:09:26.160
+Now, our final price, not that far off,
+
+00:09:26.160 --> 00:09:28.280
+but for fun, we're gonna include results
+
+00:09:28.280 --> 00:09:31.400
+with both GPUs as well as with only one GPU
+
+00:09:31.400 --> 00:09:33.620
+because a little bird told me,
+
+00:09:34.900 --> 00:09:37.720
+bird named Elijah, that it'll still win
+
+00:09:37.720 --> 00:09:39.800
+even with just one GPU.
+
+00:09:39.800 --> 00:09:40.800
+Yes.
+
+00:09:40.800 --> 00:09:41.800
+Good job, bird.
+
+00:09:41.800 --> 00:09:44.180
+Spoiler alert.
+
+00:09:44.180 --> 00:09:45.020
+I stuttered.
+
+00:09:45.020 --> 00:09:45.860
+I'm sorry.
+
+00:09:45.860 --> 00:09:46.680
+I fucked up the shot.
+
+00:09:47.720 --> 00:09:48.560
+No, I loved it.
+
+00:09:48.560 --> 00:09:49.600
+It was great.
+
+00:09:49.600 --> 00:09:51.320
+I had her to please cut around and make me look good.
+
+00:09:51.320 --> 00:09:52.880
+Can you please freeze frame?
+
+00:09:52.880 --> 00:09:54.680
+Cut around him.
+
+00:09:54.680 --> 00:09:55.640
+Put me on a beach.
+
+00:09:55.640 --> 00:09:56.480
+You know?
+
+00:09:56.480 --> 00:09:57.300
+Yeah, yeah, yeah, yeah.
+
+00:09:57.300 --> 00:09:58.140
+Like make me look good.
+
+00:09:58.140 --> 00:10:00.080
+Give him like a Tom Selleck mustache
+
+00:10:00.080 --> 00:10:03.560
+and like, you don't know who Tom Selleck is?
+
+00:10:03.560 --> 00:10:05.480
+He's the Seleckian one.
+
+00:10:05.480 --> 00:10:06.640
+What does that mean?
+
+00:10:06.640 --> 00:10:07.760
+Couldn't help noticing Elijah.
+
+00:10:07.760 --> 00:10:09.760
+We're off to a pretty bad start here.
+
+00:10:09.760 --> 00:10:11.960
+Our system didn't even boot up.
+
+00:10:11.960 --> 00:10:13.320
+Error code zero D.
+
+00:10:13.320 --> 00:10:15.440
+You think you've seen little PP energy?
+
+00:10:15.440 --> 00:10:17.720
+That's zero PP energy.
+
+00:10:17.720 --> 00:10:19.240
+And they're booted.
+
+00:10:19.240 --> 00:10:20.260
+Ah, finally.
+
+00:10:21.640 --> 00:10:22.480
+PCs.
+
+00:10:22.480 --> 00:10:23.320
+Yay.
+
+00:10:23.320 --> 00:10:24.480
+But which one's faster?
+
+00:10:25.240 --> 00:10:26.080
+Classroom.
+
+00:10:26.080 --> 00:10:26.900
+And go.
+
+00:10:26.900 --> 00:10:27.740
+Wait.
+
+00:10:27.740 --> 00:10:28.580
+That's, what?
+
+00:10:28.580 --> 00:10:29.400
+Is it F12?
+
+00:10:29.400 --> 00:10:30.240
+I don't know.
+
+00:10:30.240 --> 00:10:31.080
+I don't know.
+
+00:10:31.080 --> 00:10:31.900
+Is there a hotkey to render?
+
+00:10:31.900 --> 00:10:32.740
+Yeah.
+
+00:10:32.740 --> 00:10:34.080
+Oh, I didn't know that.
+
+00:10:34.080 --> 00:10:34.900
+It is F12.
+
+00:10:34.900 --> 00:10:35.740
+There you go.
+
+00:10:35.740 --> 00:10:36.560
+Go.
+
+00:10:36.560 --> 00:10:37.400
+I got a head start.
+
+00:10:37.400 --> 00:10:38.240
+F12 on a Mac.
+
+00:10:38.240 --> 00:10:39.060
+What is this?
+
+00:10:39.060 --> 00:10:40.560
+Command option F12.
+
+00:10:40.560 --> 00:10:41.400
+Oh, I don't know.
+
+00:10:41.400 --> 00:10:42.240
+I was just guessing.
+
+00:10:42.240 --> 00:10:43.060
+I give up.
+
+00:10:43.060 --> 00:10:43.900
+If anyone should have had the head start,
+
+00:10:43.900 --> 00:10:44.880
+it should have been you.
+
+00:10:44.880 --> 00:10:46.200
+Spoiler.
+
+00:10:46.200 --> 00:10:47.320
+Are you done?
+
+00:10:47.320 --> 00:10:48.320
+No, I.
+
+00:10:48.320 --> 00:10:49.760
+Oh, no, it's still going.
+
+00:10:49.760 --> 00:10:50.580
+Yes.
+
+00:10:50.580 --> 00:10:52.780
+I am going much faster than you though.
+
+00:10:52.780 --> 00:10:53.620
+Oh, wow.
+
+00:10:53.620 --> 00:10:55.180
+Yes, you are.
+
+00:10:55.180 --> 00:10:56.580
+All right, I finished.
+
+00:10:56.580 --> 00:10:58.620
+I'm not even halfway.
+
+00:10:58.620 --> 00:10:59.440
+You started late.
+
+00:10:59.440 --> 00:11:00.280
+You started late.
+
+00:11:00.280 --> 00:11:01.180
+Let's give it the benefit of the doubt.
+
+00:11:01.180 --> 00:11:03.180
+We'll let it heat up, catch up, you know.
+
+00:11:03.180 --> 00:11:05.140
+I started like five seconds after you.
+
+00:11:06.540 --> 00:11:07.380
+So quiet though.
+
+00:11:07.380 --> 00:11:09.100
+It sounds like it's barely doing anything.
+
+00:11:09.100 --> 00:11:10.700
+Wait.
+
+00:11:10.700 --> 00:11:12.100
+Since we're still waiting for the Mac anyway,
+
+00:11:12.100 --> 00:11:14.140
+why don't you run a GPU intensive test
+
+00:11:14.140 --> 00:11:15.020
+and see if they spin up?
+
+00:11:15.020 --> 00:11:15.860
+Yeah, sure.
+
+00:11:15.860 --> 00:11:16.680
+We'll run Cinebench.
+
+00:11:16.680 --> 00:11:18.400
+We'll see what it can, what results it can give us.
+
+00:11:18.400 --> 00:11:19.240
+Oh, you finished.
+
+00:11:19.240 --> 00:11:20.060
+Did I finish?
+
+00:11:20.060 --> 00:11:20.900
+Yeah.
+
+00:11:20.900 --> 00:11:21.740
+Total time.
+
+00:11:21.740 --> 00:11:23.820
+Oh, 246 was the end result.
+
+00:11:23.820 --> 00:11:25.020
+Yvonne's so proud of me.
+
+00:11:28.380 --> 00:11:29.620
+Here we go.
+
+00:11:29.620 --> 00:11:30.460
+Boom.
+
+00:11:30.460 --> 00:11:31.280
+It's starting.
+
+00:11:31.280 --> 00:11:33.380
+Oh, hey, you've got to run it on the Mac too.
+
+00:11:33.380 --> 00:11:34.300
+Sorry, sorry, sorry, sorry.
+
+00:11:34.300 --> 00:11:35.260
+GPU start.
+
+00:11:35.260 --> 00:11:36.580
+Hey, my fans are spinning.
+
+00:11:36.580 --> 00:11:38.140
+It's definitely louder.
+
+00:11:38.140 --> 00:11:38.980
+Is it?
+
+00:11:38.980 --> 00:11:39.800
+Yeah.
+
+00:11:39.800 --> 00:11:40.780
+No, I mean louder than the Mac.
+
+00:11:40.780 --> 00:11:42.680
+Like this thing is silent.
+
+00:11:42.680 --> 00:11:43.520
+Yeah.
+
+00:11:43.520 --> 00:11:44.980
+I mean, that's what happens when you hook a Raspberry Pi
+
+00:11:44.980 --> 00:11:46.280
+up to a heatsink this big.
+
+00:11:48.220 --> 00:11:49.060
+It's not a Raspberry Pi.
+
+00:11:49.060 --> 00:11:50.300
+It's a powerful computer.
+
+00:11:50.300 --> 00:11:51.260
+It's an Apple Pi.
+
+00:11:51.780 --> 00:11:52.620
+Yeah, don't feel bad.
+
+00:11:52.620 --> 00:11:54.540
+Your computer's really powerful.
+
+00:11:54.540 --> 00:11:55.380
+Good boy.
+
+00:11:56.940 --> 00:11:59.700
+Okay, this is rendered this multiple times.
+
+00:11:59.700 --> 00:12:02.520
+We're getting about 65,000 points, give or take.
+
+00:12:02.520 --> 00:12:04.940
+It's doing it over and over and over.
+
+00:12:04.940 --> 00:12:05.780
+Preparing?
+
+00:12:07.220 --> 00:12:09.100
+It hasn't even started.
+
+00:12:09.100 --> 00:12:11.220
+Let's just run it like four times.
+
+00:12:11.220 --> 00:12:13.940
+Remember the first gen when Apple was all,
+
+00:12:13.940 --> 00:12:18.180
+our GPU was like, mm, yeah, mm, mm, mm, mm, mm.
+
+00:12:18.180 --> 00:12:21.060
+And Nvidia's like, what are you even talking about?
+
+00:12:21.980 --> 00:12:24.780
+Okay, that was the 3090, if I recall correctly,
+
+00:12:24.780 --> 00:12:26.860
+not the 4090, but still.
+
+00:12:26.860 --> 00:12:28.860
+It has done this multiple times
+
+00:12:28.860 --> 00:12:30.540
+while it's trying to finish this one.
+
+00:12:30.540 --> 00:12:33.440
+It's kind of insane how it's just crushing it.
+
+00:12:34.340 --> 00:12:36.980
+There it goes, it finally finished one.
+
+00:12:36.980 --> 00:12:38.520
+9,500 points.
+
+00:12:40.900 --> 00:12:42.900
+We are over six times that.
+
+00:12:42.900 --> 00:12:44.700
+What was our difference in price?
+
+00:12:44.700 --> 00:12:46.180
+Give or take like a couple hundred bucks
+
+00:12:46.180 --> 00:12:47.820
+depending on sales of parts.
+
+00:12:48.460 --> 00:12:51.160
+But final cut, the ecosystem.
+
+00:12:51.160 --> 00:12:52.780
+I get my Windows phone back.
+
+00:12:52.780 --> 00:12:53.620
+Please bring it back.
+
+00:12:53.620 --> 00:12:55.500
+Dozens of people are so upset right now.
+
+00:12:56.700 --> 00:12:58.100
+Is the noise difference enough
+
+00:12:58.100 --> 00:13:00.060
+that you would prefer to buy the Mac over this?
+
+00:13:00.060 --> 00:13:02.060
+No, this is still a really quiet machine.
+
+00:13:02.980 --> 00:13:04.540
+We should put the side panel on in fairness though.
+
+00:13:04.540 --> 00:13:05.460
+Oh yeah.
+
+00:13:05.460 --> 00:13:08.500
+Apple's side panel game on fleek.
+
+00:13:08.500 --> 00:13:09.740
+Kids don't say that anymore.
+
+00:13:09.740 --> 00:13:11.080
+How would you know?
+
+00:13:11.080 --> 00:13:12.040
+You're old now.
+
+00:13:12.040 --> 00:13:14.260
+Let's do the CPU version of Cinebench first
+
+00:13:14.260 --> 00:13:16.820
+before we completely write this thing off though.
+
+00:13:16.820 --> 00:13:19.020
+And they're off, coming out of the gate strong.
+
+00:13:19.020 --> 00:13:20.100
+We've got nobody.
+
+00:13:20.100 --> 00:13:21.580
+Nobody is coming out of the gate strong.
+
+00:13:21.580 --> 00:13:22.660
+Whoa, hold on a second.
+
+00:13:22.660 --> 00:13:23.740
+This is actually closer?
+
+00:13:23.740 --> 00:13:25.180
+Yeah.
+
+00:13:25.180 --> 00:13:26.900
+This may be a competition.
+
+00:13:26.900 --> 00:13:27.740
+Oh, okay.
+
+00:13:27.740 --> 00:13:29.940
+Oh, PC Pro 2 is picking up speed.
+
+00:13:29.940 --> 00:13:32.180
+It's coming out ahead around the first turn.
+
+00:13:32.180 --> 00:13:33.180
+So I'm going to stop that now.
+
+00:13:33.180 --> 00:13:34.020
+Yeah, please do.
+
+00:13:34.020 --> 00:13:34.840
+Yeah.
+
+00:13:34.840 --> 00:13:37.620
+This one had like a moment where I thought, hey.
+
+00:13:37.620 --> 00:13:38.460
+Yeah.
+
+00:13:38.460 --> 00:13:39.280
+Hey.
+
+00:13:39.280 --> 00:13:40.120
+Yeah.
+
+00:13:40.120 --> 00:13:40.960
+No.
+
+00:13:40.960 --> 00:13:43.540
+Hey, yeah.
+
+00:13:43.540 --> 00:13:44.380
+What?
+
+00:13:44.380 --> 00:13:45.820
+Cause you said, hey, yeah, it's a song.
+
+00:13:45.820 --> 00:13:46.820
+Oh, I don't get it.
+
+00:13:48.700 --> 00:13:49.660
+Do we have scores yet?
+
+00:13:49.660 --> 00:13:50.980
+Yes.
+
+00:13:50.980 --> 00:13:52.860
+3,000, 2,000.
+
+00:13:54.280 --> 00:13:55.660
+Oh, this one's not even done still though.
+
+00:13:55.660 --> 00:13:57.100
+Oh, does it give preliminary scores?
+
+00:13:57.100 --> 00:13:59.340
+Yeah, I think it's estimating what it's going to be.
+
+00:13:59.340 --> 00:14:00.260
+Oh, okay, well.
+
+00:14:00.260 --> 00:14:01.360
+It's almost done it's,
+
+00:14:01.360 --> 00:14:03.220
+or it's like halfway done it's second one though.
+
+00:14:03.220 --> 00:14:04.820
+And this one's not done it's first.
+
+00:14:04.820 --> 00:14:06.700
+It took a bit to spool up.
+
+00:14:06.700 --> 00:14:07.820
+Yeah, here we go.
+
+00:14:07.820 --> 00:14:09.100
+Final scores.
+
+00:14:09.100 --> 00:14:11.820
+3,000 and change.
+
+00:14:11.820 --> 00:14:13.420
+1,900 and change.
+
+00:14:13.420 --> 00:14:14.340
+Wow.
+
+00:14:14.340 --> 00:14:15.180
+Wow.
+
+00:14:15.380 --> 00:14:16.940
+That's like 50% faster on CPU.
+
+00:14:16.940 --> 00:14:21.860
+Apple Silicon has been a huge win for them in mobile.
+
+00:14:21.860 --> 00:14:23.300
+Mac mini.
+
+00:14:23.300 --> 00:14:24.120
+Yeah.
+
+00:14:24.120 --> 00:14:24.980
+Super cool machine.
+
+00:14:24.980 --> 00:14:26.100
+The studio as well.
+
+00:14:26.100 --> 00:14:27.940
+Cause we're not, we're just dissing this one
+
+00:14:27.940 --> 00:14:30.780
+because it's the same spec, but it's like what?
+
+00:14:30.780 --> 00:14:32.140
+$3,400 we said.
+
+00:14:32.140 --> 00:14:35.420
+You're basically, you're paying $3,500 US
+
+00:14:35.420 --> 00:14:38.540
+for a fancy case and some PCIe slots.
+
+00:14:38.540 --> 00:14:40.580
+You don't even have expandable RAM in it anymore
+
+00:14:40.580 --> 00:14:41.660
+like you used to.
+
+00:14:41.660 --> 00:14:43.200
+And that's the problem.
+
+00:14:43.200 --> 00:14:45.640
+We like Silicon because of its efficiency.
+
+00:14:45.640 --> 00:14:46.460
+And you know.
+
+00:14:46.460 --> 00:14:47.300
+We love Silicon.
+
+00:14:48.200 --> 00:14:49.160
+Can't say that.
+
+00:14:49.160 --> 00:14:50.000
+Apple Silicon.
+
+00:14:50.000 --> 00:14:51.440
+Oh, we love Apple.
+
+00:14:51.440 --> 00:14:52.760
+Silicone.
+
+00:14:52.760 --> 00:14:53.600
+What?
+
+00:14:53.600 --> 00:14:55.120
+Nobody is talking about that.
+
+00:14:55.120 --> 00:14:56.080
+They're different.
+
+00:14:57.440 --> 00:14:58.640
+What?
+
+00:14:58.640 --> 00:14:59.780
+Silicon.
+
+00:14:59.780 --> 00:15:00.620
+Yeah.
+
+00:15:00.620 --> 00:15:01.640
+Is an element.
+
+00:15:01.640 --> 00:15:02.480
+Okay.
+
+00:15:02.480 --> 00:15:06.760
+Silicone is a compound that contains Silicon.
+
+00:15:06.760 --> 00:15:07.760
+So they're the same.
+
+00:15:07.760 --> 00:15:12.040
+No, that's like saying that water is the same as oxygen
+
+00:15:12.080 --> 00:15:13.720
+because there's oxygen in it.
+
+00:15:16.400 --> 00:15:18.240
+I understand now.
+
+00:15:18.240 --> 00:15:20.680
+We got there, ladies and gentlemen.
+
+00:15:20.680 --> 00:15:21.660
+For LOLs gaming?
+
+00:15:22.520 --> 00:15:23.360
+Sure.
+
+00:15:23.360 --> 00:15:24.180
+Let's play a game.
+
+00:15:24.180 --> 00:15:25.020
+So CS2.
+
+00:15:25.020 --> 00:15:26.240
+Counter-Strike 2 it is.
+
+00:15:26.240 --> 00:15:27.440
+Oh, it's going really fast.
+
+00:15:27.440 --> 00:15:28.760
+Yeah, it's pretty fast.
+
+00:15:28.760 --> 00:15:30.800
+How fast could you download the game?
+
+00:15:30.800 --> 00:15:32.560
+Delete it and reinstall it.
+
+00:15:32.560 --> 00:15:33.400
+All right.
+
+00:15:33.400 --> 00:15:34.220
+Manage.
+
+00:15:34.220 --> 00:15:35.060
+Uninstall.
+
+00:15:35.060 --> 00:15:35.880
+Here we go.
+
+00:15:35.880 --> 00:15:37.120
+1.5.
+
+00:15:37.120 --> 00:15:38.320
+1.6.
+
+00:15:38.320 --> 00:15:41.760
+Is the Mac gonna win the game download benchmark?
+
+00:15:42.680 --> 00:15:43.520
+Oh, did we beat it?
+
+00:15:43.520 --> 00:15:44.340
+Three.
+
+00:15:44.340 --> 00:15:45.180
+Yes, we passed it.
+
+00:15:45.180 --> 00:15:46.440
+Okay, we beat it for 3.1.
+
+00:15:46.440 --> 00:15:48.280
+One thing I will say that is a W though,
+
+00:15:48.280 --> 00:15:49.920
+that boots way faster.
+
+00:15:49.920 --> 00:15:50.760
+Yeah.
+
+00:15:50.760 --> 00:15:52.840
+That was a problem we had with the last Mac Pro Killer
+
+00:15:52.840 --> 00:15:55.080
+as well, was that one took a while to boot.
+
+00:15:55.080 --> 00:15:58.240
+Workstation platforms on PC tend to be
+
+00:16:00.400 --> 00:16:01.720
+poorly optimized.
+
+00:16:01.720 --> 00:16:04.620
+But hey, you can download games at 3.4 gigabit per second
+
+00:16:04.620 --> 00:16:05.840
+compared to 2.8.
+
+00:16:05.840 --> 00:16:08.320
+Wait, is Counter-Strike 2 not available for Mac?
+
+00:16:08.320 --> 00:16:09.140
+Did you check?
+
+00:16:09.140 --> 00:16:10.200
+It's not available for Mac.
+
+00:16:10.200 --> 00:16:11.880
+So it's trying to get you to launch it.
+
+00:16:11.880 --> 00:16:12.720
+Oh, for crying out loud.
+
+00:16:12.720 --> 00:16:13.560
+I didn't even realize that.
+
+00:16:13.560 --> 00:16:15.020
+Okay, Rocket League.
+
+00:16:15.020 --> 00:16:16.320
+Rocket League's not launching either.
+
+00:16:16.320 --> 00:16:17.400
+Are you sure this is?
+
+00:16:17.400 --> 00:16:19.360
+It doesn't work on the M Silicon.
+
+00:16:19.360 --> 00:16:20.960
+Okay, were you just trying to make a point
+
+00:16:20.960 --> 00:16:21.800
+that nothing works?
+
+00:16:21.800 --> 00:16:22.920
+Or were we supposed to compare these?
+
+00:16:22.920 --> 00:16:25.360
+I was trying to make a point that it's very difficult.
+
+00:16:25.360 --> 00:16:27.720
+There's very select games that, you know,
+
+00:16:27.720 --> 00:16:30.280
+you may or may not get to play the ones you want.
+
+00:16:30.280 --> 00:16:31.200
+Were you?
+
+00:16:31.200 --> 00:16:32.600
+Or did you think they worked?
+
+00:16:32.600 --> 00:16:34.720
+I totally was doing it on purpose.
+
+00:16:34.720 --> 00:16:36.600
+It is one of my favorite.
+
+00:16:36.600 --> 00:16:37.480
+Whoa.
+
+00:16:37.480 --> 00:16:39.000
+Sound Boomer enabled.
+
+00:16:39.040 --> 00:16:40.640
+Okay, very cute.
+
+00:16:40.640 --> 00:16:42.360
+Sound Boomer is not a real thing.
+
+00:16:43.440 --> 00:16:45.560
+What speaker is that?
+
+00:16:45.560 --> 00:16:49.240
+Is it just playing off the boom speaker?
+
+00:16:49.240 --> 00:16:50.600
+That sounds like it, eh?
+
+00:16:51.480 --> 00:16:52.560
+Is that a thing?
+
+00:16:52.560 --> 00:16:54.560
+I didn't know that was a thing it could do.
+
+00:16:54.560 --> 00:16:57.980
+Well, where's your PC Pro built-in speaker at?
+
+00:16:59.600 --> 00:17:00.440
+Hey, fine.
+
+00:17:00.440 --> 00:17:01.520
+I guess you got me on that one.
+
+00:17:01.520 --> 00:17:04.900
+All right, I don't have a speaker embedded in my computer.
+
+00:17:04.900 --> 00:17:08.360
+To be clear, Linux is a piece of...
+
+00:17:08.360 --> 00:17:10.280
+Windows is a piece of...
+
+00:17:10.280 --> 00:17:14.680
+So when I say macOS is also sometimes problematic,
+
+00:17:14.680 --> 00:17:15.680
+don't get upset.
+
+00:17:15.680 --> 00:17:18.040
+You know, why can't I type right now?
+
+00:17:18.040 --> 00:17:19.380
+You know, I'm clicking this box.
+
+00:17:19.380 --> 00:17:20.840
+I'm highlighting this text.
+
+00:17:21.840 --> 00:17:23.320
+It's not that my keyboard's not working.
+
+00:17:23.320 --> 00:17:24.240
+Oh, look, spotlight.
+
+00:17:24.240 --> 00:17:25.080
+Oh, good.
+
+00:17:25.080 --> 00:17:26.600
+Wait, I think I figured it out.
+
+00:17:26.600 --> 00:17:28.160
+Keystroke receiving.
+
+00:17:28.160 --> 00:17:32.760
+Dusk would like to receive keystrokes from any application.
+
+00:17:32.760 --> 00:17:34.440
+So like clicking?
+
+00:17:34.440 --> 00:17:35.280
+I don't.
+
+00:17:35.280 --> 00:17:36.560
+Is that what it's asking?
+
+00:17:36.560 --> 00:17:39.840
+So it wants access to the keyboard to play?
+
+00:17:39.840 --> 00:17:43.120
+I'm exhausted just trying to open one stupid game.
+
+00:17:43.120 --> 00:17:44.160
+Oh, wow.
+
+00:17:44.160 --> 00:17:46.680
+This mouse is really laggy.
+
+00:17:46.680 --> 00:17:48.280
+Imagine the bottom charging port
+
+00:17:48.280 --> 00:17:50.000
+not being the worst thing about it.
+
+00:17:52.480 --> 00:17:53.320
+Hey, wave two.
+
+00:17:53.320 --> 00:17:54.480
+Shotgun, let's go.
+
+00:17:54.480 --> 00:17:55.900
+I mean, it looks kind of smooth.
+
+00:17:55.900 --> 00:17:58.400
+I can't tell what you're feeling with the mouse though.
+
+00:17:58.400 --> 00:17:59.400
+Does it feel rubbery?
+
+00:17:59.400 --> 00:18:00.240
+Oh, no.
+
+00:18:00.240 --> 00:18:01.320
+Well, the mouse is terrible,
+
+00:18:01.320 --> 00:18:03.320
+but the actual game is fine.
+
+00:18:03.320 --> 00:18:04.160
+Okay.
+
+00:18:04.160 --> 00:18:05.160
+Yeah, it's running super smooth.
+
+00:18:05.160 --> 00:18:07.000
+Yeah, so why don't I have an FPS counter?
+
+00:18:07.000 --> 00:18:07.840
+Dumb question.
+
+00:18:07.840 --> 00:18:08.960
+Did it actually enable?
+
+00:18:08.960 --> 00:18:09.800
+I don't know.
+
+00:18:09.800 --> 00:18:10.620
+Okay, I'll tell you what.
+
+00:18:10.620 --> 00:18:12.800
+Elijah's gonna find at least one game
+
+00:18:12.800 --> 00:18:14.040
+that runs on both of them.
+
+00:18:14.040 --> 00:18:15.360
+We're gonna have a little graph right here,
+
+00:18:15.360 --> 00:18:18.080
+but spoiler alert, it's not gonna be pretty
+
+00:18:18.080 --> 00:18:20.880
+because the raw horsepower of the GPUs
+
+00:18:20.880 --> 00:18:23.200
+in the PC Pro 2 is vastly greater.
+
+00:18:23.200 --> 00:18:24.960
+And remember that in games,
+
+00:18:24.960 --> 00:18:27.600
+we aren't even able to make use of both of them
+
+00:18:27.600 --> 00:18:30.240
+because NVIDIA no longer supports NVLink
+
+00:18:30.240 --> 00:18:33.720
+or SLI at all for that matter on consumer cards.
+
+00:18:33.720 --> 00:18:34.560
+Jerks.
+
+00:18:35.280 --> 00:18:36.440
+Okay, Linus, we hear you.
+
+00:18:36.440 --> 00:18:39.120
+Apple is expensive and none of their products are good.
+
+00:18:39.120 --> 00:18:40.960
+But that's not what I'm saying.
+
+00:18:40.960 --> 00:18:42.040
+There are some arguments,
+
+00:18:42.040 --> 00:18:44.840
+strong arguments for many of Apple's products.
+
+00:18:44.840 --> 00:18:47.200
+There's the power and portability of the MacBook,
+
+00:18:47.200 --> 00:18:49.080
+the efficiency of the Mac Studio,
+
+00:18:49.080 --> 00:18:51.320
+or my personal favorite, the Mac Mini.
+
+00:18:51.320 --> 00:18:52.900
+That thing is a powerhouse.
+
+00:18:52.900 --> 00:18:54.680
+Or the convenience of AirPods,
+
+00:18:54.680 --> 00:18:57.080
+which I happen to daily drive.
+
+00:18:57.080 --> 00:19:00.640
+It's just that the Mac Pro is so bad
+
+00:19:00.640 --> 00:19:03.800
+that Apple will almost certainly can it,
+
+00:19:03.800 --> 00:19:07.560
+by which I don't mean turn it into a can again.
+
+00:19:07.560 --> 00:19:09.400
+I remember that.
+
+00:19:09.400 --> 00:19:10.600
+I mean, discontinue it.
+
+00:19:10.600 --> 00:19:12.400
+I mean, even Apple's most ardent defenders
+
+00:19:12.400 --> 00:19:14.880
+are starting to realize that Apple's pricing,
+
+00:19:14.880 --> 00:19:17.560
+especially with halo products like this,
+
+00:19:17.560 --> 00:19:19.760
+just doesn't make any sense anymore.
+
+00:19:19.760 --> 00:19:22.320
+If you search for the M2 Ultra Mac Pro,
+
+00:19:22.320 --> 00:19:25.720
+almost every article or video reaches the same conclusion.
+
+00:19:25.720 --> 00:19:27.480
+It's dumb.
+
+00:19:27.480 --> 00:19:29.820
+There are some things that it does do well.
+
+00:19:29.820 --> 00:19:31.520
+I mean, like the Mac Studio
+
+00:19:31.520 --> 00:19:33.320
+because it's the exact same machine.
+
+00:19:33.720 --> 00:19:35.720
+The single core performance was actually on par
+
+00:19:35.720 --> 00:19:38.440
+or even better than our PC Pro 2 sometimes.
+
+00:19:38.440 --> 00:19:40.320
+And its efficiency is outstanding.
+
+00:19:40.320 --> 00:19:41.720
+I think its overall power consumption
+
+00:19:41.720 --> 00:19:44.420
+is closer to one of these GPUs
+
+00:19:44.420 --> 00:19:46.520
+than it is to this entire system.
+
+00:19:46.520 --> 00:19:48.400
+But for the price of this thing,
+
+00:19:48.400 --> 00:19:50.560
+you can get a fully kitted out Mac Studio
+
+00:19:50.560 --> 00:19:52.240
+for your home office
+
+00:19:52.240 --> 00:19:54.360
+and still have enough money to buy a refurbished
+
+00:19:54.360 --> 00:19:58.800
+M2 Max MacBook Pro from Apple's certified refurbished store.
+
+00:19:58.800 --> 00:20:00.900
+Or if all that seems like a bad idea,
+
+00:20:00.900 --> 00:20:02.700
+you could buy this fancy Segway.
+
+00:20:03.960 --> 00:20:06.840
+Now with $700 reels to our sponsor.
+
+00:20:06.840 --> 00:20:08.040
+Ground News.
+
+00:20:08.040 --> 00:20:10.160
+They want to change how we engage with news
+
+00:20:10.160 --> 00:20:12.400
+by helping us better understand media bias
+
+00:20:12.400 --> 00:20:14.560
+and break free from it.
+
+00:20:14.560 --> 00:20:17.400
+Because while the internet has connected us more than ever,
+
+00:20:17.400 --> 00:20:19.840
+it's particularly good at connecting us to people
+
+00:20:19.840 --> 00:20:23.880
+and news stories that we happen to already agree with.
+
+00:20:23.880 --> 00:20:27.080
+Ground News solves this by analyzing thousands of articles
+
+00:20:27.080 --> 00:20:28.820
+and news sources each day,
+
+00:20:28.820 --> 00:20:30.600
+merging the coverage of same events
+
+00:20:30.640 --> 00:20:33.920
+to help paint a fuller picture of today's news.
+
+00:20:33.920 --> 00:20:36.480
+Every story on Ground News comes with this little bar
+
+00:20:36.480 --> 00:20:38.320
+that breaks down the political leanings
+
+00:20:38.320 --> 00:20:40.480
+of the outlets that are reporting on the story.
+
+00:20:40.480 --> 00:20:42.840
+For example, there was recently a cyber attack
+
+00:20:42.840 --> 00:20:45.480
+on a Pennsylvania state court agency.
+
+00:20:45.480 --> 00:20:47.120
+Outlets from one side of the spectrum
+
+00:20:47.120 --> 00:20:48.480
+reported on this story,
+
+00:20:48.480 --> 00:20:51.560
+but it received way less coverage on the other side.
+
+00:20:51.560 --> 00:20:52.720
+Wondering why?
+
+00:20:52.720 --> 00:20:55.160
+Well, Ground News lets you look into each outlet
+
+00:20:55.160 --> 00:20:56.920
+and dig into what topics they cover
+
+00:20:56.920 --> 00:21:00.160
+and what topics they don't and why.
+
+00:21:00.680 --> 00:21:02.120
+It's time we had a smarter way to read the news.
+
+00:21:02.120 --> 00:21:06.560
+So go to ground.news.linus or click the link down below
+
+00:21:06.560 --> 00:21:08.200
+and you can get 40% off
+
+00:21:08.200 --> 00:21:11.160
+their unlimited access vantage plan today.
+
+00:21:11.160 --> 00:21:12.400
+If you guys enjoyed this video,
+
+00:21:12.400 --> 00:21:14.240
+go back and watch the first time we did this.
+
+00:21:14.240 --> 00:21:17.040
+That one cost over $30,000
+
+00:21:17.040 --> 00:21:19.600
+and it actually wasn't even a clear winner.
+
+00:21:19.600 --> 00:21:21.080
+So, I don't know.
+
+00:21:21.080 --> 00:21:23.440
+Hey, at least Apple's cut the price since then.
+
