@@ -1,11 +1,12 @@
+
+# https://scikit-learn.org/stable/modules/feature_extraction.html
+# pip install -U scikit-learn
+import json
 import sqlite3
 import io
 from pathlib import Path
 import os
 import numpy as np
-# https://scikit-learn.org/stable/modules/feature_extraction.html
-import json
-# pip install -U scikit-learn
 import sklearn
 import pandas as pd
 from sklearn.svm import SVC
@@ -115,7 +116,9 @@ def Testing_processing():
 
     index = 0
     for d in descList:
-        BERT_Processing(d, labelList[index])
+        text = open(Path(d), encoding="utf8")
+        description = [text.read()]
+        BERT_Processing(description, labelList[index])
         index=index+1
 
     save("encoded_description", "BERT_testing_data.json")
