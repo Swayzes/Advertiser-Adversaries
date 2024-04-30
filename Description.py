@@ -8,6 +8,7 @@ from pathlib import Path
 import os
 import numpy as np
 import sklearn
+import torch
 import pandas as pd
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report, f1_score
@@ -99,7 +100,7 @@ def Training_processing():
         descList.append(desc_processing(d, 1))
 
     for d in descListNoAds:
-        descList.append(desc_processing(d, 0))
+        descList.append(desc_processing(d,0))
 
     for d in descList:
         # BoW_Processing(description)
@@ -109,16 +110,19 @@ def Training_processing():
     return
 
 def Testing_processing():
+    descList=[]
     cur.execute("SELECT Description_File_Path FROM DatasetTesting")
-    descList = cur.fetchall()
+    testList = cur.fetchall()
     cur.execute("SELECT Has_Sponsor FROM DatasetTesting")
     labelList = cur.fetchall()
 
+    for d in testList:
+        text = open(Path(d[0]), encoding="utf8")
+        descList.append([text.read()])
+
     index = 0
     for d in descList:
-        text = open(Path(d), encoding="utf8")
-        description = [text.read()]
-        BERT_Processing(description, labelList[index])
+        BERT_Processing(d, labelList[index][0])
         index=index+1
 
     save("encoded_description", "BERT_testing_data.json")
@@ -144,18 +148,23 @@ def SVM():
     svm = SVC(kernel='poly')
     
     train_body = list(train_df["data"])
-    train_label = train_df["labels"]
+    train_labels = train_df["labels"]
 
     test_body = list(test_df["data"])
-    test_label = test_df["labels"]
-    svm.fit(train_body, train_label)
+    test_labels = test_df["labels"]
+
+    svm.fit(train_body, train_labels)
     predicted_test_labels = svm.predict(test_body)
-    metrics = f1_score(test_label, predicted_test_labels, average="weighted")
-    print(metrics) 
+
+    # metrics = f1_score(test_label, predicted_test_labels, average="weighted")
+    # print(metrics) 
+    metrics = classification_report(test_labels, predicted_test_labels)
+    print(metrics)
+
     return
 
-Training_processing()
-Testing_processing()
+# Training_processing()
+# Testing_processing()
 SVM()
 
 # Training_processing()
