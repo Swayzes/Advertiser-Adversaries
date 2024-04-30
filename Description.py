@@ -1,18 +1,17 @@
+"""
+Description Processing
+author: Klent Wasawas
+"""
 
 # https://scikit-learn.org/stable/modules/feature_extraction.html
 # pip install -U scikit-learn
-import json
 import sqlite3
-import io
 from pathlib import Path
 import os
-import numpy as np
 import pickle
 import pandas as pd
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report, f1_score
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.feature_extraction.text import CountVectorizer
 from transformers import BertTokenizer, BertModel
 from sklearn.model_selection import train_test_split
 
@@ -159,5 +158,22 @@ def SVM():
 
 ## Predicts the sponsor within a text
 
-def Feature_Extraction():
+def Aspect_Extraction():
+    """Analyse and predict the sponsors within a description"""
+    descList = []
+    
+    cur.execute("SELECT Description_File_Path FROM DatasetAds")
+    descListAds = cur.fetchall()
+    cur.execute("SELECT Description_File_Path FROM DatasetNoAds")
+    descListNoAds = cur.fetchall()
+
+    for d in descListAds:
+        descList.append(desc_processing(d,1))
+
+    for d in descListNoAds:
+        descList.append(desc_processing(d,0))
+
+    print(descList[0][0])
     return
+
+Aspect_Extraction()
