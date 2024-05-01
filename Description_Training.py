@@ -112,18 +112,37 @@ def Testing_processing():
     save("encoded_description", "BERT_testing_data.json")
     return
 
-# def Gradient_Boosting():
-    
-#     with open('encoded_description/BERT_training_data.json') as f:
-#         train_df = json.load(f)
+def Combined():
+    descList=[]
+    cur.execute("SELECT Description_File_Path FROM DatasetAds")
+    descListAds = cur.fetchall()
+    cur.execute("SELECT Description_File_Path FROM DatasetNoAds")
+    descListNoAds = cur.fetchall()
 
-#     with open('encoded_description/BERT_testing_data.json') as f:
-#         test_df = json.load(f)
+    for d in descListAds:
+        descList.append(desc_processing(d, 1))
 
-#     train_df =''
-#     test_df = ''
+    for d in descListNoAds:
+        descList.append(desc_processing(d,0))
+
+    cur.execute("SELECT Description_File_Path FROM DatasetTesting")
+    testList = cur.fetchall()
+    cur.execute("SELECT Has_Sponsor FROM DatasetTesting")
+    labelList = cur.fetchall()
+
+    index = 0
+    for d in testList:
+        # text = open(Path(d[0]), encoding="utf8")
+        # descList.append([text.read()])
+        descList.append(desc_processing(d, labelList[index][0]))
+        index=index+1
+
+    for d in descList:
+        BERT_Processing(d[0], d[1])
     
-#     return
+    save("encoded_description", "BERT_combined_data.json")
+
+    return
 
 def SVM():
     """Classifies the dataset through an SVM model"""
@@ -152,28 +171,27 @@ def SVM():
 
     return
 
+def SVM_Again():
+    combined_df = pd.read_json("encoded_description\BERT_combined_data.json", lines=True)
+    combined_body = list(combined_df["data"])
+    combined_labels = combined_df["labels"]
+    svm = SVC(kernel='poly')
+    
+    x_train, x_test, y_train, y_test = train_test_split(combined_body, combined_labels, test_size=0.25, random_state=28)
+    svm.fit(x_train, y_train)
+    predicted_test_labels = svm.predict(x_test)
+    # Uncomment if on f score is needed
+    # metrics = f1_score(test_label, predicted_test_labels, average="weighted")
+    # print(metrics) 
+    metrics = classification_report(y_test, predicted_test_labels)
+    print(metrics)
+
+    with open('svm_desc.pkl', 'wb') as f:
+        pickle.dump(svm, f)
+    
 # Training_processing()
 # Testing_processing()
+# Combined()
 # SVM()
 
-## Predicts the sponsor within a text
-
-def Aspect_Extraction():
-    """Analyse and predict the sponsors within a description"""
-    descList = []
-    
-    cur.execute("SELECT Description_File_Path FROM DatasetAds")
-    descListAds = cur.fetchall()
-    cur.execute("SELECT Description_File_Path FROM DatasetNoAds")
-    descListNoAds = cur.fetchall()
-
-    for d in descListAds:
-        descList.append(desc_processing(d,1))
-
-    for d in descListNoAds:
-        descList.append(desc_processing(d,0))
-
-    print(descList[0][0])
-    return
-
-Aspect_Extraction()
+SVM_Again()
