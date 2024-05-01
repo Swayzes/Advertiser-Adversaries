@@ -177,21 +177,21 @@ def SVM_Again():
     combined_labels = combined_df["labels"]
     svm = SVC(kernel='poly')
     
-    for i in range(0, 30):
-        x_train, x_test, y_train, y_test = train_test_split(combined_body, combined_labels, test_size=0.25, random_state=i)
-        svm.fit(x_train, y_train)
-        predicted_test_labels = svm.predict(x_test)
+    x_train, x_test, y_train, y_test = train_test_split(combined_body, combined_labels, test_size=0.25, random_state=28)
+    svm.fit(x_train, y_train)
+    predicted_test_labels = svm.predict(x_test)
+    # Uncomment if on f score is needed
+    # metrics = f1_score(test_label, predicted_test_labels, average="weighted")
+    # print(metrics) 
+    metrics = classification_report(y_test, predicted_test_labels)
+    print(metrics)
 
-        # Uncomment if on f score is needed
-        # metrics = f1_score(test_label, predicted_test_labels, average="weighted")
-        # print(metrics) 
-        metrics = classification_report(y_test, predicted_test_labels)
-        print(metrics)
-        print("Random state:")
-        print(i)
+    with open('svm_desc.pkl', 'wb') as f:
+        pickle.dump(svm, f)
     
 # Training_processing()
 # Testing_processing()
 # Combined()
 # SVM()
+
 SVM_Again()
