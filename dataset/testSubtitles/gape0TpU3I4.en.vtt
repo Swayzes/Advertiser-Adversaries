@@ -1,0 +1,577 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.920
+One of our top videos of all time is explaining what the heck i7, i5, and i3 mean.
+
+00:00:07.080 --> 00:00:10.420
+So, Intel fixed it by making it worse.
+
+00:00:11.280 --> 00:00:16.260
+What exactly is a Core Ultra 7 155H?
+
+00:00:16.260 --> 00:00:21.740
+I can't blame you for having no idea because even Intel doesn't seem to know how this is gonna work
+
+00:00:21.800 --> 00:00:27.480
+when the entry-level mobile and the desktop chips launch. I mean, how can one be
+
+00:00:28.000 --> 00:00:34.120
+Ultra, but also mid? And what is this? Just two high-performance cores?
+
+00:00:34.320 --> 00:00:39.800
+What is ultra about that? The good news is that Intel's new Meteor Lake chips are
+
+00:00:40.400 --> 00:00:42.400
+legitimately exciting and
+
+00:00:42.520 --> 00:00:47.040
+Naming aside, if they are an indication of where Pat Gelsinger's Intel is headed
+
+00:00:47.040 --> 00:00:52.240
+I think we are seeing the first signs of a reestablishment of Intel's old dominance.
+
+00:00:52.840 --> 00:01:00.080
+Exhibit A, the Asus ZenBook 14 OLED. It packs a Core Ultra 7 155H, which means
+
+00:01:00.560 --> 00:01:02.080
+something.
+
+00:01:02.080 --> 00:01:04.280
+Here's a quick message from our sponsor first.
+
+00:01:04.280 --> 00:01:09.020
+The Ridge! Looking for a stylish and practical wallet? Well, look at this thing. It's the Ridge wallet.
+
+00:01:09.020 --> 00:01:13.560
+It's got a minimalist design and allows you to carry all your essential cards and cash without the bulk.
+
+00:01:13.600 --> 00:01:18.080
+Check out the link below and use code LINUS to save 10% off your purchase and get free shipping.
+
+00:01:18.080 --> 00:01:19.880
+To compare against our Core Ultra ZenBook,
+
+00:01:19.880 --> 00:01:27.280
+we chose a Framework 13, investment disclosure, with Intel's last generation 1370p, an Acer Swifty,
+
+00:01:27.280 --> 00:01:33.920
+sorry, Swift Edge with AMD 7840U, and a 14-inch M3 MacBook. More on that one later.
+
+00:01:34.080 --> 00:01:38.960
+First, let's talk results. Straight out of the gate, our Meteor Lake Core Ultra 7 155H
+
+00:01:39.480 --> 00:01:45.440
+annihilates Intel's last-gen Core i7 1370p in nearly every game we tested.
+
+00:01:46.120 --> 00:01:49.520
+Hopefully Framework is working on a Core Ultra upgrade because, dang,
+
+00:01:50.160 --> 00:01:53.320
+Cyberpunk at 1080p on integrated graphics?
+
+00:01:53.320 --> 00:01:59.400
+It is now playable at 30 FPS average instead of just 16. Not only that,
+
+00:01:59.400 --> 00:02:01.400
+it's nipping at AMD's heels.
+
+00:02:01.920 --> 00:02:10.360
+Rocket League? That is almost 69% nicer than last year's model. And wait a minute. What's this? A clear win over AMD?
+
+00:02:10.960 --> 00:02:17.640
+Well, not quite. If we look closely at the all-important 1% lows, the gains aren't
+
+00:02:18.040 --> 00:02:25.520
+quite as impressive, especially in Rocket League, where we can't even hear AMD's victory speech because they already dropped their mic
+
+00:02:25.600 --> 00:02:27.600
+so many times they broke it.
+
+00:02:27.960 --> 00:02:34.400
+But, with that said, I love the trajectory that I'm seeing here. In one generation,
+
+00:02:34.400 --> 00:02:40.880
+we are still on first-generation Intel Arc. Intel has gone from basically unusable to,
+
+00:02:41.240 --> 00:02:47.240
+hey, this thing's kind of viable. Let's bolt it onto our CPUs so all of a sudden they can AAA game.
+
+00:02:47.840 --> 00:02:54.720
+Dota 2 running on DirectX 11? Big win for Arc. Shadow of the Tomb Raider? Another one. Total War Pharaoh?
+
+00:02:55.080 --> 00:02:57.160
+Another one. Grid Legends?
+
+00:02:57.760 --> 00:03:03.600
+Not so much, but Intel is adamant that they are seeing better results on their system for this one,
+
+00:03:03.600 --> 00:03:09.760
+so hopefully that's just a bug that needs to be squashed. Now, you may have noticed Apple's M3 MacBook Pro
+
+00:03:10.560 --> 00:03:17.600
+sneaking into our gaming slides there. And if you consider Apple's push toward the gaming crowd with their Metal API, it makes sense.
+
+00:03:17.600 --> 00:03:24.480
+We thought it would only be fair to choose the most price-appropriate model and see what it can do in comparison. As it turns out,
+
+00:03:24.720 --> 00:03:31.600
+even though we're going through a Rosetta or Vulcan translation layer on both Tomb Raider and Dota, the answer is
+
+00:03:32.600 --> 00:03:36.560
+surprisingly well. Take a look at Dota 2 using Vulcan.
+
+00:03:37.240 --> 00:03:42.380
+Okay, yes, running all the systems on Vulcan does harm our Windows machines results a little bit,
+
+00:03:42.400 --> 00:03:48.280
+but Apple is beating AMD's results both on Vulcan and on DX11.
+
+00:03:48.840 --> 00:03:55.120
+Like Intel, Apple is still struggling with frame time consistency, and you can see that in the 1% low results.
+
+00:03:55.160 --> 00:04:02.480
+But again, this is all about trajectory, and Apple has also gone from gaming loser to gaming varsity jock
+
+00:04:02.840 --> 00:04:04.720
+practically overnight.
+
+00:04:04.720 --> 00:04:06.720
+Speaking of post-secondary,
+
+00:04:06.880 --> 00:04:13.760
+the dropout sweater, lttstore.com? Anyway, there's still a giant blue elephant in the room, and
+
+00:04:14.480 --> 00:04:19.000
+that is non-gaming performance for Core Ultra. It's a
+
+00:04:19.720 --> 00:04:21.720
+kind of a mixed bag.
+
+00:04:21.720 --> 00:04:27.520
+Let's start with handbrake. Encoding Big Buck Bunny at 1080p with h.264. In performance mode,
+
+00:04:27.520 --> 00:04:33.560
+we get almost 63 frames per second. That keeps up with both Apple and AMD while beating our
+
+00:04:33.800 --> 00:04:36.200
+framework with the last-gen 1370p.
+
+00:04:36.520 --> 00:04:44.240
+All right, but step that up to our 4k footage of Red Dead Redemption 2, and Intel's Core Ultra looks more like a Core...
+
+00:04:46.000 --> 00:04:51.040
+Somehow, it even fell behind the last-gen 1370p. I mean, it's okay,
+
+00:04:51.040 --> 00:04:58.380
+it's not like they lose by a lot, but regression from one generation to the next, and look what happens when we encode with AV1.
+
+00:04:59.120 --> 00:05:00.240
+Yikes.
+
+00:05:00.240 --> 00:05:06.000
+Apple rockets into its own performance class entirely in our Big Buck Bunny 1080p test,
+
+00:05:06.280 --> 00:05:09.200
+with Core Ultra falling into last place again, and
+
+00:05:09.720 --> 00:05:15.440
+4k Red Dead is a similar story with Apple in lead, and Intel's latest in dead last.
+
+00:05:16.080 --> 00:05:23.020
+One notable X factor here, though, is that AMD pulls off a clear win not in speed, but in file size.
+
+00:05:23.160 --> 00:05:26.920
+So, they might be going slower than Apple, but you're gonna end up with near-identical
+
+00:05:27.800 --> 00:05:31.960
+quality in files that are up to 15% smaller than the competition.
+
+00:05:32.120 --> 00:05:36.800
+Encoding isn't our Core Ultra 7's only weak point either. In our Chrome benchmark,
+
+00:05:36.800 --> 00:05:40.860
+which is admittedly not the best showcase of Apple's typical browser capabilities,
+
+00:05:41.220 --> 00:05:42.740
+Sorry, Safari.
+
+00:05:42.740 --> 00:05:46.780
+Intel's new hotness loses again in Jetstream 2 and in MotionMark.
+
+00:05:46.780 --> 00:05:52.900
+It does beat AMD in speedometer, but it loses handily to both its own predecessor and to Apple.
+
+00:05:52.900 --> 00:05:58.860
+Oh, speaking of Jetstream, we've also got Ludwig's bidets in stock on lttstore.com, the Swype and Swype Plus.
+
+00:05:59.260 --> 00:06:04.780
+That stream is sure to leave you nice and clean every time you do your business. Do your business? Can we just say poop?
+
+00:06:05.340 --> 00:06:07.580
+We'll say poop. Moving on to Cinebench.
+
+00:06:08.140 --> 00:06:15.700
+Multicore looking pretty good, thanks to those two extra low power efficiency cores. More on those and the NPU later.
+
+00:06:15.980 --> 00:06:20.740
+But the reduced clock speed really seems to hurt our single core performance and
+
+00:06:21.020 --> 00:06:27.780
+Puget Bench's Photoshop benchmark reveals a similar story where the new chip is actually slower than last gen.
+
+00:06:28.820 --> 00:06:30.060
+Intel,
+
+00:06:30.060 --> 00:06:35.260
+what have you done in search of better onboard gaming performance? You've given us so much.
+
+00:06:35.740 --> 00:06:37.740
+But at what cost?
+
+00:06:38.740 --> 00:06:45.220
+Not as much as you might think. It's not all doom and gloom on the productivity side. When it comes to 7-zip compression, for example,
+
+00:06:45.260 --> 00:06:51.020
+wow, the 155H smokes the competition in both standard and performance mode.
+
+00:06:51.020 --> 00:06:57.420
+And while Photoshop wasn't great in the Premiere Pro benchmark, it manages a very confident looking win.
+
+00:06:57.780 --> 00:07:01.380
+But wait a second. What happened with Apple? Well, here's the thing.
+
+00:07:01.500 --> 00:07:03.860
+You can find all of these laptops at the links down below.
+
+00:07:03.900 --> 00:07:10.980
+But to save you a bit of trouble, the Asus costs about $1,300 with 32 gigs of RAM. The Acer, also $1,300,
+
+00:07:11.460 --> 00:07:15.020
+16 gigs of RAM. And our price competitive MacBook Pro?
+
+00:07:15.500 --> 00:07:19.460
+Well, it's only sort of price competitive to start with at $1,600.
+
+00:07:19.580 --> 00:07:26.300
+But more importantly comes with only 8 gigabytes of memory, which was not enough to complete this test without the program crashing.
+
+00:07:26.500 --> 00:07:32.060
+Now we could spend yet another $200 and have 16 gigs of RAM in it.
+
+00:07:32.140 --> 00:07:38.020
+But then we'd be pitting our Windows machines against something that costs over 30% more money,
+
+00:07:38.020 --> 00:07:43.980
+which seemed a little silly when the rest of the results do a pretty good job of showcasing the M3's potential.
+
+00:07:44.620 --> 00:07:49.220
+And this allows me to make a point to Apple. Guys, you've done this to yourself.
+
+00:07:49.940 --> 00:07:51.980
+Please stop selling 8 gig
+
+00:07:52.660 --> 00:07:57.260
+professional machines. You saved like 15 to 20 dollars on your bill of materials,
+
+00:07:57.340 --> 00:08:01.300
+but on any workload that goes to a swap file, you are embarrassing yourselves.
+
+00:08:02.060 --> 00:08:06.860
+You're not the only one. Intel didn't do too well in Blender either. And, you know, overall,
+
+00:08:07.540 --> 00:08:13.300
+mediocre improvements or even worse performance can be super disappointing when you're testing the new hotness.
+
+00:08:13.820 --> 00:08:19.180
+But it's kind of hard to stay mad because while one window might have narrowed,
+
+00:08:19.180 --> 00:08:24.700
+it's like an entirely new door has been flung open. Because aside from gaming performance,
+
+00:08:25.220 --> 00:08:32.300
+Meteor Lake has another really cool trick up its sleeve. Let's talk about the new neural processing unit or NPU.
+
+00:08:32.700 --> 00:08:40.700
+Your current CPU and GPU combo can already handle AI workloads like stable diffusion or using generative fill in Adobe Photoshop.
+
+00:08:41.420 --> 00:08:45.020
+So I don't blame you for asking. Why exactly do we need an NPU?
+
+00:08:45.580 --> 00:08:48.460
+Well, let me tell you. An NPU is an
+
+00:08:49.140 --> 00:08:56.180
+integrated AI accelerator designed to enable new and enhanced experiences with the power efficiency required for mobile platforms.
+
+00:08:56.180 --> 00:08:58.180
+We're gonna do a full explainer over on Techquickie,
+
+00:08:58.180 --> 00:09:05.180
+but in a nutshell what this corporate marketing jargon means is that it helps to alleviate the strain on your CPU and GPU
+
+00:09:05.940 --> 00:09:09.220
+using processors that are more optimized for these loads.
+
+00:09:09.460 --> 00:09:14.700
+It's kind of like when PPUs or physics processing units came out almost 20 years ago,
+
+00:09:15.060 --> 00:09:22.020
+except that this time we just skipped the part where it's a dedicated card and went straight to adding a tile to the CPU that
+
+00:09:22.020 --> 00:09:26.420
+lights up when you're doing speech-to-text or background audio removal or whatever.
+
+00:09:27.020 --> 00:09:29.020
+Okay, wait. Tile?
+
+00:09:29.820 --> 00:09:37.140
+This is where Meteor Lake gives us an exciting glimpse into Intel's future. It's their first tile-based CPU,
+
+00:09:37.580 --> 00:09:43.940
+packaging together several pieces of silicon on one chip rather than using a traditional monolithic die.
+
+00:09:44.180 --> 00:09:46.260
+You've got your main CPU tile,
+
+00:09:46.260 --> 00:09:54.420
+which is built on the Intel 4 process with Redwood Cove P-Cores and Crestmont E-Cores, an I-O tile for connectivity features like
+
+00:09:54.820 --> 00:10:01.420
+Thunderbolt and additional PCIe lanes, a TSMC manufactured GPU tile for your ARC graphics,
+
+00:10:01.420 --> 00:10:06.420
+and then there's the really interesting TSMC manufactured SOC tile.
+
+00:10:06.860 --> 00:10:10.340
+This bad boy has actually got two LP or
+
+00:10:10.660 --> 00:10:15.140
+Low Power Island E-Cores that'll handle light tasks,
+
+00:10:15.420 --> 00:10:20.540
+allowing the main P and E-Cores to be powered off completely to extend battery life.
+
+00:10:20.740 --> 00:10:26.860
+It's got Wi-Fi 6E, which is supposedly upgradable to Wi-Fi 7 later, and Bluetooth 5.4, a
+
+00:10:27.220 --> 00:10:34.020
+NOC or network-on-chip to interconnect all the different parts of the SOC, and they've even managed to pack the Xe media and
+
+00:10:34.260 --> 00:10:39.860
+display engine here, rather than using the GPU tile for your display out and simple video decoding tasks.
+
+00:10:39.940 --> 00:10:43.740
+It's got some other stuff, like USB 3 and 4, Ethernet, audio security, etc.
+
+00:10:43.740 --> 00:10:48.860
+And it's got that shiny new NPU block. The reason that I'm so excited about this is that
+
+00:10:49.460 --> 00:10:52.980
+suddenly Intel can take a more modular approach to CPU design.
+
+00:10:52.980 --> 00:10:58.420
+I mean, look at how AMD can turn a single core complex die design and then
+
+00:10:59.060 --> 00:11:04.940
+repackage it into anything from a basic desktop processor to a beastly server or workstation chip.
+
+00:11:05.300 --> 00:11:08.700
+Well, that is similar to what we're looking at here.
+
+00:11:09.060 --> 00:11:16.780
+New Wi-Fi? Plonk. New CPU core architecture? Plonk that in. New ARC battle-mage graphics? Plonk that too.
+
+00:11:17.380 --> 00:11:21.660
+TSMC's got a new node that you haven't figured out yet? Go ahead and plonk that as well.
+
+00:11:21.660 --> 00:11:28.780
+I see this modular design approach making Intel far more agile and improving their competitiveness in a big way.
+
+00:11:28.940 --> 00:11:30.460
+Coming back to the NPU,
+
+00:11:30.460 --> 00:11:36.780
+we don't really have a great benchmark for testing these things yet, and we don't even have another NPU to drag race it against.
+
+00:11:36.780 --> 00:11:42.060
+But in the Procyon machine learning inference benchmark, we got 241 points, which is
+
+00:11:42.580 --> 00:11:49.600
+heads and tails above everything except for the ARC graphics that Intel included on the very same chip.
+
+00:11:50.300 --> 00:11:56.620
+However, that doesn't mean it's a dud. What's impressive about this result is that our power consumption drops
+
+00:11:57.140 --> 00:12:00.260
+considerably when we push these workloads onto the NPU.
+
+00:12:00.300 --> 00:12:04.740
+So it might not be long before this is the part of your computer that's doing the lifting
+
+00:12:05.140 --> 00:12:10.220
+instead of your graphics cards, at least when it comes to light, everyday machine learning tasks.
+
+00:12:10.620 --> 00:12:14.340
+Which leads us finally into our discussion about the new naming conventions,
+
+00:12:14.580 --> 00:12:21.140
+because I'm starting to think they used machine learning to come up with these. All we've got right now is high-end mobile, and the
+
+00:12:21.140 --> 00:12:27.460
+first thing is that after 15 years of begging, Apple finally convinced Intel to stop calling things
+
+00:12:28.660 --> 00:12:30.100
+i-something.
+
+00:12:30.100 --> 00:12:37.260
+Instead, we're gonna have Intel Core and Intel Core Ultra, followed by what Intel calls the brand level.
+
+00:12:37.340 --> 00:12:41.740
+These are somewhat familiar and denote what sort of power level you can expect.
+
+00:12:42.060 --> 00:12:48.140
+3, 5, and 7 for the more mainstream core processors, and then 5, 7, and 9
+
+00:12:48.260 --> 00:12:53.500
+for the more premium core ultra chips. And yes, that's a lot of overlap.
+
+00:12:54.140 --> 00:13:01.020
+Bigger numbers will generally indicate more cores, faster ones, and bigger caches though, with smaller ones being the opposite.
+
+00:13:01.420 --> 00:13:03.020
+You guys still with me?
+
+00:13:03.020 --> 00:13:09.340
+Great. Next, we've got the processor number, which is broken down into series, skew number, and suffix.
+
+00:13:09.460 --> 00:13:15.740
+You can think of it almost like a hard reset of the product stack. So Meteor Lake, that's what we've got now.
+
+00:13:15.780 --> 00:13:19.740
+That's the first in the series, hence the 1 in our Core Ultra 7
+
+00:13:20.740 --> 00:13:22.220
+155H.
+
+00:13:22.260 --> 00:13:24.220
+Converting back to the old system for a moment,
+
+00:13:24.220 --> 00:13:30.300
+this is nth gen, and a nth gen replacement of this should be a Core Ultra 7
+
+00:13:30.300 --> 00:13:36.860
+255H, and then so on and so forth, until they change it, because who knows? Model numbers are arbitrary anyway.
+
+00:13:37.340 --> 00:13:42.780
+The skew number is where it gets a bit more complicated. I know, right? More complicated anyway.
+
+00:13:42.980 --> 00:13:46.820
+This is where the numbers get a little more different from what we're used to.
+
+00:13:46.980 --> 00:13:54.620
+The big curveball is that the skew number can be reused across different chips within the same generation. More on that later.
+
+00:13:54.980 --> 00:14:01.060
+Anyway, these denote multiple tiers within a stack. So for example, the Intel Core Ultra 5
+
+00:14:01.660 --> 00:14:08.860
+135H and the 125H are similar, but the 135H has a 100 megahertz clock bump.
+
+00:14:09.820 --> 00:14:11.020
+Finally, there's the suffix.
+
+00:14:11.660 --> 00:14:17.860
+I assume that K and T will be back on the desktop to denote overclockable and low power chips,
+
+00:14:17.940 --> 00:14:22.780
+but so far we only have mobile and we only have two letters, H or U.
+
+00:14:23.100 --> 00:14:29.820
+H chips are typically more power hungry, while U chips are meant for ultra slim devices that use less power.
+
+00:14:30.260 --> 00:14:32.540
+This also has some precedent,
+
+00:14:32.580 --> 00:14:39.140
+but the problem with this is that combined with the possibility for skew number reuse, which I mentioned before,
+
+00:14:39.580 --> 00:14:46.340
+it means that you can have no idea how performant a processor is until you get to the suffix.
+
+00:14:46.580 --> 00:14:53.740
+So Intel claims that they were trying to simplify things, but in my opinion, they have just made them more confusing.
+
+00:14:54.580 --> 00:14:57.700
+No, mom. Sorry, but that Core Ultra 7
+
+00:14:58.260 --> 00:15:01.380
+165U sucks. I need the Core Ultra 7
+
+00:15:01.780 --> 00:15:05.820
+165H because not only does it have more GPU cores,
+
+00:15:05.820 --> 00:15:09.380
+it has three times the performance cores and double the cache.
+
+00:15:10.100 --> 00:15:17.300
+There's a lot to like about Meteor Lake and I love Intel's push to reinvest in process node leadership and build out a competitive
+
+00:15:17.460 --> 00:15:22.220
+foundry business. I'm not an analyst and this is not financial advice,
+
+00:15:22.900 --> 00:15:25.540
+but I'm excited about where they're going.
+
+00:15:25.980 --> 00:15:32.140
+What I'm not excited about is explaining this new naming scheme to friends and family that are looking to purchase a new laptop over the
+
+00:15:32.140 --> 00:15:33.460
+next few years.
+
+00:15:33.460 --> 00:15:39.580
+I am also excited, though, to tell you about our sponsor. Thanks to Grammarly for sponsoring this video. Here at Linus Media Group,
+
+00:15:39.580 --> 00:15:41.940
+we're committed to constantly improving our writing.
+
+00:15:41.940 --> 00:15:48.860
+That's where Grammarly steps in. Grammarly's secure AI writing partner helps our business team write better so they can get their work done
+
+00:15:49.340 --> 00:15:56.580
+faster. You can give your writing greater impact by asking Grammarly to help paraphrase. It can make your sentences sound more persuasive or sympathetic.
+
+00:15:57.020 --> 00:16:02.580
+Really, anything you want. But that's not all. Grammarly helps you save time with their reply feature.
+
+00:16:02.580 --> 00:16:08.260
+It can summarize emails and suggest responses so you can spend seconds in your inbox instead of hours.
+
+00:16:08.260 --> 00:16:12.940
+It's not fun in there. And Grammarly is committed to keeping your data private and secure.
+
+00:16:12.940 --> 00:16:14.220
+They'll never sell your data,
+
+00:16:14.220 --> 00:16:18.820
+so it won't be used to bombard you with ads, and third parties can't use it to train their AI.
+
+00:16:19.180 --> 00:16:25.140
+Sign up for an account and download the desktop app, mobile app, and browser extension for free using our link
+
+00:16:25.300 --> 00:16:31.740
+Grammarly.com slash LTTO2. And if you want to get access to extra features, get 20% off Grammarly Premium.
+
+00:16:31.740 --> 00:16:36.060
+If you guys enjoyed this video, make sure to check out the last time we explained Intel's naming scheme.
+
+00:16:36.060 --> 00:16:38.060
+It was a simpler time back then.
+
+00:16:38.540 --> 00:16:40.420
+Back then.
+
+00:16:40.420 --> 00:16:42.420
+Back then.
+

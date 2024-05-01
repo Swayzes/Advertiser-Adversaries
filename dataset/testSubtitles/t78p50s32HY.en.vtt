@@ -1,0 +1,1318 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.406
+The networking in our studio is pretty epically fast. I mean look at this that is 48 ports of
+
+00:00:06.773 --> 00:00:11.011
+25 gig networking for our editors and our ingest stations not to mention these six
+
+00:00:11.778 --> 00:00:14.781
+100 gig uplinks to our servers, but
+
+00:00:16.182 --> 00:00:17.984
+Watch this
+
+00:00:18.251 --> 00:00:19.419
+Why is my internet broken?
+
+00:00:19.419 --> 00:00:20.920
+Not again!
+
+00:00:20.920 --> 00:00:21.688
+Jake!
+
+00:00:21.688 --> 00:00:22.989
+Why does this always happen?
+
+00:00:22.989 --> 00:00:27.560
+If this one network switch ever dies or even has an issue our
+
+00:00:27.560 --> 00:00:31.931
+entire network goes down and not just here in the studio
+
+00:00:31.931 --> 00:00:37.771
+but also in the lab and here in Creator Warehouse, which is where our merch team designs our products and
+
+00:00:38.171 --> 00:00:40.940
+where I do the segue to our sponsor.
+
+00:00:41.074 --> 00:00:46.679
+Tello. Get super affordable phone plans with awesome freebies and excellent customer service from Tello.
+
+00:00:46.679 --> 00:00:52.185
+They were rated excellent by over 9,000 unbiased customer reviews on Trustpilot.
+
+00:00:52.185 --> 00:00:55.321
+Stay tuned to learn more about their custom plans.
+
+00:00:55.321 --> 00:00:59.993
+Now in fairness to Dell even though we bought this switch on eBay three years ago
+
+00:00:59.993 --> 00:01:05.065
+we've never had an outage that was caused by it or either of our other Dell switches.
+
+00:01:05.065 --> 00:01:07.067
+But the fact that it hasn't happened yet
+
+00:01:09.335 --> 00:01:11.638
+doesn't mean it couldn't happen someday in the future.
+
+00:01:11.638 --> 00:01:16.109
+After all these switches are basically just really reliable fancy computers.
+
+00:01:16.109 --> 00:01:20.914
+But one reliable point of failure? That's not how we roll anymore.
+
+00:01:21.347 --> 00:01:21.915
+Mostly.
+
+00:01:21.915 --> 00:01:24.951
+This, my friends, is how it's done.
+
+00:01:27.854 --> 00:01:30.190
+Oh my god, Linus. It looks good, right?
+
+00:01:30.190 --> 00:01:32.592
+Hey, Jake helped. I just died inside.
+
+00:01:32.592 --> 00:01:35.128
+You made me feel so bad of the one I did over there.
+
+00:01:35.128 --> 00:01:38.298
+All it needs is some patch cables and it'll be good as new.
+
+00:01:38.298 --> 00:01:41.067
+Wait, they made it even better. Uh oh.
+
+00:01:41.067 --> 00:01:42.402
+I already saw it before Jake.
+
+00:01:42.402 --> 00:01:46.372
+I haven't seen it like literally at all. Yeah, it's um- Oh wow, that's-
+
+00:01:46.873 --> 00:01:52.078
+That's nice. Yeah, I mean, it's you know, it's nothing, you know, like what we did.
+
+00:01:52.078 --> 00:01:57.183
+Oh. Which is good. I mean we made like life-changing improvements. Yeah. This is really just aesthetic.
+
+00:01:57.183 --> 00:01:58.718
+It's cosmetic. Yeah. What is this?
+
+00:01:58.952 --> 00:02:03.456
+This is awful. Yeah, they've got that one cable out of place. You see them hiding back there.
+
+00:02:03.456 --> 00:02:04.791
+Boo! Yeah boo!
+
+00:02:04.791 --> 00:02:06.993
+What's this cable here? It looks like s***.
+
+00:02:06.993 --> 00:02:09.095
+It's a special cable. Boo!
+
+00:02:09.095 --> 00:02:11.931
+The question now though is not how good does ours look?
+
+00:02:11.931 --> 00:02:13.500
+How good does theirs look?
+
+00:02:13.500 --> 00:02:16.469
+That's not what anybody's interested in especially us.
+
+00:02:16.469 --> 00:02:18.104
+Right Jake? Ours is better.
+
+00:02:18.104 --> 00:02:23.276
+The question is, is it all configured correctly so that I can come in here
+
+00:02:23.776 --> 00:02:30.583
+rip the power out of this switch and the whole network stays online. Can I stand on this server? That's fine, right?
+
+00:02:30.984 --> 00:02:34.354
+I mean you're already doing it. You guys ready? Hold on. Hold on. Hold on.
+
+00:02:34.354 --> 00:02:39.192
+Jake, you're not gonna get more ready in the next five seconds here. We're ready. Oh my god. Ah!
+
+00:02:39.926 --> 00:02:42.595
+Okay, let's go find out. Come on. Come on, Andy. Don't cut the camera.
+
+00:02:43.396 --> 00:02:45.398
+Hey, how's your editing going?
+
+00:02:45.999 --> 00:02:49.936
+Good, see you later. I honestly have no idea if this is gonna work. You don't even work at that desk.
+
+00:02:49.936 --> 00:02:51.938
+Hi, is your computer running?
+
+00:02:52.038 --> 00:02:52.672
+It is running.
+
+00:02:52.672 --> 00:02:54.073
+Then you should go out and catch it.
+
+00:02:55.108 --> 00:02:56.576
+And that network working?
+
+00:02:57.544 --> 00:02:58.378
+Oh good.
+
+00:02:58.378 --> 00:03:02.982
+Everything was fine and nothing bad happened. That's normal, and that's what we expect. Is it actually working?
+
+00:03:03.816 --> 00:03:05.618
+I mean, it should work. Shh, Jake!
+
+00:03:05.618 --> 00:03:07.387
+What? Of course it's working.
+
+00:03:07.387 --> 00:03:08.188
+Yeah.
+
+00:03:08.188 --> 00:03:11.424
+To be clear, it's better to just have them both up.
+
+00:03:12.292 --> 00:03:16.229
+What? I'm just gonna put this back but that was pretty cool, right?
+
+00:03:16.729 --> 00:03:20.934
+That is where these come into play and I'm really excited to tell you about these new switches
+
+00:03:20.934 --> 00:03:24.204
+but before I can do that, we're gonna have to make some room in the server room.
+
+00:03:24.204 --> 00:03:27.740
+Oh, and make some room in the other server room. That one's gonna be bad.
+
+00:03:27.740 --> 00:03:32.212
+To be clear, it's not like we couldn't put the switches here. It's just that when we spec'd out this room
+
+00:03:32.212 --> 00:03:34.981
+we didn't realize we were gonna be putting such long
+
+00:03:34.981 --> 00:03:39.919
+servers into this rack and we ended up with some clearance issues with our PDU.
+
+00:03:39.919 --> 00:03:43.256
+See, look, I can't even use any of the plugs down here. Whoops.
+
+00:03:43.556 --> 00:03:50.396
+Fortunately, we have a solution this custom painted orange rack from Hammond manufacturing is both wider and
+
+00:03:50.396 --> 00:03:54.834
+significantly taller than our existing one. Is this gonna fit in the room?
+
+00:03:55.602 --> 00:03:57.971
+Oh boy, at least it looks like we have a plan.
+
+00:03:57.971 --> 00:04:00.340
+The rack goes on here and then we push it right?
+
+00:04:00.340 --> 00:04:03.509
+Yeah, those are mint, this thing weighs 350 pounds?
+
+00:04:03.509 --> 00:04:06.646
+Cool. Oh, I think this is not going to work gentlemen.
+
+00:04:06.646 --> 00:04:12.852
+New plan. We're putting it on the pallet jack and we're going outside. What could go wrong? I can't see a damn thing
+
+00:04:12.852 --> 00:04:15.855
+Oh boy, and then it goes downhill. Hold on. Well, we may want to
+
+00:04:16.089 --> 00:04:16.923
+No, go for it.
+
+00:04:16.923 --> 00:04:17.957
+I mean- It’s good, we’re good.
+
+00:04:17.957 --> 00:04:20.226
+Okay. We've done stupider things. Uh-
+
+00:04:21.027 --> 00:04:25.531
+Yeah, we've done stupider things recently. You weren't there for the 115 inch TV.
+
+00:04:25.531 --> 00:04:27.333
+Oh. That was really stupid.
+
+00:04:27.333 --> 00:04:29.936
+Since we're walking, I've got some speeds and feeds for this thing.
+
+00:04:29.936 --> 00:04:35.008
+It's basically the canyon arrow of server racks seven feet tall 30 inches wide
+
+00:04:35.775 --> 00:04:41.014
+48 rack units and it weighs in excess of 350 pounds.
+
+00:04:41.014 --> 00:04:45.785
+That's without any hardware in it. Well, yes, I, well, that's what I asked you guys.
+
+00:04:45.785 --> 00:04:51.190
+I didn't have any plan. I planned to hire experts who would have good plans for how to do things.
+
+00:04:51.891 --> 00:04:56.529
+Oh my god. Are you sure about this? Oh, yeah, if I die, make sure you catch it on camera.
+
+00:04:56.529 --> 00:04:57.196
+Oh, uh-
+
+00:04:57.196 --> 00:04:59.365
+Yeah, yeah, we cleared just fine. No, it will clear
+
+00:05:00.566 --> 00:05:02.869
+All right, not so bad.
+
+00:05:02.869 --> 00:05:04.337
+Weeeeeeeeeeeee!
+
+00:05:04.337 --> 00:05:05.805
+Okay, stop, stop, stop.
+
+00:05:05.805 --> 00:05:09.909
+Oh okay, mister it won’t move, now says it’s moving too fast. Okay fine, go.
+
+00:05:09.909 --> 00:05:11.144
+Woooo!
+
+00:05:11.611 --> 00:05:13.112
+All right.
+
+00:05:13.112 --> 00:05:16.049
+Okay, now hold on just a gosh darn second here. Holding!
+
+00:05:16.049 --> 00:05:20.186
+How is there gonna be room to maneuver this thing in there? Is the other rack coming out?
+
+00:05:20.186 --> 00:05:21.454
+We didn’t think this through.
+
+00:05:21.454 --> 00:05:23.456
+They’re not bolted on. It’s not bolted in? No.
+
+00:05:23.456 --> 00:05:24.290
+They’re feet.
+
+00:05:24.657 --> 00:05:26.192
+So there it is right there.
+
+00:05:26.559 --> 00:05:27.093
+Defeat.
+
+00:05:29.028 --> 00:05:30.263
+Don’t scratch the paint.
+
+00:05:33.633 --> 00:05:35.935
+Hey, nice!
+
+00:05:35.935 --> 00:05:41.207
+Wow these casters though. This thing is built better than some houses. It's bigger, too.
+
+00:05:41.207 --> 00:05:44.577
+Don't step on the door. I'm not gonna step on the door, god.
+
+00:05:44.577 --> 00:05:50.183
+He’s literally stepping on the door. I'm not stepping on the door. I'm stepping on the cross braces that are- Part of the door.
+
+00:05:50.183 --> 00:05:54.520
+Well, it's door-ish. I mean look, look at this. I got my full weight on it. It's not even doing anything.
+
+00:05:54.520 --> 00:05:56.723
+We can get rid of those cage nuts
+
+00:05:56.723 --> 00:06:00.126
+immediately we'll be using rack studs available now LTTstore.com
+
+00:06:00.560 --> 00:06:04.664
+Oi, what was that noise? What was that noise Linus? It's a good noise.
+
+00:06:06.733 --> 00:06:11.771
+And yep, there we go, this is probably enough space for the other one, right? Yeah, it should be. All right.
+
+00:06:11.771 --> 00:06:13.606
+Whoa, stopping there.
+
+00:06:13.606 --> 00:06:15.441
+Cable management. Who needs it?
+
+00:06:15.441 --> 00:06:17.410
+See, look how useful you are.
+
+00:06:18.444 --> 00:06:21.414
+One, two, three, one, two, three.
+
+00:06:21.881 --> 00:06:24.717
+Yeah, now you can go to the side. Just a bit, slowly.
+
+00:06:24.717 --> 00:06:31.124
+Yeah, yeah, yeah, no, no, they're good. Okay. Now what, you guys, it takes up the whole room. This is your new bedroom.
+
+00:06:31.124 --> 00:06:33.126
+We ready boys? Barely.
+
+00:06:34.861 --> 00:06:39.132
+Oi, hi there. Okay. Shove towards us. Moving.
+
+00:06:41.167 --> 00:06:46.572
+That's definitely the paint. I think we're gonna have a bit of a timber moment here. I'm trying to get to Dan. Okay, perfect.
+
+00:06:46.572 --> 00:06:47.673
+Okay, yep.
+
+00:06:48.574 --> 00:06:51.644
+Okay. Holy f***ing s***balls this thing is huge.
+
+00:06:51.644 --> 00:06:54.080
+Yeah, this is ridiculous. What are you guys thinking?
+
+00:06:54.080 --> 00:06:58.418
+We could have just put two racks in here if you need more rack units. Oh, we're doing that anyways.
+
+00:06:59.152 --> 00:07:03.689
+You saw the other rack, right? What other racks? There's another one. Of these? Yeah. Yeah.
+
+00:07:04.590 --> 00:07:06.592
+For where? Here.
+
+00:07:06.592 --> 00:07:07.894
+But the- But the-
+
+00:07:07.894 --> 00:07:08.861
+We’re just kidding.
+
+00:07:13.599 --> 00:07:17.503
+Look at the color on that. Wow. It's got a combination lock on the back
+
+00:07:18.070 --> 00:07:22.742
+Oh my god, there's a Dan inside. Get him out. Get him out. It is really roomy.
+
+00:07:22.742 --> 00:07:24.844
+Wait. This is the back then.
+
+00:07:24.844 --> 00:07:25.912
+It's front and back.
+
+00:07:27.580 --> 00:07:28.514
+Sort of, yeah.
+
+00:07:29.048 --> 00:07:32.185
+Yeah, this is for patch cables and stuff. Cool.
+
+00:07:36.322 --> 00:07:39.859
+Dan used nerd punch. It's as effective as it ever is.
+
+00:07:39.859 --> 00:07:42.161
+In all seriousness though, what are we planning to put in here?
+
+00:07:42.161 --> 00:07:44.330
+Are we transplanting everything? Yep.
+
+00:07:44.330 --> 00:07:46.165
+So Anniedale goes at the bottom.
+
+00:07:46.165 --> 00:07:49.235
+Switches and everything goes at the top and then that one's leaving?
+
+00:07:49.235 --> 00:07:50.436
+No that stays.
+
+00:07:50.436 --> 00:07:51.370
+Well, what's gonna go in it?
+
+00:07:51.370 --> 00:07:55.942
+That's gonna be the writer rack so that when Jake wants to mess with all of our networking gear
+
+00:07:55.942 --> 00:07:59.378
+he doesn't take down the entire lab and cost you tens of thousands of dollars a minute.
+
+00:07:59.378 --> 00:08:03.983
+Whoa, whoa, whoa, I mean the cost’s not that high. Okay, there's a slight hyperbole, but you know.
+
+00:08:03.983 --> 00:08:09.422
+And there it is the real reason we're doing any of this because Jake wants a play toys rack.
+
+00:08:10.990 --> 00:08:13.626
+Because we could have made this work, I don't know this is much better.
+
+00:08:13.626 --> 00:08:14.994
+I said we could have made it work.
+
+00:08:14.994 --> 00:08:18.297
+Anniedale doesn't even fit in it. It's in it right now.
+
+00:08:18.631 --> 00:08:22.702
+Barely. Not all of it. We're gonna leave my play things in there.
+
+00:08:22.702 --> 00:08:23.603
+Which is like half of it.
+
+00:08:23.603 --> 00:08:25.137
+Oh my god. So not actually that bad.
+
+00:08:25.137 --> 00:08:28.708
+Yeah, but the networking is the worst part. That's why you have Sean and I.
+
+00:08:28.708 --> 00:08:31.878
+Yeah, I was kind of thinking we go do more fun things and just leave them to do the grunt work.
+
+00:08:31.878 --> 00:08:33.880
+Yeah, and then it'll be done properly.
+
+00:08:34.881 --> 00:08:36.549
+At least half of it will be done properly.
+
+00:08:36.549 --> 00:08:37.216
+You guys ready?
+
+00:08:38.484 --> 00:08:39.552
+Yeah
+
+00:08:39.552 --> 00:08:42.622
+Look at that. That's awesome. So easy.
+
+00:08:42.622 --> 00:08:44.790
+Almost as awesome as this switch
+
+00:08:44.790 --> 00:08:52.265
+I'm ready to tell you guys a little bit about it. This right here is the S5232F-ON.
+
+00:08:52.265 --> 00:08:59.939
+It's got 32 ports that run at 100 gigabit each of which can be split out into 425 gigabit ports
+
+00:08:59.939 --> 00:09:05.144
+It has a total switching capacity of 3.2 terabit per second half duplex
+
+00:09:05.144 --> 00:09:09.415
+So 6.4 then bidirectionally and
+
+00:09:09.415 --> 00:09:17.356
+These things are massively configurable because when I say they're gonna be the top of rack switches on both this side and over at the studio
+
+00:09:17.356 --> 00:09:18.791
+I mean
+
+00:09:18.791 --> 00:09:23.496
+They're gonna be a pair of top- Oh god, that's heavy, no, no, I got it
+
+00:09:23.496 --> 00:09:29.802
+I got it. A pair of top of rack switches because the main point of what we're doing today is to add
+
+00:09:29.802 --> 00:09:33.072
+Resiliency and redundancy to our network by the time we're done
+
+00:09:33.072 --> 00:09:38.911
+I'm gonna be able to take one of these rip the friggin power connector out of it and the whole networks gonna stay up, right?
+
+00:09:38.911 --> 00:09:45.017
+Yeah, they each have redundant power supplies. Wow 750 watts. That's not as much. I guess it's just optics
+
+00:09:45.017 --> 00:09:51.991
+There's no PoE, right? Yeah, that's a lot for not powering anything else and easily serviceable fan modules. Of course.
+
+00:09:51.991 --> 00:09:53.459
+Love it!
+
+00:09:55.094 --> 00:09:57.096
+Management. Adele?
+
+00:09:58.097 --> 00:10:03.803
+Management port and I love the rails these things come with their toolless and super easy to install
+
+00:10:03.803 --> 00:10:06.606
+These might be the easiest toolless rails I've ever used.
+
+00:10:06.606 --> 00:10:09.041
+46 and 44. All right.
+
+00:10:10.109 --> 00:10:10.743
+Yeah
+
+00:10:10.743 --> 00:10:16.248
+This racks too tall for me to work in. This is my maximum reach. I have to tippy-toe
+
+00:10:16.248 --> 00:10:18.184
+Is this the WorkSafe approved way to do this?
+
+00:10:19.852 --> 00:10:21.520
+Oh god, oh god I can’t reach!
+
+00:10:21.520 --> 00:10:28.527
+No, I'm kidding I'm kidding I'm kidding. I will note that he is standing on the bottom of the rack to give extra height.
+
+00:10:28.527 --> 00:10:30.863
+I am stabilizing on the bottom of the rack.
+
+00:10:30.863 --> 00:10:33.833
+And look here's a banana for scale. Yep. Linus is still short.
+
+00:10:33.833 --> 00:10:35.101
+LTTstore.com baby.
+
+00:10:39.305 --> 00:10:43.175
+This might actually be too nice for us that's why it's Sean and I's and you get the other one
+
+00:10:43.209 --> 00:10:44.010
+Got him.
+
+00:10:44.010 --> 00:10:46.312
+The infrastructure rack and the writers rack
+
+00:10:46.312 --> 00:10:49.448
+I'm getting very close to just requisitioning this rack as my own.
+
+00:10:49.448 --> 00:10:54.920
+Man, this is a fine rack, but it has super small PP energy next to this one.
+
+00:10:55.821 --> 00:11:01.293
+This side it's gonna have its own challenges because as much as we've tried to keep things organized
+
+00:11:01.293 --> 00:11:06.232
+We're looking at about eight years of total tech debt and Frankenstein solutions
+
+00:11:06.232 --> 00:11:09.468
+Yeah, I'd like recable manage it like three years ago, but
+
+00:11:09.468 --> 00:11:13.039
+I did it a couple times before that. It always just kind of turns into spaghetti
+
+00:11:13.039 --> 00:11:14.473
+The good news is in the long term
+
+00:11:14.473 --> 00:11:20.079
+I think what we're gonna do is move everything around to the front of the rack and move the vault and
+
+00:11:20.079 --> 00:11:24.817
+Maybe some of the other servers over here to the lab side because we've got a nice fast
+
+00:11:24.850 --> 00:11:30.456
+Link that we worked out with the city between the two buildings now. Is this the part where we just start ripping stuff out?
+
+00:11:30.956 --> 00:11:36.962
+Well, Gary kind of wanted to keep internet, but too bad I guess? Our transceivers don't come out Jake. Oh god
+
+00:11:36.962 --> 00:11:44.136
+Yeah, that switch got a little bonked a long time ago and well and in transit from eBay to us. Oh great
+
+00:11:44.270 --> 00:11:49.542
+So now I get to do this to keep our fibers safe. You could just send it and I'll just clean them after.
+
+00:11:49.742 --> 00:11:50.843
+Sorry, Gary.
+
+00:11:51.811 --> 00:11:52.912
+I unplugged the internet.
+
+00:11:52.912 --> 00:11:55.448
+Update for you guys, we came up with a brilliant idea,
+
+00:11:55.448 --> 00:11:59.919
+these switches don't have a ton of VLANs configured on them
+
+00:11:59.919 --> 00:12:03.789
+But this one does because that runs a bunch of our security stuff
+
+00:12:03.956 --> 00:12:06.992
+So we figure okay if we just unplug everything
+
+00:12:07.359 --> 00:12:14.333
+Then maybe we can move this down three notches where it needs to go according to the plan without actually unplugging anything
+
+00:12:14.333 --> 00:12:16.435
+Yeah, good luck everybody.
+
+00:12:16.435 --> 00:12:19.038
+Okay, you can pull it out now. Ready? No, no, no, top one, top one.
+
+00:12:19.038 --> 00:12:22.641
+Oh sure. The top one doesn't have handles Jake. You got it? Yeah, there we go
+
+00:12:22.675 --> 00:12:25.945
+We only need one of these 48 port 10 gig switches now
+
+00:12:25.945 --> 00:12:32.384
+So we're gonna keep the original one and then we're gonna hold on to the one below it as kind of a cold spare
+
+00:12:32.384 --> 00:12:34.453
+You can pull it out, that's fine. Okay.
+
+00:12:34.453 --> 00:12:38.357
+We were a much smaller company when we configured all of this.
+
+00:12:38.357 --> 00:12:39.458
+And you're quite sure
+
+00:12:39.458 --> 00:12:43.963
+you don't support the idea of just having the other room be the main server room? Correct.
+
+00:12:43.963 --> 00:12:46.966
+Wait, you're not just knocking cage nuts into the rack, are you?
+
+00:12:46.966 --> 00:12:48.801
+A little bit. Well, Jake
+
+00:12:49.502 --> 00:12:52.471
+That came out. That's fine. Okay, other side now.
+
+00:12:52.471 --> 00:12:53.572
+Tell everyone your great idea.
+
+00:12:53.572 --> 00:12:57.276
+He hates it when I'm right, but he likes it when it saves him a bunch of work
+
+00:12:57.476 --> 00:13:03.783
+I'm sitting here going we only built from both sides of this rack because we had no space
+
+00:13:03.816 --> 00:13:06.752
+Yeah, well now we have space you just watched us install it
+
+00:13:06.752 --> 00:13:10.790
+So why don't we just move everything around to the front and then this is hilarious
+
+00:13:11.190 --> 00:13:16.462
+Remember that switch that we were super concerned about moving because of all the VLANs? Well, guess what?
+
+00:13:17.229 --> 00:13:23.602
+Haha, I just took every cable painstakingly and plugged it into a dummy switch for now
+
+00:13:23.602 --> 00:13:26.739
+And then I'm gonna pass them around to the front of the rack and I'll just be like, okay one
+
+00:13:27.373 --> 00:13:32.344
+Two and we'll rebuild it from the front if it's stupid and it works. It's not stupid
+
+00:13:32.678 --> 00:13:38.050
+Yeah, I like this because I've wanted to do this for, in February, it will have been eight years.
+
+00:13:38.050 --> 00:13:42.922
+I never did this because I liked it or I thought it was a great idea. It was always janky
+
+00:13:42.922 --> 00:13:46.859
+We just didn't have anywhere else in the studio to put rack mount equipment
+
+00:13:46.859 --> 00:13:51.130
+You know the main reason I wanted to do the mother vault aside from the old one being jank
+
+00:13:51.430 --> 00:13:56.202
+Was so we had more rack space so I could eventually do this nice. It's been a long time coming
+
+00:13:56.202 --> 00:13:59.905
+So basically fiber patch router one router two, we don't have both of them
+
+00:13:59.905 --> 00:14:04.810
+So it'll just be one of them for now. Dell, patch, Dell, patch, Dell, patch
+
+00:14:04.810 --> 00:14:10.216
+I think there will not be enough devices plugged into these two that we will need two patch panels
+
+00:14:10.216 --> 00:14:15.054
+Very likely. Only one way to find out. Do we just YOLO and hope that it goes well? Sure.
+
+00:14:15.855 --> 00:14:20.492
+Hold on! There's locks on the strain reliefs on the power and everything. Okay. All right, geez, man
+
+00:14:21.293 --> 00:14:25.231
+Okay, you're good. That's my baby. Yeah, yeah. yeah. New, new, new
+
+00:14:26.699 --> 00:14:33.038
+Whonnock four. The plan today was not to just strip this rack, but that's done now. What time is it right now?
+
+00:14:33.038 --> 00:14:39.011
+It is two o'clock. We have an hour. Let's go fast. Oh my god. We need to move all these patch panels now, which is nice
+
+00:14:39.612 --> 00:14:44.516
+They're all labeled which is great except a bunch of them or not. It's all the ones Linus did that aren't labeled
+
+00:14:44.516 --> 00:14:50.155
+You got that last one. Oh, yeah, that's it. Okay dummy switch comes out. Okay. Now we start going fast
+
+00:14:50.155 --> 00:14:53.792
+I love how the payoff for this video is gonna be so much worse than what we started with.
+
+00:14:53.792 --> 00:15:01.333
+Yeah, like the server room is just like destroyed. But one day when Shawn and Dan spend three days re cable managing this it will be great.
+
+00:15:01.333 --> 00:15:06.872
+We have two of our switches installed. We got the Dells racked in here, fiber patch panel
+
+00:15:06.872 --> 00:15:14.480
+we've got the MikroTik running temporarily to keep internet running for Gary while we switch everything over. Sorry Gary.
+
+00:15:14.480 --> 00:15:21.353
+And yeah, everything's racking well, there's lots of cable management's beautiful and everything's coming together, right Dan?
+
+00:15:21.353 --> 00:15:23.522
+Yeah, we've got the PDUs here too, which is great.
+
+00:15:24.356 --> 00:15:27.226
+Oh god! Oh my god. There are hard drives in that. It’s fine.
+
+00:15:27.226 --> 00:15:28.627
+All right. Here we go
+
+00:15:29.194 --> 00:15:31.096
+That was not very good
+
+00:15:31.096 --> 00:15:36.001
+I don't even care that much when you kind of drop a hard drive now that I remember back to when you
+
+00:15:36.302 --> 00:15:39.838
+Actually yeeted a hard drive. Totally lived. This is such a relief
+
+00:15:39.838 --> 00:15:45.377
+I remember the conversations back when we decided to build from both sides of the rack and we were like well
+
+00:15:45.377 --> 00:15:50.983
+This is the only way we can fit all the stuff. So I guess we're stuck with it, but I hated it then
+
+00:15:50.983 --> 00:15:52.518
+I hate it now
+
+00:15:52.518 --> 00:15:53.819
+This is so much better
+
+00:15:53.819 --> 00:15:58.023
+It's almost like we have two server rooms or something now and the other one isn't a Harry Potter closet
+
+00:15:58.023 --> 00:16:02.428
+You know that these stairs are so wide because this room needed to be wider, right?
+
+00:16:02.428 --> 00:16:05.331
+So what you're saying is this is entirely your fault. Yes
+
+00:16:05.631 --> 00:16:10.202
+The issue is that we realistically couldn't afford more so I'm not gonna apologize for it
+
+00:16:10.202 --> 00:16:14.974
+We cut all the cabling from the ceiling. So now we have to fix all that because it wouldn't fit
+
+00:16:15.174 --> 00:16:18.344
+we've got all of our networking gear in here now and
+
+00:16:19.144 --> 00:16:23.983
+The back actually looks tidy now I'm trying to make up for the sin that I caused in the ceiling.
+
+00:16:23.983 --> 00:16:27.353
+Right now we have, what used to be alpha Dell
+
+00:16:27.953 --> 00:16:33.959
+Which is our 48 port S4048 in we're putting these Ethernet patch panels in a spot
+
+00:16:33.959 --> 00:16:36.662
+That is eventually going to become a like fiber patch panel
+
+00:16:36.662 --> 00:16:42.334
+But we can just pop the keystones out at that point or rather Dan and Shawn can. Now and then I guess we're just moving more patch panels.
+
+00:16:42.334 --> 00:16:47.973
+Like it's awful. I know but it's going to be great one day. This is about to get interesting
+
+00:16:47.973 --> 00:16:52.611
+We have to put the two new Dell switches the 32 port 100 gig ones here in here
+
+00:16:52.678 --> 00:16:59.752
+Which would be fine if the various contractors who had come in at various stages in this building's history
+
+00:17:00.052 --> 00:17:06.458
+Hadn't made complete spaghetti out of all the cables going into the patch panels. I don't know if they're gonna fit in here
+
+00:17:06.458 --> 00:17:08.460
+I never know quite how this happens
+
+00:17:08.460 --> 00:17:12.431
+But every time you clean up a server closet or like a tech room
+
+00:17:12.598 --> 00:17:15.667
+You find all these things that are not plugged into anything.
+
+00:17:15.667 --> 00:17:21.373
+Man this is gonna be awesome being able to like restart one of your core switches and the entire network not go down
+
+00:17:21.373 --> 00:17:22.608
+I like.
+
+00:17:22.608 --> 00:17:24.777
+Man, all those years in the early days Jake
+
+00:17:25.144 --> 00:17:30.949
+Using rails that were not toolless and whatever the cheapest rack mount stuff that I could find was?
+
+00:17:31.583 --> 00:17:33.585
+I did not know what I was missing
+
+00:17:34.219 --> 00:17:36.221
+Oh wow, you actually got it in for once good job
+
+00:17:36.755 --> 00:17:41.727
+These things are flipping crazy overkill when Jake told me what we were getting. I was like why?
+
+00:17:42.061 --> 00:17:49.468
+We have no application that actually requires these but I think really it's less to do with the speed and more to do with getting
+
+00:17:49.468 --> 00:17:55.474
+The latest OS and all the latest features. Oh, I haven't even told you the long-term plan is pretty cool
+
+00:17:55.474 --> 00:17:58.610
+It involves having two routers here at the very least
+
+00:17:58.610 --> 00:18:01.580
+We want them to be redundant if our open sense router poops the bed
+
+00:18:01.580 --> 00:18:04.583
+I have no idea what I just unplugged
+
+00:18:05.017 --> 00:18:10.622
+The other one takes over automatically. Sure. The long-term plan is we have two routers at both buildings
+
+00:18:10.622 --> 00:18:13.192
+and an internet connection at both buildings. Hear me out
+
+00:18:13.759 --> 00:18:16.595
+What? I don't want to pay for two internet connections. Oh, yeah, whatever
+
+00:18:16.595 --> 00:18:23.302
+we'll figure that part out. And then we can use OSPF or BGP to like route the two buildings and if one internet connection were
+
+00:18:23.302 --> 00:18:25.771
+to go down for whatever reason we could
+
+00:18:27.106 --> 00:18:30.476
+Assume the other buildings internet connection over here and vice versa
+
+00:18:30.476 --> 00:18:34.346
+So redundant internet connection, redundant routers, redundant core switches
+
+00:18:34.346 --> 00:18:40.519
+Also, these switches are probably going to be our routers at some point and then the open sense boxes will just be a firewall
+
+00:18:41.386 --> 00:18:47.092
+So cool. That second internet connection better be just like a basic residential. Yeah, it can't really be
+
+00:18:47.826 --> 00:18:50.596
+I'm not paying for two internet connections. It's not happening.
+
+00:18:52.030 --> 00:18:54.466
+I don't really care. I'm good with my one. It’s not happening.
+
+00:18:55.200 --> 00:18:57.469
+See ya later. Can you stop knocking cage nuts into the rack
+
+00:18:57.469 --> 00:19:02.307
+I mean it's not as bad as it used to be when we had servers that had the backs of them open. All the time.
+
+00:19:02.307 --> 00:19:05.177
+I remember this one time, one of the servers was open
+
+00:19:05.177 --> 00:19:08.780
+It was one of the 45 drives ones and I knocked something into it. Oh god. And it sparked.
+
+00:19:08.780 --> 00:19:14.086
+Oh god, and then I never told anybody and nothing ever happened. What is this? But something was dead in it.
+
+00:19:14.086 --> 00:19:16.622
+So the best part of this is that everything uses rack studs now
+
+00:19:16.622 --> 00:19:21.360
+I can ask Luke to make it one of their quarterly goals to take all the old cage nuts out of here, right?
+
+00:19:21.360 --> 00:19:26.031
+I think if we had a networking eSports team like from our networking and infra department
+
+00:19:26.031 --> 00:19:30.035
+They should call themselves the Rack Studs. License the name. It's a great team name
+
+00:19:30.035 --> 00:19:35.307
+Yeah, there's definitely an appropriate amount of patch panels per number of ports here, definitely. You mentioned earlier
+
+00:19:35.307 --> 00:19:37.876
+We're gonna transition to using these new switches as our router
+
+00:19:37.876 --> 00:19:41.680
+But I think for most of the consumers out there that doesn't make a lot of sense
+
+00:19:41.947 --> 00:19:48.654
+But yeah, thanks Andy, but enterprise switches are very powerful. They have very robust operating systems
+
+00:19:48.654 --> 00:19:54.159
+Why would we not? Set up effort high, reward pretty good. But why do people care about those things?
+
+00:19:54.426 --> 00:19:59.431
+Hmm for us, it's mostly inter VLAN routing you can imagine a VLAN, it's a virtual network
+
+00:19:59.431 --> 00:20:03.669
+It's kind of like you had 20 virtual routers. You could have 20 VLANs and 20 networks
+
+00:20:03.669 --> 00:20:09.541
+It's all kind of in one. The big thing is if you want to pass traffic between networks, which maybe that sounds
+
+00:20:09.541 --> 00:20:10.375
+Why do you have them split?
+
+00:20:10.375 --> 00:20:13.312
+Well, sometimes you want one device to talk to a device in a different network
+
+00:20:13.312 --> 00:20:15.614
+True. Even though you don't want all of the devices to talk.
+
+00:20:15.614 --> 00:20:19.151
+Like a writers workstation being separated from an editors workstation
+
+00:20:19.151 --> 00:20:23.589
+Well, if they both want to access a server and they're separated it's got to pass over. Right now,
+
+00:20:23.589 --> 00:20:27.626
+That would happen on our Open Sense machine, which it's pretty fast. So it's probably okay
+
+00:20:27.859 --> 00:20:30.362
+But imagine you're doing 10, 20 gigabit
+
+00:20:30.362 --> 00:20:36.501
+It's gonna start to become a bottleneck. And this is just running commodity some kind of mainstream Xeon processor in it
+
+00:20:36.501 --> 00:20:39.838
+Yeah. Whereas these switches are running a six that are
+
+00:20:40.572 --> 00:20:45.377
+Flippin optimized for networking. Yeah, you can imagine it would do that at line speed without issue
+
+00:20:45.377 --> 00:20:47.379
+And the other thing is it will be local
+
+00:20:47.379 --> 00:20:51.283
+So if that's happening in the lab between two networks in the lab
+
+00:20:51.283 --> 00:20:55.053
+It doesn't have to come back to here in the studio. It can happen there
+
+00:20:55.053 --> 00:21:01.059
+So you're it's just way more efficient. Also the the internet connection sharing thing. I talked about earlier, but
+
+00:21:01.293 --> 00:21:04.062
+Okay, here we go. Sounds like maybe that's not gonna happen
+
+00:21:04.396 --> 00:21:05.797
+yet
+
+00:21:06.331 --> 00:21:08.100
+Oh, hi, Jake. This is awesome
+
+00:21:09.167 --> 00:21:12.437
+So good, it would have taken us so much longer to do this from the back
+
+00:21:12.671 --> 00:21:15.907
+We would have gotten to the point where it's time to plug everything back in and gone.
+
+00:21:16.308 --> 00:21:22.748
+Oh crap I forgot how hard it is to reach in here and access the power outlets and all everything just
+
+00:21:23.882 --> 00:21:29.054
+Speaking of accessing things. Let me access my flex box. Oh, this thing is so cool. Have I showed you this before?
+
+00:21:29.054 --> 00:21:34.159
+Yes, I did at the LAN party. Yes, you did. Flex Optix aside for making optics also makes direct attach cables
+
+00:21:34.159 --> 00:21:40.499
+We're gonna be using these to interconnect our Dells taking it back to that redundancy thing for them to be redundant
+
+00:21:40.499 --> 00:21:44.670
+They need to be connected every device downstream of these is now going to be connected to both
+
+00:21:44.670 --> 00:21:47.673
+So if one switch dies this magical cable
+
+00:21:48.907 --> 00:21:50.909
+Will allow the connection
+
+00:21:52.277 --> 00:21:58.650
+To traverse between them. But in order to make sure that these cables are going to operate with peak performance and reliability
+
+00:21:58.650 --> 00:22:03.188
+You're supposed to use Dell optics except that sounds expensive
+
+00:22:03.188 --> 00:22:06.291
+Well, they actually sent us some and then they never arrived. Cool.
+
+00:22:06.291 --> 00:22:13.065
+The cool thing about Flex Optix you plug them into here open an app on your phone and I can type, you know Dell
+
+00:22:13.532 --> 00:22:15.801
+100 gig one meter. And this becomes
+
+00:22:16.201 --> 00:22:22.007
+Dell 100 gig one meter and you plug it into the switch the Dell switch doesn't even know that it's not a Dell cable
+
+00:22:22.007 --> 00:22:24.543
+Awesome, as far as it's concerned, it's Dell. All right
+
+00:22:25.177 --> 00:22:27.179
+Time to put some servers back in the rack
+
+00:22:28.447 --> 00:22:32.751
+crazy overkill servers, so you guys think it's me driving the
+
+00:22:33.752 --> 00:22:38.957
+Completely overkill infrastructure that we build around here, but often it's in spite of me. I'm at my
+
+00:22:39.524 --> 00:22:42.060
+If it works, don't touch it stage of my life
+
+00:22:42.894 --> 00:22:48.500
+Well, we got the whole front patched in all the MVRs are in everything's patched up. Everything's good to go
+
+00:22:49.034 --> 00:22:55.974
+Dan is doing cabling in the back and all we have left to move over to the infrastructure rack is
+
+00:22:56.541 --> 00:23:00.679
+Anniedale which does all of our off-site backups from the studio?
+
+00:23:00.679 --> 00:23:06.218
+So that's all that's left move that over finish up cleaning the cabling and then we're pretty much done here
+
+00:23:06.218 --> 00:23:10.021
+I'm waiting for studio to come back up online. Yeah, they took down the whole building
+
+00:23:10.122 --> 00:23:14.326
+Yeah, they took down the internet everything. I told Gary 20 minutes
+
+00:23:14.326 --> 00:23:19.364
+It's been two hours? Or four hours? Or whatever. And then yeah Anniedale and tidying
+
+00:23:19.898 --> 00:23:26.071
+Putting the shelving away and cleaning up out there and putting the sides back on. Oh, Dan. And putting the doors back on
+
+00:23:26.638 --> 00:23:28.273
+It doesn't look like much right now
+
+00:23:28.273 --> 00:23:33.311
+But man is this ever easier to work on and we are really close to being ready to fire this up
+
+00:23:33.311 --> 00:23:37.482
+These are just all editing workstations, right? So I don't have to worry about any VLAN nonsense or anything
+
+00:23:41.019 --> 00:23:46.091
+Yeah. Yeah, I mean right now this switch is connected to the router and it's getting the VLANs now
+
+00:23:46.091 --> 00:23:52.364
+I'm just about to connect our Ubiquiti 48 port so we can have Wi-Fi that will make my life supremely easier
+
+00:23:52.364 --> 00:23:59.070
+Also, you never plugged the power into it. Which one? Ubiquiti. You know, I've been doing stuff here. Okay, doesn't look like it
+
+00:23:59.070 --> 00:24:05.377
+I've been doing lots of stuff. Hey you gotta plug that in, will ya? I'm working on it! Get it together. Hey, I'm working here
+
+00:24:05.377 --> 00:24:07.512
+Oh Jake went away. He wanted to show you guys something
+
+00:24:08.380 --> 00:24:10.382
+He made a number two
+
+00:24:10.615 --> 00:24:12.284
+Good job, Jake
+
+00:24:12.284 --> 00:24:17.122
+Good job. Thank you. Wi-Fi is up. Okay, great. All right, that's good. Now, where's the goddamn cloud key?
+
+00:24:17.122 --> 00:24:22.928
+What was the problem? Did we ever figure that out? The problem was they were switched. Not switched like network switched like
+
+00:24:24.095 --> 00:24:26.231
+Hey, there we go. It adopted and like
+
+00:24:26.898 --> 00:24:32.504
+Remembered it's config now. Okay, great. Nice. The Wi-Fi definitely works. Hey guys! Hi.
+
+00:24:32.504 --> 00:24:37.142
+I thought you guys were supposed to be the professionals our cable management on the other side looks so much better
+
+00:24:37.242 --> 00:24:42.481
+I tried really hard. Our side looks like actual pasta. Ah, yeah, I thought I'd
+
+00:24:43.114 --> 00:24:46.151
+Try and absolve myself of this sin. Yeah
+
+00:24:46.685 --> 00:24:48.687
+No, this looks great. This is amazing
+
+00:24:49.554 --> 00:24:51.656
+You know what came in really handy is these guys
+
+00:24:52.290 --> 00:24:56.461
+Yeah, yeah. Yeah LTT store.com soon TM cable management
+
+00:24:57.195 --> 00:25:00.298
+Boom, it holds anything anywhere. It's awesome. Absolutely phenomenal
+
+00:25:00.298 --> 00:25:05.737
+Yeah, especially the big one you can take like a big old friggin thing and like all of these are just one of those
+
+00:25:05.737 --> 00:25:09.941
+Yeah, exactly. That's what I'm talking about. In all seriousness, how are you guys doing here? It looks pretty close
+
+00:25:09.941 --> 00:25:11.676
+Yeah, we're nearing the end here
+
+00:25:11.676 --> 00:25:16.448
+We've just got to deal with some of these power cables and then of course get these back up onto the ceiling
+
+00:25:16.448 --> 00:25:21.152
+Sure. And then I think that's about it. Okay, we gave up. You gave up.
+
+00:25:22.153 --> 00:25:24.155
+Mean, we told Gary 20 minutes
+
+00:25:25.857 --> 00:25:31.096
+To take lunch so that we would be back up and then we immediately moved the MikroTik and got everything ready so that Gary
+
+00:25:31.096 --> 00:25:33.398
+Could continue doing his job. Yeah, so here's the thing
+
+00:25:34.032 --> 00:25:37.168
+We got about 30% of the way through and realized that
+
+00:25:37.969 --> 00:25:42.574
+moving everything at the back of the rack was going to take way longer than just
+
+00:25:43.141 --> 00:25:48.780
+Pulling everything out and rebuilding it all from the front so that when it's time for you guys to unspaghet the thing
+
+00:25:49.180 --> 00:25:52.284
+At least you can see what the heck you're doing. So that's what we did
+
+00:25:52.284 --> 00:25:56.888
+Yeah, we are not gonna get the full redundancy the thing up and running today. Oh, why?
+
+00:25:57.455 --> 00:26:03.395
+Because it is time for Jake to go to the airport. Okay, we still got Shawn and I it's also time for me to leave
+
+00:26:03.395 --> 00:26:09.834
+Okay, so we're staying here till 1 a.m. No. Oh as long as the network works. Okay, we don't need the redundancy working
+
+00:26:09.834 --> 00:26:16.174
+Okay, I know I'm acting all surprised and stuff, but it should work and it does work for a number of reasons
+
+00:26:16.174 --> 00:26:18.009
+I mean you can see in the Unify thing
+
+00:26:18.009 --> 00:26:22.113
+There's only one upstream online on all of those switches, right?
+
+00:26:22.113 --> 00:26:23.682
+Except one hasn't rebooted yet
+
+00:26:23.682 --> 00:26:28.720
+Every single switch downstream of the Dells is connected to both of them
+
+00:26:28.720 --> 00:26:33.458
+And then both of the Dells are connected to that link we have through the street to the other building
+
+00:26:33.458 --> 00:26:38.296
+Yeah, and they're also connected to each other with something called VLT or virtual link trunking
+
+00:26:39.698 --> 00:26:44.169
+Traditionally you would have like an LACP or an aggregate link between two switches
+
+00:26:44.169 --> 00:26:48.673
+Well, the Dell takes it up a notch and instead of just between two switches
+
+00:26:48.807 --> 00:26:52.210
+It's between one switch and two ones above it
+
+00:26:52.210 --> 00:26:56.414
+And if one of them goes down you still have the redundant link and it just works
+
+00:26:56.481 --> 00:27:01.419
+What's even cooler is if you have a situation where it's not like the switch just died entirely
+
+00:27:01.419 --> 00:27:09.294
+It's more like the fiber got cut or the direct attached cable is screwy and it needs to get something on a switch that it's
+
+00:27:09.294 --> 00:27:14.599
+not currently connected to it will like route over the connection between the two Dells and
+
+00:27:14.766 --> 00:27:19.738
+Back to that switch and what's even more cool is that it only took like
+
+00:27:20.739 --> 00:27:25.577
+Five minutes to set that feature up, you know, it also took only five minutes
+
+00:27:26.378 --> 00:27:27.812
+brainstorming this segue
+
+00:27:27.812 --> 00:27:29.014
+To our sponsor
+
+00:27:29.014 --> 00:27:29.581
+Tello.
+
+00:27:29.581 --> 00:27:35.954
+Are you tired of feeling like you're stuck in a phone plan that doesn't meet your needs or is too expensive? Meet Tello mobiles.
+
+00:27:35.954 --> 00:27:39.257
+Build your own plan with Tello's build your own plan
+
+00:27:39.257 --> 00:27:44.529
+You can create the perfect phone plan that suits your lifestyle and your budget with options like two gigs
+
+00:27:44.663 --> 00:27:47.832
+Plus unlimited talk and text for just $10 a month or
+
+00:27:48.400 --> 00:27:54.239
+Unlimited everything for just $25 a month. You can enjoy affordable and flexible plans that suit your needs
+
+00:27:54.239 --> 00:28:00.378
+But would you believe that Tello also throws in freebies like hot spotting, Wi-Fi calling and unlimited texting?
+
+00:28:00.412 --> 00:28:06.918
+Well, you should because they do plus with international calls to 60 plus countries and ESIM included
+
+00:28:06.918 --> 00:28:10.255
+You'll have everything you need in one plan and for families
+
+00:28:10.255 --> 00:28:17.696
+Tello offers individual plans for each line with no shared balance or extra cost per line making it easy to manage multiple lines
+
+00:28:17.762 --> 00:28:20.765
+You can even have up to ten lines on one account
+
+00:28:21.132 --> 00:28:24.536
+Finally Tello offers a referral program where you can earn ten
+
+00:28:24.636 --> 00:28:29.641
+Tello dollars for you and a friend when they place a successful order with your unique referral link
+
+00:28:29.974 --> 00:28:33.111
+Order online pop in your Tello sim and you're done
+
+00:28:33.178 --> 00:28:36.815
+You can even keep your phone and number which makes the switch even easier
+
+00:28:36.848 --> 00:28:41.052
+So don't wait switch to Tello today by clicking the link in the video description.
+
+00:28:41.052 --> 00:28:42.253
+If you guys enjoyed this video
+
+00:28:42.253 --> 00:28:43.121
+You know what?
+
+00:28:43.121 --> 00:28:48.560
+Go back and watch one of the previous attempts at cable managing that room because believe it or not. It was even worse
+
+00:28:48.560 --> 00:28:53.431
+Yeah, big shout out to Hammond manufacturing for the nice new rack. It is glorious
+
+00:28:53.598 --> 00:28:54.699
+It is glorious
+
+00:28:54.699 --> 00:28:56.935
+Shout out to infinite cables for the cool patch cables
+
+00:28:57.202 --> 00:29:02.073
+Shout out to Ubiquiti for all the other switches. Shout out to Dell for these switches. Holy crap
+
+00:29:02.073 --> 00:29:08.413
+These things are awesome. Shout out you for watching. Yeah, and shout out our infra team and also Jake. And also Jake.
+

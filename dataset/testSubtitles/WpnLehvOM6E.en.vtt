@@ -1,0 +1,3127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.501
+You did it!
+
+00:00:03.336 --> 00:00:06.940
+You finally built or bought a brand new gaming PC,
+
+00:00:06.940 --> 00:00:08.742
+except there's one small problem.
+
+00:00:08.742 --> 00:00:12.612
+Right now, it's the most expensive paperweight you own.
+
+00:00:12.612 --> 00:00:16.116
+How do you make the computer compute?
+
+00:00:16.116 --> 00:00:18.351
+Well, doing it right takes more than just
+
+00:00:18.351 --> 00:00:20.553
+plugging her in and letting her rip.
+
+00:00:20.553 --> 00:00:23.490
+Like, ooh, what's this button doing?
+
+00:00:23.490 --> 00:00:25.091
+What the heck am I looking at here?
+
+00:00:25.091 --> 00:00:27.560
+How do I get past this?
+
+00:00:27.560 --> 00:00:29.396
+Well, for starters, you're gonna have to get past
+
+00:00:29.396 --> 00:00:31.431
+today's sponsor, Thorum.
+
+00:00:31.431 --> 00:00:32.799
+It's Valentine's Day.
+
+00:00:32.799 --> 00:00:34.501
+Do you know where your gift is?
+
+00:00:34.501 --> 00:00:36.002
+Get yourself or your loved one a unique
+
+00:00:36.002 --> 00:00:37.771
+and stunning ring this Valentine's Day
+
+00:00:37.771 --> 00:00:39.806
+and make it extra precious for your precious.
+
+00:00:39.806 --> 00:00:41.007
+Just go to the link down below
+
+00:00:41.007 --> 00:00:43.710
+and use code LTT to get 20% off.
+
+00:00:43.710 --> 00:00:45.045
+Our goal in making this video
+
+00:00:45.045 --> 00:00:47.047
+was to be as comprehensive as possible.
+
+00:00:47.047 --> 00:00:49.282
+So while we would recommend watching it
+
+00:00:49.282 --> 00:00:51.084
+all the way through the first time,
+
+00:00:51.084 --> 00:00:52.819
+we've added convenient chapter markers
+
+00:00:52.819 --> 00:00:56.022
+if you ever wanna come back for a topic-specific refresher.
+
+00:00:56.022 --> 00:00:57.857
+We'll begin with the physical things
+
+00:00:57.857 --> 00:00:58.725
+that you need to set up,
+
+00:00:58.725 --> 00:01:01.027
+starting with location.
+
+00:01:01.027 --> 00:01:04.364
+Now, obviously, easy access to your ports is critical.
+
+00:01:04.364 --> 00:01:05.765
+So depending on your case,
+
+00:01:05.765 --> 00:01:09.135
+you might prefer it on the right or on the left.
+
+00:01:09.135 --> 00:01:12.539
+But what's less obvious is that your PC's position
+
+00:01:12.539 --> 00:01:16.176
+can have a big impact on future maintenance requirements.
+
+00:01:16.176 --> 00:01:18.611
+The main way that dust enters your case
+
+00:01:18.611 --> 00:01:20.413
+is by being sucked into the front
+
+00:01:20.413 --> 00:01:22.315
+or the bottom intake fans.
+
+00:01:22.315 --> 00:01:24.617
+Keeping those off the floor means that your system
+
+00:01:24.617 --> 00:01:27.253
+will require far less frequent cleaning.
+
+00:01:27.287 --> 00:01:29.622
+This is especially true for carpeted flooring,
+
+00:01:29.622 --> 00:01:31.991
+which not only acts as a pet hair magnet,
+
+00:01:31.991 --> 00:01:35.295
+but can also starve your power supply of fresh air
+
+00:01:35.295 --> 00:01:37.664
+depending on its orientation.
+
+00:01:37.664 --> 00:01:40.100
+If you must have your system on the floor, though,
+
+00:01:40.100 --> 00:01:41.935
+at least do yourself a favor
+
+00:01:41.935 --> 00:01:44.370
+and put it under the edge of your desk.
+
+00:01:44.370 --> 00:01:46.573
+Even with top exhaust fans,
+
+00:01:46.573 --> 00:01:50.243
+a shocking amount of dust can settle down into your system
+
+00:01:50.243 --> 00:01:52.245
+if you have an open-top grill.
+
+00:01:52.245 --> 00:01:53.613
+If your system has an antenna,
+
+00:01:53.613 --> 00:01:54.914
+it should be in line of sight
+
+00:01:54.914 --> 00:01:56.416
+with any Bluetooth peripherals
+
+00:01:56.416 --> 00:01:58.084
+that you intend to connect later,
+
+00:01:58.084 --> 00:01:59.652
+and it should be clear of anything
+
+00:01:59.652 --> 00:02:02.655
+that might block the signal to your Wi-Fi access point,
+
+00:02:02.655 --> 00:02:06.092
+like a dense concrete wall or granite countertop,
+
+00:02:06.092 --> 00:02:08.461
+or even the PC's chassis itself.
+
+00:02:08.461 --> 00:02:09.796
+I mean, you know what they say.
+
+00:02:09.796 --> 00:02:13.366
+Distance makes the RF signal stronger.
+
+00:02:13.366 --> 00:02:14.400
+Now you're ready to plug in,
+
+00:02:14.400 --> 00:02:16.536
+and the first cable is gonna be power.
+
+00:02:16.536 --> 00:02:18.438
+This ensures that your equipment is grounded
+
+00:02:18.438 --> 00:02:20.473
+and protected from electrostatic discharge.
+
+00:02:20.473 --> 00:02:22.342
+As for the other end of the cable,
+
+00:02:22.342 --> 00:02:24.010
+well, good PC power supplies
+
+00:02:24.010 --> 00:02:26.379
+can handle a wide range of power conditions
+
+00:02:27.213 --> 00:02:28.848
+before supplying anything to the rest of your PC,
+
+00:02:28.848 --> 00:02:31.918
+but plugging into the wall or into a dumb power strip
+
+00:02:31.918 --> 00:02:34.254
+can stress it if your wall power is noisy
+
+00:02:34.254 --> 00:02:36.256
+or prone to voltage sagging and brownouts.
+
+00:02:36.256 --> 00:02:37.590
+This is especially true
+
+00:02:37.590 --> 00:02:39.359
+when other high-power appliances are running,
+
+00:02:39.359 --> 00:02:41.060
+like, say, an air conditioner.
+
+00:02:41.060 --> 00:02:42.896
+A UPS or premium surge protector
+
+00:02:42.896 --> 00:02:44.731
+can help clean that power up a bit
+
+00:02:44.731 --> 00:02:46.599
+before it hits your PC or display,
+
+00:02:46.599 --> 00:02:47.433
+but failing that,
+
+00:02:47.433 --> 00:02:49.769
+I'd recommend at least a basic surge protector,
+
+00:02:49.769 --> 00:02:52.505
+which can help protect your computer against voltage spikes
+
+00:02:52.505 --> 00:02:54.174
+from things like a lightning strike.
+
+00:02:54.174 --> 00:02:55.608
+For desktop peripherals,
+
+00:02:55.608 --> 00:02:57.610
+I'd recommend plugging your keyboard and your mouse
+
+00:02:57.610 --> 00:02:59.846
+into the slowest USB ports
+
+00:02:59.846 --> 00:03:03.216
+that are connected directly to your motherboard's chipset.
+
+00:03:03.216 --> 00:03:04.918
+They're not gonna use the extra performance
+
+00:03:04.918 --> 00:03:06.452
+of a faster port anyway,
+
+00:03:06.452 --> 00:03:09.155
+and plugging them into secondary controllers
+
+00:03:09.155 --> 00:03:10.690
+or into add-in cards
+
+00:03:10.690 --> 00:03:12.759
+can sometimes cause them to stay inactive
+
+00:03:12.759 --> 00:03:14.694
+until the system is finished booting
+
+00:03:14.694 --> 00:03:16.963
+or experience delays and hitches.
+
+00:03:16.963 --> 00:03:19.199
+You can check the block diagram for your motherboard
+
+00:03:19.199 --> 00:03:22.335
+if you're unsure which ports are connected to what.
+
+00:03:22.335 --> 00:03:23.436
+The same is true, by the way,
+
+00:03:23.436 --> 00:03:25.171
+if you're using a USB headset
+
+00:03:25.672 --> 00:03:27.040
+or a desktop DAC and amp.
+
+00:03:27.040 --> 00:03:28.808
+Pretty much every time I've seen someone
+
+00:03:28.808 --> 00:03:30.143
+report issues with these things,
+
+00:03:30.143 --> 00:03:32.612
+it's because they're connected through a hub or something.
+
+00:03:32.612 --> 00:03:35.114
+Do yourself a favor, connect directly.
+
+00:03:35.114 --> 00:03:38.151
+Now, if your audio device uses an old-school headphone jack,
+
+00:03:38.151 --> 00:03:40.320
+you can either use the front panel once,
+
+00:03:40.320 --> 00:03:41.521
+if your case has them,
+
+00:03:41.521 --> 00:03:43.423
+or you can use the ports on the rear.
+
+00:03:43.423 --> 00:03:45.858
+They'll usually be color-coded green and red
+
+00:03:45.858 --> 00:03:47.727
+for the headphones and mic respectively,
+
+00:03:47.727 --> 00:03:49.562
+or else they'll have symbols next to them.
+
+00:03:49.562 --> 00:03:52.165
+Some modern motherboards will actually prompt you
+
+00:03:52.165 --> 00:03:53.099
+for what you've plugged in,
+
+00:03:53.099 --> 00:03:55.535
+and they'll work regardless of where you plug things in,
+
+00:03:55.535 --> 00:03:57.971
+but they may not work optimally.
+
+00:03:57.971 --> 00:04:00.740
+On that subject, some cases and laptops
+
+00:04:00.740 --> 00:04:04.010
+might not have two separate three-pole jacks,
+
+00:04:04.010 --> 00:04:06.713
+but rather have a single four-pole jack.
+
+00:04:06.713 --> 00:04:08.948
+In that case, you're gonna need to get a Y cable
+
+00:04:08.948 --> 00:04:12.385
+like this one, unless your headset includes one in the box.
+
+00:04:12.385 --> 00:04:14.220
+Next up is display.
+
+00:04:14.220 --> 00:04:17.757
+Most gaming PCs come with a dedicated GPU installed
+
+00:04:17.757 --> 00:04:19.626
+in a PCI Express slot,
+
+00:04:19.626 --> 00:04:23.429
+and you should always plug your main display into that,
+
+00:04:23.429 --> 00:04:26.399
+rather than the ports on your motherboard's IO panel.
+
+00:04:26.399 --> 00:04:29.869
+Those ones are routed to your onboard graphics instead.
+
+00:04:29.869 --> 00:04:32.772
+Now, with the right UEFI BIOS configuration,
+
+00:04:32.772 --> 00:04:34.107
+we'll touch on that in a moment,
+
+00:04:34.107 --> 00:04:37.210
+your system may support connecting extra monitors
+
+00:04:37.210 --> 00:04:39.178
+to both of them at the same time,
+
+00:04:39.178 --> 00:04:42.148
+but if you run your game off of the wrong ports,
+
+00:04:42.148 --> 00:04:45.752
+it will have a negative impact on your gaming experience.
+
+00:04:45.752 --> 00:04:47.453
+As for which cable to use,
+
+00:04:47.520 --> 00:04:50.523
+HDMI, DisplayPort, or USB-C,
+
+00:04:50.523 --> 00:04:52.759
+that boils down to what your monitor supports
+
+00:04:52.759 --> 00:04:55.194
+and what your graphics card supports.
+
+00:04:55.194 --> 00:04:57.497
+When in doubt, DisplayPort is usually
+
+00:04:57.497 --> 00:05:00.500
+the more correct choice for PC,
+
+00:05:00.500 --> 00:05:02.502
+thanks to its generally higher bandwidth
+
+00:05:02.502 --> 00:05:04.504
+and broader support for extras
+
+00:05:04.504 --> 00:05:06.939
+like variable refresh rate gaming,
+
+00:05:06.939 --> 00:05:10.276
+but you should also refer to your GPU and display manuals
+
+00:05:10.276 --> 00:05:13.212
+to see exactly which features are supported.
+
+00:05:13.212 --> 00:05:15.381
+One last thing, if you're using a desktop
+
+00:05:15.381 --> 00:05:17.216
+with built-in Wi-Fi and Bluetooth,
+
+00:05:17.984 --> 00:05:18.818
+and you intend to use it,
+
+00:05:18.818 --> 00:05:21.321
+please make sure you screw in your antennas.
+
+00:05:21.321 --> 00:05:23.656
+Unlike laptops, desktops often
+
+00:05:23.656 --> 00:05:25.658
+don't have integrated antennas,
+
+00:05:25.658 --> 00:05:28.695
+and while you might be able to see nearby networks,
+
+00:05:28.695 --> 00:05:30.096
+you will almost certainly struggle
+
+00:05:30.096 --> 00:05:31.664
+to stay connected to them.
+
+00:05:31.664 --> 00:05:34.400
+It usually doesn't matter which one screws into where.
+
+00:05:34.400 --> 00:05:36.302
+If you've got wired ethernet instead,
+
+00:05:36.302 --> 00:05:38.538
+then you'll often have one place to plug it in
+
+00:05:38.538 --> 00:05:39.906
+and you're good to go,
+
+00:05:39.906 --> 00:05:41.174
+but if you have to,
+
+00:05:41.174 --> 00:05:43.309
+it's probably worth checking your motherboard's manual
+
+00:05:43.309 --> 00:05:44.977
+to find out what's what.
+
+00:05:44.977 --> 00:05:46.979
+Sometimes they're the exact same thing
+
+00:05:47.747 --> 00:05:48.681
+and completely interchangeable,
+
+00:05:48.681 --> 00:05:51.784
+but other times, one will use a slower,
+
+00:05:51.784 --> 00:05:54.320
+but maybe more broadly supported controller,
+
+00:05:54.320 --> 00:05:56.723
+while the other might use a multi-gig controller
+
+00:05:56.723 --> 00:05:59.392
+that's faster, but requires additional drivers
+
+00:05:59.392 --> 00:06:01.160
+once you're booted into Windows.
+
+00:06:01.160 --> 00:06:04.497
+These multi-gig ports can be a huge boon to creatives
+
+00:06:04.497 --> 00:06:05.932
+and to storage enthusiasts
+
+00:06:05.932 --> 00:06:08.334
+who have network-attached storage devices,
+
+00:06:08.334 --> 00:06:09.936
+or actually even gamers
+
+00:06:09.936 --> 00:06:12.171
+who have balling out internet plans,
+
+00:06:12.171 --> 00:06:14.674
+but if they're plugged into a typical network
+
+00:06:14.674 --> 00:06:16.909
+that has gigabit ports everywhere else,
+
+00:06:17.710 --> 00:06:19.946
+they're gonna be limited to gigabit speeds anyway.
+
+00:06:19.946 --> 00:06:21.681
+With everything plugged in and in place,
+
+00:06:21.681 --> 00:06:23.616
+now's a good time to tidy up your cables.
+
+00:06:23.616 --> 00:06:25.418
+You can use zip ties in a pinch,
+
+00:06:25.418 --> 00:06:26.719
+but hook and loop cable ties
+
+00:06:26.719 --> 00:06:28.855
+are a better solution for future maintenance.
+
+00:06:28.855 --> 00:06:30.256
+Lttstore.com.
+
+00:06:30.256 --> 00:06:32.191
+Also, we have something even better coming soon.
+
+00:06:32.191 --> 00:06:33.993
+Sign up for an in-stock notification
+
+00:06:33.993 --> 00:06:37.029
+for our cable management arches at the link below.
+
+00:06:37.029 --> 00:06:37.864
+Now that that's done,
+
+00:06:37.864 --> 00:06:39.866
+it's finally time to fire it up.
+
+00:06:39.866 --> 00:06:42.235
+Flick the switch around back on your power supply,
+
+00:06:42.235 --> 00:06:44.704
+give it a second, and then hit the power button.
+
+00:06:44.704 --> 00:06:45.905
+If nothing happens,
+
+00:06:45.905 --> 00:06:48.741
+you can refer to our last PC guide you'll ever need
+
+00:06:48.741 --> 00:06:50.910
+for some helpful troubleshooting tips.
+
+00:06:50.910 --> 00:06:51.778
+Before you do that, though,
+
+00:06:51.778 --> 00:06:53.379
+make sure your surge protector
+
+00:06:53.379 --> 00:06:55.481
+is plugged in and turned on too.
+
+00:06:55.481 --> 00:06:58.117
+It's actually a more common mistake than you think.
+
+00:06:58.117 --> 00:06:59.719
+Is it gonna power on first try?
+
+00:07:00.820 --> 00:07:01.988
+Oh, crap.
+
+00:07:01.988 --> 00:07:03.356
+Oh, power needs to be on.
+
+00:07:03.356 --> 00:07:05.191
+Oh, even for us.
+
+00:07:05.191 --> 00:07:06.859
+Now that fan spin is achieved,
+
+00:07:06.859 --> 00:07:08.561
+it's time to game, right?
+
+00:07:08.561 --> 00:07:09.395
+Not yet.
+
+00:07:09.395 --> 00:07:10.596
+Nearly every modern computer
+
+00:07:10.596 --> 00:07:13.933
+has what we still refer to incorrectly as a BIOS.
+
+00:07:13.933 --> 00:07:15.835
+The more modern term is UEFI,
+
+00:07:16.803 --> 00:07:17.637
+but we're old school,
+
+00:07:17.637 --> 00:07:19.472
+so BIOS is the screen you go to when you power on your PC,
+
+00:07:19.472 --> 00:07:22.275
+and it usually has the logo of the manufacturer.
+
+00:07:22.275 --> 00:07:23.443
+It's not just an ad, though.
+
+00:07:23.443 --> 00:07:25.244
+There's a whole menu buried in here
+
+00:07:25.244 --> 00:07:26.412
+if you press the right key
+
+00:07:26.412 --> 00:07:28.648
+before your operating system starts to boot up.
+
+00:07:28.648 --> 00:07:31.117
+Sometimes the key you need to press to access it
+
+00:07:31.117 --> 00:07:32.418
+is listed on the screen,
+
+00:07:32.418 --> 00:07:36.656
+but it'll usually be Delete, F2, F10, or F12.
+
+00:07:36.656 --> 00:07:38.391
+If you're unsure, check your manual.
+
+00:07:38.391 --> 00:07:41.294
+Failing that, just mash all the above.
+
+00:07:41.294 --> 00:07:43.496
+That usually gets the job done.
+
+00:07:43.496 --> 00:07:47.099
+The exact layout of this setup screen will vary a lot,
+
+00:07:47.099 --> 00:07:48.334
+depending on the manufacturer
+
+00:07:48.334 --> 00:07:50.436
+and model year of your system.
+
+00:07:50.436 --> 00:07:52.772
+There are DIY motherboards from a decade ago
+
+00:07:52.772 --> 00:07:54.707
+with full graphical interfaces,
+
+00:07:54.707 --> 00:07:56.209
+while some modern machines
+
+00:07:56.209 --> 00:07:57.977
+have almost retro-looking interfaces
+
+00:07:57.977 --> 00:07:59.512
+with no mouse support.
+
+00:07:59.512 --> 00:08:00.480
+Whatever the layout,
+
+00:08:00.480 --> 00:08:02.515
+the first screen usually has information
+
+00:08:02.515 --> 00:08:05.117
+about the hardware installed, the date and time,
+
+00:08:05.117 --> 00:08:07.653
+and sometimes the order of the storage devices
+
+00:08:07.653 --> 00:08:10.923
+the PC will check for an operating system to boot.
+
+00:08:10.923 --> 00:08:12.058
+Before continuing,
+
+00:08:12.058 --> 00:08:14.494
+make sure that everything is showing up as expected.
+
+00:08:14.494 --> 00:08:15.761
+Missing RAM, for example,
+
+00:08:15.761 --> 00:08:19.665
+could mean you need to reseat the module or the CPU itself.
+
+00:08:19.665 --> 00:08:21.968
+Even if you've been around the block a few times,
+
+00:08:21.968 --> 00:08:24.470
+you should check the manual to familiarize yourself
+
+00:08:24.470 --> 00:08:26.973
+with the layout before changing anything.
+
+00:08:26.973 --> 00:08:29.041
+After all, new platforms bring new features,
+
+00:08:29.041 --> 00:08:31.978
+and new features bring new headaches.
+
+00:08:31.978 --> 00:08:33.913
+It's at this point that you might want,
+
+00:08:33.913 --> 00:08:36.916
+or sometimes need, to upgrade your BIOS
+
+00:08:36.916 --> 00:08:38.618
+to the latest version on your motherboard
+
+00:08:38.618 --> 00:08:41.053
+or PC manufacturer's website.
+
+00:08:41.053 --> 00:08:44.190
+The exact steps for this vary greatly
+
+00:08:44.190 --> 00:08:48.294
+by manufacturer and by era, but the gist is this.
+
+00:08:48.294 --> 00:08:51.631
+Turn off the PC, download the BIOS from the manufacturer,
+
+00:08:51.631 --> 00:08:53.599
+and unzip it to a flash drive,
+
+00:08:53.599 --> 00:08:56.536
+which often must be formatted FAT32.
+
+00:08:56.536 --> 00:08:59.739
+Once that's done, eject it, plug it into your PC,
+
+00:08:59.739 --> 00:09:02.375
+again, on a motherboard chipset port,
+
+00:09:02.375 --> 00:09:03.543
+get back into the BIOS,
+
+00:09:03.543 --> 00:09:05.611
+and usually you'll find an option here
+
+00:09:05.611 --> 00:09:07.580
+with Flash in its name.
+
+00:09:07.580 --> 00:09:10.082
+Nine times out of 10, this is what you want.
+
+00:09:10.082 --> 00:09:12.752
+Select the flash drive, choose the file you downloaded,
+
+00:09:12.752 --> 00:09:14.687
+confirm, then kick back
+
+00:09:14.687 --> 00:09:17.723
+and hope that the power doesn't go out.
+
+00:09:17.723 --> 00:09:19.659
+Your system may reboot a couple of times
+
+00:09:19.659 --> 00:09:22.094
+during this process, which is normal,
+
+00:09:22.094 --> 00:09:24.730
+but if it suffers a power loss,
+
+00:09:24.730 --> 00:09:26.966
+it's quite vulnerable as being bricked,
+
+00:09:26.966 --> 00:09:31.137
+so if you have a battery backup of some sort kicking around,
+
+00:09:31.137 --> 00:09:32.572
+please do use it.
+
+00:09:32.572 --> 00:09:35.841
+There are sometimes ways to recover without this backup,
+
+00:09:35.841 --> 00:09:38.010
+but the exact details vary by vendor,
+
+00:09:38.010 --> 00:09:39.712
+and you do not want to find out
+
+00:09:39.712 --> 00:09:42.014
+that yours doesn't have one after the fact.
+
+00:09:42.014 --> 00:09:44.083
+Read your motherboard's manual to be sure.
+
+00:09:44.083 --> 00:09:46.419
+Once it's done, it should say the BIOS was updated
+
+00:09:46.419 --> 00:09:47.620
+and settings were reset,
+
+00:09:47.620 --> 00:09:50.256
+allowing you to enter setup to continue.
+
+00:09:50.256 --> 00:09:52.892
+Now, there are a few options of particular interest
+
+00:09:52.892 --> 00:09:56.562
+inside the BIOS, starting with XMP and XBO,
+
+00:09:56.562 --> 00:09:58.030
+the memory overclocking standards
+
+00:09:58.030 --> 00:10:00.766
+that were also previously known as DOCP
+
+00:10:00.766 --> 00:10:02.768
+on older AMD platforms.
+
+00:10:02.768 --> 00:10:05.504
+The location of the setting does vary a little bit,
+
+00:10:05.504 --> 00:10:08.240
+but many motherboards will have it on the main page
+
+00:10:08.240 --> 00:10:09.675
+because it is such a common thing
+
+00:10:09.675 --> 00:10:11.711
+for enthusiasts to enable.
+
+00:10:11.711 --> 00:10:14.280
+If you've got RAM that's rated for high speeds,
+
+00:10:14.280 --> 00:10:18.851
+this is a one-touch way to hopefully reach those speeds.
+
+00:10:18.851 --> 00:10:21.721
+Enabling it will correctly set all of the relevant settings
+
+00:10:21.721 --> 00:10:22.655
+in your motherboard BIOS,
+
+00:10:22.655 --> 00:10:26.258
+including voltages and something called the memory ratio.
+
+00:10:26.258 --> 00:10:28.361
+You don't need to fully understand what that means,
+
+00:10:28.361 --> 00:10:31.731
+but for best performance, one-to-one is ideal on Intel,
+
+00:10:31.731 --> 00:10:33.633
+and on AMD, you often want to see
+
+00:10:33.633 --> 00:10:37.403
+the F clock match half of the memory speed.
+
+00:10:37.403 --> 00:10:39.705
+Don't worry too much if it doesn't line up, though.
+
+00:10:39.705 --> 00:10:43.376
+Fast RAM is usually better than the alternative.
+
+00:10:43.376 --> 00:10:46.178
+Now, this is technically overclocking, though,
+
+00:10:46.178 --> 00:10:48.214
+so it's worth noting that this might not work
+
+00:10:48.214 --> 00:10:49.815
+in every configuration.
+
+00:10:49.815 --> 00:10:51.851
+If you have very fast memory
+
+00:10:51.851 --> 00:10:54.920
+or if you have more than two modules, for example,
+
+00:10:54.920 --> 00:10:58.391
+your CPU may have trouble running at the rated speeds.
+
+00:10:58.391 --> 00:10:59.825
+If you're worried about stability,
+
+00:10:59.825 --> 00:11:02.061
+you can go ahead and leave this step till last then
+
+00:11:02.061 --> 00:11:03.763
+when your system is fully set up.
+
+00:11:03.763 --> 00:11:06.098
+That way, you could even benchmark the before and after
+
+00:11:06.098 --> 00:11:08.200
+if you happen to be a turbo nerd like me.
+
+00:11:08.200 --> 00:11:11.570
+If you do enable XMP and find that your system fails to boot
+
+00:11:11.570 --> 00:11:13.639
+or is occasionally unstable,
+
+00:11:13.639 --> 00:11:15.975
+manually dialing back the memory speed
+
+00:11:15.975 --> 00:11:17.943
+or slightly increasing the voltage
+
+00:11:17.943 --> 00:11:19.478
+might make the difference.
+
+00:11:19.478 --> 00:11:20.479
+Worst case scenario,
+
+00:11:20.479 --> 00:11:22.581
+you can disable memory overclocking entirely
+
+00:11:22.581 --> 00:11:24.650
+and everything should work normally.
+
+00:11:24.650 --> 00:11:25.651
+If it doesn't,
+
+00:11:25.651 --> 00:11:28.254
+you could be looking at a warranty replacement.
+
+00:11:28.254 --> 00:11:30.723
+Next up, if you've got a beefy enough cooler,
+
+00:11:30.723 --> 00:11:34.160
+some BIOSes let you toggle a setting like Core Enhancement
+
+00:11:34.160 --> 00:11:36.562
+or Precision Boost Enhancement.
+
+00:11:36.562 --> 00:11:39.598
+This can help eek a little bit more performance out
+
+00:11:39.598 --> 00:11:41.901
+at the cost of additional heat and power draw
+
+00:11:41.901 --> 00:11:46.172
+by making your CPU turbo more aggressively or for longer.
+
+00:11:46.172 --> 00:11:48.607
+This one is less likely to harm stability,
+
+00:11:48.607 --> 00:11:50.643
+but again, if you experience problems,
+
+00:11:50.643 --> 00:11:53.112
+I'd recommend just turning it off.
+
+00:11:53.112 --> 00:11:55.448
+Our next stop will be Resizable BAR,
+
+00:11:55.448 --> 00:11:57.717
+a feature that boosts GPU performance
+
+00:11:57.717 --> 00:11:59.719
+by giving the system more efficient access
+
+00:11:59.752 --> 00:12:01.253
+to its onboard memory.
+
+00:12:01.253 --> 00:12:04.123
+This is usually gonna be somewhere in the advanced section,
+
+00:12:04.123 --> 00:12:06.592
+often under a heading for PCI devices.
+
+00:12:06.592 --> 00:12:07.660
+If you don't see it,
+
+00:12:07.660 --> 00:12:09.862
+it's possible your motherboard doesn't support it,
+
+00:12:09.862 --> 00:12:12.631
+but it's also possible that you need to enable
+
+00:12:12.631 --> 00:12:15.634
+above 4G decoding in order for it to show up.
+
+00:12:15.634 --> 00:12:17.036
+Unlike memory overclocking,
+
+00:12:17.036 --> 00:12:18.871
+this setting has no real downside,
+
+00:12:18.871 --> 00:12:21.240
+so you might as well enable it.
+
+00:12:21.240 --> 00:12:23.642
+It won't do anything if your GPU doesn't support it
+
+00:12:23.642 --> 00:12:25.578
+and on some modern GPUs,
+
+00:12:25.578 --> 00:12:28.714
+it is basically essential for proper performance
+
+00:12:28.714 --> 00:12:30.983
+to the point where the very newest motherboards
+
+00:12:30.983 --> 00:12:34.053
+as of writing might ship with this on by default.
+
+00:12:34.053 --> 00:12:35.888
+Another option we wanna make sure is enabled
+
+00:12:35.888 --> 00:12:37.323
+is virtualization.
+
+00:12:37.323 --> 00:12:39.792
+On Intel, this is often called VTX,
+
+00:12:39.792 --> 00:12:42.161
+while AMD calls it SVM.
+
+00:12:42.161 --> 00:12:44.830
+Along with letting you run virtual machines if you want to,
+
+00:12:44.830 --> 00:12:46.766
+with very little performance penalty,
+
+00:12:46.766 --> 00:12:49.802
+virtualization technology is used by operating systems
+
+00:12:49.802 --> 00:12:52.671
+to enhance security by sectioning off parts of the system,
+
+00:12:52.671 --> 00:12:57.676
+which is generally considered to be a very good idea, TM.
+
+00:12:57.710 --> 00:12:59.078
+This is often buried inside
+
+00:12:59.078 --> 00:13:01.313
+the CPU configuration setting section,
+
+00:13:01.313 --> 00:13:02.815
+and like resizable bar,
+
+00:13:02.815 --> 00:13:06.252
+the newest motherboards may ship with this on by default.
+
+00:13:06.252 --> 00:13:10.222
+A related setting is the Trusted Platform Module or TPM.
+
+00:13:10.222 --> 00:13:12.892
+Windows 11 mandates it as the second part
+
+00:13:12.892 --> 00:13:15.494
+of its virtualization-based security feature
+
+00:13:15.494 --> 00:13:18.297
+and for improving Windows Hello biometric login
+
+00:13:18.297 --> 00:13:20.800
+and BitLocker disk encryption security.
+
+00:13:20.800 --> 00:13:23.736
+For that reason, it's usually best to keep it enabled
+
+00:13:23.736 --> 00:13:25.704
+or enable it if it isn't already.
+
+00:13:25.738 --> 00:13:28.541
+Otherwise, no Windows 11 for you,
+
+00:13:28.541 --> 00:13:30.509
+at least not officially anyway.
+
+00:13:30.509 --> 00:13:32.678
+You'll also officially get no Windows 11
+
+00:13:32.678 --> 00:13:34.313
+if you don't enable Secure Boot,
+
+00:13:34.313 --> 00:13:36.282
+which helps guarantee that nothing malicious
+
+00:13:36.282 --> 00:13:37.817
+slipped in between the BIOS
+
+00:13:37.817 --> 00:13:39.251
+and loading the operating system.
+
+00:13:39.251 --> 00:13:40.753
+This could be a simple toggle,
+
+00:13:40.753 --> 00:13:42.254
+or you might need to select the option
+
+00:13:42.254 --> 00:13:45.191
+to install the default keys like on this board from Asus,
+
+00:13:45.191 --> 00:13:46.792
+but if that option doesn't show up anywhere,
+
+00:13:46.792 --> 00:13:48.127
+it could be that CSM,
+
+00:13:48.127 --> 00:13:50.262
+or Compatibility Support Module, is enabled,
+
+00:13:50.262 --> 00:13:53.199
+which puts the computer into a sort of old-school boot mode,
+
+00:13:53.199 --> 00:13:55.100
+and Secure Boot doesn't roll that way.
+
+00:13:55.100 --> 00:13:57.002
+So unless you know that you actually need it,
+
+00:13:57.002 --> 00:13:59.171
+it's usually best to disable CSM.
+
+00:13:59.171 --> 00:14:01.440
+One hot tip that might save you some headaches later
+
+00:14:01.440 --> 00:14:04.276
+is to determine what onboard hardware you don't need.
+
+00:14:04.276 --> 00:14:06.579
+For example, motherboards with built-in wireless,
+
+00:14:06.579 --> 00:14:09.215
+secondary LAN ports, or any other extras
+
+00:14:09.215 --> 00:14:11.150
+will have them all enabled by default,
+
+00:14:11.150 --> 00:14:14.086
+and they can sometimes be excessively chatty.
+
+00:14:14.086 --> 00:14:16.422
+This often manifests as stuttering or hitching,
+
+00:14:16.422 --> 00:14:18.791
+even when the system isn't even close to fully loaded,
+
+00:14:18.791 --> 00:14:21.093
+because the CPU has to drop whatever it's doing
+
+00:14:21.093 --> 00:14:23.195
+to listen to your Wi-Fi card go blah, blah, blah
+
+00:14:23.195 --> 00:14:25.364
+about the signal strength of your neighbor's Wi-Fi
+
+00:14:25.364 --> 00:14:26.599
+that you're not even using.
+
+00:14:26.599 --> 00:14:28.100
+So take a moment and disable anything
+
+00:14:28.100 --> 00:14:29.935
+you're 100% sure you don't need.
+
+00:14:29.935 --> 00:14:31.337
+Just remember you did it,
+
+00:14:31.337 --> 00:14:32.738
+so you're not tearing your hair out later
+
+00:14:32.738 --> 00:14:33.539
+trying to figure out
+
+00:14:33.539 --> 00:14:35.341
+why your serial port drivers won't install.
+
+00:14:35.341 --> 00:14:36.609
+There are a handful of other features
+
+00:14:36.609 --> 00:14:37.776
+you might wish to play around with.
+
+00:14:37.776 --> 00:14:40.446
+For example, you might want to reorder your boot devices
+
+00:14:40.446 --> 00:14:43.115
+or set up custom fan control if your board supports it,
+
+00:14:43.115 --> 00:14:43.949
+but for the most part,
+
+00:14:43.949 --> 00:14:46.352
+you should leave the rest of the stuff in here alone,
+
+00:14:46.352 --> 00:14:47.620
+especially voltages,
+
+00:14:47.620 --> 00:14:49.221
+unless you're sure you know what they do
+
+00:14:49.221 --> 00:14:50.623
+and accept the risks.
+
+00:14:50.623 --> 00:14:52.658
+For now, if you built your own PC,
+
+00:14:52.658 --> 00:14:54.894
+it's time to install your operating system.
+
+00:14:54.894 --> 00:14:56.662
+Or if you bought a prebuilt,
+
+00:14:56.662 --> 00:14:58.597
+it's time to install your operating system.
+
+00:14:58.597 --> 00:15:01.133
+I mean, you don't, strictly speaking, have to,
+
+00:15:01.133 --> 00:15:02.935
+but since so many machines
+
+00:15:02.935 --> 00:15:04.937
+come with bloatware pre-installed on them,
+
+00:15:04.937 --> 00:15:08.274
+it may actually take less time to just load up a fresh one
+
+00:15:08.274 --> 00:15:10.643
+than to sanitize what you've already got.
+
+00:15:10.643 --> 00:15:12.978
+Step one then is to download your OS.
+
+00:15:12.978 --> 00:15:14.847
+We're gonna use Windows 11 as our example,
+
+00:15:14.847 --> 00:15:17.850
+but most of this also applies to Windows 10.
+
+00:15:17.850 --> 00:15:20.986
+Microsoft provides a free tool to download an ISO
+
+00:15:21.020 --> 00:15:23.155
+that can either be saved so you can burn it
+
+00:15:23.155 --> 00:15:26.292
+or used to automatically build a USB installer.
+
+00:15:26.292 --> 00:15:28.294
+We're gonna have that linked down below.
+
+00:15:28.294 --> 00:15:30.696
+Download it, grab your USB flash drive,
+
+00:15:30.696 --> 00:15:32.631
+and make sure that anything you care about on it
+
+00:15:32.631 --> 00:15:33.832
+is backed up,
+
+00:15:33.832 --> 00:15:35.701
+because this is gonna wipe it clean.
+
+00:15:35.701 --> 00:15:36.802
+Go through the prompts.
+
+00:15:36.802 --> 00:15:39.571
+The recommended version is almost always what you want,
+
+00:15:39.571 --> 00:15:42.041
+and choose USB flash drive.
+
+00:15:42.041 --> 00:15:44.843
+Select the drive, and it's off to the races.
+
+00:15:44.843 --> 00:15:46.211
+While you wait for this to finish,
+
+00:15:46.211 --> 00:15:47.613
+I would strongly recommend
+
+00:15:47.613 --> 00:15:49.214
+downloading your hardware drivers
+
+00:15:49.214 --> 00:15:51.150
+from the manufacturer's websites.
+
+00:15:51.150 --> 00:15:53.752
+In particular, you are definitely going to want
+
+00:15:53.752 --> 00:15:55.054
+your network driver,
+
+00:15:55.054 --> 00:15:58.057
+and some systems might also need the storage driver
+
+00:15:58.057 --> 00:16:00.793
+in order to get through the Windows setup process.
+
+00:16:00.793 --> 00:16:02.161
+I usually just grab it all,
+
+00:16:02.161 --> 00:16:03.395
+because storage is cheap,
+
+00:16:03.395 --> 00:16:05.698
+and I'm not doing anything right now anyway.
+
+00:16:05.698 --> 00:16:07.633
+Once the Windows flash drive is finished,
+
+00:16:07.633 --> 00:16:09.068
+unzip the drivers to it.
+
+00:16:09.068 --> 00:16:12.104
+I like making a drivers folder with individual folders
+
+00:16:12.104 --> 00:16:14.239
+for each driver to keep them easy to find.
+
+00:16:14.239 --> 00:16:18.010
+Then eject it and pop it into your new PC and restart it.
+
+00:16:18.010 --> 00:16:20.713
+It should boot right into the installer,
+
+00:16:20.713 --> 00:16:21.780
+but if it doesn't,
+
+00:16:21.780 --> 00:16:24.483
+you should be able to choose the installer from the BIOS
+
+00:16:24.483 --> 00:16:25.751
+or through a boot menu,
+
+00:16:25.751 --> 00:16:29.088
+which is usually accessible by mashing F8 or F12
+
+00:16:29.088 --> 00:16:30.823
+on the BIOS screen.
+
+00:16:30.823 --> 00:16:31.657
+Fun fact,
+
+00:16:31.657 --> 00:16:33.492
+did you know that you can open a command prompt
+
+00:16:33.492 --> 00:16:35.194
+at any time during Windows setup
+
+00:16:35.194 --> 00:16:37.496
+by holding Shift and pressing F10?
+
+00:16:37.496 --> 00:16:39.999
+A fun little pro tip is if you do this
+
+00:16:39.999 --> 00:16:43.435
+and then type diskpart right at the beginning and hit Enter,
+
+00:16:43.435 --> 00:16:45.004
+then list disk,
+
+00:16:45.004 --> 00:16:47.940
+you can see all the drives that are installed on the PC.
+
+00:16:48.774 --> 00:16:50.509
+That way, if your storage device isn't showing up,
+
+00:16:50.509 --> 00:16:52.144
+it's a faster way to know,
+
+00:16:52.144 --> 00:16:54.880
+and you can quickly reboot the system and troubleshoot it.
+
+00:16:54.880 --> 00:16:55.948
+And if it is showing up,
+
+00:16:55.948 --> 00:16:58.917
+you can type select disk followed by the number next to it
+
+00:16:58.917 --> 00:17:02.254
+and type clean to remove anything from that drive.
+
+00:17:02.254 --> 00:17:03.422
+If you want to be really sure
+
+00:17:03.422 --> 00:17:04.690
+and you have some time to kill,
+
+00:17:04.690 --> 00:17:07.292
+clean all will crawl the drive
+
+00:17:07.292 --> 00:17:10.095
+and directly set every single bit to zero,
+
+00:17:10.095 --> 00:17:11.930
+which is basically a secure erase,
+
+00:17:11.930 --> 00:17:13.298
+though that takes a while,
+
+00:17:13.298 --> 00:17:15.334
+especially with higher capacity drives.
+
+00:17:15.334 --> 00:17:17.302
+Once you're done, type exit twice,
+
+00:17:17.336 --> 00:17:19.838
+hitting Enter both times to close the command window,
+
+00:17:19.838 --> 00:17:21.874
+then proceed through the prompts.
+
+00:17:21.874 --> 00:17:23.675
+If you come to the part where you need to select
+
+00:17:23.675 --> 00:17:25.911
+where to install Windows and nothing is there,
+
+00:17:25.911 --> 00:17:28.247
+it's time to put that storage driver to use.
+
+00:17:28.247 --> 00:17:29.648
+Click load driver,
+
+00:17:29.648 --> 00:17:31.450
+then find the folder on the flash drive
+
+00:17:31.450 --> 00:17:33.619
+that you unzipped your storage driver to.
+
+00:17:33.619 --> 00:17:35.654
+With any luck, the driver will pick up your drive
+
+00:17:35.654 --> 00:17:37.756
+and you can proceed as normal.
+
+00:17:37.756 --> 00:17:39.324
+In some situations, by the way,
+
+00:17:39.324 --> 00:17:42.127
+Windows does a thing and splits your install
+
+00:17:42.127 --> 00:17:43.862
+across two drives.
+
+00:17:43.862 --> 00:17:46.098
+Most often, if one of the installed drives
+
+00:17:46.098 --> 00:17:48.300
+has an existing Windows partition on it.
+
+00:17:48.300 --> 00:17:50.002
+So if you have an old drive
+
+00:17:50.002 --> 00:17:51.670
+that you're planning to copy data from
+
+00:17:51.670 --> 00:17:53.372
+that has an operating system,
+
+00:17:53.372 --> 00:17:56.442
+I would strongly recommend shutting down the system
+
+00:17:56.442 --> 00:17:59.511
+and removing it until you've finished the setup process.
+
+00:17:59.511 --> 00:18:02.748
+Now, most people will want to select the unallocated space
+
+00:18:02.748 --> 00:18:05.818
+for the drive you want to install Windows on and continue.
+
+00:18:05.818 --> 00:18:07.786
+But if you only have one drive
+
+00:18:07.786 --> 00:18:09.354
+and you want to separate Windows
+
+00:18:09.354 --> 00:18:11.056
+from your documents, games, et cetera,
+
+00:18:11.056 --> 00:18:14.560
+so that you can wipe Windows clean without worry later,
+
+00:18:14.560 --> 00:18:16.662
+then you can create a new partition
+
+00:18:16.662 --> 00:18:19.131
+for just that with this button.
+
+00:18:19.131 --> 00:18:21.400
+This will steal the amount of storage capacity
+
+00:18:21.400 --> 00:18:23.335
+you choose for it from the Windows drive.
+
+00:18:23.335 --> 00:18:24.603
+So you'll have to make the call
+
+00:18:24.603 --> 00:18:26.538
+on how much to assign to Windows
+
+00:18:26.538 --> 00:18:28.140
+and to your storage drive
+
+00:18:28.140 --> 00:18:30.342
+based on what you expect to need installed
+
+00:18:30.342 --> 00:18:31.276
+on your Windows drive.
+
+00:18:31.276 --> 00:18:33.479
+You can then click the remaining unallocated space
+
+00:18:33.479 --> 00:18:35.280
+to install Windows to it.
+
+00:18:35.280 --> 00:18:37.116
+It'll set up everything on its own.
+
+00:18:37.116 --> 00:18:40.085
+When you're satisfied, click next and make a sandwich.
+
+00:18:40.085 --> 00:18:40.919
+Quickly though,
+
+00:18:40.919 --> 00:18:43.622
+because this shouldn't take too long on a modern PC.
+
+00:18:43.622 --> 00:18:44.823
+After a reboot or two,
+
+00:18:44.823 --> 00:18:46.959
+you should see the screen to get connected to the network
+
+00:18:46.959 --> 00:18:48.494
+and download updates.
+
+00:18:48.494 --> 00:18:50.095
+If nothing comes up here,
+
+00:18:50.095 --> 00:18:52.631
+this is where those network drivers come in.
+
+00:18:52.631 --> 00:18:54.633
+Press shift and F10 again,
+
+00:18:54.633 --> 00:18:58.737
+then devmanagement.msc and hit enter.
+
+00:18:58.737 --> 00:19:02.107
+Find the unknown devices called ethernet controllers,
+
+00:19:02.107 --> 00:19:04.810
+right click them and click update driver.
+
+00:19:04.810 --> 00:19:07.146
+Again, browse to where you extracted the drivers
+
+00:19:07.146 --> 00:19:09.615
+to your USB drive and it should pick them up.
+
+00:19:09.615 --> 00:19:12.251
+Unfortunately, Windows doesn't give you an easy way
+
+00:19:12.284 --> 00:19:13.619
+to know which one is which.
+
+00:19:13.619 --> 00:19:15.487
+So there might be a bit of trial and error
+
+00:19:15.487 --> 00:19:17.723
+with selecting the right driver for each controller
+
+00:19:17.723 --> 00:19:19.258
+if you have more than one.
+
+00:19:19.258 --> 00:19:22.094
+Or if you get bored of this monkey business entirely,
+
+00:19:22.094 --> 00:19:24.196
+you can just bring the command prompt back up
+
+00:19:24.196 --> 00:19:27.599
+and type UBI backslash bypass NRO.
+
+00:19:27.599 --> 00:19:29.735
+And then you can just deal with the network drivers
+
+00:19:29.735 --> 00:19:31.203
+once you hit the desktop.
+
+00:19:31.203 --> 00:19:33.539
+Fun fact, this also removes the requirement
+
+00:19:33.539 --> 00:19:35.807
+for an online Microsoft account.
+
+00:19:35.807 --> 00:19:38.076
+If you're successful installing network drivers however,
+
+00:19:38.076 --> 00:19:40.212
+your yellow exclamation point should disappear
+
+00:19:40.212 --> 00:19:42.548
+from device manager, allowing you to proceed.
+
+00:19:42.548 --> 00:19:43.916
+That's the end of the hard part.
+
+00:19:43.916 --> 00:19:46.552
+So we're just gonna mostly skip over the rest,
+
+00:19:46.552 --> 00:19:48.220
+just noting that we would suggest
+
+00:19:48.220 --> 00:19:50.656
+turning off most of the analytics options
+
+00:19:50.656 --> 00:19:52.658
+and oh, make sure you take a note
+
+00:19:52.658 --> 00:19:54.560
+of that restore from backup option
+
+00:19:54.560 --> 00:19:56.495
+if you did use a Microsoft account.
+
+00:19:56.495 --> 00:19:58.664
+You're gonna learn what that's for later.
+
+00:19:58.664 --> 00:20:02.100
+Now that you're on the desktop then, now what?
+
+00:20:02.100 --> 00:20:04.836
+Well, first order of business is drivers.
+
+00:20:04.836 --> 00:20:07.839
+Some systems will offer to install them automatically
+
+00:20:07.839 --> 00:20:09.174
+using built-in software.
+
+00:20:09.174 --> 00:20:11.443
+And some of those let you thankfully disable
+
+00:20:11.443 --> 00:20:13.779
+that feature in the BIOS if you don't like software
+
+00:20:13.779 --> 00:20:15.914
+you can't control lurking inside your system.
+
+00:20:15.914 --> 00:20:19.751
+But more importantly, it can also lead to extra bloat
+
+00:20:19.751 --> 00:20:21.720
+being installed on your machine.
+
+00:20:21.720 --> 00:20:23.922
+For now, you should install all the drivers
+
+00:20:23.922 --> 00:20:25.257
+you downloaded previously,
+
+00:20:25.257 --> 00:20:26.992
+which might take a couple of reboots
+
+00:20:26.992 --> 00:20:28.193
+before you get through them all,
+
+00:20:28.193 --> 00:20:29.795
+but should be fairly straightforward
+
+00:20:29.795 --> 00:20:31.897
+for most driver packages nowadays.
+
+00:20:31.897 --> 00:20:34.399
+If all you have is a cab file and an INF file,
+
+00:20:34.399 --> 00:20:36.201
+you might have to go to the device manager
+
+00:20:36.201 --> 00:20:38.870
+and use that update driver trick that we showed you earlier,
+
+00:20:39.571 --> 00:20:40.672
+but that shouldn't be a big deal.
+
+00:20:40.672 --> 00:20:41.707
+Once everything's installed
+
+00:20:41.707 --> 00:20:43.642
+and your yellow exclamation marks are gone,
+
+00:20:43.642 --> 00:20:45.410
+go ahead and grab Windows updates
+
+00:20:45.410 --> 00:20:47.112
+until there aren't any more,
+
+00:20:47.112 --> 00:20:50.015
+then right click the taskbar, go to taskbar settings,
+
+00:20:50.015 --> 00:20:51.850
+then remove search cause it's pointless
+
+00:20:51.850 --> 00:20:53.085
+and left align the start menu
+
+00:20:53.085 --> 00:20:55.754
+because you are a man or lady of culture.
+
+00:20:55.754 --> 00:20:58.056
+Now you're ready to start getting settled in.
+
+00:20:58.056 --> 00:21:00.392
+If you have any Bluetooth devices that you wanna connect,
+
+00:21:00.392 --> 00:21:02.194
+you can do that through the Bluetooth icon
+
+00:21:02.194 --> 00:21:03.428
+in the system tray.
+
+00:21:03.428 --> 00:21:05.931
+Just click add device, choose Bluetooth
+
+00:21:05.931 --> 00:21:08.200
+and make sure that your device is in pairing mode.
+
+00:21:08.200 --> 00:21:09.701
+It should show up in a few seconds
+
+00:21:09.701 --> 00:21:11.436
+and then all you need to do is select it
+
+00:21:11.436 --> 00:21:13.372
+and follow the instructions on screen.
+
+00:21:13.372 --> 00:21:15.140
+Some devices will connect right away
+
+00:21:15.140 --> 00:21:17.209
+while others may need you to press a button
+
+00:21:17.209 --> 00:21:19.211
+or key in a code to confirm.
+
+00:21:19.211 --> 00:21:20.412
+Once the device is connected,
+
+00:21:20.412 --> 00:21:21.913
+it should reconnect automatically
+
+00:21:21.913 --> 00:21:23.482
+every time it's turned on.
+
+00:21:23.482 --> 00:21:25.417
+If you later pair it with another device though
+
+00:21:25.417 --> 00:21:27.286
+and it no longer works with your PC,
+
+00:21:27.286 --> 00:21:29.021
+just look for it in the devices list,
+
+00:21:29.021 --> 00:21:30.455
+click the three dots to forget it
+
+00:21:30.455 --> 00:21:32.691
+and go through the pairing process again.
+
+00:21:32.691 --> 00:21:34.493
+Once you're satisfied everything is connected,
+
+00:21:34.493 --> 00:21:36.461
+it's time to check your network config.
+
+00:21:36.461 --> 00:21:37.963
+Windows has a firewall built in
+
+00:21:38.730 --> 00:21:40.399
+to protect your PC from unauthorized access
+
+00:21:40.399 --> 00:21:41.300
+from your network,
+
+00:21:41.300 --> 00:21:44.069
+but it has two modes that define how strict it will be.
+
+00:21:44.069 --> 00:21:46.705
+The first, nowadays the default, is public,
+
+00:21:46.705 --> 00:21:49.341
+which treats all incoming connections with suspicion
+
+00:21:49.341 --> 00:21:52.411
+unless you specifically allow an app to accept them.
+
+00:21:52.411 --> 00:21:55.080
+This is great for connecting to unsecured public Wi-Fi
+
+00:21:55.080 --> 00:21:56.415
+at your favorite coffee shop,
+
+00:21:56.415 --> 00:21:57.482
+but if you have a home network
+
+00:21:57.482 --> 00:21:58.750
+and you'd like to share files,
+
+00:21:58.750 --> 00:22:00.752
+you'll wanna change over your connection to private,
+
+00:22:00.752 --> 00:22:02.788
+which relaxes security to allow connection
+
+00:22:02.788 --> 00:22:03.955
+from your local network.
+
+00:22:03.955 --> 00:22:05.991
+You can change this by right clicking the network icon
+
+00:22:05.991 --> 00:22:06.892
+in the system tray,
+
+00:22:06.892 --> 00:22:08.894
+then clicking network and internet settings.
+
+00:22:08.894 --> 00:22:10.495
+Click on the network connection you wanna change,
+
+00:22:10.495 --> 00:22:13.365
+then toggle either private or public as desired.
+
+00:22:13.365 --> 00:22:14.533
+The next thing you'll wanna do,
+
+00:22:14.533 --> 00:22:16.835
+especially if you're sharing files on the network,
+
+00:22:16.835 --> 00:22:18.370
+is to set up your power options
+
+00:22:18.370 --> 00:22:20.806
+in the settings app under system, then power.
+
+00:22:20.806 --> 00:22:22.974
+Here you can set when your PC goes to sleep,
+
+00:22:22.974 --> 00:22:24.376
+when your screens go to sleep,
+
+00:22:24.376 --> 00:22:26.678
+and how aggressively your PC should try to optimize
+
+00:22:26.678 --> 00:22:28.647
+for performance or power usage.
+
+00:22:28.647 --> 00:22:30.716
+By default, Windows will set your PC to sleep
+
+00:22:30.716 --> 00:22:31.950
+after 10 minutes,
+
+00:22:31.950 --> 00:22:34.152
+but if you're a fan of accessing your PC remotely
+
+00:22:34.152 --> 00:22:36.688
+through an app like TeamViewer, Parsec, or Tailscale,
+
+00:22:37.422 --> 00:22:38.590
+or sharing files like we mentioned earlier,
+
+00:22:38.590 --> 00:22:40.359
+it'll be inaccessible while it's asleep
+
+00:22:40.359 --> 00:22:42.461
+without some very specific steps.
+
+00:22:42.461 --> 00:22:45.330
+In that case, you might wanna set your PC to never sleep,
+
+00:22:45.330 --> 00:22:46.732
+though that does mean you'll be missing out
+
+00:22:46.732 --> 00:22:48.400
+on those sleep power savings.
+
+00:22:48.400 --> 00:22:50.335
+You can, however, tune that power drop
+
+00:22:50.335 --> 00:22:52.637
+by searching for edit power plan in the start menu
+
+00:22:52.637 --> 00:22:54.906
+and clicking the change advanced power settings link
+
+00:22:54.906 --> 00:22:56.908
+in the vintage window that pops up.
+
+00:22:56.908 --> 00:22:57.976
+There are a bunch of settings here,
+
+00:22:57.976 --> 00:23:00.178
+ranging from when to turn off spinning hard disks,
+
+00:23:00.178 --> 00:23:02.481
+and how many power saving features are enabled
+
+00:23:02.481 --> 00:23:05.650
+for your Wi-Fi, USB, and PCI Express devices,
+
+00:23:05.650 --> 00:23:07.619
+as well as the ability to set the minimum
+
+00:23:07.619 --> 00:23:09.721
+and maximum performance of your CPU.
+
+00:23:09.721 --> 00:23:12.124
+These options can also be useful for troubleshooting things
+
+00:23:12.124 --> 00:23:14.259
+like periodic dropouts and disconnections.
+
+00:23:14.259 --> 00:23:16.528
+For example, if your USB cable is good
+
+00:23:16.528 --> 00:23:17.763
+and the port is good,
+
+00:23:17.763 --> 00:23:20.232
+try turning off USB selective suspend,
+
+00:23:20.232 --> 00:23:21.800
+or if your Wi-Fi is unreliable,
+
+00:23:21.800 --> 00:23:24.035
+you can try setting it to maximum performance.
+
+00:23:24.035 --> 00:23:26.304
+Now that your devices and core settings are set up,
+
+00:23:26.304 --> 00:23:28.974
+you'll wanna tweak some of the more common user settings.
+
+00:23:28.974 --> 00:23:31.610
+For example, most gamers don't like mouse acceleration,
+
+00:23:31.610 --> 00:23:32.911
+and the easiest way to find this
+
+00:23:32.911 --> 00:23:34.980
+is by typing mouse in the start menu search
+
+00:23:34.980 --> 00:23:36.748
+and then selecting change the mouse pointer
+
+00:23:36.748 --> 00:23:38.016
+display or speed.
+
+00:23:38.016 --> 00:23:39.918
+In this window, click pointer options,
+
+00:23:39.918 --> 00:23:42.854
+then uncheck enhance pointer precision if it's enabled.
+
+00:23:42.854 --> 00:23:45.090
+You should generally leave the cursor speed where it is
+
+00:23:45.090 --> 00:23:47.559
+and use DPI switching that's built into your mouse
+
+00:23:47.559 --> 00:23:49.428
+or mouse software for that instead.
+
+00:23:49.428 --> 00:23:51.196
+You can change the other options here to taste
+
+00:23:51.196 --> 00:23:53.465
+or lack thereof, but for now, just hit okay.
+
+00:23:54.633 --> 00:23:55.934
+It's a good idea at this point
+
+00:23:55.934 --> 00:23:57.569
+to set up some file explorer settings
+
+00:23:57.569 --> 00:23:58.703
+by hitting these dots here
+
+00:23:58.703 --> 00:24:00.739
+and opening up the options window.
+
+00:24:00.739 --> 00:24:02.274
+Here, among other things,
+
+00:24:02.274 --> 00:24:04.843
+we can choose whether to see the default home view
+
+00:24:05.677 --> 00:24:07.813
+with recent documents or the this PC view
+
+00:24:07.813 --> 00:24:10.715
+where only drives attached to the system are shown.
+
+00:24:10.715 --> 00:24:12.851
+If you'd like to avoid getting duped by the way,
+
+00:24:12.851 --> 00:24:15.220
+like when we had our channel hacked recently,
+
+00:24:15.220 --> 00:24:16.888
+you should then go to view
+
+00:24:16.888 --> 00:24:20.292
+and uncheck hide extensions for known file types.
+
+00:24:20.292 --> 00:24:24.463
+I will never understand why this is enabled by default.
+
+00:24:24.463 --> 00:24:25.964
+There are some other options in here
+
+00:24:25.964 --> 00:24:27.833
+like showing hidden files,
+
+00:24:27.833 --> 00:24:29.835
+restoring previous windows when restarting
+
+00:24:29.835 --> 00:24:31.036
+and so on and so forth.
+
+00:24:31.036 --> 00:24:33.538
+So go ahead and modify to suit your tastes
+
+00:24:33.538 --> 00:24:35.440
+or click on restore defaults
+
+00:24:35.440 --> 00:24:37.509
+if you can't find that one option that you changed
+
+00:24:37.509 --> 00:24:38.944
+that you ended up not liking.
+
+00:24:38.944 --> 00:24:40.479
+One more thing you'll notice in this window
+
+00:24:40.479 --> 00:24:42.681
+is the apply to folders button.
+
+00:24:42.681 --> 00:24:43.915
+What's that do?
+
+00:24:43.915 --> 00:24:47.118
+Well, if you right click empty space in an Explorer window,
+
+00:24:47.118 --> 00:24:48.587
+you're gonna see a view option
+
+00:24:48.587 --> 00:24:50.455
+with a bunch of different layouts.
+
+00:24:50.455 --> 00:24:51.823
+Here's what each of them looks like
+
+00:24:51.823 --> 00:24:53.558
+and here's the available columns
+
+00:24:53.558 --> 00:24:55.560
+to sort with the details view.
+
+00:24:55.560 --> 00:24:56.628
+Regardless of the view,
+
+00:24:56.628 --> 00:24:59.464
+you can sort or group by these criteria.
+
+00:24:59.464 --> 00:25:00.732
+Grouping by date, by the way,
+
+00:25:00.765 --> 00:25:04.402
+is a great way to sort your downloads and your photos.
+
+00:25:04.402 --> 00:25:06.004
+If you get it set up just right
+
+00:25:06.004 --> 00:25:07.339
+and you wanna use that layout
+
+00:25:07.339 --> 00:25:09.975
+as the default for all folders on your PC,
+
+00:25:09.975 --> 00:25:12.644
+that's what the apply to folders button does.
+
+00:25:12.644 --> 00:25:14.112
+If you want a specific folder
+
+00:25:14.112 --> 00:25:16.648
+to show large icons or thumbnails,
+
+00:25:16.648 --> 00:25:18.383
+you can set it separately,
+
+00:25:18.383 --> 00:25:19.951
+which is pretty neat, right?
+
+00:25:19.951 --> 00:25:21.953
+And don't worry if you mess something up,
+
+00:25:21.953 --> 00:25:25.090
+the reset folders button is always there to help you.
+
+00:25:25.090 --> 00:25:26.157
+Speaking of folders,
+
+00:25:26.157 --> 00:25:27.993
+did you know you can change the locations
+
+00:25:27.993 --> 00:25:29.995
+of these main folders here?
+
+00:25:30.028 --> 00:25:32.230
+Just right click on them, click properties,
+
+00:25:32.230 --> 00:25:34.099
+and then look at the location tab.
+
+00:25:34.099 --> 00:25:37.335
+Click move and you'll be able to choose a new spot for them.
+
+00:25:37.335 --> 00:25:39.471
+It doesn't work very well with OneDrive,
+
+00:25:39.471 --> 00:25:41.273
+but if you've got a separate drive
+
+00:25:41.273 --> 00:25:43.642
+or a partition that you'd like to use for your files
+
+00:25:43.642 --> 00:25:47.078
+while keeping Windows separate, this is for you.
+
+00:25:47.078 --> 00:25:48.013
+When you click okay,
+
+00:25:48.013 --> 00:25:50.749
+it'll even ask if it should move any existing files
+
+00:25:50.749 --> 00:25:51.983
+over to the new location,
+
+00:25:51.983 --> 00:25:54.519
+which is super handy if you're doing this on a system
+
+00:25:54.519 --> 00:25:57.722
+that you've already kind of moved into.
+
+00:25:57.722 --> 00:25:59.391
+Of course, there's a more fundamental way
+
+00:25:59.391 --> 00:26:00.926
+to personalize your PC.
+
+00:26:00.926 --> 00:26:03.595
+If you right click the desktop and click personalization,
+
+00:26:03.595 --> 00:26:05.597
+you'll find options to change the background,
+
+00:26:05.597 --> 00:26:07.132
+colors, and more.
+
+00:26:07.132 --> 00:26:09.200
+You can even have a group of background pictures
+
+00:26:09.200 --> 00:26:12.337
+that will change periodically if you use slideshow.
+
+00:26:12.337 --> 00:26:14.673
+Under colors, you can choose whether you're on the light
+
+00:26:14.673 --> 00:26:17.075
+or dark side, enable or disable
+
+00:26:17.075 --> 00:26:19.477
+the microtransparency effect on some windows,
+
+00:26:19.477 --> 00:26:21.479
+and manually select an accent color
+
+00:26:21.479 --> 00:26:22.647
+if you don't like what Windows chose
+
+00:26:22.647 --> 00:26:24.015
+to match your background.
+
+00:26:24.015 --> 00:26:26.451
+Oh, and you can choose whether it should apply
+
+00:26:26.451 --> 00:26:29.120
+to the taskbar and to Windows too.
+
+00:26:29.854 --> 00:26:32.490
+A special note here is the contrast theme section.
+
+00:26:32.490 --> 00:26:33.992
+This can be really helpful
+
+00:26:33.992 --> 00:26:35.760
+for people with visual impairments
+
+00:26:35.760 --> 00:26:37.896
+or just to look cool if you dig the aesthetic
+
+00:26:37.896 --> 00:26:40.231
+because it applies everywhere
+
+00:26:40.231 --> 00:26:43.401
+and you can edit the colors that it selects yourself.
+
+00:26:43.401 --> 00:26:44.436
+There's some other useful stuff
+
+00:26:44.436 --> 00:26:46.838
+in the accessibility section of the settings app too.
+
+00:26:46.838 --> 00:26:49.741
+For example, you can make scroll bars always show
+
+00:26:49.741 --> 00:26:51.376
+if you hate the auto hide stick,
+
+00:26:51.376 --> 00:26:54.579
+you can turn off Windows animations for faster navigation,
+
+00:26:54.579 --> 00:26:57.282
+you can change the size and style of your cursor,
+
+00:26:57.282 --> 00:26:59.551
+and importantly for people who don't use them,
+
+00:26:59.551 --> 00:27:01.620
+you can disable the keyboard shortcuts
+
+00:27:01.620 --> 00:27:03.955
+for sticky keys and filter keys.
+
+00:27:03.955 --> 00:27:06.491
+Oh, that toggle keys function can be helpful too.
+
+00:27:06.491 --> 00:27:08.727
+It plays a beep whenever you enable caps lock,
+
+00:27:08.727 --> 00:27:10.161
+num lock, or scroll lock,
+
+00:27:10.161 --> 00:27:11.663
+so you don't have to look down at your keyboard
+
+00:27:11.663 --> 00:27:12.697
+to see if they're on.
+
+00:27:13.531 --> 00:27:15.367
+A common problem for monitors
+
+00:27:15.367 --> 00:27:18.003
+is that either HDR or high refresh rate
+
+00:27:18.003 --> 00:27:20.271
+aren't set up correctly by default,
+
+00:27:20.271 --> 00:27:22.574
+even though your display supports it.
+
+00:27:22.574 --> 00:27:24.743
+You can fix that by right clicking on the desktop
+
+00:27:24.743 --> 00:27:26.444
+and clicking display settings.
+
+00:27:26.478 --> 00:27:27.746
+HDR settings can be found
+
+00:27:27.746 --> 00:27:29.314
+in the brightness and color section
+
+00:27:29.314 --> 00:27:32.317
+and clicking on it gives you the option to enable HDR
+
+00:27:32.317 --> 00:27:33.785
+as well as auto HDR,
+
+00:27:33.785 --> 00:27:37.522
+which will cause non HDR games to pretend their HDR
+
+00:27:37.522 --> 00:27:40.291
+with honestly mixed results.
+
+00:27:40.291 --> 00:27:42.961
+You can also adjust how SDR content will appear
+
+00:27:42.961 --> 00:27:46.031
+when you're in HDR mode using this slider,
+
+00:27:46.031 --> 00:27:48.833
+which will also affect the brightness of the desktop.
+
+00:27:48.833 --> 00:27:51.336
+If you have multiple HDR monitors,
+
+00:27:51.336 --> 00:27:53.238
+congrats you fancy pants you,
+
+00:27:53.238 --> 00:27:55.473
+you can adjust them independently of each other.
+
+00:27:55.473 --> 00:27:57.342
+Also, HDR or not,
+
+00:27:57.342 --> 00:27:58.677
+if you have multiple monitors
+
+00:27:58.677 --> 00:28:00.045
+and they're not in the right order
+
+00:28:00.045 --> 00:28:01.880
+and you haven't already fixed it yourself
+
+00:28:01.880 --> 00:28:04.182
+because of how infuriating it was,
+
+00:28:04.182 --> 00:28:06.151
+you can drag them around in the display settings window
+
+00:28:06.151 --> 00:28:07.886
+like this and even rotate them
+
+00:28:07.886 --> 00:28:09.854
+if you like having one in portrait
+
+00:28:09.854 --> 00:28:11.823
+or even one upside down
+
+00:28:11.823 --> 00:28:14.259
+using the display orientation dropdown.
+
+00:28:14.259 --> 00:28:17.062
+You can see which is which by using the identify button
+
+00:28:17.062 --> 00:28:18.329
+to make this a bit easier
+
+00:28:18.329 --> 00:28:20.832
+and you can choose which one is your main display,
+
+00:28:20.832 --> 00:28:24.335
+so the one with the system tray using this checkbox here.
+
+00:28:24.335 --> 00:28:25.570
+One little pro tip by the way,
+
+00:28:25.570 --> 00:28:27.472
+is that if your cursor jumps
+
+00:28:27.472 --> 00:28:29.107
+as you move between the displays,
+
+00:28:29.107 --> 00:28:32.077
+you can tweak the alignment in this menu like so.
+
+00:28:32.077 --> 00:28:34.512
+If your monitors are different sizes and resolutions,
+
+00:28:34.512 --> 00:28:36.614
+you're not gonna be able to get it absolutely perfect,
+
+00:28:36.614 --> 00:28:39.517
+but it'll at least help smooth things a little bit.
+
+00:28:39.517 --> 00:28:40.518
+For refresh rate,
+
+00:28:40.518 --> 00:28:43.521
+you're gonna need to scroll down to advanced display.
+
+00:28:43.521 --> 00:28:45.490
+From here, you can choose each of your monitors
+
+00:28:45.490 --> 00:28:46.891
+individually up top
+
+00:28:46.891 --> 00:28:49.294
+and then select the refresh rate down below.
+
+00:28:49.294 --> 00:28:52.864
+Now Windows is usually okay about selecting refresh rates,
+
+00:28:52.864 --> 00:28:54.733
+but overclocked monitors,
+
+00:28:54.733 --> 00:28:57.435
+including monitors with overclock functions
+
+00:28:57.435 --> 00:28:58.737
+right out of the box,
+
+00:28:58.737 --> 00:29:02.040
+will often report the non overclocked refresh rate
+
+00:29:02.040 --> 00:29:03.641
+as the best one.
+
+00:29:03.641 --> 00:29:05.777
+And that is just factually incorrect.
+
+00:29:05.777 --> 00:29:08.113
+So if you still don't see your refresh rate,
+
+00:29:08.113 --> 00:29:11.282
+you might need to use your GPU's configuration utility
+
+00:29:11.282 --> 00:29:13.518
+or try a different cable.
+
+00:29:13.518 --> 00:29:15.353
+Another thing Windows guesses at,
+
+00:29:15.353 --> 00:29:17.522
+sometimes with comically bad results,
+
+00:29:17.522 --> 00:29:20.058
+is the size that you might prefer for your windows
+
+00:29:20.058 --> 00:29:21.392
+and for your text.
+
+00:29:21.426 --> 00:29:23.228
+If you want things larger or smaller,
+
+00:29:23.228 --> 00:29:24.295
+just look for scale
+
+00:29:24.295 --> 00:29:26.798
+about halfway down the display settings window.
+
+00:29:26.798 --> 00:29:31.269
+A 27 inch 4K monitor will typically be set to 150%,
+
+00:29:31.269 --> 00:29:33.938
+which is roughly equivalent to how big things would look
+
+00:29:33.938 --> 00:29:35.840
+if it were 1440p.
+
+00:29:35.840 --> 00:29:38.877
+If you were to set that 4K display to 200%,
+
+00:29:38.877 --> 00:29:41.746
+it would look like if it was 1080p at that size,
+
+00:29:41.746 --> 00:29:44.749
+just sharper and so on and so forth.
+
+00:29:44.749 --> 00:29:46.251
+If you've got multiple monitors,
+
+00:29:46.251 --> 00:29:47.952
+you can select each one independently
+
+00:29:47.952 --> 00:29:48.987
+at the top of the window
+
+00:29:48.987 --> 00:29:50.655
+and then choose different scales.
+
+00:29:50.688 --> 00:29:54.259
+So for example, 100% for a 1080p gaming monitor
+
+00:29:54.259 --> 00:29:58.563
+and 200% for a secondary 4K content consumption monitor
+
+00:29:58.563 --> 00:30:01.533
+could make things on screen appear to be the same size,
+
+00:30:01.533 --> 00:30:03.601
+assuming that they're the same size physically.
+
+00:30:03.601 --> 00:30:05.236
+You're gonna have to experiment with it a little bit
+
+00:30:05.236 --> 00:30:06.337
+and see what you like.
+
+00:30:06.337 --> 00:30:08.973
+And it's worth noting that you might have to log out
+
+00:30:08.973 --> 00:30:11.876
+and log back in for it to take effect in every app.
+
+00:30:11.876 --> 00:30:14.112
+Rather not enter your password again?
+
+00:30:14.112 --> 00:30:14.979
+Well, good news.
+
+00:30:14.979 --> 00:30:16.381
+If you're using a Microsoft account,
+
+00:30:16.381 --> 00:30:18.249
+you can enable Windows Hello.
+
+00:30:18.249 --> 00:30:19.217
+What's it do?
+
+00:30:19.217 --> 00:30:21.352
+It enables you to use your fingerprint, a pin,
+
+00:30:21.352 --> 00:30:23.454
+or your face with a compatible camera
+
+00:30:23.454 --> 00:30:25.890
+to log in without your password.
+
+00:30:25.890 --> 00:30:27.091
+Why would you do that?
+
+00:30:27.091 --> 00:30:29.060
+First, forgetting your password sucks
+
+00:30:29.060 --> 00:30:31.563
+and getting locked out of your PC sucks more.
+
+00:30:31.563 --> 00:30:34.432
+Second, it can actually be more secure
+
+00:30:34.432 --> 00:30:36.935
+because typing out your password means a key logger
+
+00:30:36.935 --> 00:30:39.370
+or a particularly nosy housemate
+
+00:30:39.370 --> 00:30:41.306
+might be able to read your keystrokes.
+
+00:30:41.306 --> 00:30:43.074
+This way, Windows Hello makes it
+
+00:30:43.074 --> 00:30:44.676
+so someone gaining access to your PC
+
+00:30:44.676 --> 00:30:47.779
+doesn't also gain access to your Microsoft account.
+
+00:30:47.779 --> 00:30:49.714
+To secure your PC even better
+
+00:30:49.714 --> 00:30:51.783
+than a password alone ever could,
+
+00:30:51.783 --> 00:30:53.451
+you can use BitLocker.
+
+00:30:53.451 --> 00:30:55.787
+BitLocker encrypts your entire drive.
+
+00:30:55.787 --> 00:30:56.921
+And while by default,
+
+00:30:56.921 --> 00:30:59.023
+it will only protect against someone cloning
+
+00:30:59.023 --> 00:31:01.159
+or removing your storage device,
+
+00:31:01.159 --> 00:31:03.661
+you can optionally lock it down with a pin,
+
+00:31:03.661 --> 00:31:06.231
+a password, or a USB flash drive key
+
+00:31:06.231 --> 00:31:08.032
+that's required before your PC
+
+00:31:08.032 --> 00:31:10.034
+ever gets to the login screen.
+
+00:31:10.034 --> 00:31:11.703
+It's best to enable BitLocker shortly
+
+00:31:11.703 --> 00:31:12.904
+after you install Windows
+
+00:31:12.904 --> 00:31:15.240
+so the encryption doesn't take forever.
+
+00:31:15.240 --> 00:31:16.241
+But once it's encrypted,
+
+00:31:16.241 --> 00:31:18.843
+it's super fast to encrypt and decrypt on the fly
+
+00:31:18.843 --> 00:31:20.612
+on modern hardware.
+
+00:31:20.612 --> 00:31:22.981
+Your apps will barely even notice.
+
+00:31:22.981 --> 00:31:25.617
+Speaking of apps, how do you install them?
+
+00:31:25.617 --> 00:31:28.219
+Well, you could go to every website
+
+00:31:28.219 --> 00:31:30.021
+and download the installers individually
+
+00:31:30.021 --> 00:31:32.156
+like some kind of cave person,
+
+00:31:32.156 --> 00:31:35.393
+but you could also use tools to make things simpler.
+
+00:31:35.393 --> 00:31:36.661
+A classic is Nineite,
+
+00:31:36.661 --> 00:31:38.563
+which lets you batch download and install
+
+00:31:38.563 --> 00:31:41.099
+a wide variety of apps in one shot.
+
+00:31:41.099 --> 00:31:42.934
+It's a huge time-saver.
+
+00:31:42.934 --> 00:31:43.768
+Here's some of the stuff
+
+00:31:43.768 --> 00:31:46.537
+that we might select for ourselves for a new install.
+
+00:31:46.537 --> 00:31:48.072
+Just one pro tip here,
+
+00:31:48.072 --> 00:31:50.675
+please don't install multiple anti-malware shields
+
+00:31:50.675 --> 00:31:53.111
+if you value your sanity or your performance.
+
+00:31:53.111 --> 00:31:54.345
+One is fine though.
+
+00:31:54.345 --> 00:31:55.647
+There are some other great options
+
+00:31:55.647 --> 00:31:57.215
+for managing software too.
+
+00:31:57.215 --> 00:31:58.917
+One of which is to use the Microsoft Store.
+
+00:31:58.917 --> 00:32:00.752
+And I know, I know, before you say it,
+
+00:32:00.752 --> 00:32:02.153
+I know it's loaded with crapware
+
+00:32:02.153 --> 00:32:03.855
+and requires a Microsoft account,
+
+00:32:03.855 --> 00:32:06.057
+but there are plenty of normal apps on there,
+
+00:32:06.057 --> 00:32:08.393
+including a lot of the ones installed by Nineite.
+
+00:32:08.393 --> 00:32:10.695
+And as a bonus, they're updated automatically
+
+00:32:10.695 --> 00:32:12.397
+along with all your other store apps,
+
+00:32:12.397 --> 00:32:13.231
+so you don't need to keep
+
+00:32:13.231 --> 00:32:15.500
+on top of app updates individually.
+
+00:32:15.500 --> 00:32:17.402
+Here's a bunch of our commonly installed apps
+
+00:32:17.402 --> 00:32:19.037
+that are available on the Microsoft Store.
+
+00:32:19.037 --> 00:32:21.539
+Another bonus is that they're automatically redownloaded
+
+00:32:21.539 --> 00:32:24.142
+if you have to reinstall, which is pretty sick.
+
+00:32:24.142 --> 00:32:26.911
+If you have more selective taste in software
+
+00:32:26.911 --> 00:32:29.280
+or you just want to install everything in one place,
+
+00:32:29.280 --> 00:32:31.149
+you can make use of a little known Windows feature
+
+00:32:31.149 --> 00:32:32.550
+called WinGet.
+
+00:32:32.550 --> 00:32:33.785
+We brought this up previously
+
+00:32:33.785 --> 00:32:36.254
+along with a third-party alternative, Chocolaty,
+
+00:32:36.254 --> 00:32:37.255
+but with either of them,
+
+00:32:37.255 --> 00:32:38.856
+you can search for the software you want,
+
+00:32:38.856 --> 00:32:41.592
+copy the exact name and shove that into a batch file
+
+00:32:41.592 --> 00:32:43.561
+with commands to install or update them.
+
+00:32:43.561 --> 00:32:46.264
+That can be a little tedious to maintain,
+
+00:32:46.264 --> 00:32:48.266
+but the upside is you can keep that batch file
+
+00:32:48.266 --> 00:32:49.901
+on a flash drive or cloud storage,
+
+00:32:49.901 --> 00:32:51.502
+so the next time you need to install Windows,
+
+00:32:51.502 --> 00:32:53.871
+you can get back up and running extremely quickly.
+
+00:32:53.871 --> 00:32:55.840
+And like with the Microsoft Store,
+
+00:32:55.840 --> 00:32:57.475
+you can schedule it to automatically check
+
+00:32:57.475 --> 00:32:58.643
+for updates for you.
+
+00:32:58.643 --> 00:33:00.878
+Steam is a special boy though.
+
+00:33:00.878 --> 00:33:03.181
+It's like an app store all on its own.
+
+00:33:03.181 --> 00:33:05.984
+Once installed, you've got Steam library folders
+
+00:33:05.984 --> 00:33:08.286
+that contain anything that you download to them.
+
+00:33:08.286 --> 00:33:11.122
+And if you have a separate drive that you'd like to use
+
+00:33:11.122 --> 00:33:12.390
+instead of your Windows drive,
+
+00:33:12.390 --> 00:33:14.659
+whether it's a partition or a physical one,
+
+00:33:14.659 --> 00:33:17.528
+you'll need to go to Steam settings, then storage.
+
+00:33:17.528 --> 00:33:19.597
+Click the plus next to your C drive,
+
+00:33:19.597 --> 00:33:22.266
+select your other drive, then click add.
+
+00:33:22.266 --> 00:33:24.569
+It's gonna show up right next to your C drive.
+
+00:33:24.569 --> 00:33:27.138
+Click the three dots and select make default
+
+00:33:27.138 --> 00:33:29.974
+to make sure that Steam install software to that drive
+
+00:33:29.974 --> 00:33:32.343
+instead of your main one by default.
+
+00:33:32.343 --> 00:33:33.811
+Then you're off to the races,
+
+00:33:33.811 --> 00:33:36.614
+which is great and all, I hear you say,
+
+00:33:36.614 --> 00:33:38.750
+but I've got these peripheral things
+
+00:33:38.750 --> 00:33:40.752
+and my RGB is out of control.
+
+00:33:40.785 --> 00:33:42.520
+What do I do?
+
+00:33:42.520 --> 00:33:44.255
+Well, many peripherals these days
+
+00:33:44.255 --> 00:33:46.557
+do come with driver software,
+
+00:33:46.557 --> 00:33:48.593
+but if you want my humble opinion,
+
+00:33:48.593 --> 00:33:51.863
+you should be asking yourself if you really need it
+
+00:33:51.863 --> 00:33:53.998
+before you click that download button.
+
+00:33:53.998 --> 00:33:56.067
+Even the most reputable vendors software
+
+00:33:56.067 --> 00:33:58.302
+can be very resource intensive.
+
+00:33:58.302 --> 00:34:00.638
+And if you're not married to a single brand
+
+00:34:00.638 --> 00:34:01.773
+for all your peripherals,
+
+00:34:01.773 --> 00:34:04.776
+you could end up with three or four different programs
+
+00:34:04.776 --> 00:34:06.611
+just to control your devices.
+
+00:34:07.678 --> 00:34:10.114
+But okay, if you've got to have them,
+
+00:34:10.481 --> 00:34:13.618
+what you can do to help with this is to install them,
+
+00:34:13.618 --> 00:34:15.887
+then disable them from starting automatically
+
+00:34:15.887 --> 00:34:19.057
+using task manager's built-in startup items section.
+
+00:34:19.057 --> 00:34:20.758
+Just fire up task manager.
+
+00:34:20.758 --> 00:34:23.194
+There's a few different ways to do this listed here,
+
+00:34:23.194 --> 00:34:25.930
+but the pro move is of course, Control Shift Escape.
+
+00:34:25.930 --> 00:34:28.900
+And then with this method, you can, for example,
+
+00:34:28.900 --> 00:34:32.170
+set up your mouse DPI switches and all of your lighting,
+
+00:34:32.170 --> 00:34:34.138
+save it to the mouse's onboard memory,
+
+00:34:34.138 --> 00:34:36.874
+then close the software for maximum gaming performance
+
+00:34:36.874 --> 00:34:38.743
+and only run it when it's necessary
+
+00:34:38.743 --> 00:34:40.278
+to make your stuff work.
+
+00:34:40.278 --> 00:34:41.712
+It's actually a good idea, by the way,
+
+00:34:41.712 --> 00:34:43.614
+to check this list from time to time
+
+00:34:43.614 --> 00:34:46.617
+and disable anything that you don't want or need.
+
+00:34:46.617 --> 00:34:48.252
+The same goes for companion software
+
+00:34:48.252 --> 00:34:50.555
+that's installed by your hardware drivers.
+
+00:34:50.555 --> 00:34:51.722
+This stuff can add up.
+
+00:34:51.722 --> 00:34:54.892
+I'm talking sound control panels, temperature monitors.
+
+00:34:54.892 --> 00:34:56.494
+I mean, the list goes on.
+
+00:34:56.494 --> 00:34:57.595
+Let's be real.
+
+00:34:57.595 --> 00:34:59.597
+They're usually not very polished
+
+00:34:59.597 --> 00:35:02.934
+despite the alleged R&amp;D budgets of these companies.
+
+00:35:02.934 --> 00:35:04.936
+So maybe try some third-party software
+
+00:35:04.936 --> 00:35:09.407
+like the Piece Equalizer APO GUI or Hardware Info instead,
+
+00:35:09.407 --> 00:35:11.943
+which can give you much greater granularity
+
+00:35:11.943 --> 00:35:14.445
+and aren't tied to specific hardware.
+
+00:35:14.445 --> 00:35:16.114
+Oh, since we're on the subject, by the way,
+
+00:35:16.114 --> 00:35:19.117
+Hardware Info is a great tool for double-checking
+
+00:35:19.117 --> 00:35:21.119
+that all your devices are actually showing up
+
+00:35:21.119 --> 00:35:23.955
+and for making sure that you didn't make any mistakes
+
+00:35:23.955 --> 00:35:25.957
+while you were installing your cooler.
+
+00:35:25.957 --> 00:35:29.994
+A simple combination stress test like Cinebench and Firmware
+
+00:35:29.994 --> 00:35:32.830
+while monitoring your CPU and GPU core temperatures
+
+00:35:32.830 --> 00:35:36.134
+will quickly reveal any critical errors in your build,
+
+00:35:36.134 --> 00:35:38.970
+hopefully before they become a long-term problem.
+
+00:35:38.970 --> 00:35:43.341
+Anything under 90 degrees here is probably fine,
+
+00:35:43.341 --> 00:35:45.910
+but we'd like to see 70 to 80,
+
+00:35:45.910 --> 00:35:48.012
+though, of course, there are exceptions,
+
+00:35:48.012 --> 00:35:50.681
+like some high-performance CPUs, for example,
+
+00:35:50.681 --> 00:35:54.719
+are gonna target 90 to 100 degrees or more,
+
+00:35:54.719 --> 00:35:56.354
+whether you like it or not.
+
+00:35:56.354 --> 00:36:00.958
+Speaking of like it or not, RGB, it's there.
+
+00:36:00.958 --> 00:36:03.728
+And I think the one thing we can all agree on,
+
+00:36:03.728 --> 00:36:04.762
+love it or hate it,
+
+00:36:04.762 --> 00:36:08.132
+is that the control software is a CPU hog.
+
+00:36:08.132 --> 00:36:09.600
+For best performance, then,
+
+00:36:09.600 --> 00:36:12.203
+I would recommend leaving that RGB alone,
+
+00:36:12.203 --> 00:36:14.939
+either rainbow bar or off.
+
+00:36:14.939 --> 00:36:16.574
+But if you must adjust it,
+
+00:36:16.574 --> 00:36:17.608
+there are alternatives
+
+00:36:17.608 --> 00:36:20.011
+to the many vendor-specific RGB control apps
+
+00:36:20.011 --> 00:36:20.845
+that are out there,
+
+00:36:20.845 --> 00:36:23.881
+and Windows 11 even recently got control for this,
+
+00:36:23.881 --> 00:36:26.751
+albeit with limited compatibility as of writing.
+
+00:36:26.751 --> 00:36:28.653
+But if you wanna try and consolidate your RGB
+
+00:36:28.653 --> 00:36:29.887
+into a single app,
+
+00:36:29.887 --> 00:36:32.790
+just try OpenRGB or SignalRGB.
+
+00:36:32.790 --> 00:36:35.593
+OpenRGB tends to be lighter but less flashy,
+
+00:36:35.593 --> 00:36:37.728
+while SignalRGB is more capable,
+
+00:36:37.728 --> 00:36:40.798
+but will make your CPU work for it like the others will.
+
+00:36:40.798 --> 00:36:43.301
+Like we had to work hard for this segue.
+
+00:36:43.301 --> 00:36:45.436
+To our sponsor, Thorum.
+
+00:36:45.436 --> 00:36:46.771
+It's Valentine's Day soon,
+
+00:36:46.771 --> 00:36:48.940
+and as an iconic artist once said,
+
+00:36:48.940 --> 00:36:51.442
+don't be mad once you see that you want it.
+
+00:36:51.442 --> 00:36:54.412
+If you liked it, then you should've put a ring on it.
+
+00:36:54.412 --> 00:36:56.113
+Check out their handcrafted rings
+
+00:36:56.113 --> 00:36:58.015
+made from unconventional materials
+
+00:36:58.015 --> 00:36:59.684
+like wood from whiskey barrels
+
+00:36:59.684 --> 00:37:01.519
+and World War II rifle stocks.
+
+00:37:01.519 --> 00:37:04.522
+Every ring comes with an American walnut wooden ring box
+
+00:37:04.522 --> 00:37:07.191
+and a free Thorum silicone activity band
+
+00:37:07.191 --> 00:37:10.761
+so you can put a ring on it twice just to be safe.
+
+00:37:10.761 --> 00:37:12.930
+Thorum even makes minimalist watches
+
+00:37:12.930 --> 00:37:14.832
+using some of the same unique materials
+
+00:37:14.832 --> 00:37:16.400
+like koa wood from Hawaii
+
+00:37:16.400 --> 00:37:18.536
+and Gibeon meteorite from space,
+
+00:37:18.536 --> 00:37:21.038
+two of the most romantic locations, by the way.
+
+00:37:21.038 --> 00:37:23.674
+Matthew McConaughey has, of course, been to both of them.
+
+00:37:23.674 --> 00:37:26.043
+Best of all, they ship to most areas worldwide
+
+00:37:26.043 --> 00:37:27.511
+and all their products are covered
+
+00:37:27.511 --> 00:37:28.980
+under their lifetime warranty.
+
+00:37:28.980 --> 00:37:31.816
+So make this Valentine's Day extra special with Thorum
+
+00:37:31.816 --> 00:37:34.318
+by going to the link down below, that's thorum.com.
+
+00:37:34.318 --> 00:37:38.356
+Just make sure you use code LTT so you can get 20% off.
+
+00:37:38.356 --> 00:37:40.524
+If you're watching this and you don't have a PC yet,
+
+00:37:40.524 --> 00:37:42.994
+maybe go check out how to build a PC,
+
+00:37:42.994 --> 00:37:44.662
+the last guide you'll ever need.
+
+00:37:44.662 --> 00:37:46.631
+It really is the last guide you'll ever need
+
+00:37:46.631 --> 00:37:47.898
+so you can build your PC
+
+00:37:47.898 --> 00:37:49.300
+and then come back and watch this one
+
+00:37:49.300 --> 00:37:51.202
+and you're gonna be ready to go.
+
+00:37:51.202 --> 00:37:52.837
+Then you'll never need our channel again.
+

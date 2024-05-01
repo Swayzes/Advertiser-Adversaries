@@ -105,9 +105,49 @@ def getData(url):
     addToDatabase(url, videoDataDict, sponsorSegments)
     print(videoDataDict["videoTitle"]," (" + url + ") Done")
 
+def getTestVideoData(url):
+    ytDownloader = yt_dlp.YoutubeDL({
+        'paths': {
+            "subtitle": "dataset/testSubtitles/",
+            "description": "dataset/testDescriptions/"
+            },
+        'outtmpl': '%(id)s', 
+        'windowsfilenames': True,
+        'writedescription': True, 
+        'writesubtitles': True, 
+        'writeautomaticsub': True,
+        'subtitleslangs': ['en'], 
+        'keepvideo': False,
+        'skip_download': True,
+        'playliststart': 0,
+        'playlistend': 20
+    })
+    ytDownloader.download(url)
+    videoData = ytDownloader.extract_info(url, download = False)
+    videoDataDict = {
+        "videoTitle": videoData.get('title', None),
+        "videoLength": videoData.get('duration', None),
+        "videoChannel": videoData.get('channel', None),
+        "videoID": videoData.get('id', None)
+    }
+    return videoDataDict
+
+def getTestData(url):
+    videoDataDict = getTestVideoData(url)
+    sponsorSegments = getSponsorBlockData(url)
+    con = sqlite3.connect(database)
+    cur = con.cursor()
+    if sponsorSegments != "":
+        hasSponsor = 1
+    else:
+        hasSponsor = 0
+    SQL = "INSERT INTO DatasetTesting(Video_Title,URL,VideoID,Video_Length,Channel,Sponsor_Segments,Description_File_Path,Captions_File_Path,Has_Sponsor) VALUES(?,?,?,?,?,?,?,?,?)"
+    data = (videoDataDict["videoTitle"],"https://www.youtube.com/watch?v="+videoDataDict["videoID"],videoDataDict["videoID"],videoDataDict["videoLength"],videoDataDict["videoChannel"],sponsorSegments[:-1],"dataset/testDescriptions/"+videoDataDict["videoID"]+".description","dataset/testSubtitles/"+videoDataDict["videoID"]+".en.vtt",hasSponsor)
+    cur.execute(SQL, data)
+    con.commit()
 #function that will download the data from the channel url provided, from the start to the end number. Example usage: getDataFromChannel('https://www.youtube.com/@MrBeast/videos', 0, 20)
 
-def getDataFromChannel(url, start, end):
+def getDataFromChannel(url, start, end, testData):
     ytdlgetVideoOptions = {
         'skip_download': True,
         'keepvideo': False,
@@ -116,10 +156,18 @@ def getDataFromChannel(url, start, end):
         }
     ytDownloader = yt_dlp.YoutubeDL(ytdlgetVideoOptions)
     videoData = ytDownloader.extract_info(url, download = False)
-    for item in videoData['entries']:
-        getData('https://www.youtube.com/watch?v=' + item['id'])
+    if testData == False:
+        for item in videoData['entries']:
+            getData('https://www.youtube.com/watch?v=' + item['id'])
+    else:
+        for item in videoData['entries']:
+            getTestData('https://www.youtube.com/watch?v=' + item['id'])
     print("Channel Done")
 
-#getDataFromChannel('https://www.youtube.com/@MrBeast/videos', 0, 20)
-#getDataFromChannel('https://www.youtube.com/@LinusTechTips/videos', 0, 20)
-#getDataFromChannel('https://www.youtube.com/@mkbhd/videos', 0, 20)
+#getDataFromChannel('https://www.youtube.com/@MrBeast/videos', 0, 20, False)
+#getDataFromChannel('https://www.youtube.com/@LinusTechTips/videos', 0, 20, False)
+#getDataFromChannel('https://www.youtube.com/@mkbhd/videos', 0, 20, False)
+
+#getDataFromChannel('https://www.youtube.com/@MrBeast/videos', 40, 60, True)
+#getDataFromChannel('https://www.youtube.com/@LinusTechTips/videos', 40, 60, True)
+#getDataFromChannel('https://www.youtube.com/@mkbhd/videos', 40, 60, True)

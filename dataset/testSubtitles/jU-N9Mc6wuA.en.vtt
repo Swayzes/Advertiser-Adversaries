@@ -1,0 +1,1072 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.380
+Building your first PC from parts can be frustrating, but with our videos
+
+00:00:05.380 --> 00:00:07.980
+It should be easy even if you're a total noob
+
+00:00:07.980 --> 00:00:12.800
+At least that's the theory. To benchmark the quality of our teaching
+
+00:00:12.800 --> 00:00:18.000
+We've assembled a dream team made up of the only people shorter than me at the company
+
+00:00:18.000 --> 00:00:19.280
+Oh my god
+
+00:00:19.280 --> 00:00:24.460
+Olamide and Maria. Ladies, have either of you built a computer before?
+
+00:00:24.460 --> 00:00:25.560
+No, never.
+
+00:00:25.560 --> 00:00:29.640
+That's a bit of a problem because you are going to be racing
+
+00:00:30.240 --> 00:00:35.280
+Against me to see who can build a gaming rig the fastest.
+
+00:00:35.280 --> 00:00:36.180
+Wait, what?
+
+00:00:36.180 --> 00:00:37.380
+Did they not tell you?
+
+00:00:37.380 --> 00:00:38.600
+No, they know nothing.
+
+00:00:38.600 --> 00:00:39.600
+Oh, that's great
+
+00:00:39.600 --> 00:00:42.040
+Hey, but we don't know anything about this
+
+00:00:42.040 --> 00:00:42.540
+Don't worry
+
+00:00:42.540 --> 00:00:48.120
+You guys are gonna be on a team against me and you can watch any YouTube videos you want
+
+00:00:48.520 --> 00:00:50.520
+As long as they're from LTT
+
+00:00:50.520 --> 00:00:53.780
+And you guys are gonna get some lifelines. You'll get some extra help
+
+00:00:53.940 --> 00:01:00.620
+I on the other hand will be given a more challenging build, but this looks the same actually
+
+00:01:00.620 --> 00:01:02.100
+Oh does it?
+
+00:01:02.100 --> 00:01:04.100
+Hardline water cooling
+
+00:01:04.820 --> 00:01:06.160
+Okay
+
+00:01:06.160 --> 00:01:08.940
+Like this okay segue to our sponsor
+
+00:01:08.940 --> 00:01:10.940
+That's bad
+
+00:01:11.220 --> 00:01:18.580
+MSI if you're MSI-ing a new motherboard the MPG Z790 Carbon Wi-Fi 2 is a great option
+
+00:01:18.580 --> 00:01:23.660
+With features like a pre-installed IO shield and Wi-Fi 7 compatibility
+
+00:01:23.660 --> 00:01:28.180
+There's no reason you shouldn't pick one up at the link below. No, that's a thumbs down link below
+
+00:01:29.020 --> 00:01:35.740
+Each team will be equipped with our wits these tools including the gorgeous retro edition LTT screwdriver
+
+00:01:35.740 --> 00:01:39.100
+LTTstore.com and two hours
+
+00:01:39.100 --> 00:01:45.660
+At the end our builds will be judged with penalties and bonuses depending on our speed and the quality of our work
+
+00:01:45.780 --> 00:01:50.340
+Games master David will explain all of that as we go. Maria, Olamide, feeling confident?
+
+00:01:50.340 --> 00:01:52.340
+Yes, kind of
+
+00:01:52.940 --> 00:01:59.020
+As long as we can see a video of someone. Of you building a PC. I'm just someone now
+
+00:01:59.860 --> 00:02:01.860
+Before we start can we go lower?
+
+00:02:03.860 --> 00:02:07.860
+On the short end of the stick. Really? This seems like a pretty good height. Really? Can we?
+
+00:02:07.860 --> 00:02:09.860
+Seems fine.
+
+00:02:09.860 --> 00:02:11.860
+You're almost our height.
+
+00:02:11.860 --> 00:02:13.860
+Oh my god. Why is it going down?
+
+00:02:13.860 --> 00:02:15.860
+Oh it's still going down. Oh my god. Stop.
+
+00:02:15.860 --> 00:02:17.860
+What's going on?
+
+00:02:17.860 --> 00:02:19.860
+Is this an okay height for you guys? No.
+
+00:02:20.100 --> 00:02:25.460
+Come on I never get to be the one making the short jokes. Three, two, one, go!
+
+00:02:26.980 --> 00:02:28.980
+Okay, where should we
+
+00:02:29.060 --> 00:02:30.580
+Watch the video here? Yeah, yeah
+
+00:02:30.580 --> 00:02:35.620
+You can bring that laptop with you over here if you want. Under normal circumstances in one of these competitions
+
+00:02:35.620 --> 00:02:39.980
+I would fool around a little bit, but I have been burned time and time again doing that
+
+00:02:39.980 --> 00:02:46.740
+So instead I'm gonna get things going. Our builds today are based on our standard workstations for a few reasons
+
+00:02:46.940 --> 00:02:51.980
+One, we already had multiples of these components kicking around the office. So that's
+
+00:02:52.580 --> 00:02:57.180
+convenient. Two, these parts were picked for easy assembly in the first place and
+
+00:02:58.020 --> 00:03:02.840
+Three, it means that when we're done, we can just deploy these systems to our team
+
+00:03:03.780 --> 00:03:07.100
+Convenient. How would you rate your technical ability out of ten?
+
+00:03:07.100 --> 00:03:09.100
+Eight?
+
+00:03:09.100 --> 00:03:11.100
+I don't know
+
+00:03:11.100 --> 00:03:13.100
+Eight?
+
+00:03:13.100 --> 00:03:15.100
+But I mean yeah
+
+00:03:15.860 --> 00:03:21.420
+Yeah, I feel like you know, eight, ten. Do you think that computers and sewing machines have a lot in common? No
+
+00:03:24.660 --> 00:03:27.860
+For our CPU we've gone with the core i5-13600k
+
+00:03:27.860 --> 00:03:30.980
+It's got 14 cores and it's just generally good bang for the buck
+
+00:03:31.380 --> 00:03:37.220
+Also, unlike its roided out i9 cousins, it is pretty darn power efficient
+
+00:03:37.580 --> 00:03:42.060
+Don't, oh Maria, don't stop you're gonna want to keep going. I feel like we're gonna take forever
+
+00:03:42.580 --> 00:03:48.220
+Yeah, I mean we chose the easiest gaming PC build video and
+
+00:03:48.900 --> 00:03:55.100
+Linus said here it was so hard to screw it up. So hopefully we're good. Am I allowed to help them?
+
+00:03:55.100 --> 00:03:56.620
+Yeah, of course
+
+00:03:56.620 --> 00:04:04.180
+If you want to lose. Yeah, are you guys into POV content? This one is really easy to follow along with. Okay, perfect
+
+00:04:04.420 --> 00:04:07.500
+It's a little bit less modern, but this one's really good
+
+00:04:07.500 --> 00:04:12.180
+And then if there's any details you want to use how to build a PC the last guide you'll ever need
+
+00:04:12.180 --> 00:04:16.940
+I should have just let them struggle, but I can't I want to I want a healthy competition. Okay
+
+00:04:17.780 --> 00:04:24.700
+For SSD, we've gone with the Crucial P5+. We like these because they're cheap. We don't put any data on our workstations
+
+00:04:24.700 --> 00:04:30.220
+It's actually against company policy. Everything is supposed to be on a redundant and backed up server
+
+00:04:30.340 --> 00:04:35.500
+No DRAM cache, but they have a five-year warranty and have proven to be very reliable in our deployments
+
+00:04:35.500 --> 00:04:39.980
+I need to tell you guys about the lifelines you get so you get a medium help
+
+00:04:39.980 --> 00:04:45.260
+Which is me coming there and I'll be able to instruct you but I can't touch anything for two minutes
+
+00:04:45.260 --> 00:04:49.740
+Okay, and then you're also gonna get a video call with someone much more knowledgeable than me Jordan
+
+00:04:49.740 --> 00:04:51.460
+You'll get another two minutes with him
+
+00:04:51.460 --> 00:04:56.540
+You have to match it with the dot at the corner of the socket, but I don't see there's no dot
+
+00:04:57.380 --> 00:04:59.380
+Wait, wait, wait. Yeah
+
+00:05:05.940 --> 00:05:10.380
+For our RAM, we've gone with some Trident Z5 DDR5 6000 CL30
+
+00:05:10.380 --> 00:05:15.740
+It's not the tightest but it's definitely sufficient for office use. Okay CPU installed
+
+00:05:15.740 --> 00:05:20.820
+I think. I gave Linus every possible out on hardline watercooling making it simpler
+
+00:05:20.820 --> 00:05:23.140
+But he assured me he could do this in two hours
+
+00:05:23.140 --> 00:05:27.140
+I don't know if there's any orientation. Can we ask David maybe?
+
+00:05:27.140 --> 00:05:29.460
+David, David. Do you want to use your lifeline?
+
+00:05:29.780 --> 00:05:32.900
+We have two hours with you, right? You have two minutes with me. Two minutes
+
+00:05:35.940 --> 00:05:37.940
+Okay, David
+
+00:05:39.100 --> 00:05:41.540
+There's an orientation for the RAM like yeah
+
+00:05:41.540 --> 00:05:46.460
+So if what I would do is I would line it up and see where the notch in the RAM lines up with the notch
+
+00:05:46.460 --> 00:05:49.900
+Here Linus you want to use slots two and four right furthest away from the
+
+00:05:50.780 --> 00:05:54.700
+Am I being asked for tech tips right now? That's that's what you do
+
+00:05:55.340 --> 00:05:58.060
+Here's a tech tip open up the box and find your manual
+
+00:05:58.580 --> 00:06:00.580
+Ah
+
+00:06:00.740 --> 00:06:05.500
+For our motherboards, we're using the Asus ProArt Z790 Creator, which is
+
+00:06:06.540 --> 00:06:10.100
+Very much a necessary overkill. We've talked about this on WAN show
+
+00:06:10.100 --> 00:06:15.900
+But Asus insisted on sending some sick gear over if it meant that they could watch Linus lose
+
+00:06:17.420 --> 00:06:19.940
+What do you mean watch Linus lose? I'm not losing
+
+00:06:20.100 --> 00:06:24.660
+It's got 10 gig Ethernet Wi-Fi 6e dual Thunderbolt 4 ports
+
+00:06:24.900 --> 00:06:28.260
+PCIe Gen 5 and 4 M.2 slots Linus
+
+00:06:28.260 --> 00:06:32.620
+Do you think that the LTT video library is enough of an edge for a new time builder?
+
+00:06:32.620 --> 00:06:37.220
+Oh, yeah, you can easily build a PC with the LTT video library
+
+00:06:37.220 --> 00:06:40.980
+That's the purpose of how to build a PC the last guide you'll ever need. Okay
+
+00:06:41.660 --> 00:06:43.660
+There you go
+
+00:06:44.300 --> 00:06:51.660
+Okay, there you go, okay, did they just get the RAM installed one of them they're moving a little faster than I'd like right now
+
+00:06:55.460 --> 00:06:57.460
+Yeah, this one is high oh no
+
+00:06:58.740 --> 00:07:05.500
+Sometimes it's good to rotate things around so you can see from another angle. Hey, that's an advice for both teams. Uh-huh
+
+00:07:08.860 --> 00:07:11.220
+Okay, no, it should be fun yeah, okay
+
+00:07:12.460 --> 00:07:14.460
+Okay. Oh
+
+00:07:14.980 --> 00:07:20.420
+I think you just need to rotate this. I don't have nails you have
+
+00:07:20.420 --> 00:07:22.420
+Nails on it
+
+00:07:23.900 --> 00:07:25.340
+Yay
+
+00:07:25.340 --> 00:07:28.220
+Okay, we can progress, you know in some ways
+
+00:07:28.220 --> 00:07:33.100
+I'd actually rather do custom water cooling than an AIO cooler these days because of all the
+
+00:07:33.220 --> 00:07:35.860
+Hookups and everything and all the RGB and all that stuff
+
+00:07:36.460 --> 00:07:42.220
+Can be such a nightmare. I've noticed that you're not using the manual we use it for a little bit
+
+00:07:42.220 --> 00:07:48.620
+But then we prefer to use at least me. I prefer to use the video because I'm more visual. Yeah, I win
+
+00:07:49.540 --> 00:07:51.540
+Good teacher
+
+00:07:51.660 --> 00:07:57.340
+Oh that you will need that I took it off the table because Linus isn't using that he's got something way more complicated
+
+00:07:57.340 --> 00:08:00.680
+Okay, so this is the cooling for the CP. I don't know
+
+00:08:03.660 --> 00:08:09.260
+Linus has to you all custom water cooling. So he's got EK parts including a velocity to water coolant block
+
+00:08:09.300 --> 00:08:16.200
+We're gonna be using the not to NHU 14 s on this side, which is our standard one comes with a 140 mil fan
+
+00:08:16.200 --> 00:08:19.040
+How does it make you feel when you watch your boss in a video?
+
+00:08:19.680 --> 00:08:21.680
+Weird, I think this is the first
+
+00:08:27.160 --> 00:08:31.040
+Yeah, yeah, but it's good I mean you explain really good
+
+00:08:32.120 --> 00:08:33.360
+Thank you
+
+00:08:33.360 --> 00:08:35.280
+Before I move on to water cooling my GPU
+
+00:08:35.280 --> 00:08:38.720
+I want to address a comment that I've seen a lot of times and it's that
+
+00:08:39.320 --> 00:08:42.620
+Building computers is easy. It's just Legos for adults
+
+00:08:43.380 --> 00:08:50.420
+Number one, it's Lego not Legos. The plural is Lego and number two. I just think that's really unfair
+
+00:08:51.300 --> 00:08:56.020
+There's nothing wrong with the fact that they're taking their time looking things up going slow
+
+00:08:56.020 --> 00:09:02.140
+And when you're experienced, you don't think about all that extra overhead that's involved in building a PC. I am
+
+00:09:02.540 --> 00:09:04.900
+Functionally done. I've mounted my cooler
+
+00:09:04.900 --> 00:09:06.700
+Even though I haven't hooked all the water tubes up to it
+
+00:09:06.700 --> 00:09:11.380
+And as soon as I put this GPU in and plug this in I have finished building this PC
+
+00:09:11.580 --> 00:09:18.420
+That doesn't mean that they're doing anything wrong. I can't help but that's not quite correct. Oh, no, what's not correct?
+
+00:09:18.420 --> 00:09:20.900
+You want all of them on the other one?
+
+00:09:21.460 --> 00:09:27.220
+Okay on number two. Let's make sure everything is in number two. Yes, okay. I
+
+00:09:28.020 --> 00:09:30.020
+Think we fix it
+
+00:09:36.380 --> 00:09:38.380
+Hey, you should watch this
+
+00:09:39.380 --> 00:09:40.360
+Oh
+
+00:09:40.360 --> 00:09:46.020
+So we need to rotate it. So if you guys are looking for knock to a cooler instructions
+
+00:09:46.020 --> 00:09:48.420
+Uh-huh. I believe you can look at the short
+
+00:09:48.420 --> 00:09:53.080
+We did recently mounting one of their coolers from 15 years ago or whatever. It was the same
+
+00:09:53.260 --> 00:09:56.020
+It's the exact same mounting mechanism all these years later
+
+00:09:56.420 --> 00:10:01.020
+It's been about 43 minutes since we started and both teams are making progress
+
+00:10:01.020 --> 00:10:03.020
+Oh
+
+00:10:04.220 --> 00:10:10.580
+No way, oh, thank you Corsair, it's prepadded dang it Corsair you're making it too easy
+
+00:10:14.140 --> 00:10:17.620
+You've already picked the right ones, but they should go on before
+
+00:10:25.100 --> 00:10:27.500
+Oh this this one
+
+00:10:27.500 --> 00:10:29.500
+And
+
+00:10:30.100 --> 00:10:32.100
+There you go and now
+
+00:10:34.740 --> 00:10:42.580
+Did you guys get the cooler removed yet for this have you have you guys done this part yet? No, what is that? Oh gee
+
+00:10:49.100 --> 00:10:54.400
+Okay, so we are good because the cooler will be facing this way so Linus says like
+
+00:10:55.360 --> 00:11:01.480
+Injected I don't know why it's this funny but hearing them talk about Linus says do this and to do that
+
+00:11:01.480 --> 00:11:03.480
+I'm like saying I didn't say nothing
+
+00:11:07.560 --> 00:11:09.560
+Okay
+
+00:11:09.560 --> 00:11:11.560
+They don't have anything in the case yet
+
+00:11:12.920 --> 00:11:14.760
+We need your help
+
+00:11:14.760 --> 00:11:20.200
+Two minutes of your hill minutes of my time. Yeah, we're supposed to put something here before put in this. Yes
+
+00:11:20.440 --> 00:11:26.860
+Okay, no, no, no, sorry that goes directly into it if you look into that there's like it'll screw right in there's yes
+
+00:11:27.720 --> 00:11:30.780
+That's the only way it'll go right now. Yeah, and then
+
+00:11:31.520 --> 00:11:37.540
+We need to screw those. I was given multiple options for a pump reservoir combo
+
+00:11:38.000 --> 00:11:40.000
+This might be a little easier to mount
+
+00:11:41.400 --> 00:11:46.760
+Or at least it would have been if anyone had checked to see if this case has any 140 millimeter fan mounts
+
+00:11:47.120 --> 00:11:49.120
+Oh don't oh don't just do it
+
+00:11:49.240 --> 00:11:56.340
+This is cool. EK includes a little sticker. That's a whole guide now, so you can just take this peel it
+
+00:11:57.200 --> 00:11:59.320
+Slap it onto wherever you want it and you're good to go
+
+00:12:04.320 --> 00:12:07.520
+How are you doing over here, oh, I'm terrible
+
+00:12:09.040 --> 00:12:13.880
+I've never built a computer before either. So this is huh? I'm doing good. Thanks for asking
+
+00:12:14.400 --> 00:12:22.720
+The motherboard and everything's done. Oh my god. Okay. Hopefully the water cooling goes wrong and then we have time for it, you know
+
+00:12:23.640 --> 00:12:25.040
+ouch
+
+00:12:25.040 --> 00:12:26.360
+Wow
+
+00:12:26.360 --> 00:12:31.080
+Maria somehow manages to make even trash talk sound pretty nice, you know, I mean, hopefully
+
+00:12:32.200 --> 00:12:36.040
+Hopefully you screw up everything and die. Okay, that looks good
+
+00:12:37.120 --> 00:12:39.120
+I think we have to connect this
+
+00:12:39.400 --> 00:12:42.680
+Also, do I have fans for my rad? I thought the case came with fans. Ah
+
+00:12:43.440 --> 00:12:45.440
+But it's not
+
+00:12:45.480 --> 00:12:47.480
+It does not
+
+00:12:48.120 --> 00:12:50.120
+We're going on a field trip
+
+00:12:50.600 --> 00:12:53.880
+Let's go. Oh, they restocked the snacks
+
+00:12:55.440 --> 00:12:57.440
+Yes
+
+00:12:59.480 --> 00:13:01.480
+Get some game
+
+00:13:03.520 --> 00:13:09.480
+Hey, there we go classic LTT edition 120 mils. Oh, yeah
+
+00:13:13.240 --> 00:13:14.240
+Oh
+
+00:13:14.240 --> 00:13:17.040
+David we did the cooler. Yay, you make a progress
+
+00:13:18.200 --> 00:13:21.020
+Hey, where's the excitement for me making progress David?
+
+00:13:28.640 --> 00:13:30.640
+Nice ah
+
+00:13:32.360 --> 00:13:34.360
+Well, that makes it a little easier
+
+00:13:36.880 --> 00:13:38.880
+That's a demerit
+
+00:13:39.800 --> 00:13:47.040
+My camera op knocked out Glenn hit that I didn't hit that Glenn loses points. I'm glad you lose points
+
+00:13:47.920 --> 00:13:49.920
+No, I
+
+00:13:52.720 --> 00:13:56.160
+Will need a different radiator I'm giving the games master a demerit
+
+00:13:56.880 --> 00:14:04.240
+For sabotaging my build it fit in the case that I originally tested with but we changed cases because Asus was so generous to send
+
+00:14:04.240 --> 00:14:05.360
+this one
+
+00:14:05.360 --> 00:14:07.360
+here
+
+00:14:08.880 --> 00:14:10.880
+So we need to align that
+
+00:14:14.280 --> 00:14:18.080
+Perfect you never have to look far at Linus media group
+
+00:14:19.200 --> 00:14:23.600
+To find water cooling crap. Oh, that's an interesting little 120 millimeter
+
+00:14:25.280 --> 00:14:30.840
+It's full here, there's something missing. Okay. Yes, then we need Jordan
+
+00:14:34.520 --> 00:14:37.240
+Hi Jordan, how are you?
+
+00:14:39.880 --> 00:14:41.880
+Oh, we're struggling
+
+00:14:45.000 --> 00:14:48.040
+We have the GPU and the power supply here
+
+00:14:56.200 --> 00:14:58.200
+Okay
+
+00:15:00.960 --> 00:15:02.960
+Oh, yeah, that's a good idea, okay
+
+00:15:02.960 --> 00:15:04.960
+I
+
+00:15:08.000 --> 00:15:11.560
+Mean to end this video with the longest time somehow. Let me think
+
+00:15:12.320 --> 00:15:18.800
+They found screws. Okay, this GPU doesn't fit in this case. Are you kidding me? Oh, it doesn't look like it. I
+
+00:15:23.880 --> 00:15:28.600
+Don't need to close my side panel. No, I won't judge you on that. Okay demerits for the game master
+
+00:15:30.320 --> 00:15:32.320
+No one needs to close their side panels
+
+00:15:32.960 --> 00:15:34.960
+Okay
+
+00:15:37.360 --> 00:15:41.760
+Okay, wrap the cables of the power supply we can cheat I
+
+00:15:44.520 --> 00:15:49.840
+Mean I guess I could just bend I was planning to just use 90 degree fittings for all of my bends
+
+00:15:50.120 --> 00:15:54.720
+It's a bit of a hack, but I think it still counts as hard line, especially when you're time constrained
+
+00:16:00.600 --> 00:16:02.600
+CPU this one
+
+00:16:02.960 --> 00:16:05.800
+My fans lined up I realized this was just a bare radiator
+
+00:16:13.320 --> 00:16:15.320
+It helps it all I'm having a great time, too
+
+00:16:17.640 --> 00:16:23.240
+Why do you choose to put the fans on top of the radiator fans go on top of the radiator for easier maintenance down the
+
+00:16:23.240 --> 00:16:27.200
+Line also, these are orange and I didn't want to see them in there. This is the side of the bars
+
+00:16:27.200 --> 00:16:29.120
+Okay
+
+00:16:29.120 --> 00:16:32.120
+I'm gonna use the CPU fan header for the pump
+
+00:16:32.280 --> 00:16:35.360
+It's far more important that your pump is running than that
+
+00:16:35.360 --> 00:16:41.600
+Your fans are spinning in that that'll kill your system a lot faster experience that first time a little while ago
+
+00:16:42.640 --> 00:16:48.520
+They have the names here of the things we have to connect. So CPU should be somewhere around
+
+00:16:49.520 --> 00:16:54.120
+And then the other one is the PCIe. I
+
+00:16:54.840 --> 00:16:56.480
+Don't see them
+
+00:16:56.560 --> 00:16:58.560
+Let me see things
+
+00:16:58.680 --> 00:17:03.320
+Yes, you have 45 seconds of my help. Okay, where should we connect the PCIe and the CPU?
+
+00:17:04.080 --> 00:17:09.560
+Connector PCIe is for the graphics card, but this graphics card won't use this. It'll have a specific 16 pin one
+
+00:17:09.560 --> 00:17:14.600
+I will attempt one freehand bend if this doesn't go flawlessly
+
+00:17:15.320 --> 00:17:19.440
+Then I will not attempt another and I'm just gonna go for fittings. Yeah, this thing is not very hot
+
+00:17:26.480 --> 00:17:28.480
+Oh David, this is not fitting here
+
+00:17:30.520 --> 00:17:32.640
+Can I I'll try it and if I can't do it then
+
+00:17:35.720 --> 00:17:37.720
+You're you're not wrong
+
+00:17:40.400 --> 00:17:42.400
+Here we go
+
+00:17:45.000 --> 00:17:50.520
+Kind of ugly but it'll do right now the problem is this is too thick to fit under here and
+
+00:17:51.320 --> 00:17:52.520
+so
+
+00:17:52.520 --> 00:17:54.520
+In order to get this inside
+
+00:17:55.520 --> 00:17:59.520
+Normally you could kind of like jiggle it in kind of make it work, but I actually don't think we have
+
+00:18:00.240 --> 00:18:02.240
+Enough clearance to make that work
+
+00:18:03.200 --> 00:18:06.240
+I'm so we might need your help. I might not be good enough for this. What do you need?
+
+00:18:06.640 --> 00:18:09.140
+Can you make this fit watch the master?
+
+00:18:09.880 --> 00:18:11.880
+I thought so. Oh wow
+
+00:18:15.920 --> 00:18:17.920
+What do you mean, thank you
+
+00:18:17.920 --> 00:18:19.920
+You have to do it
+
+00:18:21.320 --> 00:18:26.400
+Well, what I'm gonna just hand them the W they're almost done sure this is the last thing once you figure it out
+
+00:18:29.280 --> 00:18:30.560
+High five
+
+00:18:30.560 --> 00:18:32.560
+Nice. Nice. Nice. Nice
+
+00:18:32.880 --> 00:18:34.720
+How's the water cooling going Linus?
+
+00:18:34.720 --> 00:18:40.500
+Extra demoralizing doing hard line tubing in a case where the thing isn't even gonna fit together when you're done
+
+00:18:41.360 --> 00:18:45.600
+It's just extra airflow because I need so much airflow in my water-cooled computer
+
+00:18:46.160 --> 00:18:51.000
+All right, are you gonna keep bending or are you gonna fit it? Uh, you know what the bending was pretty fast
+
+00:18:51.000 --> 00:18:52.920
+I think it's gonna be faster for this one, too
+
+00:18:52.920 --> 00:19:00.080
+How do you find the screwdriver while you're building the computer for the tiny screws here inside like this toby? Yes, perfect
+
+00:19:00.640 --> 00:19:03.520
+It's good. If I'm gonna lose I might as well at least sell a few screwdrivers
+
+00:19:04.520 --> 00:19:06.520
+Thanks, ladies
+
+00:19:07.520 --> 00:19:09.520
+Yeah, I didn't help
+
+00:19:09.920 --> 00:19:17.420
+Man, I love hard line tubing. I love my build taking triple the amount of time for all that performance benefit
+
+00:19:17.880 --> 00:19:19.880
+You ready for a high-risk maneuver?
+
+00:19:20.280 --> 00:19:23.520
+We're gonna fail. Let's fail in an exciting and spectacular manner
+
+00:19:33.680 --> 00:19:35.680
+Who needs a guide when you have a need
+
+00:19:36.800 --> 00:19:38.800
+Holy I think we got the angle
+
+00:19:40.520 --> 00:19:42.520
+How are you finding those little connectors
+
+00:19:42.520 --> 00:19:49.040
+I can't find a lot of like because they have names on the connectors and we try to match those
+
+00:19:50.560 --> 00:19:56.040
+Mm-hmm. The only thing that says panel here is this side, but I don't think that matches there
+
+00:19:56.160 --> 00:20:00.520
+So like the real question is if we need to use all of them are or not
+
+00:20:01.040 --> 00:20:03.040
+I
+
+00:20:03.160 --> 00:20:08.600
+Probably do but why it's not working five more minutes. No, no, no, no, no
+
+00:20:09.520 --> 00:20:13.200
+I'm gonna use a little tiny piece of tubing as a bridge. I
+
+00:20:14.920 --> 00:20:16.920
+Think that was the right one. Yeah
+
+00:20:17.760 --> 00:20:19.760
+Okay
+
+00:20:20.520 --> 00:20:26.160
+Fingers crossed who knows if it works or not. We have good chances of winning this
+
+00:20:26.880 --> 00:20:29.120
+What do you think? I don't think so
+
+00:20:29.880 --> 00:20:31.880
+There
+
+00:20:32.080 --> 00:20:34.080
+Okay, there's a red light
+
+00:20:36.320 --> 00:20:38.440
+You're missing one very important cable
+
+00:20:39.480 --> 00:20:44.240
+Which important cable the one that connects the front power button?
+
+00:20:44.840 --> 00:20:46.840
+Here we go freehand 90
+
+00:20:47.400 --> 00:20:49.640
+Yeah, oh, that's my ugliest one yet
+
+00:20:50.280 --> 00:20:57.800
+It's on right? I mean, it's not the fan is not on. I think we're past the two hours, but neither team is finished
+
+00:20:57.800 --> 00:21:00.120
+Do we go till someone finishes? Yeah
+
+00:21:00.720 --> 00:21:02.320
+All right
+
+00:21:02.320 --> 00:21:05.400
+I'm gonna be first. Let's go. I'm just gonna help you at this point
+
+00:21:06.140 --> 00:21:10.240
+Thank you. Let's plug in a monitor. See if we're getting display. I'll need a monitor to
+
+00:21:10.760 --> 00:21:12.760
+What do you think Glenn? How's it look?
+
+00:21:14.080 --> 00:21:16.080
+Huh
+
+00:21:16.080 --> 00:21:18.080
+Tastes like candy
+
+00:21:19.200 --> 00:21:21.200
+Okay
+
+00:21:24.200 --> 00:21:26.200
+Just get it
+
+00:21:27.200 --> 00:21:29.200
+Please work
+
+00:21:34.800 --> 00:21:36.800
+All right, okay now we're cooking
+
+00:21:37.280 --> 00:21:43.880
+Let's give the CPU a receipt here. Shall we there's bent pins in my socket at least three what but it worked
+
+00:21:43.880 --> 00:21:49.080
+I didn't bend them on the way out and I can do a board swap in like four minutes if I have it
+
+00:21:49.080 --> 00:21:51.080
+I'll be back. All right, let's go
+
+00:21:51.560 --> 00:21:53.560
+Technically, they're not done yet
+
+00:21:54.000 --> 00:22:00.200
+Okay, I can still win this I think the best learnable today is that PC building it's a team exercise everybody works together
+
+00:22:01.280 --> 00:22:04.560
+Okay, it's working. The GPU is working
+
+00:22:10.240 --> 00:22:16.080
+Hey, I posted to LC in Windows they got to figure that out still we do we have a view for that
+
+00:22:16.080 --> 00:22:18.080
+I don't know figure it out
+
+00:22:19.080 --> 00:22:19.880
+I
+
+00:22:19.880 --> 00:22:25.280
+Still gotta get my GPU back in gotta get my loop filled. They've just got to get out of the BIOS. That's lucky
+
+00:22:25.280 --> 00:22:26.840
+It's actually the same BIOS
+
+00:22:26.840 --> 00:22:28.480
+We still got this
+
+00:22:28.480 --> 00:22:30.480
+We still got this
+
+00:22:34.480 --> 00:22:39.760
+Okay, so what did you what did you to do there but walk walk the camera through what you did
+
+00:22:43.000 --> 00:22:45.000
+Hey
+
+00:22:45.000 --> 00:22:48.960
+Everyone's fortunes turning around this thing's coming together
+
+00:23:02.280 --> 00:23:07.400
+Yes, I am putting in cable ties right now if you're not gonna finish on time you got to go for those bonus points
+
+00:23:07.880 --> 00:23:09.880
+Okay, one minute left
+
+00:23:15.600 --> 00:23:17.760
+Okay presentation right plating
+
+00:23:31.920 --> 00:23:35.840
+Ten nine eight seven six
+
+00:23:45.520 --> 00:23:47.520
+What was our total time
+
+00:23:47.920 --> 00:23:54.220
+Just over three hours and 20 minutes, but I'm very impressed and proud of both teams. Oh, thank you
+
+00:23:55.720 --> 00:24:01.840
+Do note mr. Judge that my CPU and GPU temperatures are in the top right of the screen Wow
+
+00:24:02.560 --> 00:24:05.760
+Okay, that we don't know. No people can do that. I
+
+00:24:07.440 --> 00:24:08.960
+Have to say
+
+00:24:08.960 --> 00:24:13.920
+The fact that you were able to hardline this computer. This is a good-looking system. Yeah
+
+00:24:15.000 --> 00:24:19.360
+So the front looks real good, and that's the most important part, but let's go take a look at the back
+
+00:24:19.360 --> 00:24:21.360
+Oh, you don't even have the side panel on
+
+00:24:23.600 --> 00:24:25.600
+It's so much cleaner
+
+00:24:26.480 --> 00:24:32.060
+Yeah, that was okay. I'm a little bit disappointed by the lack of LTT cable ties
+
+00:24:36.280 --> 00:24:38.520
+There's some on the front there's two
+
+00:24:38.880 --> 00:24:40.880
+Okay
+
+00:24:43.440 --> 00:24:48.800
+Yeah, I mean it's not perfect but for a rush job, this is this is a nice system
+
+00:24:49.800 --> 00:24:55.820
+Unfortunately due to technical difficulties. I had to step in and help the first impression is it's not quite as clean
+
+00:24:57.120 --> 00:24:59.360
+Cable management leaves a little bit to be desired
+
+00:25:00.360 --> 00:25:05.880
+Though you had cable ties. I brought those specifically read cable management. They need cable one minute in management
+
+00:25:09.520 --> 00:25:10.520
+I
+
+00:25:10.520 --> 00:25:12.520
+Really had to
+
+00:25:13.200 --> 00:25:20.500
+It's not as bad as Linus's because there's just not as many cables, but yeah, why is this going over?
+
+00:25:24.880 --> 00:25:28.880
+Before we go any further I realized we've never even talked about this GPU I
+
+00:25:30.320 --> 00:25:35.760
+Talked about every other component and then they sent over these GPUs because we needed matching GPUs for this
+
+00:25:36.280 --> 00:25:42.720
+They're 4080s. They're super quiet. They have gigantic coolers on them. They're really fast. I
+
+00:25:43.920 --> 00:25:49.220
+Actually have something that David missed this computer. Unfortunately is a fire hazard ladies
+
+00:25:49.560 --> 00:25:52.840
+Your high voltage PCIe power connector is not in all the way
+
+00:25:54.520 --> 00:26:01.600
+However any points I might have taken off for that if I was judging which I'm not I would have given back for using my
+
+00:26:01.760 --> 00:26:08.880
+Trademarked little tire pretzel in the CPU fan cable trick. I like it. I like it. Good job
+
+00:26:09.320 --> 00:26:11.320
+This is really hard. I
+
+00:26:12.920 --> 00:26:14.920
+Think you gotta give it to us. I
+
+00:26:19.160 --> 00:26:22.440
+Feel really bad doing this, but I think I am gonna award the victory to Linus
+
+00:26:22.440 --> 00:26:24.440
+Oh
+
+00:26:25.440 --> 00:26:28.160
+This beautiful t-shirt Wow, did you make this shirt?
+
+00:26:29.960 --> 00:26:34.240
+You know what I would have given it to them really to be perfectly honest with you
+
+00:26:34.240 --> 00:26:36.980
+Yeah, we don't know if I broke the motherboard
+
+00:26:37.760 --> 00:26:42.280
+That's true. There's also a lot of water in my computer. You didn't look that closely
+
+00:26:43.360 --> 00:26:45.360
+Okay
+
+00:26:45.960 --> 00:26:50.640
+We should put it on together, what do you think you guys are doing great? Yeah
+
+00:26:53.120 --> 00:26:56.480
+Oh, yeah, yeah now smile
+
+00:27:02.320 --> 00:27:06.960
+All right, well this devolved extremely quickly you guys did great GG
+
+00:27:09.680 --> 00:27:11.680
+And GG to our sponsor
+
+00:27:12.960 --> 00:27:17.040
+Squarespace are you looking to create a website but lack the technical expertise?
+
+00:27:17.600 --> 00:27:20.280
+Squarespace is here to help their all-in-one platform
+
+00:27:20.680 --> 00:27:24.600
+Simplifies the process of getting your website up and running quickly with Squarespace
+
+00:27:24.600 --> 00:27:31.160
+You can grow your business online through their marketing features which include SEO support email campaigns and social tools
+
+00:27:31.360 --> 00:27:39.320
+They offer a wide selection of award-winning mobile optimized templates and their commerce platform provides everything you need for merchandising to checkout
+
+00:27:39.320 --> 00:27:43.560
+you can also access analytic insights to optimize your website's performance and
+
+00:27:43.960 --> 00:27:50.200
+Identify areas that need improvement if you require assistance Squarespace has help guides and a 24-7 support team
+
+00:27:50.200 --> 00:27:55.800
+So visit squarespace.com forward slash LTT to receive 10% off your first purchase
+
+00:27:56.640 --> 00:28:02.800
+If you guys enjoyed this video, you know what? Why not check out Sarah's first build was that a short-circuit LTT?
+
+00:28:02.800 --> 00:28:04.800
+I can't remember really good video though
+

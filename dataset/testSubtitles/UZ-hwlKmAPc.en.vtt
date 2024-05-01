@@ -1,0 +1,904 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.270
+40 Super? More like 4080, wow, Super Paint Job.
+
+00:00:04.270 --> 00:00:07.240
+In 4K gaming, we found next to no difference
+
+00:00:07.240 --> 00:00:09.042
+across our entire suite of games
+
+00:00:09.042 --> 00:00:10.510
+between our two top-end cards.
+
+00:00:10.510 --> 00:00:15.415
+In fact, our Super card performed a bit worse in Cyberpunk
+
+00:00:15.415 --> 00:00:18.918
+compared to our non-Super, despite having more cores
+
+00:00:18.918 --> 00:00:21.454
+and higher on-paper clock speeds.
+
+00:00:21.454 --> 00:00:25.258
+Now, that doesn't mean the Super is a worse card overall.
+
+00:00:25.258 --> 00:00:27.093
+We've just released a video demonstrating
+
+00:00:27.093 --> 00:00:29.829
+that modern processors can have measurable difference
+
+00:00:29.829 --> 00:00:31.398
+from one to the next.
+
+00:00:31.398 --> 00:00:34.234
+All it means is power limits are a bit,
+
+00:00:34.234 --> 00:00:37.937
+and this whole launch shenanigans could have been an email.
+
+00:00:37.937 --> 00:00:39.572
+So rather than waste your time
+
+00:00:39.572 --> 00:00:42.842
+trickling out LTT review videos every couple of weeks
+
+00:00:42.842 --> 00:00:45.845
+with, ooh, one more line on the graph,
+
+00:00:45.845 --> 00:00:49.315
+we combined everything into one Super video.
+
+00:00:50.216 --> 00:00:52.285
+Between the price cuts and the new cards though,
+
+00:00:52.285 --> 00:00:56.423
+the GPU market has officially been shaken up a lot here.
+
+00:00:56.423 --> 00:00:59.859
+$1 for frame, the 4080 Super presents virtually
+
+00:00:59.859 --> 00:01:04.864
+the same value as the beloved 3080 at its original MSRP.
+
+00:01:05.265 --> 00:01:07.634
+And while the other Super refresh cards
+
+00:01:07.634 --> 00:01:09.202
+don't get lower prices,
+
+00:01:09.202 --> 00:01:11.704
+they're at least more Winter Soldier Super
+
+00:01:11.704 --> 00:01:14.474
+than Nick Fury Super.
+
+00:01:14.474 --> 00:01:18.478
+Finally, the 4070 gets a price cut down to $550,
+
+00:01:18.478 --> 00:01:21.948
+which makes it actually still kind of a bad value.
+
+00:01:23.016 --> 00:01:25.585
+We're not gonna spend too much time on 1080p gaming
+
+00:01:25.585 --> 00:01:28.721
+because even the weakest card in this kind of price tier
+
+00:01:28.721 --> 00:01:31.958
+delivers an excellent 1080p ultra experience.
+
+00:01:31.958 --> 00:01:33.927
+It is impressive to see the 3080
+
+00:01:33.927 --> 00:01:36.262
+sinking so low on our charts though.
+
+00:01:36.262 --> 00:01:39.732
+And the 4070 Super is really impressive,
+
+00:01:39.732 --> 00:01:41.734
+beating out even the 3090,
+
+00:01:41.734 --> 00:01:43.369
+despite retailing for less
+
+00:01:43.369 --> 00:01:46.072
+than the historically low pricing on that card.
+
+00:01:46.072 --> 00:01:47.407
+If you're an eSports player,
+
+00:01:47.407 --> 00:01:50.877
+the good news is any card on this chart will do you well.
+
+00:01:50.877 --> 00:01:53.413
+But the bad news is the word Super
+
+00:01:53.413 --> 00:01:55.014
+can mean basically anything
+
+00:01:55.014 --> 00:02:00.019
+from a sizable performance increase to meh.
+
+00:02:00.019 --> 00:02:04.257
+So what exactly did they change with these cards?
+
+00:02:04.257 --> 00:02:07.060
+Let's go through it after this message from our sponsor.
+
+00:02:07.060 --> 00:02:10.830
+Build Redux, psst, hey, do you like gaming?
+
+00:02:10.830 --> 00:02:13.199
+The folks over at Build Redux do as well.
+
+00:02:13.199 --> 00:02:14.734
+And their mission is to help you build
+
+00:02:14.734 --> 00:02:16.603
+the gaming rig of your dreams.
+
+00:02:16.603 --> 00:02:19.038
+Pick your parts and let them take care of the rest.
+
+00:02:19.038 --> 00:02:21.741
+Check out Build Redux at the link below to learn more.
+
+00:02:21.741 --> 00:02:25.111
+The 4070 Super uses the same 8104 silicon
+
+00:02:25.111 --> 00:02:28.615
+that's found on its non-Super and Ti cousins.
+
+00:02:28.615 --> 00:02:29.883
+Man, these names.
+
+00:02:29.883 --> 00:02:33.853
+But it comes with 20% increases in its functional units,
+
+00:02:33.853 --> 00:02:37.323
+or FUs for short, just about across the board.
+
+00:02:37.323 --> 00:02:40.260
+And it got an especially big bump in level two cache.
+
+00:02:40.260 --> 00:02:43.796
+It, however, got no increase to its memory interface width
+
+00:02:43.796 --> 00:02:46.332
+or its 12 gigabytes of VRAM,
+
+00:02:46.332 --> 00:02:48.735
+a move that seems entirely designed to ensure
+
+00:02:48.735 --> 00:02:52.539
+that this otherwise actually pretty solid value card
+
+00:02:52.539 --> 00:02:55.441
+won't last for the rest of this generation of console games,
+
+00:02:55.441 --> 00:02:57.677
+many of which already perform best
+
+00:02:57.677 --> 00:03:00.413
+with 16 gigs of VRAM or more.
+
+00:03:00.413 --> 00:03:01.714
+So if that's a concern,
+
+00:03:01.714 --> 00:03:05.018
+you'll have to look to the 4070 Ti Super.
+
+00:03:05.018 --> 00:03:09.455
+It now shares the same 8103 silicon as the 4080 family,
+
+00:03:09.455 --> 00:03:10.590
+but it's clear that this move
+
+00:03:10.590 --> 00:03:12.792
+is less about providing more value
+
+00:03:12.792 --> 00:03:15.862
+and more about NVIDIA offloading some 8103 chips
+
+00:03:15.862 --> 00:03:17.497
+that weren't up to snuff.
+
+00:03:17.530 --> 00:03:19.399
+As for the 4080 Super,
+
+00:03:19.399 --> 00:03:21.334
+the modest increase in FUs
+
+00:03:21.334 --> 00:03:25.004
+seems to offer a small benefit sometimes,
+
+00:03:25.004 --> 00:03:26.239
+but other times it's clear
+
+00:03:26.239 --> 00:03:28.274
+that NVIDIA's power limit for this card
+
+00:03:28.274 --> 00:03:32.679
+is doing exactly what it's intended to do, limit its power.
+
+00:03:32.679 --> 00:03:34.881
+You'll see what I mean at 1440p.
+
+00:03:34.881 --> 00:03:38.284
+The 4070 Ti Super is another major disappointment here.
+
+00:03:38.284 --> 00:03:40.119
+Despite the shift to the bigger die,
+
+00:03:40.119 --> 00:03:43.056
+we don't really see a major increase in performance,
+
+00:03:43.056 --> 00:03:46.059
+at least not like we saw on the 4070 Super.
+
+00:03:46.059 --> 00:03:48.695
+And even at its new lower price,
+
+00:03:48.695 --> 00:03:51.297
+the 4080 Super doesn't seem to offer
+
+00:03:51.297 --> 00:03:55.335
+a great value proposition over AMD's 7900 XT
+
+00:03:55.335 --> 00:03:58.037
+or NVIDIA's own 4070 Ti Super,
+
+00:03:58.037 --> 00:04:02.008
+which now retail for 750 and 800 US dollars respectively.
+
+00:04:02.008 --> 00:04:05.078
+It offers only a single digit performance uplift
+
+00:04:05.078 --> 00:04:08.615
+for what are in both cases, double digit price bumps.
+
+00:04:08.615 --> 00:04:10.216
+A couple of bright spots for NVIDIA though
+
+00:04:10.216 --> 00:04:12.552
+are they took the lead in F123,
+
+00:04:12.552 --> 00:04:15.555
+a game series that has heavily favored AMD in the past,
+
+00:04:15.555 --> 00:04:18.691
+and the 4070 Super just kind of in general,
+
+00:04:18.691 --> 00:04:21.794
+that is an offer that is kind of hard to refuse,
+
+00:04:21.794 --> 00:04:25.398
+at least in the context of NVIDIA's other 40 series cards.
+
+00:04:25.398 --> 00:04:26.599
+Say it with me guys,
+
+00:04:26.599 --> 00:04:30.737
+this is the card NVIDIA should have released a year ago.
+
+00:04:30.737 --> 00:04:32.438
+Looking at games like Cyberpunk,
+
+00:04:32.438 --> 00:04:35.141
+the step up from the non-Super is pretty darn big.
+
+00:04:35.141 --> 00:04:39.479
+And yeah, it's $100 more than the 7800 XT,
+
+00:04:39.479 --> 00:04:44.250
+but the 4070 Super outperforms it consistently by about 5%
+
+00:04:44.250 --> 00:04:47.720
+and is compatible with NVIDIA's fancy pants AI features,
+
+00:04:47.720 --> 00:04:51.057
+like their new automatic SDR to HDR video playback
+
+00:04:51.057 --> 00:04:53.960
+tomfoolery and DLSS with frame gen.
+
+00:04:53.960 --> 00:04:55.361
+We're gonna get to frame gen in a bit,
+
+00:04:55.361 --> 00:04:58.431
+but first let's move on to 4K raster gaming.
+
+00:04:58.431 --> 00:04:59.966
+In Dota 2 at 4K,
+
+00:04:59.966 --> 00:05:02.335
+every single Super GPU will be able to produce
+
+00:05:02.335 --> 00:05:04.871
+as many frames as you can possibly output
+
+00:05:04.871 --> 00:05:07.040
+with DisplayPort 1.4a.
+
+00:05:07.040 --> 00:05:09.976
+AMD's DP2 Cloud GPUs on the other hand,
+
+00:05:09.976 --> 00:05:11.778
+may end up being the go-to
+
+00:05:11.778 --> 00:05:14.480
+for high refresh rate 4K e-athletes,
+
+00:05:14.480 --> 00:05:16.382
+even if it comes at the cost of some performance
+
+00:05:16.382 --> 00:05:17.617
+in other games.
+
+00:05:17.617 --> 00:05:21.254
+The 4080 Super pulls pretty far ahead of the 7900 XT
+
+00:05:21.254 --> 00:05:23.623
+and Red Dead Redemption 2 and Atomic Heart.
+
+00:05:23.623 --> 00:05:25.458
+As for the 4070 Ti Super,
+
+00:05:25.458 --> 00:05:28.027
+it has fully caught up to the 7900 XT
+
+00:05:28.027 --> 00:05:32.832
+and extends its lead over the 4070 Super to about 20%.
+
+00:05:32.832 --> 00:05:35.034
+A point where it's $800 price tag
+
+00:05:35.034 --> 00:05:37.737
+could almost be justifiable.
+
+00:05:37.737 --> 00:05:42.075
+And the 4070 Super begins falling behind the 3090.
+
+00:05:42.075 --> 00:05:43.343
+It appears to be being held back
+
+00:05:43.343 --> 00:05:45.078
+by that 12 gigs of video memory
+
+00:05:45.078 --> 00:05:47.013
+that we complained about before.
+
+00:05:47.013 --> 00:05:48.481
+If you were hoping that this refresh
+
+00:05:48.481 --> 00:05:51.117
+then would push the prospect of 4K ultra gaming
+
+00:05:51.117 --> 00:05:52.919
+to a lower price bracket,
+
+00:05:52.919 --> 00:05:55.421
+I'm sorry, but that just isn't the case
+
+00:05:55.421 --> 00:05:57.223
+and it appears to be by design.
+
+00:05:57.223 --> 00:05:59.892
+So with Nvidia's cards having names that are too long
+
+00:05:59.892 --> 00:06:01.828
+and traditional raster gaming performance
+
+00:06:01.828 --> 00:06:04.864
+that is at best competitive with AMD,
+
+00:06:04.897 --> 00:06:05.965
+the question becomes,
+
+00:06:05.965 --> 00:06:09.435
+are Nvidia's other features worth the price premium?
+
+00:06:09.435 --> 00:06:12.338
+Let's take a quick detour into productivity and find out.
+
+00:06:12.338 --> 00:06:14.240
+Now featuring, I'm so sorry,
+
+00:06:14.240 --> 00:06:17.510
+you must be so tired of hearing about it, AI benchmarks.
+
+00:06:17.510 --> 00:06:20.713
+The Procyon benchmark is testing the speed of inference
+
+00:06:20.713 --> 00:06:23.449
+of various AI models on this hardware.
+
+00:06:23.449 --> 00:06:26.319
+Things like upscaling and object recognition
+
+00:06:26.319 --> 00:06:29.255
+or generating images like with stable diffusion.
+
+00:06:29.255 --> 00:06:31.457
+Like it'll see pixels and infer
+
+00:06:31.457 --> 00:06:33.793
+that those pixels form a stop sign.
+
+00:06:33.793 --> 00:06:37.163
+And naturally we see Nvidia dominate here,
+
+00:06:37.163 --> 00:06:40.433
+but this isn't just some architectural failure
+
+00:06:40.433 --> 00:06:41.868
+on AMD's part.
+
+00:06:41.868 --> 00:06:44.003
+A big part of it is software.
+
+00:06:44.003 --> 00:06:47.540
+CUDA has been around for a long time now
+
+00:06:47.540 --> 00:06:49.709
+and basically every AI program
+
+00:06:49.709 --> 00:06:52.545
+is accelerated by Nvidia's CUDA cores.
+
+00:06:52.545 --> 00:06:56.349
+Whereas AMD is stuck in direct NL hell in this test
+
+00:06:56.349 --> 00:06:57.817
+and just can't keep up.
+
+00:06:57.817 --> 00:06:59.919
+So we're gonna be working to build out an AI suite
+
+00:06:59.919 --> 00:07:03.256
+that is more representative as time goes on.
+
+00:07:03.256 --> 00:07:05.124
+Of note, this is the first instance
+
+00:07:05.124 --> 00:07:07.693
+where we see an actual increase in performance
+
+00:07:07.693 --> 00:07:11.731
+from the 4080 refresh, excuse me, 4080 Super.
+
+00:07:11.731 --> 00:07:13.966
+If AI is a major part of your workflow,
+
+00:07:13.966 --> 00:07:15.902
+then you can be thankful that you're now getting
+
+00:07:15.902 --> 00:07:17.570
+even better AI performance
+
+00:07:17.570 --> 00:07:20.006
+for less money at the very high end.
+
+00:07:20.006 --> 00:07:21.140
+Similarly in Blender,
+
+00:07:21.140 --> 00:07:23.943
+AMD is hamstrung by lacking software support
+
+00:07:23.943 --> 00:07:26.612
+and we see Nvidia dominate the rendering race
+
+00:07:26.612 --> 00:07:30.249
+even without taking advantage of their optics rendering.
+
+00:07:30.249 --> 00:07:33.019
+However, that uplift that we saw in AI workloads
+
+00:07:33.786 --> 00:07:38.791
+on the 4080 Super has all but evaporated.
+
+00:07:38.825 --> 00:07:40.693
+Let's talk about how Nvidia's AI horsepower
+
+00:07:40.693 --> 00:07:43.830
+affects gaming now then with DLSS and FrameGen.
+
+00:07:43.830 --> 00:07:45.097
+As we've seen in the past,
+
+00:07:45.097 --> 00:07:48.668
+an increase in AI cores doesn't correlate
+
+00:07:48.668 --> 00:07:52.338
+to improved performance from DLSS and FrameGen.
+
+00:07:52.338 --> 00:07:54.240
+You turn them on and they work
+
+00:07:54.240 --> 00:07:55.942
+or you don't turn them on and they don't work.
+
+00:07:55.942 --> 00:07:59.145
+You get roughly a 60% increase in FPS
+
+00:07:59.145 --> 00:08:01.013
+from enabling DLSS with FrameGen
+
+00:08:01.013 --> 00:08:02.949
+regardless of which card you're using.
+
+00:08:03.783 --> 00:08:04.617
+That is assuming it's green,
+
+00:08:04.617 --> 00:08:06.752
+which dramatically increases performance
+
+00:08:06.752 --> 00:08:10.289
+with what has become a pretty small difference
+
+00:08:10.289 --> 00:08:11.958
+in visual fidelity.
+
+00:08:11.958 --> 00:08:14.327
+The increase in latency is measurable,
+
+00:08:14.327 --> 00:08:16.896
+but outside of professional gamers and enthusiasts,
+
+00:08:18.097 --> 00:08:20.433
+I think it's kind of reached the point where it's like,
+
+00:08:20.433 --> 00:08:22.368
+well, why wouldn't I turn this on?
+
+00:08:22.368 --> 00:08:24.437
+As for AMD, you might've noticed
+
+00:08:24.437 --> 00:08:26.839
+that even though they finally launched
+
+00:08:26.839 --> 00:08:28.941
+their driver level FrameGeneration,
+
+00:08:28.941 --> 00:08:31.777
+we didn't include it in our results.
+
+00:08:31.777 --> 00:08:34.347
+We wanted to be as apples to apples as possible.
+
+00:08:34.347 --> 00:08:36.148
+And in theory, it's really cool.
+
+00:08:36.148 --> 00:08:38.551
+You just turn it on in the adrenaline control panel
+
+00:08:38.551 --> 00:08:40.786
+and it boosts your FPS in any DirectX 11
+
+00:08:40.786 --> 00:08:42.755
+or DirectX 12 game.
+
+00:08:42.755 --> 00:08:43.756
+Though like with Nvidia,
+
+00:08:43.756 --> 00:08:45.825
+they do say you need decent performance already
+
+00:08:45.825 --> 00:08:49.362
+for it to work its best with AMD recommending 60 FPS.
+
+00:08:49.362 --> 00:08:51.731
+The problem is that we were not able
+
+00:08:51.731 --> 00:08:55.234
+to get consistent outputs such that we would be confident
+
+00:08:55.234 --> 00:08:56.502
+putting them on our graphs.
+
+00:08:56.502 --> 00:08:59.138
+So we've got some screen capture here for you guys
+
+00:08:59.138 --> 00:09:02.475
+to give you some idea of what you might expect
+
+00:09:02.475 --> 00:09:04.410
+in terms of a performance uplift.
+
+00:09:04.410 --> 00:09:06.679
+But I think it's gonna have to wait for a future video
+
+00:09:06.679 --> 00:09:09.882
+to see how their fluid motion frames compare to Nvidia
+
+00:09:09.882 --> 00:09:12.952
+when it comes to image quality and latency.
+
+00:09:12.952 --> 00:09:15.087
+Another place, speaking of latency,
+
+00:09:15.087 --> 00:09:18.558
+where AMD has lagged behind Nvidia has been ray tracing,
+
+00:09:18.558 --> 00:09:21.093
+which doesn't change at all.
+
+00:09:21.093 --> 00:09:22.962
+The introduction of these performance bumps
+
+00:09:22.962 --> 00:09:25.565
+and the new SKUs will all but force AMD
+
+00:09:25.598 --> 00:09:29.302
+to discount pretty much their entire current gen lineup,
+
+00:09:29.302 --> 00:09:30.536
+at least if they wanna appeal
+
+00:09:30.536 --> 00:09:32.939
+to ray tracing enthusiast gamers.
+
+00:09:32.939 --> 00:09:35.942
+Post price cut, the 4080 now competes directly
+
+00:09:35.942 --> 00:09:39.011
+with the 7900XTX with slightly better raster
+
+00:09:39.011 --> 00:09:41.414
+and much better ray tracing performance
+
+00:09:41.414 --> 00:09:44.350
+alongside other Nvidia walled off features.
+
+00:09:44.350 --> 00:09:47.987
+And the story is the same when it comes to power consumption.
+
+00:09:47.987 --> 00:09:50.222
+Even with the bump to total power consumption,
+
+00:09:50.222 --> 00:09:52.792
+Nvidia's new cards handily outclass AMD
+
+00:09:52.792 --> 00:09:54.160
+in overall efficiency.
+
+00:09:54.160 --> 00:09:55.695
+And if you were worried that the power bump
+
+00:09:55.695 --> 00:09:57.496
+would result in thermal problems,
+
+00:09:57.496 --> 00:09:59.699
+maybe on the 4080 Super for example,
+
+00:09:59.699 --> 00:10:01.567
+you can rest easy knowing that thermals
+
+00:10:01.567 --> 00:10:04.136
+on all of these cards were very much in check.
+
+00:10:04.136 --> 00:10:06.772
+So you can rest easy and comfortably
+
+00:10:06.772 --> 00:10:08.641
+in our new collection of pajamas.
+
+00:10:08.641 --> 00:10:10.576
+We have onesies and lounge pants
+
+00:10:10.576 --> 00:10:13.079
+now available at lttstore.com.
+
+00:10:13.079 --> 00:10:16.248
+Now, is anyone else getting a sense of deja vu by now?
+
+00:10:16.248 --> 00:10:17.483
+If you are, it's probably
+
+00:10:17.483 --> 00:10:20.252
+cause you're pretty smart and observant.
+
+00:10:20.252 --> 00:10:23.956
+Nvidia is pulling from the exact same playbook
+
+00:10:24.790 --> 00:10:27.093
+as they did with the 20 series.
+
+00:10:27.093 --> 00:10:29.295
+Seriously, stop me if this sounds familiar.
+
+00:10:29.295 --> 00:10:31.030
+You release a generation of cards
+
+00:10:31.030 --> 00:10:35.234
+that is perceived as not offering a very good value.
+
+00:10:35.234 --> 00:10:37.136
+And in fact, not offering much in the way
+
+00:10:37.136 --> 00:10:39.939
+of a performance improvement over the last gen.
+
+00:10:39.939 --> 00:10:43.476
+Then you do a mid cycle super refresh
+
+00:10:43.476 --> 00:10:45.144
+so that you can say, yeah,
+
+00:10:45.144 --> 00:10:46.412
+we know this one was kind of a downer,
+
+00:10:46.412 --> 00:10:48.881
+but we're listening.
+
+00:10:48.881 --> 00:10:50.783
+Well, that may have been a very long
+
+00:10:50.783 --> 00:10:52.451
+four and a half years ago,
+
+00:10:52.451 --> 00:10:54.220
+but I haven't forgotten Nvidia.
+
+00:10:54.220 --> 00:10:55.588
+And how is it that you thought
+
+00:10:55.588 --> 00:10:57.957
+that this was worth dragging out
+
+00:10:57.957 --> 00:11:01.260
+over a month plus long series of launch events?
+
+00:11:01.260 --> 00:11:04.230
+Did anyone else notice that they gave nothing
+
+00:11:04.230 --> 00:11:08.334
+to the gamers who already had the least this generation?
+
+00:11:08.334 --> 00:11:10.136
+What about people who have less
+
+00:11:10.136 --> 00:11:15.141
+than 500 US dollars to spend on a gaming accessory?
+
+00:11:15.875 --> 00:11:18.377
+Nvidia is basically yielding that customer
+
+00:11:18.377 --> 00:11:20.579
+to Sony or Microsoft.
+
+00:11:20.579 --> 00:11:21.781
+So I hate to say it,
+
+00:11:21.781 --> 00:11:26.118
+but unless Intel Arc Battle Mage swoops in to save us,
+
+00:11:26.118 --> 00:11:29.422
+APUs might be the future that we have
+
+00:11:29.422 --> 00:11:32.191
+to look forward to for budget PC gaming.
+
+00:11:32.191 --> 00:11:34.126
+As for the future of this video,
+
+00:11:34.126 --> 00:11:36.162
+it's the segue to our sponsor.
+
+00:11:36.162 --> 00:11:37.430
+Ground News.
+
+00:11:37.430 --> 00:11:38.597
+No one likes to admit it,
+
+00:11:38.597 --> 00:11:41.434
+but we all kind of live in our own bubbles,
+
+00:11:41.434 --> 00:11:43.669
+thanks in no small part to internet platforms
+
+00:11:43.669 --> 00:11:45.971
+that feed us more and more stuff
+
+00:11:45.971 --> 00:11:48.441
+that they think we'll like, including news.
+
+00:11:48.441 --> 00:11:51.210
+But Ground News wants to change how we engage with news
+
+00:11:51.243 --> 00:11:53.379
+by helping us break free from algorithms,
+
+00:11:53.379 --> 00:11:54.980
+see through media bias,
+
+00:11:54.980 --> 00:11:58.050
+and better understand where we get our information from.
+
+00:11:58.050 --> 00:12:02.555
+To do this, their team processes nearly 60,000 news articles
+
+00:12:02.555 --> 00:12:06.125
+from over 50,000 different news sources each day,
+
+00:12:06.125 --> 00:12:08.060
+merging coverage of the same events
+
+00:12:08.060 --> 00:12:09.695
+to give you a clearer picture
+
+00:12:09.695 --> 00:12:12.198
+of just what the heck is going on out there.
+
+00:12:12.198 --> 00:12:14.200
+Every story comes with this little bar
+
+00:12:14.200 --> 00:12:15.968
+that breaks down the political leanings
+
+00:12:15.968 --> 00:12:17.870
+of the outlets that are reporting on it.
+
+00:12:17.870 --> 00:12:19.839
+For example, here's a recent story
+
+00:12:19.839 --> 00:12:23.042
+about OpenAI no longer banning the use of chat GPT
+
+00:12:23.042 --> 00:12:24.276
+for military purposes.
+
+00:12:24.276 --> 00:12:26.712
+Outlets from one side of the spectrum reported on it,
+
+00:12:26.712 --> 00:12:28.214
+while it looks like the other side
+
+00:12:28.214 --> 00:12:29.615
+didn't really find it that newsworthy.
+
+00:12:29.615 --> 00:12:30.816
+And if you wonder why,
+
+00:12:30.816 --> 00:12:33.719
+Ground News can help you dig more into those outlets
+
+00:12:33.719 --> 00:12:36.555
+to have a look at what topics they cover,
+
+00:12:36.555 --> 00:12:39.291
+which ones they don't, and why that might be.
+
+00:12:39.291 --> 00:12:41.293
+It's time we had a smarter way to read the news.
+
+00:12:41.293 --> 00:12:44.630
+So go to ground.news.linus, or click the link below,
+
+00:12:44.630 --> 00:12:46.098
+and you'll get 40% off
+
+00:12:46.098 --> 00:12:49.135
+their unlimited access Vantage plan today.
+
+00:12:49.135 --> 00:12:50.536
+If you guys enjoyed this video,
+
+00:12:50.536 --> 00:12:52.671
+why don't you check out the one I alluded to earlier,
+
+00:12:52.671 --> 00:12:54.273
+where we analyzed the difference
+
+00:12:54.273 --> 00:12:57.843
+between a dozen different identical AMD CPUs
+
+00:12:57.843 --> 00:13:00.780
+and showed how they don't always perform quite the same.
+
