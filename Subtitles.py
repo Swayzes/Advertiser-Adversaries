@@ -117,6 +117,15 @@ def sponsor_match(subs: dict, aspects: list) -> dict:
 
 
 def plot_match_words(matches: dict, subs: dict, segments = None):
+    """Draw a pyplot of aspects of the description found in the video subtitles over the video's runtime
+    
+    Params:
+        matches: Dict of aspect matches {{matchWord : {endTime : instances} }
+        subs: dict of all subtitles
+        segments: list of nested arrays giving the start and end times of sponsor segments
+
+    Author: Sean
+    """
     
     for aspect in matches.keys(): 
         xPoints = np.array(list(dict(matches[aspect]).keys()))
