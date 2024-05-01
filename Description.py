@@ -1,169 +1,124 @@
+#%%
 import sqlite3
 import io
 from pathlib import Path
+from regex import search
 import os
-import numpy as np
 # https://scikit-learn.org/stable/modules/feature_extraction.html
-import json
+
 # pip install -U scikit-learn
 import sklearn
-import pandas as pd
-from sklearn.svm import SVC
-from sklearn.metrics import classification_report, f1_score
-from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.feature_extraction.text import CountVectorizer
+
+#pip install transformers
 from transformers import BertTokenizer, BertModel
-from sklearn.model_selection import train_test_split
 
-# encoded_text = {"data":[], "labels":[]}
-data = []
-labels =[]
-combined = pd.DataFrame()
+#pip install tldextract
+import tldextract
 
-def BoW_Processing(text):
+#pip install nltk
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+
+
+def get_description_from_file(vID, path = "dataset/descriptions", ft = "description"):
+    """Return the description of a given video
+
+    Params: 
+        vID: video ID, 
+        path: relative directory of subtitles folder
+        ft: file type
+    
+    Returns:
+        dict of all subtitle events {endTimecode : Event}
+
+    Author: Sean
     """
+    file = open(f"{path}/{vID}.{ft}", "r", encoding='utf-8')
+
+    return str(file.read())
     
+
+def split_desc(desc: str):
+    """Split a description string into a list of lines, removing empty lines
+
+    Params:
+        desc: description 
+
+    Returns: 
+        List of strings
+
+    Author: Sean
     """
-    # Create the vocabulary
-    vectorizer = CountVectorizer()
 
-    # fit the vocabulary to the text data
-    vectorizer.fit(text)
+    inputDesc = desc.split("\n")
 
-    # create the bag-of-words model
-    bow_model = vectorizer.transform(text)
+    outputDesc = list()
+    for line in inputDesc:
+        if line != "":
+            outputDesc.append(line)
 
-    # print the bag-of-words model
-    print("BoW")
-    print(bow_model)
-    return
+    return outputDesc
 
-def BERT_Processing(text, label):
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    model = BertModel.from_pretrained("bert-base-uncased")
-    encoded_input = tokenizer(text, return_tensors='pt', max_length=500, truncation = True)
-    # tokens = tokenizer.convert_ids_to_tokens(encoded_input)
-    output = model(**encoded_input)
-    output = output.last_hidden_state.mean(dim=1).squeeze().detach().cpu().numpy()
 
-    # encoded_text["data"].append(output)
-    # encoded_text["labels"].append(label)
+#https://www.nltk.org/book/ch05.html
+def aspect_extration(desc: str):
+    """Extract potential aspects from a description
 
-    data.append(output)
-    labels.append(label)
-    return
+    Params:
+        desc: Description text
 
-def desc_processing(desc, label):
-    text = open(Path(desc[0]), encoding="utf8")
-    description = [text.read()]
+    Return:
+        list of potential features
 
-    description.append(label)
-    return description
+    Author: Sean
+    """
+    descLines = split_desc(desc)
 
-class NumpyTypeEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, np.generic):
-            return obj.item()
-        elif isinstance(obj, np.ndarray):
-            return obj.tolist()
-        return json.JSONEncoder.default(self, obj)
+    domainMatch = list()
     
-def save(dir, name):
-    if(not os.path.exists(dir)):
-        os.makedirs(dir)
-    path = os.path.join(dir, name)
+    for line in descLines:
+        #text = nltk.word_tokenize(line)
+        domain = url_search(line)
 
-    # json_data = json.dumps(encoded_text, indent=4, cls=NumpyTypeEncoder)
-    # with open(path, "w") as f:
-    #         f.write(json_data)
-    combined = pd.DataFrame({
-    "data": data,
-    "labels": labels
-    })
-    output = combined.to_json(orient="records", lines=True)
-    with open(path, "w") as f: # Change as needed
-        f.write(output)
+        if domain != None:
 
-con = sqlite3.connect("VideoDatabase.db")
-cur = con.cursor()
+            domainMatch.append(domain)
 
-def Training_processing():
-    descList = []
-    cur.execute("SELECT Description_File_Path FROM DatasetAds")
-    descListAds = cur.fetchall()
-    cur.execute("SELECT Description_File_Path FROM DatasetNoAds")
-    descListNoAds = cur.fetchall()
+            # for word in line.split(" "):
 
-    for d in descListAds:
-        descList.append(desc_processing(d, 1))
+            #     if word in domain:
 
-    for d in descListNoAds:
-        descList.append(desc_processing(d, 0))
+            #         if word not in domainMatch:
+            #             domainMatch.append(word)
+                
+    # tagged = nltk.pos_tag(text)
+    # for tag in tagged:
+    #     if tag[1] == "NN" or tag[1] == "NNP":
+    #         print(tag)
 
-    for d in descList:
-        # BoW_Processing(description)
-        BERT_Processing(d[0], d[1])
+    return domainMatch
 
-    save("encoded_description", "BERT_training_data.json")
-    return
 
-def Testing_processing():
-    cur.execute("SELECT Description_File_Path FROM DatasetTesting")
-    descList = cur.fetchall()
-    cur.execute("SELECT Has_Sponsor FROM DatasetTesting")
-    labelList = cur.fetchall()
-
-    index = 0
-    for d in descList:
-        BERT_Processing(d, labelList[index])
-        index=index+1
-
-    save("encoded_description", "BERT_testing_data.json")
-    return
-
-def Gradient_Boosting():
+def url_search(line: str):
+    """Detect and return domain names from a line of the description
     
-    with open('encoded_description/BERT_training_data.json') as f:
-        train_df = json.load(f)
+    Params:
+        line: a line of the description
+        
+    Returns:
+        A domain name or empty string
+        
+    Author: Sean
+    """
 
-    with open('encoded_description/BERT_testing_data.json') as f:
-        test_df = json.load(f)
-
-    train_df =''
-    test_df = ''
+    domain = ""
+    if "www." in line or "http" in line:
+        url =  search("(?P<url>https?://[^\s]+)", line).group("url")
+        domain = tldextract.extract(url).domain
+        if domain != "" or domain != " ":
+            return domain
+    return None
     
-    return
-
-def SVM():
-    
-    train_df = pd.read_json("encoded_description\BERT_training_data.json", lines=True)
-    test_df = pd.read_json("encoded_description\BERT_testing_data.json", lines=True)
-    svm = SVC(kernel='poly')
-    
-    train_body = list(train_df["data"])
-    train_label = train_df["labels"]
-
-    test_body = list(test_df["data"])
-    test_label = test_df["labels"]
-    svm.fit(train_body, train_label)
-    predicted_test_labels = svm.predict(test_body)
-    metrics = f1_score(test_label, predicted_test_labels, average="weighted")
-    print(metrics) 
-    return
-
-Training_processing()
-Testing_processing()
-SVM()
-
-# Training_processing()
-# Testing_processing()
-# print("Done")
-
-# Load up a bunch of video data to make a dataset
-# Create a dataframe with all the description based data
-# Aspect Extraction:
-# Use Bag of Words?
-# Hashing is a thing?
-# Sentiment Analysis
-
-# SVM, gradient boosting
+# %%
