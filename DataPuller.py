@@ -167,5 +167,5 @@ def getDataFromChannel(url, start, end, testData):
 #getDataFromChannel('https://www.youtube.com/@mkbhd/videos', 0, 20, False)
 
 #getDataFromChannel('https://www.youtube.com/@MrBeast/videos', 40, 60, True)
-getDataFromChannel('https://www.youtube.com/@LinusTechTips/videos', 40, 60, True)
-getDataFromChannel('https://www.youtube.com/@mkbhd/videos', 40, 60, True)
+#getDataFromChannel('https://www.youtube.com/@LinusTechTips/videos', 40, 60, True)
+#getDataFromChannel('https://www.youtube.com/@mkbhd/videos', 40, 60, True)
