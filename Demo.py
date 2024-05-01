@@ -1,6 +1,6 @@
 #%%
 from DataPuller import get_sponsor_segments
-from Subtitles import sub_reader
+from Subtitles import sub_reader, sponsor_match, plot_match_words
 from Sentiment import get_sub_sentiments, plot_sentiments
 from Description import get_description_from_file, aspect_extration
 
@@ -25,5 +25,17 @@ def testSentiment(vID ="7dYTw-jAYkY"):
     plot_sentiments(compSentiments, "Compound", sponsors)
 
 #test("qcH2wgRLiV8")
-desc = get_description_from_file("qcH2wgRLiV8")
-aspect_extration(desc)
+
+def test_aspect_extraction(vID = "7dYTw-jAYkY"):
+    
+    subs = sub_reader(vID)
+    sponsors = get_sponsor_segments(vID)
+    desc = get_description_from_file(vID)
+    aspects = aspect_extration(desc)
+    matches = sponsor_match(subs, aspects)
+    plot_match_words(matches, subs, sponsors)
+
+test_aspect_extraction("qcH2wgRLiV8")
+    
+
+# %%

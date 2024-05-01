@@ -6,6 +6,9 @@ import pysubs2
 #pip install pysubs2
 from bisect import bisect_right
 
+import matplotlib.pyplot as plt
+import numpy as np
+
 
 
  
@@ -47,7 +50,6 @@ def get_subEnd_from_time(subEnds: list, time, minTime = 0):
     """
         
     subI = bisect_right(a=subEnds, x=time, lo = minTime)
-    print(subI)
     return subI
     
     
@@ -75,7 +77,7 @@ def get_subs_from_time_range(subs: dict, startTime, EndTime) -> dict:
     return rangeSubs
  
 
-def sponsor_match(subs: dict, aspects: list):
+def sponsor_match(subs: dict, aspects: list) -> dict:
     """returns the timecodes at which potential sponsor related words appear in the subtitles
 
     Params:
@@ -87,6 +89,40 @@ def sponsor_match(subs: dict, aspects: list):
 
     Author: Sean
     """
-    pass
+    matches = dict()
+    for event in subs.values():
+
+        wordDict = dict()
+        for word in event.plaintext.split(" "):
+            for aspect in aspects:
+                if word == aspect:
+                    wordDict[word] += 1
+
+        for word in wordDict.keys():
+            matches[word] = {event.end : wordDict[word]}
+
+    return matches
+
+
+def plot_match_words(matches: dict, subs: dict, segments = None):
+    
+    for aspect in matches.keys(): 
+        xPoints = np.array(list(dict(matches[aspect]).keys()))
+        yPoints = np.array(list(dict(matches[aspect]).values()))
+
+        plt.plot(xPoints, yPoints)
+        
+    plt.title("Description Aspect Extration")
+    plt.ylabel("Matches")
+    plt.xlabel("Video Duration")
+    plt.xlim(0, max(subs.keys()))
+
+    if segments != None:
+        for segment in segments:
+            plt.axvspan(segment[0], segment[1], color = 'green', alpha = 0.5)
+
+    plt.show()
+    
+
 
 # %%

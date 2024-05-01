@@ -147,18 +147,18 @@ def aspect_extration(desc: str):
 
     Author: Sean
     """
-
     descLines = split_desc(desc)
 
     domainMatch = list()
     
     for line in descLines:
-        text = nltk.word_tokenize(line)
+        #text = nltk.word_tokenize(line)
         domain = url_search(line)
+        print(domain)
 
-        if domain != "":
+        if domain != None:
 
-            for word in text:
+            for word in line.split(" "):
 
                 if word in domain:
 
@@ -186,14 +186,11 @@ def url_search(line: str):
     """
 
     domain = ""
-    if "www." in line or "http" in line or ".co" in line:
+    if "www." in line or "http" in line:
         url =  search("(?P<url>https?://[^\s]+)", line).group("url")
         domain = tldextract.extract(url).domain
-        print(domain)
-
-    return domain
-
-desc = get_description_from_file("sB1XQYDbzOE")
-potential = aspect_extration(desc)
+        return domain
+    else:
+        return None
     
 # %%
