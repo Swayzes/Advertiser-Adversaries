@@ -24,9 +24,16 @@ def testSentiment(vID ="7dYTw-jAYkY"):
     plot_sentiments(negSentiments, "Negative", sponsors)
     plot_sentiments(compSentiments, "Compound", sponsors)
 
-#test("qcH2wgRLiV8")
+#testSentiment("qcH2wgRLiV8")
 
 def test_aspect_extraction(vID = "7dYTw-jAYkY"):
+    """Test functions of the aspect extraction functions from the description module
+    
+    Params:
+        vID: Video ID
+
+    Author: Sean    
+    """
     
     subs = sub_reader(vID)
     sponsors = get_sponsor_segments(vID)
@@ -35,7 +42,7 @@ def test_aspect_extraction(vID = "7dYTw-jAYkY"):
     matches = sponsor_match(subs, aspects)
     plot_match_words(matches, subs, sponsors)
 
-test_aspect_extraction("qcH2wgRLiV8")
+test_aspect_extraction("fpayOqZNWUo")
     
 
 # %%

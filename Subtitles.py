@@ -8,8 +8,11 @@ from bisect import bisect_right
 
 import matplotlib.pyplot as plt
 import numpy as np
+from nltk import download
+download('stopwords')
+from nltk.corpus import stopwords
 
-
+import logging
 
  
 def sub_reader(vID, path = "dataset/subtitles", lang = "en", ft = "vtt") -> dict:
@@ -53,7 +56,7 @@ def get_subEnd_from_time(subEnds: list, time, minTime = 0):
     return subI
     
     
-def get_subs_from_time_range(subs: dict, startTime, EndTime) -> dict:
+def get_subs_from_time_range(subs: dict, startTime, EndTime = None) -> dict:
     """gets all subtitles between 2 timecodes
     
     Params:
@@ -95,12 +98,21 @@ def sponsor_match(subs: dict, aspects: list) -> dict:
         wordDict = dict()
         for word in event.plaintext.split(" "):
             for aspect in aspects:
-                if word == aspect:
-                    wordDict[word] += 1
+                if word.lower() in aspect.lower() and word.lower() not in stopwords.words('english') and len(word) >3 :
+                    try:
+                        if word in wordDict.keys():
+                            wordDict[word] += 1
+                        else:
+                            wordDict[word] = 1
+                    except:
+                        logging.warning(f"Sponsor match invalid word: {word}")
 
         for word in wordDict.keys():
-            matches[word] = {event.end : wordDict[word]}
-
+            if word in matches.keys():
+                matches[word][event.end] = wordDict[word]
+            else:
+                matches[word] = {event.end : wordDict[word]}
+    print(matches)
     return matches
 
 
@@ -110,7 +122,7 @@ def plot_match_words(matches: dict, subs: dict, segments = None):
         xPoints = np.array(list(dict(matches[aspect]).keys()))
         yPoints = np.array(list(dict(matches[aspect]).values()))
 
-        plt.plot(xPoints, yPoints)
+        plt.scatter(xPoints, yPoints)
         
     plt.title("Description Aspect Extration")
     plt.ylabel("Matches")
@@ -123,6 +135,5 @@ def plot_match_words(matches: dict, subs: dict, segments = None):
 
     plt.show()
     
-
 
 # %%
