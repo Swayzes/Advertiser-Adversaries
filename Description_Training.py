@@ -42,7 +42,7 @@ def desc_processing(desc):
     param label: The assigned label
     """
     text = open(Path(desc), encoding="utf8")
-    description = [text.read()]
+    description = text.read()
 
     return description
 
@@ -78,13 +78,12 @@ def Training_processing():
     descListNoAds = cur.fetchall()
 
     for d in descListAds:
-        description = desc_processing(d[0])
+        description = [desc_processing(d[0])]
         description.append(1)
         descList.append(description)
             
-
     for d in descListNoAds:
-        description = desc_processing(d[0])
+        description = [desc_processing(d[0])]
         description.append(0)
         descList.append(description)
 
@@ -109,8 +108,8 @@ def Testing_processing():
 
     index = 0
     for d in descList:
-        data.append(BERT_Processing(d[0]))
-        labels.append(d[1])
+        data.append([BERT_Processing(d[0])])
+        labels.append(labelList[index])
         index=index+1
 
     save("encoded_description", "BERT_testing_data.json")
@@ -124,10 +123,10 @@ def Combined():
     descListNoAds = cur.fetchall()
 
     for d in descListAds:
-        descList.append(desc_processing(d, 1))
+        descList.append([desc_processing(d,1)])
 
     for d in descListNoAds:
-        descList.append(desc_processing(d,0))
+        descList.append([desc_processing(d,0)])
 
     cur.execute("SELECT Description_File_Path FROM DatasetTesting")
     testList = cur.fetchall()
@@ -138,12 +137,14 @@ def Combined():
     for d in testList:
         # text = open(Path(d[0]), encoding="utf8")
         # descList.append([text.read()])
-        descList.append(desc_processing(d, labelList[index][0]))
+        descList.append([desc_processing(d)])
         index=index+1
 
     for d in descList:
         data.append(BERT_Processing(d[0]))
-        labels.append(d[1])
+        labels.append(labelList[index])
+        index=index+1
+        
     
     save("encoded_description", "BERT_combined_data.json")
 
@@ -199,4 +200,4 @@ def SVM_Again():
 # Combined()
 # SVM()
 
-SVM_Again()
+# SVM_Again()
