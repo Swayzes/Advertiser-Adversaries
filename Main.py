@@ -4,7 +4,6 @@ import numpy as np
 import yt_dlp #pip install yt-dlp https://github.com/yt-dlp/yt-dlp
 import pickle
 import sys
-
 import os
 import re
 from nltk.util import ngrams
@@ -36,36 +35,14 @@ ytdlOptions = {
         'playlistend': 20
 }
 
-# # Function to extract the n-grams from the text in the description files.
-# def extract_ngrams(text, num):
-    
-#     n_grams = ngrams(word_tokenize(text), num)
-    
-#     return [' '.join(grams) for grams in n_grams]
-
-# # Function to search for the sponsor related n-grams 
-# # (More words can be added if needed) 
-# def find_sponsors(text, ngram_size):
-    
-#     sponsor_keywords = ['sponsored by', 'See how', 'thanks to','brought to you by', 'Sponsor', 'Sponsoring', 'for sponsoring']
-    
-#     ngrams_list = extract_ngrams(text, ngram_size)
-    
-#     sponsors = [phrase for phrase in ngrams_list if any(keyword in phrase for keyword in sponsor_keywords)]
-    
-#     return sponsors
-
-
-# test_aspect_extraction("fpayOqZNWUo")
-
 def main(url):
-    # video_data = getVideoData(url)
-    # videoID = video_data["videoID"]
+    video_data = getVideoData(url)
+    videoID = video_data["videoID"]
 
     ## Test data so you don't need to download the vid everytime
     # videoID = "Pv0iVoSZzN8"
     # videoID = "7dYTw-jAYkY"
-    videoID = "YjkEVrJP7jI"
+    # videoID = "YjkEVrJP7jI"
     ##
 
     ## Description sponsor detection preprocessing
