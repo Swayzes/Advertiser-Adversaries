@@ -12,9 +12,10 @@ from nltk.tokenize import word_tokenize
 from collections import Counter
 
 import nltk
-nltk.download('punkt')
+# nltk.download('punkt')
 
-from Description_Training import BERT_Processing, desc_processing
+from Description_Training import BERT_Processing, desc_processing, get_keywords
+from Demo import test_ngrams
 # from Description import find_sponsors
 from DataPuller import getVideoData
 
@@ -35,31 +36,36 @@ ytdlOptions = {
         'playlistend': 20
 }
 
-# Function to extract the n-grams from the text in the description files.
-def extract_ngrams(text, num):
+# # Function to extract the n-grams from the text in the description files.
+# def extract_ngrams(text, num):
     
-    n_grams = ngrams(word_tokenize(text), num)
+#     n_grams = ngrams(word_tokenize(text), num)
     
-    return [' '.join(grams) for grams in n_grams]
+#     return [' '.join(grams) for grams in n_grams]
 
-# Function to search for the sponsor related n-grams 
-# (More words can be added if needed) 
-def find_sponsors(text, ngram_size):
+# # Function to search for the sponsor related n-grams 
+# # (More words can be added if needed) 
+# def find_sponsors(text, ngram_size):
     
-    sponsor_keywords = ['sponsored by', 'See how', 'thanks to','brought to you by', 'Sponsor', 'Sponsoring', 'for sponsoring']
+#     sponsor_keywords = ['sponsored by', 'See how', 'thanks to','brought to you by', 'Sponsor', 'Sponsoring', 'for sponsoring']
     
-    ngrams_list = extract_ngrams(text, ngram_size)
+#     ngrams_list = extract_ngrams(text, ngram_size)
     
-    sponsors = [phrase for phrase in ngrams_list if any(keyword in phrase for keyword in sponsor_keywords)]
+#     sponsors = [phrase for phrase in ngrams_list if any(keyword in phrase for keyword in sponsor_keywords)]
     
-    return sponsors
+#     return sponsors
+
+
+# test_aspect_extraction("fpayOqZNWUo")
 
 def main(url):
     # video_data = getVideoData(url)
     # videoID = video_data["videoID"]
 
     ## Test data so you don't need to download the vid everytime
-    videoID = "Pv0iVoSZzN8"
+    # videoID = "Pv0iVoSZzN8"
+    # videoID = "7dYTw-jAYkY"
+    videoID = "YjkEVrJP7jI"
     ##
 
     ## Description sponsor detection preprocessing
@@ -84,8 +90,15 @@ def main(url):
         
     # else:
     #     print("No sponsor")
-    sponsors = find_sponsors(desc, ngram_size=7) 
-    print(sponsors)
+    print("YO")
+    kw = get_keywords(desc)
+    print(kw)
+    kwlist = list()
+    for word in kw:
+        kwlist.append(word[0])
+    print(kwlist)
+    test_ngrams(videoID, kwlist)
+
 
 if __name__ == '__main__':
     ## Maybe implement a param based input for the url when running the main

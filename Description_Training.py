@@ -7,6 +7,7 @@ author: Klent Wasawas
 # pip install -U scikit-learn
 import sqlite3
 from pathlib import Path
+from keybert import KeyBERT
 import os
 import pickle
 import pandas as pd
@@ -199,5 +200,16 @@ def SVM_Again():
 # Testing_processing()
 # Combined()
 # SVM()
-
 # SVM_Again()
+
+videoID = "YjkEVrJP7jIl"
+##
+print("Hi")
+## Description sponsor detection preprocessing
+desc_path = "dataset/descriptions/" + videoID + ".description"
+
+def get_keywords(desc):
+    kw_model = KeyBERT()
+    keywords = kw_model.extract_keywords(desc, keyphrase_ngram_range=(1,1), stop_words=None)
+    # print(keywords)
+    return keywords
