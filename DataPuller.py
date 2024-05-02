@@ -21,8 +21,14 @@ ytdlOptions = {
         'playlistend': 20
 }
 
-#gets the video data using youtibe downloader and downloads the subtitles and description
-
+"""
+Author: Callum
+gets the video data using youtube downloader as well as downloads the subtitles and description of the video and puts them into their respective folders
+Args:
+    url: the url of the video to download the subtitles and description for
+Return:
+    Dictionary that contains the title of the video.length of the video,the channel the video is from and the videos ID.
+"""
 def getVideoData(url):
     ytDownloader = yt_dlp.YoutubeDL(ytdlOptions)
     ytDownloader.download(url)
@@ -35,8 +41,14 @@ def getVideoData(url):
     }
     return videoDataDict
 
-#gets sponsorblock data from the video using sponsorblock api
-
+"""
+Author: Callum
+gets the sponsors from the video using sponsorblock api
+Args:
+    url: the url of the video to get the sponsor segements for
+Return:
+    String that contains all of the start and end times of each sponsor segment.
+"""
 def getSponsorBlockData(url):
     dataCollected = False
     sponsorSegments = ""
@@ -53,8 +65,15 @@ def getSponsorBlockData(url):
             pass
     return sponsorSegments
 
-#adds the data to the database
 
+"""
+Author: Callum
+adds the video data to the database, in the ads or noAds table
+Args:
+    url: the url of the video
+    videoDataDict: Dictionary that contains the title of the video.length of the video,the channel the video is from and the videos ID.
+    sponsorSegments: String that contains all of the start and end times of each sponsor segment.
+"""
 def addToDatabase(url, videoDataDict, sponsorSegments):
     con = sqlite3.connect(database)
     cur = con.cursor()
@@ -69,19 +88,16 @@ def addToDatabase(url, videoDataDict, sponsorSegments):
         cur.execute(SQL, data)
         con.commit()
 
-#functions to use to pull data
-
-
-def get_sponsor_segments(vID):
-    """ Return sponsor segments stored in the datbase for a video of given videoID 
-    Params:
-        vID: video ID for lookup
-    Return:
-        list of nested float array of format ( (Spon1 Start, Spon1 End), (Spon2 Start, Spon2 End), ... )
+"""
+Author: Sean
+Return sponsor segments stored in the datbase for a video of given videoID 
+Args:
+    vID: video ID for lookup
+Return:
+    list of nested float array of format ( (Spon1 Start, Spon1 End), (Spon2 Start, Spon2 End), ... )
         Start and end times are video timecodes in ms
-    Author: Sean
-    """
-
+"""
+def getSponsorSegments(vID):
     con = sqlite3.connect(database)
     cur = con.cursor()
     SQL = "SELECT Sponsor_Segments FROM DatasetAds WHERE VideoID = ?"
@@ -97,14 +113,26 @@ def get_sponsor_segments(vID):
     else:
         return None
 
-#function that will download the data from a video url provided. Example usage: getData('https://www.youtube.com/watch?v=tWYsfOSY9vY')
-
+"""
+Author: Callum
+function that will download the data from a youtbe video url provided and store it into the ads or no ads table in the database
+Args:
+    url: the url of the video
+"""
 def getData(url):
     videoDataDict = getVideoData(url)
     sponsorSegments = getSponsorBlockData(url)
     addToDatabase(url, videoDataDict, sponsorSegments)
     print(videoDataDict["videoTitle"]," (" + url + ") Done")
 
+"""
+Author: Callum
+gets the video data using youtube downloader as well as downloads the subtitles and description of the video and puts them into the respective testing folder
+Args:
+    url: the url of the video to download the subtitles and description for
+Return:
+    Dictionary that contains the title of the video.length of the video,the channel the video is from and the videos ID.
+"""
 def getTestVideoData(url):
     ytDownloader = yt_dlp.YoutubeDL({
         'paths': {
@@ -132,6 +160,12 @@ def getTestVideoData(url):
     }
     return videoDataDict
 
+"""
+Author: Callum
+function that will download the data from a youtbe video url provided and store it into the testing table in the database
+Args:
+    url: the url of the video
+"""
 def getTestData(url):
     videoDataDict = getTestVideoData(url)
     sponsorSegments = getSponsorBlockData(url)
@@ -145,8 +179,15 @@ def getTestData(url):
     data = (videoDataDict["videoTitle"],"https://www.youtube.com/watch?v="+videoDataDict["videoID"],videoDataDict["videoID"],videoDataDict["videoLength"],videoDataDict["videoChannel"],sponsorSegments[:-1],"dataset/testDescriptions/"+videoDataDict["videoID"]+".description","dataset/testSubtitles/"+videoDataDict["videoID"]+".en.vtt",hasSponsor)
     cur.execute(SQL, data)
     con.commit()
-#function that will download the data from the channel url provided, from the start to the end number. Example usage: getDataFromChannel('https://www.youtube.com/@MrBeast/videos', 0, 20)
-
+"""
+Author: Callum
+function that will download the data from the channel url provided, from the start to the end number.
+Args:
+    url: the url of the video
+    start: the start number
+    end: the end number
+    testData: whether the data is testdata or not
+"""
 def getDataFromChannel(url, start, end, testData):
     ytdlgetVideoOptions = {
         'skip_download': True,
