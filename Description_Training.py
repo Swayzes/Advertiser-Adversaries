@@ -33,9 +33,7 @@ def BERT_Processing(text, label):
     output = model(**encoded_input)
     output = output.last_hidden_state.mean(dim=1).squeeze().detach().cpu().numpy()
 
-    data.append(output)
-    labels.append(label)
-    return
+    return output
 
 def desc_processing(desc, label):
     """
@@ -87,7 +85,8 @@ def Training_processing():
         descList.append(desc_processing(d,0))
 
     for d in descList:
-        BERT_Processing(d[0], d[1])
+        data.append(BERT_Processing(d[0]))
+        labels.append(d[1])
 
     save("encoded_description", "BERT_training_data.json")
     return
@@ -106,7 +105,8 @@ def Testing_processing():
 
     index = 0
     for d in descList:
-        BERT_Processing(d, labelList[index][0])
+        data.append(BERT_Processing(d[0]))
+        labels.append(d[1])
         index=index+1
 
     save("encoded_description", "BERT_testing_data.json")
@@ -138,7 +138,8 @@ def Combined():
         index=index+1
 
     for d in descList:
-        BERT_Processing(d[0], d[1])
+        data.append(BERT_Processing(d[0]))
+        labels.append(d[1])
     
     save("encoded_description", "BERT_combined_data.json")
 
