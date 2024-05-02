@@ -50,6 +50,7 @@ def main(url):
     # Do aspect extraction and stuff if a sponsor is detected.
     if result == 1:
         print("Do everything else")
+        # N-grams here
         # Do aspect extraction on description and captions
         
     else:
