@@ -28,7 +28,11 @@ ytdlOptions = {
 def main(url):
     # video_data = getVideoData(url)
     # videoID = video_data["videoID"]
+
+    ## Test data so you don't need to download the vid everytime
     videoID = "Pv0iVoSZzN8"
+    ##
+
     desc_path = "dataset/descriptions/" + videoID + ".description"
     # Get caption path
     # Do all th
@@ -50,8 +54,8 @@ def main(url):
         print("No sponsor")
 
 if __name__ == '__main__':
-    # Maybe implement a param based input for the url when running the main
+    ## Maybe implement a param based input for the url when running the main
     # main(sys.argv[1:])
-    # url = "https://www.youtube.com/watch?v=Pv0iVoSZzN8"
-    url =""
+    ##
+    url = "https://www.youtube.com/watch?v=Pv0iVoSZzN8"
     main(url)
