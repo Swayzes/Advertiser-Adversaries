@@ -8,6 +8,7 @@ author: Klent Wasawas
 import sqlite3
 from pathlib import Path
 from keybert import KeyBERT
+import re
 import os
 import pickle
 import pandas as pd
@@ -44,7 +45,7 @@ def desc_processing(desc):
     """
     text = open(Path(desc), encoding="utf8")
     description = text.read()
-
+    description = re.sub(r'http\S+', '', description)
     return description
 
 def save(dir, name):
@@ -179,6 +180,7 @@ def SVM():
     return
 
 def SVM_Again():
+    """Loads up the combined dataset and splits the data for training"""
     combined_df = pd.read_json("encoded_description\BERT_combined_data.json", lines=True)
     combined_body = list(combined_df["data"])
     combined_labels = combined_df["labels"]
@@ -195,18 +197,7 @@ def SVM_Again():
 
     with open('svm_desc.pkl', 'wb') as f:
         pickle.dump(svm, f)
-    
-# Training_processing()
-# Testing_processing()
-# Combined()
-# SVM()
-# SVM_Again()
 
-videoID = "YjkEVrJP7jIl"
-##
-print("Hi")
-## Description sponsor detection preprocessing
-desc_path = "dataset/descriptions/" + videoID + ".description"
 
 def get_keywords(desc):
     kw_model = KeyBERT()

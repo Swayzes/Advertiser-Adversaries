@@ -77,27 +77,23 @@ def main(url):
     # Do all the preprocessing for captions here as well
 
     # Predict if the description has a label or not
-    # filename = "svm_desc.pkl"
-    # loaded_model = pickle.load(open(filename, 'rb'))
-    # result = loaded_model.predict(encoded_text)
-    # print(result)
+    filename = "svm_desc.pkl"
+    loaded_model = pickle.load(open(filename, 'rb'))
+    result = loaded_model.predict(encoded_text)
+    print(result)
 
     # Do aspect extraction and stuff if a sponsor is detected.
-    # if result == 1:
-    #     print("Do everything else")
-    #     # N-grams here
-    #     # Do aspect extraction on description and captions
+    if result == 1:
+        kw = get_keywords(desc)
+        print(kw)
+        kwlist = list()
+        for word in kw:
+            kwlist.append(word[0])
+        print(kwlist)
+        test_ngrams(videoID, kwlist)
         
-    # else:
-    #     print("No sponsor")
-    print("YO")
-    kw = get_keywords(desc)
-    print(kw)
-    kwlist = list()
-    for word in kw:
-        kwlist.append(word[0])
-    print(kwlist)
-    test_ngrams(videoID, kwlist)
+    else:
+        print("No sponsor")
 
 
 if __name__ == '__main__':
