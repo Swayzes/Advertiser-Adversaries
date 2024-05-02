@@ -45,7 +45,7 @@ def BERT_Processing(text):
     # tokens = tokenizer.convert_ids_to_tokens(encoded_input)
     output = model(**encoded_input)
     output = output.last_hidden_state.mean(dim=1).squeeze().detach().cpu().numpy()
-
+    
     return output
 
 def desc_processing(desc):
