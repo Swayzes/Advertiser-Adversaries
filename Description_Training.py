@@ -20,7 +20,7 @@ labels =[]
 combined = pd.DataFrame()
 
 ## Predicts if a description has a sponsor or not
-def BERT_Processing(text, label):
+def BERT_Processing(text):
     """
     Processes the description text into BERT to encode the words
     param text: The body of text of the description
@@ -35,16 +35,15 @@ def BERT_Processing(text, label):
 
     return output
 
-def desc_processing(desc, label):
+def desc_processing(desc):
     """
     Processes the dataset with no labels
     param desc: The path to the description
     param label: The assigned label
     """
-    text = open(Path(desc[0]), encoding="utf8")
+    text = open(Path(desc), encoding="utf8")
     description = [text.read()]
 
-    description.append(label)
     return description
 
 def save(dir, name):
@@ -79,10 +78,15 @@ def Training_processing():
     descListNoAds = cur.fetchall()
 
     for d in descListAds:
-        descList.append(desc_processing(d, 1))
+        description = desc_processing(d[0])
+        description.append(1)
+        descList.append(description)
+            
 
     for d in descListNoAds:
-        descList.append(desc_processing(d,0))
+        description = desc_processing(d[0])
+        description.append(0)
+        descList.append(description)
 
     for d in descList:
         data.append(BERT_Processing(d[0]))
