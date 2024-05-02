@@ -33,11 +33,13 @@ def main(url):
     videoID = "Pv0iVoSZzN8"
     ##
 
+    ## Description sponsor detection preprocessing
     desc_path = "dataset/descriptions/" + videoID + ".description"
-    # Get caption path
-    # Do all th
     desc = desc_processing(desc_path)
     encoded_text = BERT_Processing(desc).reshape(1,-1).tolist()
+
+    # Get caption path
+    # Do all the preprocessing for captions here as well
 
     # Predict if the description has a label or not
     filename = "svm_desc.pkl"
