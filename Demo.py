@@ -42,7 +42,23 @@ def test_aspect_extraction(vID = "7dYTw-jAYkY"):
     matches = sponsor_match(subs, aspects)
     plot_match_words(matches, subs, sponsors)
 
-test_aspect_extraction("fpayOqZNWUo")
+# test_aspect_extraction("fpayOqZNWUo")
     
 
 # %%
+
+def test_ngrams(vID, aspects):
+    """
+    Test functions of the aspect extraction functions from the description module edited to be more modular
+    
+    Params:
+        vID: Video ID
+        aspects: list of keywords
+
+    Author: Klent    
+    """
+    
+    subs = sub_reader(vID)
+    sponsors = get_sponsor_segments(vID)
+    matches = sponsor_match(subs, aspects)
+    plot_match_words(matches, subs, sponsors)

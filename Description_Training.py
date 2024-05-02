@@ -1,5 +1,5 @@
 """
-Description Processing
+Description Training
 author: Klent Wasawas
 """
 
@@ -7,6 +7,8 @@ author: Klent Wasawas
 # pip install -U scikit-learn
 import sqlite3
 from pathlib import Path
+from keybert import KeyBERT
+import re
 import os
 import pickle
 import pandas as pd
@@ -20,7 +22,7 @@ labels =[]
 combined = pd.DataFrame()
 
 ## Predicts if a description has a sponsor or not
-def BERT_Processing(text, label):
+def BERT_Processing(text):
     """
     Processes the description text into BERT to encode the words
     param text: The body of text of the description
@@ -33,20 +35,17 @@ def BERT_Processing(text, label):
     output = model(**encoded_input)
     output = output.last_hidden_state.mean(dim=1).squeeze().detach().cpu().numpy()
 
-    data.append(output)
-    labels.append(label)
-    return
+    return output
 
-def desc_processing(desc, label):
+def desc_processing(desc):
     """
     Processes the dataset with no labels
     param desc: The path to the description
     param label: The assigned label
     """
-    text = open(Path(desc[0]), encoding="utf8")
-    description = [text.read()]
-
-    description.append(label)
+    text = open(Path(desc), encoding="utf8")
+    description = text.read()
+    description = re.sub(r'http\S+', '', description)
     return description
 
 def save(dir, name):
@@ -81,13 +80,18 @@ def Training_processing():
     descListNoAds = cur.fetchall()
 
     for d in descListAds:
-        descList.append(desc_processing(d, 1))
-
+        description = [desc_processing(d[0])]
+        description.append(1)
+        descList.append(description)
+            
     for d in descListNoAds:
-        descList.append(desc_processing(d,0))
+        description = [desc_processing(d[0])]
+        description.append(0)
+        descList.append(description)
 
     for d in descList:
-        BERT_Processing(d[0], d[1])
+        data.append(BERT_Processing(d[0]))
+        labels.append(d[1])
 
     save("encoded_description", "BERT_training_data.json")
     return
@@ -106,7 +110,8 @@ def Testing_processing():
 
     index = 0
     for d in descList:
-        BERT_Processing(d, labelList[index][0])
+        data.append([BERT_Processing(d[0])])
+        labels.append(labelList[index])
         index=index+1
 
     save("encoded_description", "BERT_testing_data.json")
@@ -120,10 +125,10 @@ def Combined():
     descListNoAds = cur.fetchall()
 
     for d in descListAds:
-        descList.append(desc_processing(d, 1))
+        descList.append([desc_processing(d,1)])
 
     for d in descListNoAds:
-        descList.append(desc_processing(d,0))
+        descList.append([desc_processing(d,0)])
 
     cur.execute("SELECT Description_File_Path FROM DatasetTesting")
     testList = cur.fetchall()
@@ -134,11 +139,14 @@ def Combined():
     for d in testList:
         # text = open(Path(d[0]), encoding="utf8")
         # descList.append([text.read()])
-        descList.append(desc_processing(d, labelList[index][0]))
+        descList.append([desc_processing(d)])
         index=index+1
 
     for d in descList:
-        BERT_Processing(d[0], d[1])
+        data.append(BERT_Processing(d[0]))
+        labels.append(labelList[index])
+        index=index+1
+        
     
     save("encoded_description", "BERT_combined_data.json")
 
@@ -172,6 +180,7 @@ def SVM():
     return
 
 def SVM_Again():
+    """Loads up the combined dataset and splits the data for training"""
     combined_df = pd.read_json("encoded_description\BERT_combined_data.json", lines=True)
     combined_body = list(combined_df["data"])
     combined_labels = combined_df["labels"]
@@ -188,10 +197,10 @@ def SVM_Again():
 
     with open('svm_desc.pkl', 'wb') as f:
         pickle.dump(svm, f)
-    
-# Training_processing()
-# Testing_processing()
-# Combined()
-# SVM()
 
-SVM_Again()
+
+def get_keywords(desc):
+    kw_model = KeyBERT()
+    keywords = kw_model.extract_keywords(desc, keyphrase_ngram_range=(1,1), stop_words=None)
+    # print(keywords)
+    return keywords

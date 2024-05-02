@@ -69,7 +69,6 @@ def get_subs_from_time_range(subs: dict, startTime, EndTime = None) -> dict:
 
     Author: Sean
     """
-        
     subEnds = list(subs.keys())
 
     startSubI = get_subEnd_from_time(subEnds, startTime)
