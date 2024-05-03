@@ -26,7 +26,7 @@ def testSentiment(v_id ="7dYTw-jAYkY"):
     plotSentiments(neg_sentiments, "Negative", sponsors)
     plotSentiments(comp_sentiments, "Compound", sponsors)
 
-testSentiment("fpayOqZNWUo")
+# testSentiment("fpayOqZNWUo")
 
 def testTerminologyExtraction(v_id = "7dYTw-jAYkY"):
     """Test functions of the terminology extraction functions from the description module
