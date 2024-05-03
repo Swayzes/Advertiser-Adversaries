@@ -3,6 +3,8 @@ from DataPuller import getSponsorSegments
 from Subtitles import sub_reader, term_match, plot_term_matches
 from Sentiment import get_sub_sentiments, plot_sentiments
 from Description import get_description_from_file, domain_name_extration
+from Description_Training import desc_processing, get_keywords, BERT_Processing
+import pickle
 
 def testSentiment(vID ="7dYTw-jAYkY"):
     """Test functions of the Subtitles module
@@ -24,7 +26,7 @@ def testSentiment(vID ="7dYTw-jAYkY"):
     plot_sentiments(negSentiments, "Negative", sponsors)
     plot_sentiments(compSentiments, "Compound", sponsors)
 
-#testSentiment("qcH2wgRLiV8")
+testSentiment("fpayOqZNWUo")
 
 def test_terminology_extraction(vID = "7dYTw-jAYkY"):
     """Test functions of the terminology extraction functions from the description module
@@ -40,14 +42,12 @@ def test_terminology_extraction(vID = "7dYTw-jAYkY"):
     desc = get_description_from_file(vID)
     terms = domain_name_extration(desc)
     matches = term_match(subs, terms)
-    plot_term_matches(matches, subs, sponsors)
+    plot_term_matches(matches, subs, title="Domain Name Extraction", segments= sponsors)
 
-# test_terminology_extraction("fpayOqZNWUo")
+#test_terminology_extraction("fpayOqZNWUo")
     
 
-# %%
-
-def test_ngrams(vID, terms):
+def test_ngrams(vID):
     """
     Test functions of the terminology extraction functions from the description module edited to be more modular
     
@@ -57,8 +57,29 @@ def test_ngrams(vID, terms):
 
     Author: Klent    
     """
+
+    desc_path = "dataset/descriptions/" + vID + ".description"
+    desc = desc_processing(desc_path)
+    encoded_text = BERT_Processing(desc).reshape(1,-1).tolist()
+
+    filename = "svm_desc.pkl"
+    loaded_model = pickle.load(open(filename, 'rb'))
+    result = loaded_model.predict(encoded_text)
+    print(result)
+
+    # Do terminology extraction and pre-processing if a sponsor is detected.
+    if result == 1:
+        kw = get_keywords(desc)
+        print(kw)
+        kwlist = list()
+        for word in kw:
+            kwlist.append(word[0])
     
     subs = sub_reader(vID)
     sponsors = getSponsorSegments(vID)
-    matches = term_match(subs, terms)
-    plot_term_matches(matches, subs, sponsors)
+    matches = term_match(subs, kwlist)
+    plot_term_matches(matches, subs, segments=sponsors)
+
+#test_ngrams("fpayOqZNWUo")
+
+#%%

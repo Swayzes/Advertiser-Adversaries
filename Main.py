@@ -61,13 +61,7 @@ def main(url):
 
     # Do terminology extraction and pre-processing if a sponsor is detected.
     if result == 1:
-        kw = get_keywords(desc)
-        print(kw)
-        kwlist = list()
-        for word in kw:
-            kwlist.append(word[0])
-        print(kwlist)
-        test_ngrams(videoID, kwlist)
+        test_ngrams(videoID)
         
     else:
         print("No sponsor")

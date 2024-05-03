@@ -122,7 +122,7 @@ def term_match(subs: dict, terms: list) -> dict:
     return matches
 
 
-def plot_term_matches(matches: dict, subs: dict, segments = None):
+def plot_term_matches(matches: dict, subs: dict, title = None, segments = None):
     """Draw a pyplot of terms from the description found in the video subtitles over the video's runtime
     
     Params:
@@ -132,22 +132,27 @@ def plot_term_matches(matches: dict, subs: dict, segments = None):
 
     Author: Sean
     """
+    if segments != None:
+        for segment in segments:
+            plt.axvspan(segment[0], segment[1], color = 'green', alpha = 0.5)
     
     for term in matches.keys(): 
         xPoints = np.array(list(dict(matches[term]).keys()))
         yPoints = np.array(list(dict(matches[term]).values()))
 
-        plt.scatter(xPoints, yPoints)
-        
-    plt.title("Description Term Extration")
+        plt.scatter(xPoints, yPoints, label = term)
+    
+    if title == None:
+        plt.title("Description Terminology Extration")
+    else:
+        plt.title(title)
     plt.ylabel("Matches")
     plt.xlabel("Video Duration")
     plt.xlim(0, max(subs.keys()))
 
-    if segments != None:
-        for segment in segments:
-            plt.axvspan(segment[0], segment[1], color = 'green', alpha = 0.5)
+    
 
+    plt.legend(loc = "upper left", title = "Terms")
     plt.show()
     
 

@@ -62,7 +62,6 @@ def split_desc(desc: str):
     return outputDesc
 
 
-#https://www.nltk.org/book/ch05.html
 def domain_name_extration(desc: str):
     """Extract potential sponsor brand names from URLs in the video's description
 

@@ -60,7 +60,10 @@ def plot_sentiments(sentiments: dict, title, segments = None):
 
     Author: Sean
     """
-
+    if segments != None:
+            for segment in segments:
+                plt.axvspan(segment[0], segment[1], color = 'green', alpha = 0.5)
+                
     xPoints = np.array(list(sentiments.keys()))
     yPoints = np.array(list(sentiments.values()))
 
@@ -69,8 +72,6 @@ def plot_sentiments(sentiments: dict, title, segments = None):
     plt.ylabel("Sentiment Score")
     plt.xlabel("Video Duration")
 
-    if segments != None:
-        for segment in segments:
-            plt.axvspan(segment[0], segment[1], color = 'green', alpha = 0.5)
+    
 
     plt.show()
