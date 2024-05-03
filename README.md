@@ -3,10 +3,13 @@ Automatic sponsor detection for Youtube *Incomplete
 
 To run the software
 - First run the requirements.txt to get the dependencies by going to the directory command line and typing in:
-- - pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 - Then go to the directory where the project is saved in the command line and type in:
-- - python main.py <Youtube Video Link>
-
+```bash
+python main.py <Youtube Video Link>
+```
 Development Steps:
 1. Get sponsor segments using sponsorblock API, and download data using youtube dlp - Callum
   - Creates our data set (Mainly caption data & description data)
