@@ -1,0 +1,13 @@
+keybert
+matplotlib
+nltk
+numpy
+pandas
+pysubs2
+regex
+scikit_learn
+sponsorblock
+sponsorblock.py
+tldextract
+transformers
+yt_dlp
