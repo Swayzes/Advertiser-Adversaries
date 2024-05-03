@@ -2,7 +2,7 @@
 from DataPuller import getSponsorSegments
 from Subtitles import sub_reader, term_match, plot_term_matches
 from Sentiment import get_sub_sentiments, plot_sentiments
-from Description import get_description_from_file, terminology_extration
+from Description import get_description_from_file, domain_name_extration
 
 def testSentiment(vID ="7dYTw-jAYkY"):
     """Test functions of the Subtitles module
@@ -38,7 +38,7 @@ def test_terminology_extraction(vID = "7dYTw-jAYkY"):
     subs = sub_reader(vID)
     sponsors = getSponsorSegments(vID)
     desc = get_description_from_file(vID)
-    terms = terminology_extration(desc)
+    terms = domain_name_extration(desc)
     matches = term_match(subs, terms)
     plot_term_matches(matches, subs, sponsors)
 

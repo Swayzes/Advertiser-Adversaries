@@ -63,14 +63,14 @@ def split_desc(desc: str):
 
 
 #https://www.nltk.org/book/ch05.html
-def terminology_extration(desc: str):
-    """Extract potential terms from a description
+def domain_name_extration(desc: str):
+    """Extract potential sponsor brand names from URLs in the video's description
 
     Params:
         desc: Description text
 
     Return:
-        list of potential features
+        list of potential terms
 
     Author: Sean
     """
@@ -79,24 +79,11 @@ def terminology_extration(desc: str):
     domainMatch = list()
     
     for line in descLines:
-        #text = nltk.word_tokenize(line)
+
         domain = url_search(line)
 
         if domain != None:
-
             domainMatch.append(domain)
-
-            # for word in line.split(" "):
-
-            #     if word in domain:
-
-            #         if word not in domainMatch:
-            #             domainMatch.append(word)
-                
-    # tagged = nltk.pos_tag(text)
-    # for tag in tagged:
-    #     if tag[1] == "NN" or tag[1] == "NNP":
-    #         print(tag)
 
     return domainMatch
 

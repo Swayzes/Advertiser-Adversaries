@@ -1,13 +1,14 @@
 """ Subtitle anlysis """
 #%%
 
-#pip install nltk
 import pysubs2
 #pip install pysubs2
 from bisect import bisect_right
 
 import matplotlib.pyplot as plt
 import numpy as np
+
+#pip install nltk
 from nltk import download
 download('stopwords')
 from nltk.corpus import stopwords
