@@ -39,7 +39,7 @@ def sub_reader(vID, path = "dataset/subtitles", lang = "en", ft = "vtt") -> dict
 
     
 def get_subEnd_from_time(subEnds: list, time, minTime = 0):
-    """get the end timecode of the subtitle which coveres a given timecode
+    """Get the end timecode of the subtitle which coveres a given timecode.
     
     Params:
         subEnds: list of all subtitle end timecodes
@@ -49,6 +49,12 @@ def get_subEnd_from_time(subEnds: list, time, minTime = 0):
     Returns:
         index of matching subtitle
 
+    Todo:
+        Test and evaluate
+
+    Note:
+        Unused and untested
+
     Author: Sean
     """
         
@@ -57,7 +63,7 @@ def get_subEnd_from_time(subEnds: list, time, minTime = 0):
     
     
 def get_subs_from_time_range(subs: dict, startTime, EndTime = None) -> dict:
-    """gets all subtitles between 2 timecodes
+    """Gets all subtitles between 2 timecodes
     
     Params:
         subs: dict of all subtitles
@@ -79,12 +85,12 @@ def get_subs_from_time_range(subs: dict, startTime, EndTime = None) -> dict:
     return rangeSubs
  
 
-def sponsor_match(subs: dict, aspects: list) -> dict:
-    """returns the timecodes at which potential sponsor related words appear in the subtitles
+def term_match(subs: dict, terms: list) -> dict:
+    """Returns the timecodes at which potential sponsor related terms appear in the subtitles
 
     Params:
         subs: dict of all subtitles
-        aspects: list of all potential sponsor words
+        terms: list of all potential sponsor words
 
     Returns:
         nested dict of all identified sponsor words {matchWord : {endTime : instances} }
@@ -96,8 +102,8 @@ def sponsor_match(subs: dict, aspects: list) -> dict:
 
         wordDict = dict()
         for word in event.plaintext.split(" "):
-            for aspect in aspects:
-                if word.lower() in aspect.lower() and word.lower() not in stopwords.words('english') and len(word) >3 :
+            for term in terms:
+                if word.lower() in term.lower() and word.lower() not in stopwords.words('english') and len(word) >3 :
                     try:
                         if word in wordDict.keys():
                             wordDict[word] += 1
@@ -115,24 +121,24 @@ def sponsor_match(subs: dict, aspects: list) -> dict:
     return matches
 
 
-def plot_match_words(matches: dict, subs: dict, segments = None):
-    """Draw a pyplot of aspects of the description found in the video subtitles over the video's runtime
+def plot_term_matches(matches: dict, subs: dict, segments = None):
+    """Draw a pyplot of terms from the description found in the video subtitles over the video's runtime
     
     Params:
-        matches: Dict of aspect matches {{matchWord : {endTime : instances} }
+        matches: Dict of terminology matches {{matchWord : {endTime : instances} }
         subs: dict of all subtitles
         segments: list of nested arrays giving the start and end times of sponsor segments
 
     Author: Sean
     """
     
-    for aspect in matches.keys(): 
-        xPoints = np.array(list(dict(matches[aspect]).keys()))
-        yPoints = np.array(list(dict(matches[aspect]).values()))
+    for term in matches.keys(): 
+        xPoints = np.array(list(dict(matches[term]).keys()))
+        yPoints = np.array(list(dict(matches[term]).values()))
 
         plt.scatter(xPoints, yPoints)
         
-    plt.title("Description Aspect Extration")
+    plt.title("Description Term Extration")
     plt.ylabel("Matches")
     plt.xlabel("Video Duration")
     plt.xlim(0, max(subs.keys()))

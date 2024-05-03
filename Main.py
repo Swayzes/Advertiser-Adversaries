@@ -59,7 +59,7 @@ def main(url):
     result = loaded_model.predict(encoded_text)
     print(result)
 
-    # Do aspect extraction and stuff if a sponsor is detected.
+    # Do terminology extraction and pre-processing if a sponsor is detected.
     if result == 1:
         kw = get_keywords(desc)
         print(kw)

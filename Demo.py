@@ -1,8 +1,8 @@
 #%%
-from DataPuller import get_sponsor_segments
-from Subtitles import sub_reader, sponsor_match, plot_match_words
+from DataPuller import getSponsorSegments
+from Subtitles import sub_reader, term_match, plot_term_matches
 from Sentiment import get_sub_sentiments, plot_sentiments
-from Description import get_description_from_file, aspect_extration
+from Description import get_description_from_file, terminology_extration
 
 def testSentiment(vID ="7dYTw-jAYkY"):
     """Test functions of the Subtitles module
@@ -13,7 +13,7 @@ def testSentiment(vID ="7dYTw-jAYkY"):
     Author: Sean    
     """
     subs = sub_reader(vID)
-    sponsors = get_sponsor_segments(vID)
+    sponsors = getSponsorSegments(vID)
 
     posSentiments = get_sub_sentiments(subs, polarity = "pos")
     neuSentiments = get_sub_sentiments(subs, polarity = "neu")
@@ -26,8 +26,8 @@ def testSentiment(vID ="7dYTw-jAYkY"):
 
 #testSentiment("qcH2wgRLiV8")
 
-def test_aspect_extraction(vID = "7dYTw-jAYkY"):
-    """Test functions of the aspect extraction functions from the description module
+def test_terminology_extraction(vID = "7dYTw-jAYkY"):
+    """Test functions of the terminology extraction functions from the description module
     
     Params:
         vID: Video ID
@@ -36,29 +36,29 @@ def test_aspect_extraction(vID = "7dYTw-jAYkY"):
     """
     
     subs = sub_reader(vID)
-    sponsors = get_sponsor_segments(vID)
+    sponsors = getSponsorSegments(vID)
     desc = get_description_from_file(vID)
-    aspects = aspect_extration(desc)
-    matches = sponsor_match(subs, aspects)
-    plot_match_words(matches, subs, sponsors)
+    terms = terminology_extration(desc)
+    matches = term_match(subs, terms)
+    plot_term_matches(matches, subs, sponsors)
 
-# test_aspect_extraction("fpayOqZNWUo")
+# test_terminology_extraction("fpayOqZNWUo")
     
 
 # %%
 
-def test_ngrams(vID, aspects):
+def test_ngrams(vID, terms):
     """
-    Test functions of the aspect extraction functions from the description module edited to be more modular
+    Test functions of the terminology extraction functions from the description module edited to be more modular
     
     Params:
         vID: Video ID
-        aspects: list of keywords
+        terms: list of keywords
 
     Author: Klent    
     """
     
     subs = sub_reader(vID)
-    sponsors = get_sponsor_segments(vID)
-    matches = sponsor_match(subs, aspects)
-    plot_match_words(matches, subs, sponsors)
+    sponsors = getSponsorSegments(vID)
+    matches = term_match(subs, terms)
+    plot_term_matches(matches, subs, sponsors)

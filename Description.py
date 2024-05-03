@@ -63,8 +63,8 @@ def split_desc(desc: str):
 
 
 #https://www.nltk.org/book/ch05.html
-def aspect_extration(desc: str):
-    """Extract potential aspects from a description
+def terminology_extration(desc: str):
+    """Extract potential terms from a description
 
     Params:
         desc: Description text
