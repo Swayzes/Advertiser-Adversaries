@@ -13,10 +13,10 @@ from collections import Counter
 import nltk
 # nltk.download('punkt')
 
-from Description_Training import BERT_Processing, desc_processing, get_keywords
-from Demo import test_ngrams
+from description_training import descProcessing, bertProcessing
+from demo import testNGrams
 # from Description import find_sponsors
-from DataPuller import getVideoData
+from data_puller import getVideoData
 
 ytdlOptions = {
         'paths': { #where to put the files
@@ -47,8 +47,8 @@ def main(url):
 
     ## Description sponsor detection preprocessing
     desc_path = "dataset/descriptions/" + videoID + ".description"
-    desc = desc_processing(desc_path)
-    encoded_text = BERT_Processing(desc).reshape(1,-1).tolist()
+    desc = descProcessing(desc_path)
+    encoded_text = bertProcessing(desc).reshape(1,-1).tolist()
 
     # Get caption path
     # Do all the preprocessing for captions here as well
@@ -61,7 +61,7 @@ def main(url):
 
     # Do terminology extraction and pre-processing if a sponsor is detected.
     if result == 1:
-        test_ngrams(videoID)
+        testNGrams(videoID)
         
     else:
         print("No sponsor")

@@ -22,7 +22,7 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
 
-def get_description_from_file(vID, path = "dataset/descriptions", ft = "description"):
+def getDescriptionFromFile(v_id, path = "dataset/descriptions", ft = "description"):
     """Return the description of a given video
 
     Params: 
@@ -35,12 +35,12 @@ def get_description_from_file(vID, path = "dataset/descriptions", ft = "descript
 
     Author: Sean
     """
-    file = open(f"{path}/{vID}.{ft}", "r", encoding='utf-8')
+    file = open(f"{path}/{v_id}.{ft}", "r", encoding='utf-8')
 
     return str(file.read())
     
 
-def split_desc(desc: str):
+def splitDesc(desc: str):
     """Split a description string into a list of lines, removing empty lines
 
     Params:
@@ -52,17 +52,17 @@ def split_desc(desc: str):
     Author: Sean
     """
 
-    inputDesc = desc.split("\n")
+    input_desc = desc.split("\n")
 
-    outputDesc = list()
-    for line in inputDesc:
+    output_desc = list()
+    for line in input_desc:
         if line != "":
-            outputDesc.append(line)
+            output_desc.append(line)
 
-    return outputDesc
+    return output_desc
 
 
-def domain_name_extration(desc: str):
+def domainNameExtration(desc: str):
     """Extract potential sponsor brand names from URLs in the video's description
 
     Params:
@@ -73,21 +73,21 @@ def domain_name_extration(desc: str):
 
     Author: Sean
     """
-    descLines = split_desc(desc)
+    desc_lines = splitDesc(desc)
 
-    domainMatch = list()
+    domain_match = list()
     
-    for line in descLines:
+    for line in desc_lines:
 
-        domain = url_search(line)
+        domain = urlSearch(line)
 
         if domain != None:
-            domainMatch.append(domain)
+            domain_match.append(domain)
 
-    return domainMatch
+    return domain_match
 
 
-def url_search(line: str):
+def urlSearch(line: str):
     """Detect and return domain names from a line of the description
     
     Params:

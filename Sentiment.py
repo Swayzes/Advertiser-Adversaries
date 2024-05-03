@@ -8,7 +8,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 nltk.download('vader_lexicon')
 
 
-def get_sentiment(subEvent: pysubs2.SSAEvent, polarity = None):
+def getSentiment(sub_event: pysubs2.SSAEvent, polarity = None):
     """Retrun a sentiment score for single subtitle event
 
     Params:
@@ -22,7 +22,7 @@ def get_sentiment(subEvent: pysubs2.SSAEvent, polarity = None):
     """   
         
     analyzer = SentimentIntensityAnalyzer()
-    score = analyzer.polarity_scores(subEvent.plaintext)
+    score = analyzer.polarity_scores(sub_event.plaintext)
 
     if polarity == None:
         return score["compound"]
@@ -30,7 +30,7 @@ def get_sentiment(subEvent: pysubs2.SSAEvent, polarity = None):
         return score[polarity]
     
     
-def get_sub_sentiments(subs: dict, polarity = None) -> dict:
+def getSubSentiments(subs: dict, polarity = None) -> dict:
     """Return a dict of each subtitle event 
 
     Params:
@@ -46,12 +46,12 @@ def get_sub_sentiments(subs: dict, polarity = None) -> dict:
     sentiments = dict()
 
     for key in subs.keys():
-        sentiments[key] = get_sentiment(subs[key], polarity)
+        sentiments[key] = getSentiment(subs[key], polarity)
 
     return sentiments
     
 
-def plot_sentiments(sentiments: dict, title, segments = None):
+def plotSentiments(sentiments: dict, title, segments = None):
     """Draw a pyplot of the sentiment scores for each subtitle event over the video's runtime
     
     Params:
@@ -64,10 +64,10 @@ def plot_sentiments(sentiments: dict, title, segments = None):
             for segment in segments:
                 plt.axvspan(segment[0], segment[1], color = 'green', alpha = 0.5)
                 
-    xPoints = np.array(list(sentiments.keys()))
-    yPoints = np.array(list(sentiments.values()))
+    x_points = np.array(list(sentiments.keys()))
+    y_points = np.array(list(sentiments.values()))
 
-    plt.plot(xPoints, yPoints)
+    plt.plot(x_points, y_points)
     plt.title(f"{title} Sentiments")
     plt.ylabel("Sentiment Score")
     plt.xlabel("Video Duration")

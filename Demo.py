@@ -1,12 +1,12 @@
 #%%
-from DataPuller import getSponsorSegments
-from Subtitles import sub_reader, term_match, plot_term_matches
-from Sentiment import get_sub_sentiments, plot_sentiments
-from Description import get_description_from_file, domain_name_extration
-from Description_Training import desc_processing, get_keywords, BERT_Processing
+from data_puller import getSponsorSegments
+from subtitles import subReader, termMatch, plotTermMatches
+from sentiment import getSubSentiments, plotSentiments
+from description import getDescriptionFromFile, domainNameExtration
+from description_training import descProcessing, getKeywords, bertProcessing
 import pickle
 
-def testSentiment(vID ="7dYTw-jAYkY"):
+def testSentiment(v_id ="7dYTw-jAYkY"):
     """Test functions of the Subtitles module
     
     Params:
@@ -14,21 +14,21 @@ def testSentiment(vID ="7dYTw-jAYkY"):
 
     Author: Sean    
     """
-    subs = sub_reader(vID)
-    sponsors = getSponsorSegments(vID)
+    subs = subReader(v_id)
+    sponsors = getSponsorSegments(v_id)
 
-    posSentiments = get_sub_sentiments(subs, polarity = "pos")
-    neuSentiments = get_sub_sentiments(subs, polarity = "neu")
-    negSentiments = get_sub_sentiments(subs, polarity = "neg")
-    compSentiments = get_sub_sentiments(subs, polarity = "compound")
-    plot_sentiments(posSentiments, "Positive", sponsors)
-    plot_sentiments(neuSentiments, "Neutral", sponsors)
-    plot_sentiments(negSentiments, "Negative", sponsors)
-    plot_sentiments(compSentiments, "Compound", sponsors)
+    pos_sentiments = getSubSentiments(subs, polarity = "pos")
+    neu_sentiments = getSubSentiments(subs, polarity = "neu")
+    neg_sentiments = getSubSentiments(subs, polarity = "neg")
+    comp_sentiments = getSubSentiments(subs, polarity = "compound")
+    plotSentiments(pos_sentiments, "Positive", sponsors)
+    plotSentiments(neu_sentiments, "Neutral", sponsors)
+    plotSentiments(neg_sentiments, "Negative", sponsors)
+    plotSentiments(comp_sentiments, "Compound", sponsors)
 
 testSentiment("fpayOqZNWUo")
 
-def test_terminology_extraction(vID = "7dYTw-jAYkY"):
+def testTerminologyExtraction(v_id = "7dYTw-jAYkY"):
     """Test functions of the terminology extraction functions from the description module
     
     Params:
@@ -37,17 +37,17 @@ def test_terminology_extraction(vID = "7dYTw-jAYkY"):
     Author: Sean    
     """
     
-    subs = sub_reader(vID)
-    sponsors = getSponsorSegments(vID)
-    desc = get_description_from_file(vID)
-    terms = domain_name_extration(desc)
-    matches = term_match(subs, terms)
-    plot_term_matches(matches, subs, title="Domain Name Extraction", segments= sponsors)
+    subs = subReader(v_id)
+    sponsors = getSponsorSegments(v_id)
+    desc = getDescriptionFromFile(v_id)
+    terms = domainNameExtration(desc)
+    matches = termMatch(subs, terms)
+    plotTermMatches(matches, subs, title="Domain Name Extraction", segments= sponsors)
 
 #test_terminology_extraction("fpayOqZNWUo")
     
 
-def test_ngrams(vID):
+def testNGrams(vID):
     """
     Test functions of the terminology extraction functions from the description module edited to be more modular
     
@@ -59,8 +59,8 @@ def test_ngrams(vID):
     """
 
     desc_path = "dataset/descriptions/" + vID + ".description"
-    desc = desc_processing(desc_path)
-    encoded_text = BERT_Processing(desc).reshape(1,-1).tolist()
+    desc = descProcessing(desc_path)
+    encoded_text = bertProcessing(desc).reshape(1,-1).tolist()
 
     filename = "svm_desc.pkl"
     loaded_model = pickle.load(open(filename, 'rb'))
@@ -69,16 +69,16 @@ def test_ngrams(vID):
 
     # Do terminology extraction and pre-processing if a sponsor is detected.
     if result == 1:
-        kw = get_keywords(desc)
+        kw = getKeywords(desc)
         print(kw)
         kwlist = list()
         for word in kw:
             kwlist.append(word[0])
     
-    subs = sub_reader(vID)
+    subs = subReader(vID)
     sponsors = getSponsorSegments(vID)
-    matches = term_match(subs, kwlist)
-    plot_term_matches(matches, subs, segments=sponsors)
+    matches = termMatch(subs, kwlist)
+    plotTermMatches(matches, subs, segments=sponsors)
 
 #test_ngrams("fpayOqZNWUo")
 

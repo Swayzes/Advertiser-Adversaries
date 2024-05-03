@@ -16,7 +16,7 @@ from nltk.corpus import stopwords
 import logging
 
  
-def sub_reader(vID, path = "dataset/subtitles", lang = "en", ft = "vtt") -> dict:
+def subReader(vID, path = "dataset/subtitles", lang = "en", ft = "vtt") -> dict:
     """Read subtitle file into dictonary
     
     Params: 
@@ -32,14 +32,14 @@ def sub_reader(vID, path = "dataset/subtitles", lang = "en", ft = "vtt") -> dict
     """
         
     subs = pysubs2.load(f"{path}/{vID}.{lang}.{ft}")
-    subDict = dict()
+    sub_dict = dict()
     for event in subs.events:
-        subDict[event.end] = event
+        sub_dict[event.end] = event
 
-    return subDict
+    return sub_dict
 
     
-def get_subEnd_from_time(subEnds: list, time, minTime = 0):
+def getSubEndFromTime(sub_ends: list, time, min_time = 0):
     """Get the end timecode of the subtitle which coveres a given timecode.
     
     Params:
@@ -59,11 +59,11 @@ def get_subEnd_from_time(subEnds: list, time, minTime = 0):
     Author: Sean
     """
         
-    subI = bisect_right(a=subEnds, x=time, lo = minTime)
+    subI = bisect_right(a=sub_ends, x=time, lo = min_time)
     return subI
     
     
-def get_subs_from_time_range(subs: dict, startTime, EndTime = None) -> dict:
+def getSubsFromTimeRange(subs: dict, start_time, end_time = None) -> dict:
     """Gets all subtitles between 2 timecodes
     
     Params:
@@ -76,17 +76,17 @@ def get_subs_from_time_range(subs: dict, startTime, EndTime = None) -> dict:
 
     Author: Sean
     """
-    subEnds = list(subs.keys())
+    sub_ends = list(subs.keys())
 
-    startSubI = get_subEnd_from_time(subEnds, startTime)
-    rangeSubs = dict()
-    for i in range(startSubI, len(subEnds)):
-        rangeSubs[subEnds(i)] = subs[subEnds(i)]
+    start_sub_i = getSubEndFromTime(sub_ends, start_time)
+    range_subs = dict()
+    for i in range(start_sub_i, len(sub_ends)):
+        range_subs[sub_ends(i)] = subs[sub_ends(i)]
 
-    return rangeSubs
+    return range_subs
  
 
-def term_match(subs: dict, terms: list) -> dict:
+def termMatch(subs: dict, terms: list) -> dict:
     """Returns the timecodes at which potential sponsor related terms appear in the subtitles
 
     Params:
@@ -101,28 +101,28 @@ def term_match(subs: dict, terms: list) -> dict:
     matches = dict()
     for event in subs.values():
 
-        wordDict = dict()
+        word_dict = dict()
         for word in event.plaintext.split(" "):
             for term in terms:
                 if word.lower() in term.lower() and word.lower() not in stopwords.words('english') and len(word) >3 :
                     try:
-                        if word in wordDict.keys():
-                            wordDict[word] += 1
+                        if word in word_dict.keys():
+                            word_dict[word] += 1
                         else:
-                            wordDict[word] = 1
+                            word_dict[word] = 1
                     except:
                         logging.warning(f"Sponsor match invalid word: {word}")
 
-        for word in wordDict.keys():
+        for word in word_dict.keys():
             if word in matches.keys():
-                matches[word][event.end] = wordDict[word]
+                matches[word][event.end] = word_dict[word]
             else:
-                matches[word] = {event.end : wordDict[word]}
+                matches[word] = {event.end : word_dict[word]}
     print(matches)
     return matches
 
 
-def plot_term_matches(matches: dict, subs: dict, title = None, segments = None):
+def plotTermMatches(matches: dict, subs: dict, title = None, segments = None):
     """Draw a pyplot of terms from the description found in the video subtitles over the video's runtime
     
     Params:
@@ -137,10 +137,10 @@ def plot_term_matches(matches: dict, subs: dict, title = None, segments = None):
             plt.axvspan(segment[0], segment[1], color = 'green', alpha = 0.5)
     
     for term in matches.keys(): 
-        xPoints = np.array(list(dict(matches[term]).keys()))
-        yPoints = np.array(list(dict(matches[term]).values()))
+        x_points = np.array(list(dict(matches[term]).keys()))
+        y_points = np.array(list(dict(matches[term]).values()))
 
-        plt.scatter(xPoints, yPoints, label = term)
+        plt.scatter(x_points, y_points, label = term)
     
     if title == None:
         plt.title("Description Terminology Extration")

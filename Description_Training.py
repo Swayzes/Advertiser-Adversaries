@@ -22,7 +22,7 @@ labels =[]
 combined = pd.DataFrame()
 
 ## Predicts if a description has a sponsor or not
-def BERT_Processing(text):
+def bertProcessing(text):
     """
     Processes the description text into BERT to encode the words
     param text: The body of text of the description
@@ -37,7 +37,7 @@ def BERT_Processing(text):
 
     return output
 
-def desc_processing(desc):
+def descProcessing(desc):
     """
     Processes the dataset with no labels
     param desc: The path to the description
@@ -71,7 +71,7 @@ def save(dir, name):
 con = sqlite3.connect("VideoDatabase.db")
 cur = con.cursor()
 
-def Training_processing():
+def trainingProcessing():
     """Processes the Training dataset"""
     descList = []
     cur.execute("SELECT Description_File_Path FROM DatasetAds")
@@ -80,23 +80,23 @@ def Training_processing():
     descListNoAds = cur.fetchall()
 
     for d in descListAds:
-        description = [desc_processing(d[0])]
+        description = [descProcessing(d[0])]
         description.append(1)
         descList.append(description)
             
     for d in descListNoAds:
-        description = [desc_processing(d[0])]
+        description = [descProcessing(d[0])]
         description.append(0)
         descList.append(description)
 
     for d in descList:
-        data.append(BERT_Processing(d[0]))
+        data.append(bertProcessing(d[0]))
         labels.append(d[1])
 
     save("encoded_description", "BERT_training_data.json")
     return
 
-def Testing_processing():
+def testingProcessing():
     """Processes the testing dataset"""
     descList=[]
     cur.execute("SELECT Description_File_Path FROM DatasetTesting")
@@ -110,14 +110,14 @@ def Testing_processing():
 
     index = 0
     for d in descList:
-        data.append([BERT_Processing(d[0])])
+        data.append([bertProcessing(d[0])])
         labels.append(labelList[index])
         index=index+1
 
     save("encoded_description", "BERT_testing_data.json")
     return
 
-def Combined():
+def combined():
     descList=[]
     cur.execute("SELECT Description_File_Path FROM DatasetAds")
     descListAds = cur.fetchall()
@@ -125,10 +125,10 @@ def Combined():
     descListNoAds = cur.fetchall()
 
     for d in descListAds:
-        descList.append([desc_processing(d,1)])
+        descList.append([descProcessing(d,1)])
 
     for d in descListNoAds:
-        descList.append([desc_processing(d,0)])
+        descList.append([descProcessing(d,0)])
 
     cur.execute("SELECT Description_File_Path FROM DatasetTesting")
     testList = cur.fetchall()
@@ -139,11 +139,11 @@ def Combined():
     for d in testList:
         # text = open(Path(d[0]), encoding="utf8")
         # descList.append([text.read()])
-        descList.append([desc_processing(d)])
+        descList.append([descProcessing(d)])
         index=index+1
 
     for d in descList:
-        data.append(BERT_Processing(d[0]))
+        data.append(bertProcessing(d[0]))
         labels.append(labelList[index])
         index=index+1
         
@@ -152,7 +152,7 @@ def Combined():
 
     return
 
-def SVM():
+def svm():
     """Classifies the dataset through an SVM model"""
     train_df = pd.read_json("encoded_description\BERT_training_data.json", lines=True)
     test_df = pd.read_json("encoded_description\BERT_testing_data.json", lines=True)
@@ -179,7 +179,7 @@ def SVM():
 
     return
 
-def SVM_Again():
+def svmAgain():
     """Loads up the combined dataset and splits the data for training"""
     combined_df = pd.read_json("encoded_description\BERT_combined_data.json", lines=True)
     combined_body = list(combined_df["data"])
@@ -199,7 +199,7 @@ def SVM_Again():
         pickle.dump(svm, f)
 
 
-def get_keywords(desc):
+def getKeywords(desc):
     kw_model = KeyBERT()
     keywords = kw_model.extract_keywords(desc, keyphrase_ngram_range=(1,1), stop_words=None)
     # print(keywords)
