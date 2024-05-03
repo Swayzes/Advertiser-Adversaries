@@ -74,8 +74,8 @@ def main(url):
 
 
 if __name__ == '__main__':
-    ## Maybe implement a param based input for the url when running the main
-    # main(sys.argv[1:])
-    ##
-    url = "https://www.youtube.com/watch?v=Pv0iVoSZzN8"
-    main(url)
+    # Passes through a parameter (URL)
+    main(sys.argv[1])
+    
+    # url = "https://www.youtube.com/watch?v=Pv0iVoSZzN8"
+    # main(url)
