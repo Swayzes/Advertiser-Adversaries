@@ -9,7 +9,7 @@ nltk.download('punkt')
 
 # Function to extract the n-grams from the text in the description files.
 
-def extractNGrams(text, num):
+def extract_ngrams(text, num):
     
     n_grams = ngrams(word_tokenize(text), num)
     
@@ -17,11 +17,11 @@ def extractNGrams(text, num):
 
 # Function to search for the sponsor related n-grams 
 # (More words can be added if needed) 
-def findSponsors(text, ngram_size):
+def find_sponsors(text, ngram_size):
     
     sponsor_keywords = ['sponsored by', 'thanks to','brought to you by', 'Sponsor', 'Sponsoring', 'for sponsoring']
     
-    ngrams_list = extractNGrams(text, ngram_size)
+    ngrams_list = extract_ngrams(text, ngram_size)
     
     sponsors = [phrase for phrase in ngrams_list if any(keyword in phrase for keyword in sponsor_keywords)]
     
@@ -46,7 +46,7 @@ for filename in os.listdir(folder_path):
             content = re.sub(r'http\S+', '', content)
             
             # Finds the potential sponsors (The ngram_size can be changed as needed).
-            sponsors = findSponsors(content, ngram_size=2) 
+            sponsors = find_sponsors(content, ngram_size=2) 
             
             if sponsors:
                 sponsors_info[filename] = sponsors
